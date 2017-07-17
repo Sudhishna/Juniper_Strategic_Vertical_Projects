@@ -1,0 +1,1187 @@
+Compact EX2200-C 
+Ethernet Switch
+
+Fanless L2/L3 Switches for Micro Branch, Retail, and Workgroup Deployments
+
+Product Overview
+
+The Juniper Networks Compact 
+EX2200-C Ethernet Switch offers 
+an economical, entry level, simply 
+connected solution in a compact, 
+fanless form factor for access 
+layer deployments in micro-
+branches, retail, and workgroup 
+environments. 
+
+The EX2200 also supports 
+Juniper Networks Virtual Chassis 
+technology, allowing up to four 
+interconnected switches to be 
+managed as a single logical 
+device, delivering a scalable, 
+pay-as-you-grow solution for 
+expanding networks.
+
+Product Description 
+The Juniper Networks® EX2200-C Ethernet Switch with Virtual Chassis technology delivers 
+a compact, silent, and power efficient platform for low-density micro branch deployments 
+and commercial access or enterprise workgroup environments outside the wiring closet.
+
+Featuring 12 10/100/1000BASE-T access ports with and without Power over Ethernet 
+Plus (PoE+) in a fanless design, the EX2200-C switches deliver a powerful solution for 
+supporting services such as unified communications, IP telephony, closed circuit television 
+(CCTV), and other applications in office, classroom, hospitality, and other space and 
+wiring constrained environments. Two front panel, dual-purpose (10/100/1000BASE-T or 
+100/1000BASE-X) uplinks provide operational flexibility. 
+
+Architecture and Key Components
+The fixed configuration EX2200 line of Ethernet switches delivers complete Layer 2 and 
+basic Layer 3 switching capabilities to satisfy the low-density branch and low-density 
+wiring closet connectivity requirements of today’s high-performance businesses. The 
+EX2200-C models extend that reach into workgroup environments that reside outside 
+the wiring closet, including micro branch offices, retail access applications, education, 
+hospitality, and other locations where the switch is deployed in open areas.
+
+Two models are available. The EX2200-C-12T-2G offers 12 front panel 10/100/1000BASE-T 
+ports for connecting to networked devices. The EX2200-C-12P-2G includes support for 
+the IEEE 802.3at PoE+ standard for powering networked devices such as telephones, 
+video cameras, multiple radio IEEE 802.11n wireless LAN (WLAN) access points, and video 
+phones in converged network environments.
+
+The EX2200-C switches also include two front panel, small form-factor pluggable 
+transceiver (SFP) GbE uplink ports, and two RJ-45 copper GbE uplink ports. Up to two of 
+the uplink ports can be used simultaneously, providing the flexibility to connect to higher 
+layer devices such as aggregation switches or routers over unshielded twisted pair (UTP) 
+or fiber optic cabling. The uplink ports can also be configured as Virtual Chassis interfaces 
+and connected via standard GbE optics interfaces; the last two are preconfigured by 
+default as Virtual Chassis ports. A fixed internal power supply ensures operational 
+simplicity.
+
+1
+
+Data SheetCasino Floor
+
+(Gambling)
+
+Hotel Room
+(Hospitality)
+
+Classroom
+
+(K-12 Education)
+
+Workgroup
+(Enterprise)
+
+EX2200-C
+
+EX2200-C
+
+EX2200-C
+
+EX2200-C
+
+Access
+
+Dual FE/GbE uplinks
+
+(ﬁber or copper)
+
+Aggregation
+
+EX4200
+
+EX4200
+
+Figure 1:  When deployed in a Virtual Chassis configuration, up to four EX2200-C switches can operate as a single, logical device.
+
+Virtual Chassis Technology
+The EX2200-C supports Juniper’s unique Virtual Chassis 
+technology, enabling up to four interconnected EX2200-C 
+switches to be managed as a single logical device and delivering 
+a scalable, pay-as-you-grow solution for expanding network 
+environments. 
+
+While EX2200-C switches can be interconnected over any of 
+the front-panel uplink ports, the last two ports are configured by 
+default as Virtual Chassis ports, automating deployments when 
+using standard GbE SFP transceivers (sold separately). These 
+two ports can also be configured as GbE uplinks to aggregation 
+devices by disabling the Virtual Chassis technology.
+
+When deployed in a Virtual Chassis configuration, the EX2200-C 
+switches elect a master and a backup switch based on a 
+set of preconfigured policies or criteria. The master switch 
+automatically creates and updates the switching and optional 
+routing tables on all other Virtual Chassis switch members.  
+Switches can be added to or removed from the Virtual Chassis 
+configuration without service disruption. 
+
+EX2200-C Virtual Chassis configurations operate as highly 
+resilient unified systems, providing simplified management using 
+a single IP address, single telnet session, single command-line 
+interface (CLI), automatic version checking, and automatic 
+configuration. The EX2200-C switches are also capable of local 
+switching, so packets coming into a port destined for another 
+port on the same switch do not have to traverse the Virtual 
+Chassis, increasing forwarding capacities.
+
+EX2200-C Virtual Chassis configurations implement the same 
+slot/module/port numbering schema as other Juniper Networks 
+chassis-based products, providing true chassis-like operations. 
+By using a consistent operating system and a single configuration 
+file, all switches in a Virtual Chassis configuration are treated 
+as a single device, simplifying overall system maintenance and 
+management.
+
+Micro Branch Deployment
+
+Retail Store Deployment
+
+EX2200-C
+
+Inventory
+Scanner
+
+EX2200-C
+
+SRX Series
+
+SRX Series
+
+Local
+Servers
+
+Digital
+Signage
+
+POS
+
+Devices
+
+Local
+Servers
+
+Figure 2: Micro branch and retail store deployment
+
+2
+
+Data SheetCompact EX2200-C Ethernet SwitchFeatures and Benefits
+The EX2200-C model switches include a number of features that 
+make them ideal for low-density, open space deployments.
+
+Compact Form Factor
+
+At 10.6 inches wide and 9.4 inches deep, EX2200-C switches 
+can be easily and discreetly installed on desktops, on or under 
+shelves, or on walls. An optional magnetic mounting pad is 
+available for securing the EX2200-C switches to metal surfaces. 
+Rack mount kits are also available for installing the switches in 
+standard 19 inch wiring racks. Wall mounting can be done using 
+the flexible mounting slots on the bottom of the chassis to fix to 
+the screws on the wall.
+
+Dual-Purpose Uplinks
+
+Two front panel, dual-purpose (10/100/1000BASE-T or 
+100/1000BASE-X) uplinks provide operational flexibility.
+
+Silent Operation
+
+The air-cooled EX2200-C switches do not require internal fans, 
+resulting in a silent operating mode suitable for deployments 
+in workgroup areas. The fanless design also reduces power 
+consumption and improves mean time between failures (MTBF) 
+by eliminating moving parts that can fail.
+
+Low Power Consumption
+
+The lack of an internal fan reduces the power consumed by the 
+EX2200-C switches. The hardware has Energy Efficient Ethernet 
+(EEE)-capable ports (with software support available in a 
+future release), providing low power consumption when network 
+link is idle.
+
+Simplified Operations
+
+When deployed in a Virtual Chassis configuration, the EX2200-C 
+dramatically simplifies network management.  Up to four 
+interconnected EX2200-C switches can be managed as a 
+single device utilizing a single Junos OS image file and a single 
+configuration file, reducing the overall number of units to 
+monitor and manage. When the Junos OS is upgraded on the 
+master switch in an EX2200-C Virtual Chassis configuration, 
+the software is automatically upgraded on all other member 
+switches at the same time.
+
+Dedicated front panel RJ-45 and USB console ports offer flexible 
+out-of-band management options, while a front panel USB 
+port can be used to easily upload the Juniper Networks Junos® 
+operating system and configuration files. A series of front panel 
+LEDs offer system status information with a button that allows 
+users to toggle through four different modes for reporting link 
+status, link activity, PoE, and speed. A fixed internal power supply 
+ensures operational simplicity.
+
+Easy Provisioning
+
+Auto-configuration and Auto-Image Install features allow the 
+switches to be configured and imaged over the network using the 
+Dynamic Host Configuration Protocol (DHCP) message exchange 
+process. These features eliminate the need to stage devices prior 
+to deployment, dramatically reducing operational expenses. 
+Auto-configuration and Auto Image Install allow new branches 
+and retail stores to rapidly deploy their networks, and also enable 
+software upgrades and security fixes to be performed at the 
+touch of a button. An EZ touchless provisioning feature allows a 
+DHCP server to push configuration details and software images 
+to multiple switches at bootup.
+
+Access Security
+
+The EX2200-C switches fully interoperate with Juniper Networks 
+Unified Access Control, which consolidates all aspects of a user’s 
+identity, device, and location, enabling administrators to enforce 
+access control and security down to the individual port or user 
+levels. Working as an enforcement point within the UAC, the 
+EX2200-C provides standards-based 802.1X port-level access 
+control as well as L2-L4 policy enforcement based on user 
+identity, location, and/or device. If access is granted, the switch 
+assigns the user to a specific VLAN based on authorization levels. 
+
+The EX2200-C also provides a full complement of port security 
+features, including DHCP snooping, dynamic ARP inspection 
+(DAI), and media access control (MAC) limiting to defend against 
+internal and external spoofing, man-in-the-middle, and denial-
+of-service (DoS) attacks. 
+
+Video and VoIP Ready
+
+The EX2200-C delivers a reliable platform for unifying enterprise 
+communication by providing the highest levels of flexibility and 
+features in its class for the most demanding converged data, 
+voice, and video environments. The EX2200-C switches support 
+plug-and-play deployment with industry-standard Link Layer 
+Discovery Protocol (LLDP) and LLDP-Media Endpoint Discovery 
+(LLDP-MED). LLDP-MED-based granular PoE management 
+allows the EX2200-C switches to negotiate PoE usage down to 
+a fraction of a watt on powered devices, enabling more efficient 
+PoE utilization across the switch. 
+
+In addition, the EX2200-C supports rich quality-of-service (QoS) 
+functionality for prioritizing data, voice, and video traffic. The 
+switches support eight class-of-service (CoS) queues on every 
+port, enabling them to maintain multilevel, end-to-end traffic 
+prioritizations. The EX2200-C also supports a wide range of policy 
+options, including strict priority, low latency, and shaped deficit 
+weighted round-robin (SDWRR) queuing.
+
+3
+
+Data SheetCompact EX2200-C Ethernet SwitchEasy Cable Management
+
+A cable guard that affixes to the front of the switch holds 
+attached cables in place and prevents them from being 
+accidentally unplugged or otherwise removed.
+
+Physical Security
+
+Security slots on either side of the switch accept locking devices 
+that physically secure switches, preventing them from being 
+easily removed in open space or unsecured environments
+
+PoE/PoE+ Power Budget
+
+The EX2200-C-12P-2G switch supports the IEEE 802.3af PoE 
+standard, as well as IEEE 802.3at PoE+. The 802.3af standard 
+delivers up to 15.4 watts of Class 3 PoE per port, while the 
+802.3at PoE+ delivers up to 30 watts of power per port for 
+supporting networked devices such as telephones, video 
+cameras, IEEE 802.11n WLAN access points, and video phones 
+that require more than 15.4 watts.
+
+Product Options
+Table 1: EX2200-C Ethernet Switch Models
+
+Model
+
+Access Port Configuration
+
+Uplink Ports
+
+With a total PoE system budget of 100 watts, the 12-port EX2200-
+C-12P-2G can provide the full 15.4 watts of Class 3 PoE to a 
+maximum of six ports simultaneously, and the full 30 watts of PoE+ 
+to a maximum of three ports simultaneously. Attached devices 
+draw the necessary power until the PoE power budget is exhausted.
+
+Junos Operating System
+
+The EX2200-C switches run the same Junos OS that is used 
+by other Juniper Networks EX Series Ethernet Switches, as well 
+as Juniper routers and Juniper Networks SRX Series Services 
+Gateways. By using a common operating system, Juniper delivers 
+a consistent implementation and operation of control plane 
+features across all products.
+
+Warranty
+
+For warranty information, please visit www.juniper.net/support/
+warranty/.
+
+EX2200-C-12T-2G
+
+12-port 10/100/1000BASE-T
+
+EX2200-C-12P-2G
+
+12-port 10/100/1000BASE-T
+
+Two dual-personality 
+(10/100/1000BASE-T or 
+100/1000BASE-X) ports
+
+Two dual-personality 
+(10/100/1000BASE-T or 
+100/1000BASE-X) ports
+
+0
+
+12
+
+PoE+ 
+Capable 
+Ports
+
+Height
+
+PoE+ 
+Budget
+
+1 RU
+
+N/A
+
+Power 
+Supply 
+Rating
+
+30 W AC
+
+1 RU
+
+100 W
+
+180 W AC
+
+EX2200-C
+
+Specifications
+Physical Specifications
+Dimensions (W x H x D)
+
+•  Non-operating altitude: up to 16,000 ft (4,877 m)
+
+•  Relative humidity operating: 10% to 85% (noncondensing) 
+
+•  Relative humidity non-operating: 0% to 95% 
+
+(noncondensing)
+
+Cooling
+
+•  Air cooled 
+
+Hardware Specifications
+
+•  Switching Engine Model: Store and forward
+
+•  DRAM: 512 MB
+
+•  Flash: 1 GB 
+
+•  EX2200-C-12T-2G: 10.6 x 1.75 x 9.0 in (26.9 x 4.4 x 22.8 cm)
+
+•  CPU: 800 MHz ARM CPU 
+
+•  EX2200-C-12P-2G: 10.6 x 1.75 x 9.4 in (26.9 x 4.4 x 23.8 cm)
+
+•  GbE port density per system: 14 (12 access ports + 2 uplink 
+
+Power Options
+
+•  Fixed internal power supply (AC)
+
+System Weight
+
+•  EX2200-C-12T-2G: 4.6 lb
+
+•  EX2200-C-12P-2G: 6.4 lb
+
+Environmental Ranges
+
+•  Operating temperature: 32° to 104° F (0° to 40° C)1
+
+ports)
+
+Physical Layer 
+
+•  Physical port redundancy: Redundant Trunk Group (RTG)
+
+•  Time-domain reflectometry (TDR) for detecting cable 
+
+breaks and shorts 
+
+•  Auto medium-dependent interface/medium-dependent 
+
+interface crossover (MDI/MDIX) support
+
+•  Port speed downshift/setting maximum advertised speed 
+
+•  Storage temperature: -40° to 158° F (-40° to 70° C)
+
+on 10/100/1000BASE-T ports
+
+•  Operating altitude: up to 5,000 ft (1,524 m)2
+
+•  Digital optical monitoring for optical ports
+
+1  For supporting operating temperature ranges beyond 40° C up to 45° C at altitudes up to 5,000 ft, extended temperature range SFPs should be used when fiber uplinks are being utilized.
+2  For supporting operating altitude beyond 5,000 ft up to 10,000 ft and supporting temperature ranges beyond 35° C up to 45° C, extended temperature range SFPs should be used when 
+
+fiber uplinks are being utilized.
+
+4
+
+Data SheetCompact EX2200-C Ethernet SwitchPacket Switching Capacities 
+
+•  28 Gbps 
+
+Layer 2 Throughput
+
+•  21 Mpps (wire speed)
+
+Layer 2 Switching
+
+•  Maximum MAC addresses in hardware: 16,000
+
+•  Jumbo frames: 9,216 bytes
+
+•  Number of VLANs: 1,024 (VLAN IDs: 4,096)
+
+•  Port-based VLAN
+
+•  MAC-based VLAN
+
+•  Voice VLAN
+
+•  Private VLAN (PVLAN)
+
+• 
+
+IEEE 802.1ak: Multiple VLAN Registration Protocol (MVRP)
+
+•  Multicast VLAN Registration (MVR)
+
+•  Compatible with Per-VLAN Spanning Tree Plus (PVST+) 
+
+•  RVI (Routed VLAN Interface)
+
+• 
+
+IEEE 802.1AB: Link Layer Discovery Protocol (LLDP)
+
+•  LLDP-MED with VoIP integration
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+IEEE 802.1D: Spanning Tree Protocol
+
+IEEE 802.1p: CoS prioritization
+
+IEEE 802.1Q: VLAN tagging
+
+IEEE 802.1Q-in-Q: VLAN Stacking
+
+IEEE 802.1s: Multiple Spanning Tree Protocol (MSTP)
+
+•  Number of MST instances supported: 64
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+IEEE 802.1w: Rapid Spanning Tree Protocol (RSTP)
+
+IEEE 802.1X: Port Access Control
+
+IEEE 802.3: 10BASE-T
+
+IEEE 802.3u: 100BASE-T
+
+IEEE 802.3ab: 1000BASE-T
+
+IEEE 802.3z: 1000BASE-X 
+
+IEEE 802.3af: PoE
+
+IEEE 802.3at: PoE+
+
+IEEE 802.3x: Pause Frames/Flow Control
+
+IEEE 802.3ad: Link Aggregation Control Protocol (LACP)
+
+IEEE 802.3ah: Ethernet in the First Mile (EFM)
+
+IEEE 802.1ag: Connectivity Fault Management (CFM)
+
+•  G.8032 (Ethernet Ring Protection)
+
+Layer 3 Features: IPv4
+
+Layer 3 Features: IPv6 Management Functionality
+
+•  Neighbor discovery, system logging, telnet, SSH, SNMP, 
+Network Time Protocol (NTP), Domain Name System 
+(DNS)
+
+•  Static routing
+
+Supported RFCs3
+
+•  RFC 3176 sFlow
+
+•  RFC 2925 MIB for remote ping, trace
+
+•  RFC 1122 Host requirements
+
+•  RFC 768 UDP
+
+•  RFC 791 IP
+
+•  RFC 783 Trivial File Transfer Protocol (TFTP) 
+
+•  RFC 792 Internet Control Message Protocol (ICMP)
+
+•  RFC 793 TCP
+
+•  RFC 826 ARP
+
+•  RFC 894 IP over Ethernet
+
+•  RFC 903 Reverse ARP (RARP)
+
+•  RFC 906 TFTP bootstrap
+
+•  RFC 1027 Proxy ARP
+
+•  RFC 2068 HTTP server
+
+•  RFC 1812 Requirements for IP Version 4 routers
+
+•  RFC 1519 Classless Interdomain Routing (CIDR)
+
+•  RFC 1256 IPv4 ICMP Router Discovery (IRDP)
+
+•  RFC 1058 RIP v1
+
+•  RFC 2453 RIP v2
+
+•  RFC 1492 TACACS+
+
+•  RFC 2138 RADIUS authentication
+
+•  RFC 2139 RADIUS accounting
+
+•  RFC 3579 RADIUS Extensible Authentication Protocol (EAP) 
+
+support for 802.1X
+
+•  RFC 5176 Dynamic Authorization Extensions to RADIUS
+
+•  RFC 2267 Network ingress filtering
+
+•  RFC 2030 SNTP, Simple Network Time Protocol
+
+•  RFC 854 Telnet client and server
+
+•  RFC 951, 1542 BootP
+
+•  RFC 2131 BOOTP/DHCP relay agent and DHCP server
+
+•  RFC 1591 Domain Name System (DNS)
+
+•  RFC 2474 DiffServ Precedence, including 8 queues per port
+
+•  RFC 2598 DiffServ Expedited Forwarding (EF)
+
+•  RFC 2597 DiffServ Assured Forwarding (AF)
+
+•  LLDP Media Endpoint Discovery (LLDP-MED), ANSI/TIA-105 
+
+•  Maximum number of Address Resolution Protocol (ARP) 
+
+7, draft 0
+
+entries: 2,000
+
+•  Maximum number of IPv4 unicast routes in hardware: 6,500
+
+•  Routing protocols:
+
+•  RIP v1/v2
+
+• 
+
+ OSPF v1/v2 (with 4 active interfaces)
+
+•  Static routing
+
+•  Routing policy
+
+High Availability
+
+•  Link Aggregation
+
+•  802.3ad (LACP) support:
+
+ -  Number of LAGs supported: 32
+
+ -  Maximum number of ports per LAG: 8
+
+•  LAG load sharing algorithm—Bridged Unicast Traffic:
+
+ - IP: S/D MAC, S/D IP
+
+•  Bidirectional Forwarding Detection (BFD)
+
+ -  TCP/UDP: S/D MAC, S/D IP, S/D port
+
+• 
+
+IP directed broadcast
+
+•  VRF-Lite
+
+ -  Non-IP: S/D MAC
+
+3  Unless explicitly specified for any particular MIB table or variables, Junos OS does not support SNMP set operations.
+
+5
+
+Data SheetCompact EX2200-C Ethernet Switch•  LAG sharing algorithm—Routed Unicast Traffic:
+
+ -  IP: S/D IP
+
+ -  TCP/UDP: S/D IP, S/D port
+
+•  LAG load sharing algorithm—Bridged Multicast Traffic:
+
+ -  IP: S/D MAC, S/D IP
+
+ -  TCP/UDP: S/D MAC, S/D IP, S/D port
+
+ -  Non-IP: S/D MAC
+
+•  LAG sharing algorithm—Routed Multicast Traffic:
+
+ -  IP: S/D IP
+
+ -  TCP/UDP: S/D IP, S/D port
+
+•  Tagged ports support in LAG
+
+•  Uplink Failure Detection (UFD)
+
+Multicast
+
+• 
+
+• 
+
+• 
+
+Internet Group Management Protocol (IGMP) snooping  
+entries: 1,000
+
+IGMP: v1, v2, v3
+
+IGMP snooping
+
+•  Protocol Independent Multicast-Sparse Mode (PIM-SM), 
+
+PIM Source-Specific Multicast (PIM-SSM), PIM Dense Mode 
+(PIM-DM)
+
+Quality of Service (QoS) 
+
+•  Layer 2 QoS
+
+•  Layer 3 QoS
+
+• 
+
+Ingress policing: 1 rate 2 color
+
+•  Hardware queues per port: 8
+
+•  Scheduling methods (egress): Strict Priority (SP), shaped 
+
+deficit weighted round-robin (SDWRR)
+
+•  802.1p: DSCP /IP precedence trust and marking 
+
+•  L2-L4 classification criteria: Interface, MAC address, 
+
+Ethertype, 802.1p, VLAN, IP address, DSCP/IP precedence, 
+TCP/UDP port numbers
+
+•  Congestion avoidance capabilities: Tail drop
+
+Security
+
+•  MAC limiting
+
+•  Allowed MAC addresses—configurable per port
+
+•  Sticky MAC (persistent MAC address learning)
+
+•  Dynamic ARP inspection (DAI)
+
+•  Proxy ARP
+
+•  Static ARP support
+
+•  DHCP snooping
+
+• 
+
+IP source guard
+
+•  802.1X port-based
+
+•  802.1X multiple supplicants
+
+•  802.1X with VLAN assignment
+
+•  802.1X with authentication bypass access (based on host 
+
+MAC address)
+
+•  802.1X with VoIP VLAN support
+
+Security (TTLS), Protected Extensible Authentication 
+Protocol (PEAP)
+
+•  Captive Portal 
+
+•  Static MAC authentication
+
+•  MAC-RADIUS
+
+•  Fallback Authentication
+
+•  Trusted Network Connect (TNC) certified
+
+•  Control plane DoS protection
+
+Access Control Lists (ACLs) (Junos OS firewall filters)
+
+•  Port-based ACL (PACL)—ingress
+
+•  VLAN-based ACL (VACL)—ingress and egress
+
+•  Router-based ACL (RACL)—ingress and egress
+
+•  ACL entries (ACE) in hardware per system: 1,500
+
+•  ACL counter for denied packets
+
+•  ACL counter for permitted packets
+
+•  Ability to add/remove/change ACL entries in middle of  
+
+list (ACL editing)
+
+•  L2-L4 ACL
+
+Services and Manageability
+
+•  Junos OS command-line interface (CLI) 
+
+•  Web interface: Junos Web (planned for future release)
+
+•  Out-of-band management: Serial, 10/100BASE-T Ethernet
+
+•  ASCII configuration
+
+•  Rescue configuration
+
+•  Configuration rollback
+
+• 
+
+Image rollback
+
+•  Element management tools: Juniper Networks Junos Space 
+
+Network Management Platform
+
+•  Real-Time Performance Monitoring (RPM)
+
+•  SNMP: v1, v2c, v3
+
+•  Remote monitoring (RMON) (RFC 2819) Groups 1, 2, 3, 9
+
+•  Network Time Protocol (NTP)
+
+•  DHCP server
+
+•  DHCP client and DHCP proxy 
+
+•  DHCP relay and helper
+
+•  RADIUS authentication
+
+•  SSHv2
+
+•  Secure copy
+
+•  HTTP/HTTPs
+
+•  DNS resolver
+
+•  System logging
+
+•  Temperature sensor
+
+•  Configuration backup via FTP/secure cop
+
+•  Real-time performance monitoring (RPM)
+
+• 
+
+Interface range
+
+Supported MIBs4
+
+•  802.1X dynamic access control list (ACL) based on RADIUS 
+
+•  RFC 2464 Transmission of IPv6 Packets over Ethernet 
+
+attributes
+
+Networks
+
+•  802.1X Supported EAP types: Message Digest 5 (MD5), 
+
+•  RFC 4862 IPv6 Stateless Address Autoconfiguration
+
+Transport Layer Security (TLS), Tunneled Transport Layer 
+
+•  RFC 4443 ICMPv6 for the IPv6 Specification
+
+6
+
+Data SheetCompact EX2200-C Ethernet Switch•  RFC 4213 Basic Transition Mechanisms for IPv6 Hosts and 
+
+•  LAG port monitoring
+
+Routers
+
+•  RFC1155 Structure of Management Information (SMI)
+
+•  RFC 1157 SNMPv1
+
+•  RFC 1905 RFC 1907 SNMP v2c, SMIv2, and revised MIB-II 
+RFC 2570-2575 SNMPv3, user-based security, encryption, 
+and authentication
+
+•  RFC 2576 Coexistence between SNMP V1, V2, and V3
+
+•  RFC 1212, RFC 1213, RFC 1215 MIB-II, Ethernet-like MIB, and 
+
+SNMP TRAPs
+
+•  RFC 2578 SNMP Structure of Management Information MIB
+
+•  RFC 2579 SNMP Textual Conventions for SMIv2 
+
+•  RFC 2925 Ping/traceroute MIB
+
+•  RFC 2665 Ethernet-like interface MIB
+
+•  RFC 1643 Ethernet MIB
+
+•  RFC 1493 Bridge MIB
+
+•  RFC 2096 IPv4 Forwarding Table MIB
+
+•  RFC 2011 SNMPv2 for IP using SMIv2
+
+•  RFC 2012 SNMPv2 for transmission control protocol using 
+
+SMIv2
+
+•  RFC 2013 SNMPv2 for user datagram protocol using SMIv2
+
+•  RFC 2863 Interface MIB 
+
+•  RFC 3413 SNMP Application MIB
+
+•  RFC 3414 User-based security model for SNMPv3
+
+•  RFC 3415 View-based Access Control Model for SNMP
+
+•  RFC 3621 PoE-MIB (PoE switches only) 
+
+•  RFC 1724 RIPv2 MIB
+
+•  RFC 2863 Interface Group MIB
+
+•  RFC 2819 RMON MIB
+
+•  RFC 2287 System Application Packages MIB
+
+•  RFC 4188 STP and extensions MIB
+
+•  RFC 4363 Definitions of managed objects for bridges with 
+
+traffic classes, multicast filtering, and VLAN extensions
+
+•  RFC 2922 LLDP MIB
+
+•  RFC 1981 Path MTU discovery for IPv6
+
+•  RFC 2460 IPv6 Specification
+
+•  RFC 3484 Default address selection for IPv6
+
+•  RFC 4291 IPv6 addressing architecture
+
+•  RFC 4861 Neighbor discovery for IPv6
+
+•  Draft - blumenthal - aes - usm - 08
+
+•  Draft - reeder - snmpv3 - usm - 3desede -0
+
+Troubleshooting
+
+•  Debugging: CLI via console, telnet, or SSH
+
+•  Diagnostics: Show and debug command statistics
+
+•  Traffic mirroring (port)
+
+•  Traffic mirroring (VLAN)
+
+•  Filter-based mirroring
+
+•  Mirroring destination ports per system: 1
+
+•  Multiple destination ports monitored to one mirror (N:1)
+
+•  Maximum number of mirroring sessions: 1
+
+•  Mirroring to remote destination (over L2): 1 destination 
+
+VLAN
+
+• 
+
+IP tools: Extended ping and trace
+
+•  Juniper Networks commit and rollback
+
+Telecom Quality Management
+
+•  TL9000
+
+Environmental
+
+•  Reduction of Hazardous Substances (ROHS) 6
+
+Safety Certifications
+
+•  UL-UL60950-1 (Second Edition)
+
+•  C-UL to CAN/CSA 22.2 No.60950-1 (Second Edition)
+
+•  TUV/GS to EN 60950-1 (Second Edition)
+
+•  CB-IEC60950-1 (Second Edition with all country 
+
+deviations)
+
+•  EN 60825-1 (Second Edition)
+
+Electromagnetic Compatibility Certifications
+
+•  FCC 47CFR Part 15 Class A
+
+•  EN 55022 Class A 
+
+• 
+
+ICES-003 Class A
+
+•  VCCI Class A
+
+•  AS/NZS CISPR 22 Class A
+
+•  CISPR 22 Class A
+
+•  EN 55024
+
+•  EN 300386
+
+•  CE
+
+Noise Specifications
+•  0 db (fanless)
+
+•  Noise measurements based on operational tests taken 
+
+from bystander position (front) and performed at 25° C in 
+compliance with ISO 7779
+
+Telco
+
+•  CLEI code
+
+Juniper Networks Services and Support
+Juniper Networks is the leader in performance-enabling services 
+that are designed to accelerate, extend, and optimize your 
+high-performance network. Our services allow you to maximize 
+operational efficiency while reducing costs and minimizing 
+risk, achieving a faster time to value for your network. Juniper 
+Networks ensures operational excellence by optimizing the 
+network to maintain required levels of performance, reliability, 
+and availability. For more details, please visit www.juniper.net/us/
+en/products-services. 
+
+7
+
+Data SheetCompact EX2200-C Ethernet SwitchOrdering Information
+Product Number
+Switches5
+EX2200-C-12T-2G
+
+Description
+
+EX2200-C compact, fanless switch with 12-
+port 10/100/1000BASE-T and 2 dual-purpose 
+(10/100/1000BASE-T or SFP) uplink ports
+
+EX2200-C-12P-2G
+
+Options
+EX-CBL-CON-USB
+
+EX2200-C compact, fanless switch with  
+12-port 10/100/1000 BASE-T (12-ports PoE+) 
+and 2 dual-purpose (10/100/1000BASE-T or 
+SFP) uplink ports
+
+Console Cable with USB Type A and mini-B 
+connectors
+
+EX-CBL-GRD
+
+Cable Guard
+
+EX-MGNT-MNT
+
+Magnet Mount
+
+EX-RMK2
+
+Rack Mount Kit
+
+Enhanced Feature License
+EX-12-EFL
+
+Enhanced Feature License for OSPF v1/
+v2, IGMP v1/v2/v3, PIM, IEEE 802.1 Q-in-Q, 
+Bidirectional Forwarding Detection (BFD), 
+Real-time Performance Monitoring (RPM), IEEE 
+802.1ag (Connectivity Fault Management) and 
+VRF-Lite.
+
+Optics
+EX-SFP-1FE-FX
+
+EX-SFP-1FE-FX-ET
+
+EX-SFP-1GE-SX
+
+EX-SFP-1GE-SX-ET
+
+EX-SFP-1GE-LX
+
+EX-SFP-1GE-LH
+
+SFP 100BASE-FX; LC connector; 1310 nm;  
+2 km reach on multimode fiber
+
+Extended Temperature SFP 100BASE-FX; LC 
+connector; 1310 nm; 2 km reach on multimode 
+fiber
+
+SFP 1000BASE-SX; LC connector; 850 nm; 
+550 m reach on multimode fiber
+
+Extended Temperature SFP 1000BASE-
+SX; LC connector; 850 nm; 550 m reach on 
+multimode fiber
+
+SFP 1000BASE-LX; LC connector; 1310 nm; 10 
+km reach on single-mode fiber
+
+SFP 1000BASE-LH; LC connector; 1550 nm; 70 
+km reach on single-mode fiber
+
+5 Each switch comes with a RJ-45-to-DB-9 serial port adapter, power cord retainer and four 
+rubber feet. Each system also ships with a power cord for the country to which it is shipped.
+
+About Juniper Networks
+Juniper Networks challenges the status quo with products, 
+solutions and services that transform the economics of 
+networking. Our team co-innovates with customers and partners 
+to deliver automated, scalable and secure networks with agility, 
+performance and value. Additional information can be found at 
+Juniper Networks or connect with Juniper on Twitter and Facebook
+
+EXPLORE JUNIPER
+Get the App.
+
+Corporate and Sales HeadquartersJuniper Networks, Inc. 1133 Innovation WaySunnyvale, CA 94089 USAPhone: 888.JUNIPER (888.586.4737)or +1.408.745.2000Fax: +1.408.745.2100www.juniper.net Copyright 2016 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, and Junos are registered trademarks of Juniper Networks, Inc. in the United States and other countries. All other trademarks, service marks, registered marks, or registered service marks are the property of their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice.APAC and EMEA HeadquartersJuniper Networks International B.V.Boeing Avenue 2401119 PZ Schiphol-RijkAmsterdam, The NetherlandsPhone: +31.0.207.125.700Fax: +31.0.207.125.701Data SheetCompact EX2200-C Ethernet Switch 1000388-010-EN   Oct 2016

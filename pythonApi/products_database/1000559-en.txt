@@ -1,0 +1,209 @@
+Data Sheet
+
+Contrail Service Orchestration  
+
+Product  Overview
+
+Contrail Service Orchestration is 
+a comprehensive management 
+and orchestration platform that 
+delivers virtualized network 
+services built on an open 
+framework. By allowing service 
+providers to selectively or 
+simultaneously centralize and 
+distribute virtual network services 
+in a hybrid deployment model, 
+Contrail Service Orchestration 
+addresses the needs of small to 
+midsize businesses as well as 
+large enterprises with a single 
+and elegant point-and-click 
+interface. Product managers 
+get a clean and polished 
+service design experience; 
+service management and 
+troubleshooting are streamlined 
+for administrators; and customers 
+have a personalized self-service 
+portal to select the services that 
+best meet their evolving business 
+requirements.   
+
+Product Description 
+Service providers today are facing a number of complex network operational challenges, 
+including rigid service delivery infrastructures and operating costs that seldom align with 
+revenue. This hinders their ability to quickly design and deploy new services. Compounding 
+these problems, network operations are increasingly complex and the current infrastructure 
+is expensive to maintain, driving up costs.
+
+Juniper Networks® Contrail Service Orchestration empowers both enterprises and service 
+providers to drastically reduce service delivery times, transforming a several month truck 
+roll experience into a near real-time mouse-click experience by automating the entire 
+service delivery life cycle. It reduces the operational costs associated with creating new 
+services while significantly enhancing customer satisfaction, leading to long-term revenue 
+growth. It also greatly increases network cost efficiency by dynamically and efficiently 
+routing traffic and assigning resources based on analytics-driven policies.
+
+Contrail Service Orchestration is built from the ground up to seamlessly integrate with 
+Contrail Cloud Platform for turnkey cloud orchestration, creating a vertically integrated 
+Network Functions Virtualization (NFV) management system and orchestration software 
+stack that addresses a multitude of NFV use cases.
+
+Architecture and Key Components
+Contrail Service Orchestration consists of the following key components:
+
+•  Network Service Designer: The Network Service Designer provides product managers 
+
+and network architects with an intuitive point-and-click solution for performing the 
+service definition process of Juniper and third-party VNFs that is part of service life 
+cycle management. An easy step-by-step service design implementation wizard 
+walks users through the complete service definition process, specifying the virtualized 
+network function (VNF) onboarding process, VNF version control, VNF description, 
+and more. Network Service Designer also assists with the service configuration 
+parameters, service chaining templates, and customer-specific service catalogs that 
+get exposed through the customer portal. The entire service definition is saved in a 
+database via standard YANG data models, providing easy integration with third-party 
+operations support systems (OSS) and business support systems (BSS).
+
+1
+
+2Data SheetContrail Service Orchestration Figure 1: Contrail Service Orchestration Network Service Designer• Administration Portal: The Administration Portal gives the network administrators simultaneous visibility into customers’ on-premise and hybrid cloud-based services, enabling them to easily monitor and troubleshoot service health and status. Detailed service information is easily accessible for investigating individual, centralized cloud customer premises equipment (CPE) service level agreements (SLAs), on-premises distributed, or hybrid cloud CPE resource diagnostics reports, management of service catalog resources, and other administrative functions. Customers can choose to develop their own administration portal GUI using REST APIs.Figure 2 : Contrail Service Orchestration Administration Portal• Customer Portal: The Customer Portal is a customized window into the end-user experience, giving end customers the freedom to self-select the services that best fit their business needs. They also have the ability to select the appropriate service deployment model on premise or in the cloud with the flexibility to determine when to deploy or cancel a service in near real time. Service providers can choose to develop their own Customer Portal GUI using REST APIs.Figure 3: Contrail Service Orchestration Customer Portal• Network Service Controller: In the distributed Cloud CPE deployment model, the Network Service Controller auto-associates, auto-provisions, and auto-manages the CPE devices and Virtual Network Functions (VNFs) on Juniper Networks NFX Series Network Services Platforms. The Network Service Controller automates the entire CPE management process, including remote activation of the CPE devices, enablement of the overlay VPN topology, and device maintenance and monitoring across all site locations. • Network Service Orchestrator: The Network Service Orchestrator automates and orchestrates the entire service creation process, from the time a customer designs, publishes, and selects a new network service across the entire network. In the centralized deployment model, Network Service Orchestrator works with the Contrail Cloud Platform, leveraging OpenStack heat templates to automate the Cloud infrastructure—virtualized service spin-up/spin-down, service configuration, service chaining, and infrastructure resource management. This approach eliminates service provisioning errors and enables near real-time service delivery. In the distributed deployment model, Network Service Orchestrator works in concert with the Network Service Controller to automate the virtualized service spin-up/spin-down, service configuration, service chaining, and virtualized infrastructure resource management processes, eliminating service provisioning errors and enabling near real-time service delivery on NFX Series platforms.• SD-WAN Control: Contrail Service Orchestration’s analytics engine gives end-customers visibility into WAN traffic via the customer portal for monitoring purposes. The analytics engine provides detailed information that allows Contrail Service Orchestration to create informed policies that define how network traffic is prioritized and routed (e.g. business-critical applications run on the purpose-built MPLS network while non-critical applications run on public broadband). Customers can adjust policies in real-time; policies are pushed to the vSRX virtual firewall(s) running on NFX Series Network Services Platforms, which enforce the routing policies.Contrail Service Orchestration 
+
+Data Sheet
+
+Features and Beneﬁts
+Openness
+The Contrail product suite is an elegant and modular integrated 
+software stack built upon open protocols and open data 
+models that avoid expensive vendor lock-in. For the first time, 
+customers have the freedom to choose the appropriate Contrail 
+components that meet their business needs: freedom to 
+individually layer SDN control with Contrail Network; freedom 
+to use SDN control and Telco Cloud resource management 
+environments with integrated OpenStack via Contrail Cloud 
+Platform; and freedom to deploy a complete comprehensive 
+management and orchestration layer with Contrail Service 
+Orchestration built with open YANG data models and REST 
+APIs. Openness also extends to an open ecosystem that easily 
+onboards third-party VNFs to enrich the service creation catalog 
+and give customers additional service delivery options.
+
+Intelligent Management and Orchestration
+With a simplified service creation workflow portal, product 
+managers can intelligently and confidently define a customized 
+service catalog through an intuitive, user-friendly service creation 
+
+wizard. Leveraging insightful resource management schemas, 
+Contrail Service Orchestration recommends the most efficient 
+service creation model based upon defined VNFs that will best 
+meet the customer’s requirements. Eliminating erroneous, error-
+prone, human-driven provisioning processes, the intelligent 
+service design portal establishes a workflow that reduces the 
+time required to define and deliver new services to market, 
+increasing productivity and lowering operational expenses.
+
+Intelligent service creation is followed up with automated service 
+delivery. Once a customer selects a service they want, the entire 
+service life cycle is orchestrated, no matter which deployment 
+model is required (centralized, distributed, or hybrid). A consistent 
+cohesive delivery model is automated through the entire software 
+stack and also throughout the entire network infrastructure.
+
+Personalization
+Customizable user-defined portals can be created, elevating user 
+satisfaction, driving a tighter partnership with customers, and 
+ultimately leading to increased profitability. Service providers can 
+build specific service catalogs that are unique to their own or 
+their customers’ business objectives.
+
+Features
+Contrail Service Orchestration is built from the ground up with 
+openness at its core; open protocols, open YANG data models, and 
+open APIs easily integrate into existing OSS/BSS environments.
+
+Beneﬁts
+With a complete management and orchestration software stack, 
+customers can take advantage of accelerated innovation by leveraging 
+the power of the open-source community.
+
+Customized service onboarding with customer-speciﬁc proﬁles 
+provides a personalized user experience.
+
+Every customer receives a personalized experience, allowing for the 
+creation of services that best ﬁt business needs.
+
+Seamless integration with Contrail Cloud Platform ensures an 
+automated management and service orchestration experience across 
+the entire infrastructure.
+
+Contrail Service Orchestration can easily be integrated into existing 
+OSS/BSS networking environments.
+
+Multiple NFV use cases are simultaneously supported, including 
+Juniper’s Cloud CPE solution, in a centralized, distributed, or hybrid 
+deployment model extending to the customer premise.
+
+Solution addresses any deployment model; services can be seamlessly 
+chained together to increase revenue-generating service delivery 
+opportunities such as SD-WAN, vCPE, and Telco Cloud.
+
+Intelligently managed services extend through their entire life cycle 
+with feature-rich service design and administrative tools.
+
+New services can be cataloged in minutes to quickly meet customer 
+demands and assure the service for greater customer satisfaction. 
+
+Built-in Juniper physical network element manager.
+
+Zero-touch provisioning and conﬁguration for distributed Cloud CPE 
+deployment models.
+
+Deploy any deployment model over any network implementation.
+
+Contrail Service Orchestration automatically connects the access layer 
+to the provider edge gateway in a central office to the virtual service 
+instance.
+
+The network activator application provides zero-touch support 
+for the NFX Series, starting with Day One conﬁguration, detailed 
+administrative device management and contrail cloud platform VNF 
+life-cycle management coherency.
+
+Contrail Service Orchestration supports any WAN architecture with its 
+transport-agnostic VPN management capabilities. It auto-provisions 
+the underlay WAN network transport with various VPN technologies 
+such as IP-Sec, GRE Tunneling, L2/L3 VPN, and more.
+
+Speciﬁcations
+System recommendations and operating environment depend 
+on the intended use of the servers. There are four recommended 
+Contrail Service Orchestration deployment configurations to 
+support varying scale and redundancy:
+
+1  Demonstration mode for non-high availability
+
+2  Production mode for non-high availability
+
+3  Production mode with high availability
+
+4  Trial mode with high availability
+
+ 
+
+In each configuration, the allocated virtual machines 
+perform the following unique functions:
+
+ - Installer virtual machine
+
+ - Contrail Analytics virtual machine
+
+ - Infrastructure services
+
+ - Microservices
+
+ - Load balancing
+
+3
+
+Corporate and Sales HeadquartersJuniper Networks, Inc. 1133 Innovation WaySunnyvale, CA 94089 USAPhone: 888.JUNIPER (888.586.4737)or +1.408.745.2000Fax: +1.408.745.2100www.juniper.net Copyright 2017 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, Juniper, and Junos are registered trademarks of Juniper Networks, Inc. in the United States and other countries. All other trademarks, service marks, registered marks, or registered service marks are the property of their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice.APAC and EMEA HeadquartersJuniper Networks International B.V.Boeing Avenue 2401119 PZ Schiphol-RijkAmsterdam, The NetherlandsPhone: +31.0.207.125.700Fax: +31.0.207.125.701Data SheetContrail Service Orchestration  1000559-004-EN   Apr 2017Recommended Operating Environment• Network: 1GbE or 10GbE interface card (one or more) • OS: Linux OS (Ubuntu 14.04 and 14.04.1 LTS) • Storage: Greater than 1 TB Serial Advanced Technology Attachment (SATA), Serial Attached SCSI (SAS), or solid-state drive (SSD) • Servers: Quanta (QuantaPlex T41S-U), Supermicro (SYS-2028TPHC1TR-OTO-4), or Dell (R420) (Intel E5-2670v3 or better) using 64-bit dual x86 processorTable 1 below reflects the server requirements per configuration.  Detailed configurations of virtual machines and memory allocations to the Contrail Service Orchestration functions can be found in the Contrail Service Orchestration deployment guide.Table 1: Server Requirements per ConﬁgurationConﬁgurationNumber of ServersvCPUs per ServerMemory per Server (GB RAM)Demo non-HA conﬁguration148128Production non-HA conﬁguration248256Production HA conﬁguration648256Trial HA conﬁguration348128Note: In the high-availability configuration, the pairing of three servers function in a mesh configuration to support stateful failover in the event that a virtual machine experiences a failure.Juniper Networks Services and SupportJuniper Networks is the leader in performance-enabling services that are designed to accelerate, extend, and optimize your high-performance network. Our services allow you to maximize operational efficiency while reducing costs and minimizing risk, achieving a faster time to value for your network. Juniper Networks ensures operational excellence by optimizing the network to maintain required levels of performance, reliability, and availability. For more details, please visit www.juniper.net/us/en/products-services.Ordering InformationThis product adheres to the Juniper Software Advantage pricing model—thus, please be advised of the following items that constitute an order:As this is a virtual appliance/software product, you would not buy any hardware license from Juniper, but, instead, procure the hardware and additional required support for this hardware from an additional third-party vendor. For additional information on supported hypervisor(s) and VM requirements and recommended hardware configuration, please refer to the technical documentation for this product on our website (www.juniper.net) under the Support section.Juniper Networks products are sold directly as well as through Juniper partners and resellers. For more information on the Juniper Software Advantage business model, please visit www.juniper.net/us/en/products-services/sdn/contrail/.For information on how to buy, please visit www.juniper.net/us/en/how-to-buy.About Juniper NetworksJuniper Networks challenges the status quo with products, solutions and services that transform the economics of networking. Our team co-innovates with customers and partners to deliver automated, scalable and secure networks with agility, performance and value. Additional information can be found at Juniper Networks or connect with Juniper on Twitter and Facebook.EXPLORE JUNIPERGet the App.

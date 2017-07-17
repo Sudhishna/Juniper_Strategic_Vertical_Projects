@@ -1,0 +1,342 @@
+Junos Space Security Director 
+QuickStart Service
+
+Service Overview
+
+Juniper Networks Junos Space 
+Network Management Platform 
+simplifies and automates 
+the management of Juniper’s 
+switching, routing, and security 
+devices. It provides a centralized 
+management plane for a single 
+point of contact into the network, 
+and a common management 
+platform for managing and 
+creating applications that meet 
+specific needs.
+
+The Junos Space Security Director 
+QuickStart Service enables you 
+to reduce the time to value from 
+your Juniper product investment 
+by providing the expert assistance 
+of an onsite Professional Services 
+engineer, who can provide basic 
+installation and configuration 
+assistance for your Junos Space 
+Platform solution.
+
+Service Description 
+Built into Juniper Networks QuickStart services is a time-tested, industry standard Plan, 
+Build, and Operate (PBO) approach that has been proven and refined with clients 
+throughout the world’s most competitive industries. The Space Security Director QuickStart 
+Service follows this logical, three-phase process: Plan (design and requirements review); 
+Build (configure Space Platform and import Juniper Networks® SRX Series Services 
+Gateways configuration); and Operate (knowledge transfer with integrated workflow 
+review) to deliver rapid value.
+
+During each phase plus the onsite knowledge transfer process, your Professional Services 
+consultant will provide expert guidance and learning resources to assist your staff with the 
+initial installation, configuration, and deployment of your Juniper Networks Junos® Space 
+Network Management Platform solution with Security Director, and in preparing them for 
+day-to-day operational scenarios going forward.
+
+Phase 1: Plan
+
+During this phase, Juniper Networks Professional Services experts collect information from 
+your organization to plan the installation. They hold a project kick-off conference call with 
+your technical team and Juniper’s Professional Services consulting team to define your 
+product, application and user requirements, as well as your topology. Based on these 
+findings, they will make recommendations about:
+
+•  Deployment method
+
+•  High availability option
+
+•  Juniper Networks product family
+
+•  Normal workflow and any special setup needed based on applications or resources
+
+Phase 2: Build
+
+In this phase, the Professional Services consultant works onsite to configure the Junos 
+Space Platform appliance(s) for use in the production environment, and helps your 
+technical staff become familiar with the setup and operation of the Space Platform 
+appliance.
+
+Customary tasks performed in this phase include:
+
+•  Configure the system 
+
+ - Apply initial management configuration and license 
+
+ - Update code as required 
+
+ - Install additional applications (Note: Only includes Junos Space Platform 
+
+application fabric and Security Director configuration; additional applications can 
+be installed but their configuration is exempt from this project)
+
+1
+
+Data Sheet•  Create discovery rule or directly import device into Space 
+
+Phase 3: Operate
+
+Platform inventory (can include up to two discovery rules or 
+six direct device imports) 
+
+•  Add devices to Security Director and import configuration 
+
+(can include up to six total devices added to Security 
+Director; Juniper Networks Network and Security Manager 
+import is exempt from this service)
+
+During this phase, the Professional Services consultant will:
+
+•  Provide a review of the configuration and perform a 
+
+knowledge transfer session of the Space Platform solution 
+for customer personnel
+
+•  Demonstrate basic discovery techniques and inventory tools  
+
+•  Demonstrate addition and import of device configuration 
+
+into Security Director
+
+•  Demonstrate and explain basic element manipulation and 
+
+policy tools 
+
+Knowledge transfer is intended as a review of the customer’s 
+localized implementation and configuration options. It is not a 
+substitute for formalized training.
+
+Features and Benefits
+Table 1: Junos Space Security Director QuickStart Service Features and Benefits 
+
+Feature
+
+Feature Description
+
+Benefit
+
+Prequalification and recommendations
+
+Information is collected about your requirements 
+to develop a customized Space Platform 
+installation plan.
+
+•  Minimizes time and effort to develop 
+
+installation plan and receive quality security 
+information
+
+Onsite Professional Services engineer
+
+The Space Platform solution is deployed and 
+configured at your operations center.
+
+•  Accelerates, and optimizes the time to value of 
+
+your Space Platform solution.
+
+•  Reduces or eliminates object duplication; 
+
+and can introduce a policy hierarchy for 
+easy compliance to Security Statement 
+requirements 
+
+Onsite knowledge transfer
+
+Your Professional Services engineer will 
+cover topics such as basic configuration and 
+troubleshooting, additional feature configuration, 
+or other appropriate topics as requested by your 
+staff.
+
+•  Accelerates availability of new Space Platform 
+
+solution
+
+•  Accelerates readiness of employees
+•  Creates fully informed IT staff for improved 
+
+operational efficiencies
+
+Table 1: Junos Space Security Director QuickStart Service Features and Benefits 
+
+Juniper Responsibilities
+
+Customer Responsibilities
+
+Provide a Juniper Professional Services consultant who will:
+•  Configure and deploy Space Platform at the organization’s 
+
+Complete the Space Platform deployment questionnaire
+•  Provide a designated project manager or point of contact to interface 
+
+operations center 
+
+•  Provide onsite knowledge transfer 
+
+Service Deliverables 
+This service will ensure that the Space Platform is operational 
+and devices have been added to Security Director. It will 
+also ensure that your staff has an understanding of basic 
+configuration, troubleshooting, and additional feature 
+configuration. This will accelerate your time to receiving value 
+from your Space Platform solution.
+
+with Juniper Networks on day-to-day issues and coordination of 
+resources 
+
+•  Provide external access to the Internet, internal access to your intranet, 
+and access to the network equipment that the consultant will support
+•  Provide access to applications, databases, and appropriate technical 
+
+resources for consultant to perform duties successfully 
+
+•  Place and secure the equipment to be installed in the appropriate rack
+•  Provide all power and interface cabling to the equipment
+
+Exclusions
+This service is exclusively for the initial deployment of Junos 
+Space Platform only. The service is limited to two discovery rules 
+or six direct device additions to Space Platform inventory, and 
+up to six devices added to Security Director. NSM device import 
+is excluded. Service is limited to a two-node implementation 
+with HA (optional). Customized engagements are available to 
+extend or expand a deployment. No more than two hours will be 
+allocated for object conflict resolution; default renaming action 
+will be utilized once time has expired.
+
+2
+
+Data SheetJunos Space Security Director QuickStart Service•  Low-Level Design: Once the high-level design of a network 
+is determined, the specifics need to be identified. The Low-
+Level Design service identifies the optimal configuration and 
+equipment needed to make your network a reality.
+
+•  Testing Service: Prior to implementation of a new network, 
+
+Juniper Networks Testing Service provides you with the 
+opportunity to combine your knowledge of your network’s 
+specific performance requirements with Juniper’s sound 
+foundation of network design methodology and products 
+to create a customized test environment that simulates 
+your unique end-to-end deployment scenario. This lets 
+you avoid the cost of creating and operating your own 
+test labs, reduces your project risk, ensures a seamless 
+implementation of new technology into your production 
+environment, and accelerates your time to deployment.
+
+•  Firewall Conversion Service: This service provides 
+
+your organization with time-tested firewall conversion 
+methodologies and automated processes that minimize 
+data entry errors. Our firewall conversion consultant delivers 
+infrastructure and business analysis, as well as design, test, 
+and deployment guidance.
+
+•  Junos Pulse Gateway QuickStart Service: This is a 
+
+QuickStart service for the initial implementation of the 
+Juniper Networks MAG Series Junos Pulse Gateways. It 
+provides the expert assistance of an onsite engineer to help 
+you get the most value from your Juniper investment in the 
+shortest amount of time.  
+
+Juniper Networks Services and Support
+Juniper Networks is the leader in performance-enabling services 
+that are designed to accelerate, extend, and optimize your 
+high-performance network. Our services allow you to maximize 
+operational efficiency while reducing costs and minimizing 
+risk, achieving a faster time to value for your network. Juniper 
+Networks ensures operational excellence by optimizing the 
+network to maintain required levels of performance, reliability, 
+and availability. For more details, please visit www.juniper.net/us/
+en/products-services. 
+
+Ordering Information 
+To order the Juniper Networks Junos Space Security Director 
+QuickStart Service, or for additional information, please contact 
+your Juniper account manager. Before the service begins, a 
+statement of work (SOW) will be created outlining the scope of 
+effort to be performed.  
+
+Juniper Consulting
+As leaders in networks and security, Juniper’s consultants and 
+engineers are uniquely qualified to assist service providers in 
+designing, implementing, and optimizing security solutions. Our 
+team appreciates the complexities and the subtleties inherent 
+in large-scale internetwork design and can assist service 
+providers and enterprises, or provide customized and integrated 
+“turn-key” solutions. 
+
+Juniper Networks Professional Services helps accelerate your 
+network’s time to value, bringing revenue generating capabilities 
+online faster for bigger productivity gains, faster rollouts of new 
+business models and ventures, greater market reach, and higher 
+levels of customer satisfaction. Your onsite staff will work closely 
+with Juniper specialists, building operational capabilities and 
+reducing your exposure to IT risks. As a result of our previous 
+experience involving hundreds of customers around the world, 
+Juniper Networks Professional Services is uniquely qualified 
+to help you design, implement, and optimize your network 
+for confident operation and rapid returns on infrastructure 
+investments. These professionals understand today’s network 
+and security demands and those that are just around the 
+corner—for bandwidth efficiency, best-in-class security, solid 
+reliability, and cost-effective scaling.
+
+The use of Juniper’s consultants avoids the requirement for you 
+to have the necessary technical and security audit and evaluation 
+skills in-house. And the evaluation can be completed faster, 
+as you are not forced to wait until internal resources become 
+available, nor do you have to address the issue of conflicting 
+project priorities.
+
+Additional Services to Optimize  
+Your Network 
+Juniper Networks provides additional consulting services to 
+consider along with the Junos Space Security Director QuickStart 
+Service. A broad range of consulting and packaged services is 
+available to help you enhance your network design and optimize 
+your production environment. Services to consider in the early 
+stages of your network review include:
+
+•  Strategic Network Consulting: In the planning stage of 
+
+your project, this service will assist you in determining 
+a strategy for your network architecture and a plan to 
+translate that strategy into an optimal solution. It is aimed 
+at understanding your business requirements, determining 
+the impact of the changes on your existing network 
+infrastructure, and providing architectural guidance and 
+recommendations to ensure that your network will be 
+enhanced in a controlled manner.
+
+•  High-Level Design: Implementing a new network or security 
+
+project starts with an evaluation of the requirements and a 
+detailed rendering of the architecture to be used. The High-
+Level Design service defines the topology, protocols, and 
+equipment required, mapping the design to your needs.
+
+3
+
+Data SheetJunos Space Security Director QuickStart ServiceAbout Juniper Networks
+Juniper Networks challenges the status quo with products, 
+solutions and services that transform the economics of 
+networking. Our team co-innovates with customers and partners 
+to deliver automated, scalable and secure networks with agility, 
+performance and value. Additional information can be found at 
+Juniper Networks or connect with Juniper on Twitter and Facebook.
+
+EXPLORE JUNIPER
+Get the App.
+
+Corporate and Sales HeadquartersJuniper Networks, Inc. 1133 Innovation WaySunnyvale, CA 94089 USAPhone: 888.JUNIPER (888.586.4737)or +1.408.745.2000Fax: +1.408.745.2100www.juniper.net Copyright 2016 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, and Junos are registered trademarks of Juniper Networks, Inc. in the United States and other countries. All other trademarks, service marks, registered marks, or registered service marks are the property of their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice.APAC and EMEA HeadquartersJuniper Networks International B.V.Boeing Avenue 2401119 PZ Schiphol-RijkAmsterdam, The NetherlandsPhone: +31.0.207.125.700Fax: +31.0.207.125.701Data SheetJunos Space Security Director QuickStart Service1000449-003-EN   Nov 2016

@@ -1,0 +1,2010 @@
+PTX5000 and PTX3000 PICs   
+
+Product Overview
+
+Increased interactions between 
+people and machines are 
+creating a deluge of traffic, 
+with increasingly unpredictable 
+patterns. These dynamics have 
+intensified the challenge to 
+support growth with traditional 
+network products and 
+architectures. A new approach, 
+based on both physical and 
+virtual innovations, is required to 
+help service providers stay ahead 
+of growing traffic demands while 
+remaining profitable. PTX Series 
+Packet Transport Routers with 
+flexible pluggable interface cards 
+(PICs) provide service providers 
+with a transit router that offers 
+the right interface options for their 
+high-performance environment.
+
+Product Description 
+Juniper Networks® PTX Series Packet Transport Routers are architected to provide industry-
+leading system density in a transit-optimized IP/MPLS design. They deliver the ability to 
+match traffic capacity with superior performance, meet any operational environment 
+with elegant deployability, and exercise precise programmable traffic control through 
+SDN across core, peering, metro, and collapsed IP and optical applications. The multiple 
+generations of PTX Series hardware are built on Juniper Networks purpose-built Express 
+and ExpressPlus silicon for robust IP/MPLS functionality and line-rate, low-latency packet 
+performance for 1GbE to 100GbE and beyond. The PTX Series pluggable interface cards 
+(PICs) offer operators the flexibility to deploy the appropriate interface type for the right 
+application. Core applications ranging from 1GbE access handoffs to high-density 10GbE 
+bundles for peering, 40GbE handoffs for data center interconnect, and 100GbE ultra-high-
+speed IP/MPLS provider edge (PE) router, label edge router (LER), and label-switching 
+router (LSR) interconnect are supported.
+
+Features and Benefits
+First-Generation PTX Series PICs
+Juniper Networks PTX5000 Packet Transport Router: Operating at 500 Gbps per slot, 
+the first-generation PTX5000 PIC provides the benefits of a pluggable optical module in 
+popular short-reach and long-reach applications, as well as Ethernet-contained optical 
+transport network (OTN) framing. Table 1 details the interface options available with the 
+first-generation PIC for the PTX5000.
+
+Juniper Networks PTX3000 Packet Transport Router: Operating at 240 Gbps per slot, the 
+first-generation PTX3000 PIC provides the benefits of a pluggable optical module in popular 
+short-reach and long-reach applications and Ethernet-contained OTN framing. Table 2 
+details the interface options available with the first-generation PIC for the PTX3000.
+
+24-port 10GbE  
+
+SFP+ PIC
+
+2-port 40GbE  
+LAN CFP PIC
+
+2-port 100GbE  
+
+CFP PIC
+
+2-Port 100GbE 
+
+coherent DWDM PIC
+
+1
+
+Data SheetTable 1: PTX5000 First-Generation PIC Support Table
+
+Interface Type
+
+Interface Density Description
+
+10-Gigabit Ethernet LAN
+
+24 x 10GbE
+
+10-Gigabit Ethernet OTN
+
+24 x 10GbE OTN
+
+24 x 10GbE (LAN) PIC, first 
+generation
+
+24 x 10GbE (LAN/WAN) Layer 1  
+PIC, first generation
+
+40-Gigabit Ethernet LAN
+
+2 x 40GbE
+
+2 x 40GbE PIC, first generation
+
+100-Gigabit Ethernet LAN
+
+2 x 100GbE
+
+2 x 100GbE PIC, first generation
+
+100-Gigabit Ethernet  
+OTN DWDM
+
+2 x 100GbE OTN 
+DWDM
+
+2-port 100GbE DWDM PIC, first 
+generation
+
+PTX5000 FPC 
+Compatibility
+
+PTX5000 FPC1
+PTX5000 FPC2
+
+PTX5000 FPC1
+PTX5000 FPC2
+PTX5000 FPC3-2Tbps
+PTX5000 FPC3-3Tbps
+
+PTX5000 FPC1
+PTX5000 FPC2
+
+PTX5000 FPC1
+PTX5000 FPC2
+
+PTX5000 FPC1
+PTX5000 FPC2
+PTX5000 FPC3-2Tbps
+PTX5000 FPC3-3Tbps
+
+Model Number
+
+P1-PTX-24-10GE-SFPP
+
+P1-PTX-24-10G-W- SFPP
+
+P1-PTX-2-40GE-CFP
+
+P1-PTX-2-100GE-CFP
+
+P1-PTX-2-100G-WDM
+
+24-Port 10GbE SFP+ PIC
+
+The 24-port 10GbE LAN small form-factor pluggable plus 
+(SFP+) transceiver PIC is a highly flexible module that provides 
+market-leading 10GbE density with a variety of SFP+ connectivity 
+options to support a broad range of short, medium, and long 
+distance connections. This PIC is perfectly suited for dense 10GbE 
+aggregation applications such as PE-to-PE link bundling, 10GbE 
+fan-out, and edge router-to-core router aggregation.  
+
+24-Port 10GbE OTN SFP+ PIC
+
+The 24-port 10GbE OTN SFP+ PIC is a highly flexible module that 
+provides market-leading 10GbE density with a variety of SFP+ 
+connectivity options to support a broad range of short, medium, 
+and long distance connections. This PIC is perfectly suited for 
+10GbE applications interacting with Layer 1 optical transport 
+networks. The 24-port 10GbE OTN SFP+ PIC supports full OTN 
+performance monitoring, providing a fast reroute protection 
+schema for improved network resiliency.
+
+2-Port 40GbE LAN CFP PIC
+
+The 2-port 40GbE LAN C form-factor pluggable (CFP) transceiver 
+PIC is a highly flexible module that provides market-leading 40GbE 
+density with a variety of CFP connectivity options to support a 
+broad range of short, medium, and long distance connections. This 
+PIC is perfectly suited for dense 40GbE aggregation applications 
+such as PE-to-PE link bundling, 40GbE WAN-to-data center 
+connections, and edge router-to-core router aggregation.  
+
+2-Port 100GbE CFP PIC
+
+The 2-port 100GbE CFP PIC is a highly flexible module that 
+provides market-leading 100GbE density with a variety of CFP 
+
+connectivity options to support a broad range of short, medium, 
+and long distance connections. This PIC is perfectly suited 
+for 100GbE interconnect applications such as LER, LSR, high 
+capacity link bundling, and traffic demanding edge router-to-core 
+router aggregation.
+
+2-Port 100GbE Coherent DWDM PIC
+
+The 2-port 100GbE coherent dense wavelength-division 
+multiplexing (DWDM) PIC leverages the latest Optical 
+Internetworking Forum (OIF)-compliant optical technology 
+to deliver an interface that can be tuned to 96 different ITU 
+extended C-Band channels. The 2-port 100GbE coherent DWDM 
+PIC transmits a DP-QPSK signal that uses a MODEM ASIC 
+to provide soft decision forward error correction (SD-FEC) to 
+increase the optical margins for 100GbE over long distances. The 
+PIC contains a coherent receiver to correct linear and nonlinear 
+effects that have accumulated traversing the fiber span. The 
+2-port 100GbE coherent metro DWDM PIC supports full OTN 
+performance monitoring, providing a fast reroute protection 
+schema for improved network resiliency.
+
+As network operators look for ways to accommodate unrelenting 
+growth while trying to contain costs, they seek next-generation 
+solutions that can scale efficiently. By integrating optical 
+functionality into the router, service providers reduce the amount 
+of optical equipment, rack space, and hardware needed to 
+transmit the optical signal, resulting in lower power consumption. 
+Optical integration into the PTX Series devices truly converges 
+multiple networking layers into a single holistic network.
+
+2
+
+Data SheetPTX5000 and PTX3000 PICs Table 2: PTX3000 First-Generation PIC Support Table
+
+Interface Type
+
+Interface Density Description
+
+10-Gigabit Ethernet LAN
+
+24 x 10GbE
+
+24 x 10GbE (LAN) PIC, first 
+generation
+
+PTX3000 FPC 
+Compatibility
+
+Model Number
+
+PTX3000 SFF-FPC1
+
+P1-PTX-24-10GE-SFPP
+
+10-Gigabit Ethernet OTN
+
+24 x 10GbE OTN
+
+24 x 10GbE (LAN/WAN) L1 PIC, 
+first generation
+
+PTX3000 SFF-FPC1
+PTX3000 SFF-FPC3
+
+P1-PTX-24-10G-W- SFPP
+
+40-Gigabit Ethernet LAN
+
+2 x 40GbE
+
+2 x 40GbE PIC, first generation
+
+PTX3000 SFF-FPC1
+
+P1-PTX-2-40GE-CFP
+
+100-Gigabit Ethernet LAN
+
+2 x 100GbE
+
+2 x 100GbE PIC, first generation
+
+PTX3000 SFF-FPC1
+
+P1-PTX-2-100GE-CFP
+
+100-Gigabit Ethernet OTN 
+DWDM
+
+2 x 100GbE OTN 
+DWDM
+
+2-port 100GbE DWDM PIC, first 
+generation
+
+PTX3000 SFF-FPC1
+PTX3000 SFF-FPC3
+
+P1-PTX-2-100G-WDM
+
+Second-Generation PTX Series PICs
+PTX5000: Operating at 1 Tbps per slot, the second-generation 
+PTX5000 PIC provides the benefits of a pluggable optical 
+module in popular short-reach and long-reach applications, as 
+well as Ethernet-contained OTN framing. Table 3 details the 
+interface options available with the second-generation PIC for 
+the PTX5000.
+
+PTX3000: Operating at 1 Tbps per slot, the second-generation 
+PTX3000 PIC provides the benefits of a pluggable optical 
+module in popular short-reach and long-reach applications, as 
+well as Ethernet-contained OTN framing. Table 4 details the 
+interface options available with the second-generation PIC for 
+the PTX3000.
+
+48-Port 10/40GbE QSFPP PIC
+
+The multi-rate 48-port 10/40GbE PIC provides variable interface 
+support for service providers, eliminating the risk of deploying 
+the wrong interface type per deployment while maintaining 
+the ability to scale up. The multi-rate 48-port 10/40GbE PIC 
+leverages quad small form-factor pluggable plus (QSFP+) 
+transceiver optics that can be configured for 48 interfaces of 
+10GbE LANPHY and 10GbE WAN PHY via a 12-pin MPO-to-LC 
+connector breakout cable (see Figure 1). The same PIC can also 
+be configured to support 40GbE LAN L1 and 40GbE OTU3e via 
+QSFP+ pluggables.  
+
+4-Port 100GbE LAN/OTN CFP2 PIC
+
+The 4-port 100GbE LAN/OTN CFP2 PIC is a highly flexible 
+module that provides market-leading 100GbE density with a 
+variety of CFP2 connectivity options to support a broad range 
+of short, medium, and long distance connections. This PIC is 
+perfectly suited for 100GbE interconnect applications such as 
+LER, LSR, high-capacity link bundling, and traffic demanding 
+edge router to core router aggregation. The 4-port 100GbE LAN/
+OTN CFP2 PIC can be configured to support OTN performance 
+monitoring, providing a fast reroute protection schema for 
+improved network resiliency.
+
+2-Port 100GbE Coherent Metro DWDM PIC
+
+The 2-port 100GbE coherent metro DWDM PIC leverages the 
+latest OIF-compliant optical technology to deliver an interface 
+that can be tuned to 96 different ITU extended C-Band channels. 
+The 2-port 100GbE coherent metro DWDM PIC transmits a DP-
+QPSK signal that uses a MODEM ASIC to provide soft decision 
+forward error correction (SD-FEC) to increase the optical 
+margins for 100GbE over long distances. The metro PIC contains 
+a de-tuned coherent receiver to correct linear and nonlinear 
+effects that have accumulated traversing the fiber span. The 
+2-port 100GbE coherent metro DWDM PIC supports full OTN 
+performance monitoring, providing a fast reroute protection 
+schema for improved network resiliency. 
+
+48-port 10/40GbE 
+
+4-port 100GbE LAN 
+
+4-port 100GbE OTN 
+
+QSFPP PIC
+
+CFP2 PIC
+
+CFP2 PIC
+
+2-port 100GbE 
+coherent metro 
+
+DWDM PIC
+
+3
+
+Data SheetPTX5000 and PTX3000 PICs 4X10G BREAKOUT
+QSFPP (MPO)
+
+1 x 12 (8 Used) MPO
+
+LC Duplex
+
+LC Duplex
+
+LC Duplex
+
+LC Duplex
+
+Tx Tx Tx Tx
+
+Rx Rx Rx Rx
+
+Parallel Single Mode, 4 Lanes (PSM4)
+1 QSFP+(MPO) to 4 SFP+(LC) modules
+4 x 10GBASE-LR
+4 Tx Fibers and 4 Rx Fibers
+1x12 MPO Connector
+
+QSFPP
+(MPO)
+
+MPO to 8xLC Cable
+
+SFPP
+
+Routers,
+Switches
+or Optical
+Systems
+
+QSFPP
+(MPO)
+
+MPO to MPO Cable
+
+P2-10G-40G-QSFPP
+(12x40G/48x10G PIC)
+
+PTX5000
+
+Figure 1: 10GbE configuration
+
+Patch
+Panel
+
+LC to LC Cables
+
+SFPP
+
+ 
+
+Table 3: PTX5000 Second-Generation PIC Support Table
+
+Interface Type
+
+Interface Density Description
+
+10-Gigabit Ethernet LAN
+
+48 x 10GbE
+
+10-Gigabit Ethernet WAN
+
+48 x 10GbE
+
+40-Gigabit Ethernet LAN
+
+12 x 40GbE
+
+100-Gigabit Ethernet LAN
+
+4 x 100GbE
+
+100-Gigabit Ethernet OTN 4 x 100GbE OTN
+
+48 x 10GbE/12 x 40GbE/OTN 
+PIC for second-generation FPC, 
+QSFP+ pluggable optics
+
+48 x 10GbE/12 x 40GbE/OTN 
+PIC for second-generation FPC, 
+QSFP+ pluggable optics
+
+48 x 10GbE/12 x 40GbE/OTN 
+PIC for second-generation FPC, 
+QSFP+ pluggable optics
+
+4 x 100GbE PIC for second-
+generation FPC, CFP2 pluggable 
+optics
+
+4 x 100GbE Ethernet/OTN PIC 
+for second-generation FPC, CFP2 
+pluggable optics
+
+100-Gigabit Ethernet OTN 
+DWDM
+
+2 x 100GbE OTN 
+DWDM
+
+2-port 100GbE DWDM PIC metro 
+second-generation
+
+Table 4: PTX3000 Second-Generation PIC Support Table
+
+Interface Type
+
+Interface Density Description
+
+10-Gigabit Ethernet LAN
+
+48 x 10GbE
+
+10-Gigabit Ethernet OTN
+
+48 x 10GbE
+
+40-Gigabit Ethernet LAN
+
+12 x 40GbE
+
+100-Gigabit Ethernet LAN
+
+4 x 100GbE OTN
+
+48 x 10GbE/12 x 40GbE/OTN 
+PIC for second-generation FPC, 
+QSFP+ pluggable optics
+
+48 x 10GbE/12 x 40GbE/OTN 
+PIC for second-generation FPC, 
+QSFP+ pluggable optics
+
+48 x 10GbE/12 x 40GbE/OTN 
+PIC for second-generation FPC, 
+QSFP+ pluggable optics
+
+4 x 100GbE Ethernet/OTN PIC 
+for second-generation FPC, CFP2 
+pluggable optics
+
+PTX5000 FPC 
+Compatibility
+
+PTX5000 FPC2
+PTX5000 FPC3-2Tbps
+PTX5000 FPC3-3Tbps
+
+PTX5000 FPC2
+PTX5000 FPC3-2Tbps
+PTX5000 FPC3-3Tbps
+
+PTX5000 FPC2
+PTX5000 FPC3-2Tbps
+PTX5000 FPC3-3Tbps
+
+Model Number
+
+P2-10G-40G-QSFPP
+
+P2-10G-40G-QSFPP
+
+P2-10G-40G-QSFPP
+
+PTX5000 FPC2
+
+P2-100GE-CFP2
+
+PTX5000 FPC2
+PTX5000 FPC3-2Tbps
+PTX5000 FPC3-3Tbps
+
+PTX5000 FPC1
+PTX5000 FPC2
+PTX5000 FPC3-2Tbps
+PTX5000 FPC3-3Tbps
+
+P2-100GE-OTN
+
+P1-PTX-2-100G-WDM
+
+PTX3000 FPC 
+Compatibility
+
+Model Number
+
+PTX3000 SFF-FPC3
+
+P2-10G-40G-QSFPP
+
+PTX3000 SFF-FPC3
+
+P2-10G-40G-QSFPP
+
+PTX3000 SFF-FPC3
+
+P2-10G-40G-QSFPP
+
+PTX3000 SFF-FPC3
+
+P2-100GE-OTN
+
+100-Gigabit Ethernet OTN 
+DWDM
+
+2 x 100GbE OTN 
+DWDM
+
+2-port 100GbE DWDM PIC metro 
+second generation
+
+PTX3000 SFF-FPC1
+PTX3000 SFF-FPC3
+
+P1-PTX-2-100G-WDM
+
+4
+
+Data SheetPTX5000 and PTX3000 PICs Third-Generation PTX Series PICs
+PTX5000: Operating at 2-3 Tbps, the third-generation PTX5000 
+PIC provides the benefits of a pluggable optical module in 
+popular short-reach and long-reach applications, as well as 
+Ethernet-contained OTN framing. Table 5 details the interface 
+options available with the third-generation PIC for the PTX5000.
+
+PTX3000: Operating at 1 Tbps per slot, the third-generation 
+PTX3000 PIC provides the benefits of a pluggable optical module 
+in popular short-reach and long-reach applications, as well as 
+Ethernet-contained OTN framing. Table 6 details the interface 
+options available with the third-generation PIC for the PTX3000.
+
+Multi-Rate 96-Port 10/40GbE LAN PIC
+
+The multi-rate 96-port 10/40GbE LAN QSFPP PIC provides 
+variable interface support for service providers, eliminating 
+the risk of deploying the wrong interface type per deployment 
+while maintaining the ability to scale up. The multi-rate 96-port 
+10/40GbE PIC leverages QSFP+ pluggable optics that can be 
+configured for 96 interfaces of 10GbE LAN L1 via a 12-pin MPO-to-
+LC connector breakout cable or 24 interfaces of 40GbE LAN L1.
+
+Multi-Rate 60-Port 10/40/100GbE LAN PIC
+
+The multi-rate 60-port 10/40/100GbE LAN QSFP28 PIC provides 
+variable interface support for service providers, eliminating 
+the risk of deploying the wrong interface type per deployment 
+while maintaining the ability to scale up. The multi-rate 60-port 
+10/40/100GbE PIC leverages QSFP+ pluggable optics that can 
+be configured for 60 interfaces of 10GbE LAN L1 via a 12-pin 
+MPO-to-LC connector breakout cable, or for 15 interfaces of 
+40GbE LAN L1. The same PIC can also be configured to support 
+15 interfaces of 100GbE LAN L1 via QSFP28 pluggable optics.
+
+Multi-Rate 40-Port 10/40/100GbE LAN PIC
+
+The multi-rate 40-port 10/40/100GbE LAN QSFP28 PIC provides 
+variable interface support for service providers, eliminating the risk 
+of deploying the wrong interface type while maintaining the ability 
+to scale up. The multi-rate 40-port 10/40/100GbE PIC leverages 
+QSFP+ pluggable optics that can be configured for 40 interfaces 
+of 10GbE LAN L1 via a 12-pin MPO-to-LC connector breakout cable, 
+or for 10 interfaces of 40GbE LAN L1. The same PIC can also be 
+configured to support 10 interfaces of 100GbE LAN L1 via QSFP28 
+pluggable optics.
+
+5-Port 100GbE Coherent DWDM PIC
+
+The 5-port 100GbE coherent dense wavelength-division 
+multiplexing (DWDM) PIC leverages the latest Optical 
+Internetworking Forum (OIF)-compliant optical technology 
+to deliver an interface that can be tuned to 96 different ITU 
+extended C-Band channels at 50 GHz channel spacing. The 
+5-port 100GbE coherent DWDM PIC provides pay-as-you grow 
+flexibility by using CFP2-ACO pluggable transceivers. The 5-port 
+100GbE coherent DWDM PIC transmits a DP-QPSK signal that 
+uses a MODEM ASIC to provide both soft decision forward error 
+correction (SD-FEC) and G.709 generic forward error correction 
+to increase the optical margins for 100GbE over long distances. 
+The PIC contains a coherent receiver to correct linear and 
+nonlinear effects that have accumulated while traversing the 
+fiber span. The 5-port 100GbE coherent DWDM PIC supports full 
+OTN performance monitoring, providing a fast reroute protection 
+schema for improved network resiliency. 
+
+As network operators look for ways to accommodate unrelenting 
+growth while trying to contain costs, they seek next-generation 
+solutions that can scale efficiently. By integrating optical 
+functionality into the router, service providers can eliminate 
+disparate optical equipment, saving rack space and lowering 
+overall power consumption. Optical integration into the PTX 
+Series devices truly converges multiple networking layers into a 
+single holistic network fabric.
+
+Integrated Photonics Line Card (IPLC)
+
+The Integrated Photonics Line Card (IPLC) for the PTX3000 
+fully collapses the optical layer with the IP/MPLS layer in a 
+single metro network solution, eliminating the need to deploy 
+separate, dedicated equipment for both IP/MPLS and optical. 
+The IPLC tightly couples a 1x2 WSS, embedded bi-directional 
+switch gain amplifiers, optical multiplexer/de-multiplexers, and 
+optical supervisory channel for optical management into a single 
+package that supports up to 64 ITU-T C-band wavelengths at 50 
+Ghz spacing via an IPLC expansion line card. The IPLC maintains 
+the same PTX Series PIC form factor, allowing it to be provisioned 
+in any of the eight PIC slots within a PTX3000 (the IPLC is 
+only supported in the PTX3000). Built to the ITU-T C-band 
+wavelength standard, the IPLC is fully interoperable with existing 
+PTX Series DWDM interfaces such as 2-Port 100GbE Coherent 
+
+PTX-
+
+IPLC-E-32
+
+PTX-
+
+IPLC-B-32
+
+P3-15-U-
+QSFP28
+
+P2-PTX-5-
+100G-WDM
+
+ILA-M
+
+5
+
+Data SheetPTX5000 and PTX3000 PICs DWDM PIC, 5-Port 100GbE Coherent DWDM PIC, tunable DWDM 
+pluggables for the 24x 10G LAN/WAN/OTN PHY PIC, and third-
+party external alien wavelengths. The IPLC can be used for both 
+point-to-point and ring applications with in-service upgradability, 
+starting at 3.2 Tbps and growing up to 6.4 Tbps of fiber capacity 
+via the IPLC optical expansion card (OPEC).
+
+Inline Amplifier Module (ILM-A)
+
+Juniper now also offers a standalone 1 U inline switch-gain inline 
+amplifier for data center interconnect, metro/regional, and 
+long-distance applications. When used in conjunction with the 
+coherent DWDM PICs and the IPLC, the PTX3000, running Junos, 
+automatically provisions all of the photonic layer parameters and 
+learns the optical topologies for applications like Connectivity 
+Services Director (CSD) to provision, monitor, and troubleshoot.
+
+Table 5: PTX5000 Third-Generation PIC Support Table
+
+Interface Type
+
+Interface Density Description
+
+10-Gigabit Ethernet
+
+96 x 10GbE
+
+40-Gigabit Ethernet 
+LAN
+
+60 x 10GbE
+
+40 x 10GbE
+
+24 x 40GbE
+
+15 x 40GbE
+
+10 x 40GbE
+
+100-Gigabit Ethernet 
+LAN
+
+15 x 100GbE
+
+10 x 100GbE
+
+24 x 40GbE, 96 x 10GbE QSFPP, 
+universal PIC for third-generation FPC
+
+15 x 100GbE QSFP28 or 15 x 40GbE, 
+60 x 10GbE QSFPP, universal PIC for 
+third- generation FPC
+
+10 x 100GbE QSFP28 or 10 x 40GbE, 
+40 x 10GbE QSFPP, universal PIC for 
+third-generation FPC
+
+24 x 40GbE, 96 x 10GbE QSFPP, 
+universal PIC for third-generation FPC
+
+15 x 100GbE QSFP28 or 15 x 40GbE, 
+60 x 10GbE QSFPP, universal PIC for 
+third-generation FPC
+
+10 x 100GbE QSFP28 or 10 x 40GbE, 
+40 x 10GbE QSFPP, universal PIC for 
+third-generation FPC
+
+15 x 100GbE QSFP28 or 15 x 40GbE, 
+60 x 10GbE QSFPP, universal PIC for 
+third-generation FPC
+
+10 x 100GbE QSFP28 or 10 x 40GbE, 
+40 x 10GbE QSFPP, universal PIC for 
+third-generation FPC
+
+PTX5000 FPC 
+Compatibility
+PTX5000 FPC3-2Tbps
+PTX5000 FPC3-3Tbps
+
+PTX5000 FPC3-2Tbps
+PTX5000 FPC3-3Tbps
+
+Model Number
+
+P3-24-U-QSFP28
+
+P3-15-U-QSFP28
+
+PTX5000 FPC3-2Tbps
+
+P3-10-U-QSFP28
+
+PTX5000 FPC3-2Tbps
+PTX5000 FPC3-3Tbps
+
+PTX5000 FPC3-2Tbps
+PTX5000 FPC3-3Tbps
+
+P3-24-U-QSFP28
+
+P3-15-U-QSFP28
+
+PTX5000 FPC3-2Tbps
+
+P3-10-U-QSFP28
+
+PTX5000 FPC3-2Tbps
+PTX5000 FPC3-3Tbps
+
+P3-15-U-QSFP28
+
+PTX5000 FPC3-2Tbps
+
+P3-10-U-QSFP28
+
+100-Gigabit Ethernet 
+OTN DWDM
+
+5 x 100GbE OTN 
+DWDM
+
+5-port 100GbE DWDM PIC third 
+generation
+
+PTX5000 FPC3-2Tbps
+PTX5000 FPC3-3Tbps
+
+PTX-5-100G-WDM
+
+Table 6: PTX3000 Third Generation PIC Support Table
+
+Interface Type
+
+Interface Density Description
+
+10-Gigabit Ethernet
+
+96 x 10GbE
+
+40-Gigabit Ethernet 
+LAN
+
+40 x 10GbE
+
+24 x 40GbE
+
+10 x 40GbE
+
+100-Gigabit Ethernet 
+LAN
+
+10 x 100GbE
+
+24 x 40GbE, 96 x 10GbE QSFPP, 
+universal PIC for third-generation FPC
+
+10 x 100GE QSFP28 or 10 x 40GbE, 40 
+x 10GbE QSFPP, universal PIC for third-
+generation FPC
+
+24 x 40GbE, 96 x 10GbE QSFPP, 
+universal PIC for third-generation FPC
+
+10 x 100GbE QSFP28 or 10 x 40GbE, 
+40 x 10GbE QSFPP, universal PIC for 
+third-generation FPC
+
+10 x 100GbE QSFP28 or 10 x 40GbE, 
+40 x 10GbE QSFPP, universal PIC for 
+third-generation FPC
+
+PTX3000 FPC 
+Compatibility
+PTX3000 SFF-FPC3
+
+Model Number
+
+P3-24-U-QSFP28
+
+PTX3000 SFF-FPC3
+
+P3-10-U-QSFP28
+
+PTX3000 SFF-FPC3
+
+P3-24-U-QSFP28
+
+PTX3000 SFF-FPC3
+
+P3-10-U-QSFP28
+
+PTX3000 SFF-FPC3
+
+P3-10-U-QSFP28
+
+100-Gigabit Ethernet 
+OTN DWDM
+
+5 x 100GbE OTN 
+DWDM
+
+5-port 100GbE DWDM PIC third 
+generation
+
+PTX3000 SFF-FPC3
+
+PTX-5-100G-WDM
+
+Integrated Photonic 
+Line Card (Base – 32 
+Channels)
+
+32-Channel, 1x2 
+WSS, Optical Mux/
+De-Mux
+
+32 Channel Mux/Demux with 
+integrated 1x2 WSS, Optical Pre-
+amplifier, Booster amplifier, OSC; 
+C-band, Odd; 100GHz, LC; Up to 
+64 channels supported with PTX-
+IPLC-E-32 (sold separately)
+
+Not Applicable 
+
+PTX-IPLC-B-32
+
+Integrated Photonic 
+Line Card (Expansion – 
+32 Channels)
+
+32 Channel 
+Expansion module
+
+32 Channel Passive Mux/Demux; 
+C-band, Even, 50GHz, LC
+
+Not Applicable
+
+PTX-IPLC-E-32 
+
+6
+
+Data SheetPTX5000 and PTX3000 PICs Specifications
+PIC Mechanical Parameters and Power Requirements
+Table 7: PTX Series PIC Mechanical Parameters and Power Requirements
+
+First-generation PTX 
+Series PICs
+
+PIC Model Number
+
+Physical Dimensions
+
+Weight
+
+Power Requirements
+
+P1-PTX-24-10GE-SFPP
+
+7.75 x 11 in (196.8 x 279.4 mm)
+
+3.7 lb (1.7 kg)
+
+1.45 A @ -48 V (70 W)
+
+P1-PTX-24-10G-W- SFPP
+
+7.75 x 11 in (196.8 x 279.4 mm)
+
+2.5 lb (1.1 kg)
+
+2.67 A @ -48 V (128 W)
+
+P1-PTX-2-40GE-CFP
+
+7.75 x 11 in (196.8 x 279.4 mm)
+
+3.5 lb (1.6 kg)
+
+0.7 A @ -48 V (35 W)
+
+P1-PTX-2-100GE-CFP
+
+7.75 x 11 in (196.8 x 279.4 mm)
+
+3.5 lb (1.6 kg)
+
+1.6 A @ -48 V (75 W)
+
+P1-PTX-2-100G-WDM
+
+7.75 x 11 in (196.8 x 279.4 mm)
+
+5.5 lb (2.5 kg)
+
+6.48 A @ -48 V (311 W)
+
+Second-generation PTX 
+Series PICs
+
+P2-10G-40G-QSFPP
+
+7.75 x 11 in (196.8 x 279.4 mm)
+
+4.3 lb (2 kg)
+
+10GbE Mode: 9.09 A @ 
+-12.1 V (110 W) 
+40GbE Mode: 8.26 A @ 
+-12.1 V (100 W)
+
+Third-generation PTX 
+Series PICs
+
+P2-100GE-CFP2
+
+P2-100GE-OTN
+
+7.75 x 11 in (196.8 x 279.4 mm)
+
+3.9 lb (1.8 kg)
+
+1.66A@ -48 V (90 W)
+
+7.75 x 11 in (196.8 x 279.4 mm)
+
+4.4 lb (2 kg)
+
+14.50A@ -12 V (176 W)
+
+P1-PTX-2-100G-WDM
+
+7.75 x 11 in (196.8 x 279.4 mm)
+
+5.5 lb (2.5 kg)
+
+6.48 A @ -48 V (311 W)
+
+P3-24-U-QSFP28
+
+P3-15-U-QSFP28
+
+P3-10-U-QSFP28
+
+7.75 x 11 in (196.8 x 279.4 mm)
+
+4.3 lb (1.95 kg)
+
+3.86A @ -48V (186 W)
+
+7.75 x 11 in (196.8 x 279.4 mm)
+
+4.3 lb (1.95 kg)
+
+3.1A @ -48V (149 W)
+
+7.75 x 11 in (196.8 x 279.4 mm)
+
+4.0 lb (1.81 kg)
+
+2.36A @ -48V (113 W)
+
+PTX-5-100G-DWDM
+
+7.75 x 11 in (196.8 x 279.4 mm)
+
+5.5 lb (2.5 kg)
+
+4.19A @ -48V (201 W)
+
+LEDs
+Table 8: PTX Series PIC LED Indication Table
+
+Pluggable Optical Module Support Table
+Table 9: PTX Series PIC Pluggable Optical Module Support Table
+
+Meaning
+
+PIC Model Number
+
+Junos OS 
+Release 
+Support
+
+12.1X48
+12.3
+13.2
+
+12.3R2
+13.2
+
+12.1X48
+12.3
+13.2
+
+12.1X48
+12.3
+13.2
+
+14.1R2
+15.2R1
+
+14.1
+
+7
+
+P1-PTX-2-40GE-CFP
+
+CFP-40GBASE-LR4
+
+P1-PTX-2-100GE-CFP
+
+P2-10G-40G-QSFPP
+
+P2-100GE-CFP2
+
+CFP-100GBASE-ER4
+CFP-GEN2-CGE-ER4
+CFP-100GBASE-LR4
+CFP-GEN2-100GBASE-
+LR4
+CFP-100GBASE-SR10
+CFP-100GBASE-ZR
+
+QSFPP-4X10GE-SR
+QSFPP-40GBASE-SR4
+QSFPP-40GBASE-LR4
+QSFPP-4X10GE-LR
+
+CFP2-100G-LR4-D
+CFP2-100GBASE-SR10
+CFP2-100G-ER4-D
+CFP2-100GBASE-LR4
+CFP2-100GBASE-SR10
+
+Overlay Label
+
+Status (Tri-color 
+LED)
+
+Link/Activity/Alarm
+0:0,0:1,
+0:2,0:3,1:0...11:3
+(10GbE ports)
+0:0, 1:0, 
+2:0...11:0 
+ (10GbE/40GbE/
+100GbE ports)
+(Dual-color LED)
+
+Color
+
+OFF
+
+AMBER 
+
+GREEN
+
+RED
+
+OFF
+
+GREEN
+
+Flashing
+
+PIC is powered down and 
+offline.
+
+PIC is getting initialized by 
+software.
+
+PIC is online with all voltages 
+in range.
+
+PIC is in fail state.
+
+Port is off.
+
+Port is powered on and link 
+is up.
+(This light only has meaning 
+if the PIC status LED is lit and 
+is green.)
+
+Indicates link activity for 
+that particular port sending/
+receiving packets.
+
+RED
+
+Port has fault/alarm.
+
+P1-PTX-24-10GE-
+SFPP
+
+P1-PTX-24-10G-W-
+SFPP
+
+Transceivers 
+Support
+
+SFPP-10GE-ER
+SFPP-10GE-LR
+SFPP-10GE-SR
+SFPP-10GE-ZR
+SFPP-10G-ZR-OTN-XT
+SFPP-10G-DT-ZRC2
+SFP-1GE-LX
+SFP-1GE-SX
+
+SFPP-10GE-ER
+SFPP-10GE-LR
+SFPP-10GE-SR
+SFPP-10GE-ZR
+SFPP-10G-CT50-ZR
+SFPP-10G-DT-ZRC2
+
+Data SheetPTX5000 and PTX3000 PICs PIC Model Number
+
+Transceivers 
+Support
+
+P2-100GE-OTN
+
+P3-24-U-QSFP28
+
+P3-15-U-QSFP28
+
+P3-10-U-QSFP28
+
+CFP2-100G-LR4-D
+CFP2-100GBASE-SR10
+CFP2-100G-ER4-D
+CFP2-100GBASE-LR4
+CFP2-100GBASE-SR10
+
+QSFPP-4X10GE-SR
+QSFPP-4X10GE-LR
+QSFPP-40GBASE-SR4
+QSFPP-40GBASE-LR4
+
+QSFPP-4X10GE-SR
+QSFPP-4X10GE-LR
+QSFPP-40GBASE-SR4
+QSFPP-40GBASE-LR4
+QSFP-100GBASE-SR4
+QSFP-100GBASE-LR4
+
+QSFPP-4X10GE-SR
+QSFPP-4X10GE-LR
+QSFPP-40GBASE-SR4
+QSFPP-40GBASE-LR4
+QSFP-100GBASE-SR4
+QSFP-100GBASE-LR4
+
+Junos OS 
+Release 
+Support
+
+14.1R2
+
+15.1F3
+15.1F4
+
+15.1F5
+
+15.1F6
+15.1F5
+
+PTX-5-100G-DWDM
+
+TCFP2-100G-C (CFP2-
+ACO)
+
+15.1F6
+
+100GbE Coherent DWDM PIC Interface Specifications
+Table 10: Optical DWDM Specification
+
+Data rate
+
+Optics
+
+P1-PTX-2-100G-
+WDM-C
+
+PTX-5-100G-
+DWDM
+
+OTU4v mode: 127.14 
+Gbps
+
+OTU4v mode: 120.58 
+Gbps
+
+DP-QPSK with 
+coherent receiver
+
+DP-QPSK with 
+coherent receiver
+
+Connector type
+
+LC - straight
+
+LC - straight
+
+Channel range
+
+191.25 THz to 196 
+THz
+
+191.15 THz to 196.10 
+THz
+
+Standards Compliance and Interoperability
+Optical Standards: P1-PTX-2-100G-WDM; PTX-5-100G-WDM 
+
+• 
+
+ITU-T G.709, G.798, G.694.1, FC 3591
+
+•  Telcordia GR-63 Issue 4: 2012
+
+•  EN 60825-1 (2007) Safety of Laser Products—Part 1: 
+
+Equipment classification and requirements
+
+•  FDA CDRH21 CFR-1040 Environment
+
+•  Operating Temperature: 32° to 104° F, 0° to 40° C
+
+•  Storage Temperature: -40° to 158° F, -40° to 70° C
+
+•  Relative Humidity: (Operating) 5 to 90% noncondensing 
+
+•  CAN/CSA-C22.2 No. 60950-1 (2007) Information 
+
+Technology Equipment—Safety
+
+•  UL 60950-1 (2nd Ed.) Information Technology Equipment—
+
+Safety
+
+•  EN 60950-1 (2005) Information Technology Equipment—
+
+Safety
+
+• 
+
+IEC 60950-1 (2005) Information Technology Equipment—
+Safety (All country deviations)
+
+•  EN 60825-1 +A1+A2 (1994) Safety of Laser Products—Part 
+
+1: Equipment Classification
+
+Optical Standards: All 10GbE, 40GbE, 100GbE PICs
+
+•  Telcordia GR-63 Issue 4: 2012
+
+•  EN 60825-1 (2007) Safety of Laser Products—Part 1: 
+
+Equipment classification and requirements
+
+•  FDA CDRH21 CFR-1040 Environment
+
+•  Operating Temperature: 32° to 104° F, 0° to 40° C
+
+•  Storage Temperature: -40° to 158° F, -40° to 70° C
+
+•  Relative Humidity: (Operating) 5 to 90% noncondensing 
+
+•  CAN/CSA-C22.2 No. 60950-1 (2007) Information 
+
+Technology Equipment—Safety
+
+•  UL 60950-1 (2nd Ed.) Information Technology Equipment—
+
+Safety
+
+Framing
+
+ODU4v
+
+ODU4v
+
+ - EN 60950-1 (2005) Information Technology Equipment—
+
+Forward error 
+correction (FEC)
+
+G.709 FEC + SD-FEC G.709 FEC + SD-FEC
+
+Safety
+
+OSNR sensitivity 
+
+14.5 dB EOL 
+
+14.7 dB EOL
+
+• 
+
+IEC 60950-1 (2005) Information Technology Equipment—
+Safety (All country deviations)
+
+CD tolerance 
+
+50,000 ps/nm
+
+40,000 ps/nm
+
+•  EN 60825-1 +A1+A2 (1994) Safety of Laser Products—Part 
+
+PMD tolerance 
+
+80 ps DGD
+
+-2 dBm 
+
+Tx optical output 
+power 
+
+Rx optical input 
+power 
+
+80 ps DGD
+
+-12 to 0 dBm 
+
+1: Equipment Classification
+
+Electromagnetic Compatibility
+
+-18 to -5 dBm 
+
+-18 to 0 dBm 
+
+EMC requirements
+
+•  EN 300 386 V1.4.1 (2008) Telecom Network Equipment—
+
+ - EN 55024 +A1+A2 (1998) Information Technology 
+
+Equipment Immunity Characteristics
+
+EMI
+
+•  FCC CFR 45, Part 15 Class A (2009) USA Radiated 
+
+Emissions
+
+•  EN 55022 Class A (2006)+ A1 2007 European Radiated 
+
+Emissions
+
+•  VCCI Class A (2007) Japanese Radiated Emissions
+
+•  BSMI CNS 13438 and NCC C6357 Taiwan Radiated 
+
+Emissions
+
+•  AS/NZS CISPR22:2009
+
+8
+
+Data SheetPTX5000 and PTX3000 PICs Customer-Specific Requirements
+
+Mandatory Power Supply Markings
+
+•  GR-63-Core (2006) Network Equipment, Building Systems 
+
+•  Power Supply integrated in system (with metal enclosure or 
+
+(NEBS) Physical Protection
+
+open frame)
+
+•  GR-1089-Core Issue 5 (2009) EMC and Electrical Safety for 
+
+ - UL, CSA: UL/CSA 60950-1 (2007)
+
+Network Telecommunications Equipment
+
+•  SR-3580 (2007) NEBS Criteria Levels (Level 3)
+
+ - TUV: EN 60950-1 2nd Edition (2005) 
+
+ - CE: EN55022 Class B (2006), EN55024 + A1 + A2 (1998), 
+
+•  ETSI EN 300 019: Environmental Conditions & 
+
+EN60950-1 2nd Edition (2005)
+
+Environmental Tests for Telecommunications Equipment
+
+•  ETSI EN 300 019-2-1 (2000)—Storage
+
+•  ETSI EN 300 019-2-2 (1999)—Transportation
+
+•  ETSI EN 300 019-2-3 (2003)—Stationary Use at Weather-
+
+protected Locations
+
+•  ETSI EN 300 019-2-4 (2003)—Stationary Use at Non-
+
+Weather-protected Locations
+
+•  ETS 300753 (1997)—Acoustic noise emitted by 
+
+telecommunications equipment
+
+•  1 TR 9 (2005) Deutsche Telekom EMC Specification
+
+•  British Telecom EMC Immunity Requirements (2004)
+
+• 
+
+ITU-T K.21 (2003) Resistibility of telecommunication 
+equipment installed in customer premises to over voltages 
+and over currents
+
+ - China CCC
+
+ - Argentina IRAM/S-mark
+
+Juniper Networks Services and Support
+Juniper Networks is the leader in performance-enabling services 
+that are designed to accelerate, extend, and optimize your 
+high-performance network. Our services allow you to maximize 
+operational efficiency while reducing costs and minimizing 
+risk, achieving a faster time to value for your network. Juniper 
+Networks ensures operational excellence by optimizing the 
+network to maintain required levels of performance, reliability, 
+and availability. For more details, please visit www.juniper.net/us/
+en/products-services. 
+
+Ordering Information
+PIC Model Number PIC Description
+
+P1-PTX-24-10GE-
+SFPP
+
+24 x 10GbE (LAN) PIC, 
+first generation
+
+Pluggable Model 
+Number
+
+SFPP-10GE-ER
+
+SFPP-10GE-LR
+
+SFPP-10GE-SR
+
+SFPP-10GE-ZR
+
+SFPP-10G-ZR-OTN-XT
+
+SFPP-10G-DT-ZRC2
+
+SFP-1GE-LX
+
+SFP-1GE-SX
+
+Pluggable Description
+
+Compatibility
+
+PTX5000 FPC1
+PTX5000 FPC2
+PTX3000 SFF-FPC1
+
+SFP+ 10GbE pluggable transceiver, SMF, 
+1550 nm for 40 km transmission
+
+SFP+ 10GbE pluggable transceiver, 
+single-mode fiber-optic (SMF), 1310 nm 
+for 10 km transmission
+
+SFP+ 10GbE pluggable transceiver, 
+multimode fiber-optic (MMF), 850 nm 
+for 300 m transmission
+
+SFP+ 10GbE pluggable transceiver, SMF, 
+1550 nm for 80 km transmission
+
+SFP+ 10GbE pluggable transceiver, 
+SMF, 1550 nm for 80 km transmission, 
+extended temperature
+
+10GbE DWDM SFP+ low power (1.6 W), 
+80 km reach, tunable across C-Band 50 
+GHz channel spacing, supports LAN/
+WAN and OTN rates (OTU2 and OTU2e)
+
+SFP transceiver 1000Base-LX GbE optic 
+module
+
+SFP transceiver 1000Base-SX GbE optic 
+module
+
+P1-PTX-24-10G-W- 
+SFPP
+
+24 x 10GbE (LAN/WAN) 
+L1 PIC, first generation
+
+SFPP-10GE-ER
+
+SFP+ 10GbE pluggable transceiver, SMF, 
+1550 nm for 40 km transmission
+
+SFPP-10GE-LR
+
+SFPP-10GE-SR
+
+SFPP-10GE-ZR
+
+SFPP-10G-CT50-ZR
+
+SFPP-10G-DT-ZRC2
+
+SFP+ 10GbE pluggable transceiver, SMF, 
+1310 nm for 10 km transmission
+
+SFP+ 10GbE pluggable transceiver, MMF, 
+850 nm for 300 m transmission
+
+SFP+ 10GbE pluggable transceiver, SMF, 
+1550 nm for 80 km transmission
+
+10GbE DWDM SFP+, 80 km reach, 
+tunable across C-Band 50 GHz channel 
+spacing, compliant with ITU-T G.698.1
+
+10GbE DWDM SFP+ low power (1.6 W), 
+80 km reach, tunable across C-Band 50 
+GHz channel spacing, supports LAN/
+WAN and OTN rates (OTU2 and OTU2e)
+
+PTX5000 FPC1
+PTX5000 FPC2
+PTX5000 FPC3-
+2Tbps
+PTX5000 FPC3-
+3Tbps
+PTX3000 SFF-FPC1
+PTX3000 SFF-FPC3
+
+9
+
+Data SheetPTX5000 and PTX3000 PICs PIC Model Number PIC Description
+
+P1-PTX-2-40GE-CFP
+P1-PTX-2-100GE-
+CFP
+
+2 x 40GbE PIC, first 
+generation
+
+Pluggable Model 
+Number
+
+CFP-40GBASE-LR4
+
+CFP-100GBASE-ER4
+
+CFP-GEN2-CGE-ER4
+
+Pluggable Description
+
+Compatibility
+
+One 40GBASE-LR4 CFP pluggable 
+module compliant with IEEE 802.3ba
+
+CFP 100GbE pluggable transceiver, SMF, 
+for 40 km transmission and compliant 
+with IEEE 802.3ba
+
+100GBASE-ER4 CFP (second 
+generation) pluggable module compliant 
+with IEEE 802.3ba
+
+PTX5000 FPC1
+PTX5000 FPC2
+PTX3000 SFF-FPC1
+PTX5000 FPC1
+PTX5000 FPC2
+PTX3000 SFF-FPC1
+
+CFP-100GBASE-LR4
+
+One 100GBASE-LR4 CFP pluggable 
+module compliant with IEEE 802.3ba
+
+CFP-GEN2-100GBASE-
+LR4
+
+CFP-100GBASE-SR10
+
+CFP-100GBASE-ZR
+
+100GBASE-LR4 CFP (second 
+generation) pluggable module compliant 
+with IEEE 802.3ba
+
+CFP 100GbE pluggable transceiver, MMF, 
+850 nm for 200 m transmission
+
+CFP 100G pluggable transceiver, non-
+tunable, 1550.92 nm, SMF, for 80 km 
+transmission
+
+P1-PTX-2-100G-
+WDM
+
+2-port 100GbE DWDM 
+PIC, first generation
+
+N/A
+
+N/A
+
+P2-10G-40G-QSFPP 48 x 10GbE/12 x 
+
+QSFPP-4X10GE-SR
+
+QSFP+ 4 x 10GBASE SR4 module
+
+40GbE/OTN PIC for 
+second-generation 
+FPC, QSFP+ pluggable 
+optics
+
+QSFPP-40GBASE-SR4 One 40GBASE-SR4 QFP+ pluggable 
+
+module
+
+QSFPP-40GBASE-LR4 One 40GBASE-LR4 QSFP+ pluggable 
+
+module
+
+QSFPP-4X10GE-LR
+
+QSFP+ 4 x 10GBASE LR4 module
+
+P2-100GE-CFP2
+
+4 x 100GbE PIC for 
+second-generation FPC, 
+CFP2 pluggable optics
+
+CFP2-100G-LR4-D
+
+CFP2-100G-ER4-D
+
+100GBASE-LR4 CFP2 dual-rate 
+(Ethernet and OTN rate) pluggable 
+module
+
+100GBASE-ER4 CFP2 dual-rate 
+(Ethernet and OTN rate) pluggable 
+module 
+
+CFP2-100GBASE-LR4
+
+CFP2 100GbE optics
+
+CFP2-100GBASE-SR10
+
+CFP2 100GbE short range optics for 
+Ethernet only
+
+P2-100GE-OTN
+
+4 x 100GbE Ethernet/
+OTN PIC for second-
+generation FPC, CFP2 
+pluggable optics
+
+CFP2-100G-LR4-D
+
+CFP2-100G-ER4-D
+
+100GBASE-LR4 CFP2 dual-rate (Ethernet 
+and OTN rate) pluggable module
+
+100GBASE-ER4 CFP2 dual-rate (Ethernet 
+and OTN rate) pluggable module 
+
+P3-24-U-QSFP28
+
+24 x 40GbE, 96 x 10GbE 
+QSFPP, universal PIC for 
+third-generation FPC
+
+CFP2-100GBASE-LR4
+
+CFP2 100GbE optics
+
+CFP2-100GBASE-SR10
+
+CFP2 100GbE short range optics for 
+Ethernet only
+
+QSFPP-4x10GBASE-
+SR4
+
+4x10GBASE-SR4 QSFP+ pluggable 
+module
+
+QSFPP-4x10GBASE-
+LR4
+
+4x10GBASE-LR4 QSFP+ pluggable 
+module
+
+QSFPP-40GBASE-SR4
+
+40GBASE-SR4 QSFP+ pluggable module
+
+QSFPP-40GBASE-LR4
+
+40GBASE-LR4 QSFP+ pluggable module
+
+PTX5000 FPC1
+PTX5000 FPC2
+PTX5000 FPC3-
+2Tbps
+PTX5000 FPC3-
+3Tbps
+PTX3000 SFF-FPC1
+PTX3000 SFF-FPC3
+
+PTX5000 FPC2
+PTX5000 FPC3-
+2Tbps
+PTX5000 FPC3-
+3Tbps
+PTX3000 SFF-FPC3
+
+PTX5000 FPC2
+PTX5000 FPC3-
+2Tbps
+PTX5000 FPC3-
+3Tbps
+
+PTX5000 FPC2
+PTX5000 FPC3-
+2Tbps
+PTX5000 FPC3-
+3Tbps
+PTX3000 SFF-FPC3
+
+PTX5000 FPC3-
+2Tbps
+PTX5000 FPC3-
+3Tbps
+PTX3000 SFF-FPC3
+
+10
+
+Data SheetPTX5000 and PTX3000 PICs PIC Model Number PIC Description
+
+P3-15-U-QSFP28
+
+15 x 100GbE QSFP28 or 
+15 x 40GbE, 60 x 10GbE 
+QSFPP, universal PIC for 
+third-generation FPC
+
+Pluggable Model 
+Number
+QSFPP-4x10GBASE-
+SR4
+
+4x10GBASE-SR4 QSFP+ pluggable 
+module
+
+QSFPP-4x10GBASE-
+LR4
+
+4x10GBASE-LR4 QSFP+ pluggable 
+module
+
+QSFPP-40GBASE-SR4
+
+40GBASE-SR4 QSFP+ pluggable module
+
+QSFPP-40GBASE-LR4
+
+40GBASE-LR4 QSFP+ pluggable module
+
+QSFP-100GBASE-SR4
+
+QSFP-100GBASE-LR4
+
+100GBASE-SR4 QSFP28 (Ethernet only) 
+pluggable module
+
+100GBASE-LR4 QSFP28 (Ethernet only) 
+pluggable module
+
+Pluggable Description
+
+Compatibility
+
+PTX5000 FPC3-
+2Tbps
+PTX5000 FPC3-
+3Tbps
+
+P3-10-U-QSFP28
+
+10 x 100GbE QSFP28 or 
+10 x 40GbE, 40 x 10GbE 
+QSFPP, universal PIC for 
+third-generation FPC
+
+QSFPP-4x10GBASE-
+SR4
+
+4x10GBASE-SR4 QSFP+ pluggable 
+module
+
+QSFPP-4x10GBASE-
+LR4
+
+4x10GBASE-LR4 QSFP+ pluggable 
+module
+
+PTX5000 FPC3-
+2Tbps
+PTX3000 SFF-FPC3
+
+QSFPP-40GBASE-SR4
+
+40GBASE-SR4 QSFP+ pluggable module
+
+QSFPP-40GBASE-LR4
+
+40GBASE-LR4 QSFP+ pluggable module
+
+QSFP-100GBASE-SR4
+
+QSFP-100GBASE-LR4
+
+100GBASE-SR4 QSFP28 (Ethernet only) 
+pluggable module
+
+100GBASE-LR4 QSFP28 (Ethernet only) 
+pluggable module
+
+TCFP2-100G-C (CFP2-
+ACO)
+
+TCFP2-100G-C CFP2-ACO, pluggable 
+module
+
+N/A
+
+N/A
+
+PTX5000 FPC3-
+2Tbps
+PTX5000 FPC3-
+3Tbps
+PTX3000 SFF-FPC3
+
+Only Supported in 
+PTX3000
+
+N/A
+
+N/A
+
+Only Supported in 
+PTX3000
+
+PTX-5-100G-DWDM 5 x 100GbE OTN 
+
+DWDM, CFP2-ACO, PIC 
+for third-generation FPC
+
+PTX-IPLC-B-32
+
+PTX-IPLC-E-32
+
+32 Channel Mux/
+Demux with integrated 
+1x2 WSS, Optical 
+Pre-amplifier, Booster 
+amplifier, OSC; C-band, 
+Odd; 100GHz, LC;  Up to 
+64 channels supported 
+with PTX-IPLC-E-32 
+(sold separately)
+
+32 Channel Passive 
+Mux/Demux; C-band, 
+Even, 50GHz, LC
+
+About Juniper Networks
+Juniper Networks challenges the status quo with products, solutions and services that transform the economics of networking. Our team 
+co-innovates with customers and partners to deliver automated, scalable and secure networks with agility, performance and value. 
+Additional information can be found at Juniper Networks or connect with Juniper on Twitter and Facebook.
+
+EXPLORE JUNIPER
+Get the App.
+
+Corporate and Sales HeadquartersJuniper Networks, Inc. 1133 Innovation WaySunnyvale, CA 94089 USAPhone: 888.JUNIPER (888.586.4737)or +1.408.745.2000Fax: +1.408.745.2100www.juniper.net Copyright 2016 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, and Junos are registered trademarks of Juniper Networks, Inc. in the United States and other countries. All other trademarks, service marks, registered marks, or registered service marks are the property of their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice.APAC and EMEA HeadquartersJuniper Networks International B.V.Boeing Avenue 2401119 PZ Schiphol-RijkAmsterdam, The NetherlandsPhone: +31.0.207.125.700Fax: +31.0.207.125.701Data SheetPTX5000 and PTX3000 PICs 1000547-004-EN   Dec 2016
