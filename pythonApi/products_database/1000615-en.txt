@@ -1,0 +1,547 @@
+QFX10000 Coherent DWDM 
+Line Card  
+
+Product Overview 
+
+Part of Juniper’s Open Cloud 
+Interconnect solution, the 
+QFX10000 Coherent DWDM 
+Line Card is an extension of 
+Juniper’s flagship QFX10000 
+line of Switches. Installed in 
+the modular QFX10008 and 
+QFX100016 switching platforms, 
+the QFX10000 Coherent DWDM 
+Line Card helps customers achieve 
+operational simplicity by providing 
+a single interface for managing IP 
+and DWDM without compromising 
+density and security.
+
+ 
+
+Product Description
+Distributed cloud applications, video streaming, and mobile applications are causing an 
+explosion in data center traffic growth, creating the need to interconnect geographically 
+dispersed locations to create a single hyperscale logical resource pool. 
+
+To achieve this interconnectivity, cloud operators are deploying isolated packet and 
+dense wavelength-division multiplexing (DWDM) equipment as separate domains with 
+independent management tools. Integrating DWDM into Juniper Networks® QFX10000 line of 
+Switches eliminates these operational silos by bringing packet and optical into a converged 
+architecture, while the integration of coherent optics into the QFX10000 Switches reduces 
+space and power consumption and eliminates the high cost of external transponder shelves. 
+
+The high availability and traffic engineering features available on the QFX10000 Switches 
+complement integrated coherent DWDM into a single multilayer Data Center Interconnect 
+(DCI) environment, all managed by Juniper Networks Junos® operating system. The 
+modular QFX10000 Switches, the QFX10008 and QFX10016, offer up to 19.2 Tbps of 
+DWDM capacity in a single system with line-rate encryption. The six-port QFX10000 
+Coherent DWDM Line Card is equipped with flex modulation technology, enabling 200 
+Gbps, 150 Gbps, or 100 Gbps line rates to support cloud data center applications such 
+as cloud interconnect, metro connect, and enhanced disaster recovery. The line card also 
+supports line-rate Ethernet protocols, Layer 3, MPLS, and Virtual Extensible LAN (VXLAN) 
+features used to create Layer 2 or Layer 3 services over a DWDM network. 
+
+The QFX10000 Coherent DWDM Line Card is built on Juniper Networks Q5 silicon, which, 
+in addition to rich L2 and L3 Ethernet features, offers the large logical scale and deep 
+buffers required for collapsed DCI deployments. The QFX10000 Coherent DWDM Line 
+Card will interoperate with any Ethernet client cards and any common components of the 
+QFX10000 line’s chassis.
+
+Integrated Coherent DWDM Line Card Capabilities on the QFX10000
+•  Offers leading density, performance, and economics for cloud-scale applications
+
+•  Simplifies cloud deployment by collapsing spine/DCI into a single network
+
+•  Provides consistent management interface for both packet and optical using Junos OS
+
+•  Works with Juniper Networks proNX Service Manager for optical wavelength 
+
+activation and monitoring
+
+•  Supports IP over DWDM for L2 or L3 applications
+
+Industry-Leading DWDM Density 
+•  19.2 Tbps per system with QFX10016
+
+•  25.6 Tbps per fiber pair with 128 channels 
+
+•  1.2 Tbps per line card; 6x200 Gbps per line card
+
+•  1.2 Tbps Packet Forwarding Engine (PFE) with deep buffers and large forwarding 
+
+information base (FIB) 
+
+1
+
+Data SheetHighly Secure Cloud Connections 
+
+•  1.2 Tbps line rate IEEE 802.1AE Media Access Control 
+
+Security (MACsec) encryption across all ports
+
+•  Up to 12x100GbE, 256-bit encryption
+
+Superior Performance for Metro or Long-Haul 
+Applications
+
+•  Flex modulation to support both metro or long haul on the 
+
+same line card
+
+•  120 km without amplification
+
+•  4,000 km with amplification
+
+•  200 Gbps DP-16QAM (approximately 1000 km)
+
+•  150 Gbps DP-8QAM (approximately 2,000 km)
+
+•  100 Gbps DP-QPSK (approximately 4,000 km) 
+
+•  Configurable modulation 
+
+Open and Programmable 
+
+•  Alien wavelength support over third-party line system
+
+•  YANG data model
+
+•  Junos OS CLI and SNMP
+
+Architecture and Key Components
+Integrated DWDM Solutions for the Open Cloud 
+Interconnect Solution
+
+The QFX10000 Coherent DWDM Line Card integrates rich L2 and 
+L3 packet features, scale, security, and high-density DWDM in a 
+single line card to dramatically simplify cloud connectivity. Today, 
+cloud operators maintain dedicated network layers for the spine 
+and data center edge, driving capital and operating costs higher. 
+
+The feature-rich QFX10000 helps data center operators simplify 
+their networks by collapsing multiple layers such as spine and 
+optical DCI into a single platform. This architecture eliminates 
+dedicated transponder shelves and removes the costs associated 
+with 100GbE client optics between Ethernet line cards and 
+transponder chassis, providing a common interface for managing 
+both IP and DWDM layers. 
+
+200 Gbps DWDM and MACsec in the QFX10000: 
+Powering Open Cloud Interconnect
+
+The QFX10000 Coherent DWDM Line Card integrates 
+transponders into the switching platform, providing state-of-the-
+art compensation dispersion using soft-decision forward error 
+correction (FEC) support. Supporting distances from 120 to 4000 
+km, the QFX10000 Coherent DWDM Line Card addresses a wide 
+range of use cases spanning metro, regional, and long-haul cloud 
+interconnect architectures. Highly configurable, the same line 
+card will support both metro applications of less than 120 km 
+without amplification and long-haul applications up to 4000 km 
+with amplification.
+
+Line-rate MACsec encryption is built into the line card, ensuring 
+that all traffic will be securely encrypted at any distance needed 
+over third-party optical line systems (OLS). The QFX10000 
+Coherent DWDM Line Card provides a YANG API, enabling easy, 
+standards-based integration into third-party controllers or 
+into turnkey solutions such as Juniper Networks proNX Service 
+Manager for end-to-end optical provisioning. 
+
+In addition to DWDM and MACsec support, the QFX10000 Coherent 
+DWDM Line Card employs Q5 silicon to further enhance cloud 
+interconnect deployments with L2 and L3 services over DWDM, 
+including VXLAN, Ethernet VPN (EVPN), BGP, and MPLS features.
+
+Traditional DCI
+
+QFX10000 DWDM DCI
+
+100 Gbps
+
+Optics
+
+Figure 1: Simplified QFX10000 DWDM for cloud scale data center interconnects
+
+2
+
+Data SheetQFX10000 Coherent DWDM Line Card e
+c
+
+i
+
+v
+r
+e
+S
+
+proNX
+
+Open APIs
+
+Layer 2, Layer 3 services over DWDM
+
+Encryption
+
+120 - 4000km
+
+Figure 2: QFX10000 DWDM cloud interconnect solution
+
+Features and Benefits
+QFX10000 Modular Switches
+
+The QFX10000 line of industry-leading switches offers a highly 
+scalable, high-density network foundation for spine applications, 
+supporting today’s most demanding data center and cloud 
+environments. With the addition of the Coherent DWDM Line 
+Card, customers can further simplify data center operations 
+and reduce costs by collapsing multiple network layers into a 
+converged DCI architecture. 
+
+Each QFX10000 Ethernet line card is unique in its ability to 
+support tri-speed 10GbE, 40GbE, and 100GbE connections. This 
+enables customers to transition seamlessly from one speed to 
+another as their needs change. The unprecedented port density, 
+high logical table sizes, and up to 100 ms deep packet buffers 
+allow customers to deploy the most scalable systems necessary 
+to meet the exponential data growth in the data center.
+
+Each QFX10000 line card is built upon the Juniper Q5 silicon, 
+which supports a wide range of L2 and L3 Ethernet functionality 
+such as 802.1Q VLAN, VXLAN, link aggregation, Virtual Router 
+Redundancy Protocol (VRRP), L2 to L3 mapping, and port 
+
+Table 1: QFX10000 Ethernet Line Cards
+
+monitoring. Additionally, the line cards support filtering, sampling, 
+load balancing, rate limiting, class of service (CoS), MPLS, Fibre 
+Channel over Ethernet (FCoE) transit functionality, and other 
+key features needed to deploy a dependable, lossless, high-
+performance Ethernet infrastructure. 
+
+Secure DWDM Transport
+
+The QFX10000 Coherent DWDM Line Card supports line-rate 
+100GbE MACsec encryption on all ports up to 1.2 Tbps, with a 
+built in advanced Layer 2 encryption engine based on standard 
+IEEE 802.1AE, 256-bit, and 128-bit Advanced Encryption 
+Standard (AES) algorithms to offer end-to-end security over 
+the DWDM transport network. The MACsec integration on the 
+QFX10000 Coherent DWDM Line Card eliminates the need for 
+dedicated appliances and provides privacy and confidentiality 
+with replay protection for sensitive tenant data traffic before 
+leaving the cloud data center premises. MACsec support also 
+includes both static connectivity association key (CAK) and 
+dynamic CAK authentication. 
+
+The MACsec feature is available on all ports to provide maximum 
+security for cloud interconnects. No additional licenses are 
+required to enable this feature.
+
+Maximum 10GbE port density 
+
+Maximum 40GbE port density
+
+Maximum 100GbE port density
+
+Buffer 
+
+QFX10000-36Q
+
+144 (channelized)
+
+QFX10000-30C
+
+QFX10000-60S-6Q
+
+NA0 (native); 120 (channelized)
+
+60 (native); 24 (channelized)
+
+36
+
+12
+
+12 GB
+
+30
+
+30
+
+12 GB
+
+6
+
+2
+
+8 GB
+
+QFX10000 Coherent DWDM Line Card
+
+3
+
+Data SheetQFX10000 Coherent DWDM Line Card Specifications
+The QFX10000 Coherent DWDM Line Card is built with Juniper’s 
+Q5 PFE ASIC, a high-performance coherent digital signal 
+processor (DSP), and a 100GbE MACsec module to deliver 1.2 
+Tbps of secure DWDM bandwidth. Each port has a fixed LC 
+connector and supports flex modulation to configure 200 Gbps, 
+150 Gbps, or 100 Gbps. 
+
+The Coherent DWDM Line Card delivers 10 million packets per 
+second with 12 GB buffers and up to 2M-route scale. Its virtual 
+output queue (VOQ)-based architecture is designed to scale 
+to very large deployments with no head-of-line blocking, and 
+includes a single-tier low-latency switch fabric, efficient multicast 
+replication handling, and deep buffering to ensure performance 
+at scale. 
+
+Table 2: QFX10000 Coherent DWDM Line Card Specifications 
+
+Total PFE/DWDM/MACsec 
+capacity
+
+QFX10000-6C-DWDM
+
+1.2 Tbps
+
+MACsec 
+
+IEEE 802.IAE 256 bit, 128- bit AES 
+
+encryption
+
+Data rate/port
+
+200 Gbps, 150 Gbps, or 100 Gbps
+
+Maximum 200 Gbps ports
+
+Maximum 150 Gbps ports 
+
+Maximum 100 Gbps ports 
+
+Packet buffer
+
+Weight
+
+Typical power
+
+Dimensions
+
+6
+
+6
+
+6
+
+12 GB
+
+32 lb (14.5 kg)
+
+900 W
+
+17.2 x 1.89 x 20.54 in (43.7 x 4.8 x  
+
+52.2 cm)
+
+Chassis support
+
+QFX10008, QFX10016
+
+Table 3: QFX10000 Coherent DWDM Optical Module Specification 
+
+Optical Module
+
+Fiber type
+
+Connector type
+
+Wavelength range
+
+Wavelength grid
+
+Integrated, On-board 
+
+Single-mode fiber-optic (SMF, ITU-T G.652)
+
+Duplex LC/UPC connector
+
+Extended C-band, 1528.773 nm (196.10 THz) to 1568.362 nm (191.35 THz)
+
+12.5 GHz or 50 GHz
+
+Number of DWDM channels
+
+96 (50-GHz spacing) or 128 (37.5-GHz spacing)
+
+Tx output power (on)
+
+Tx output power (off)
+
+Wavelength accuracy
+Tx output optical signal-to-noise ratio 
+(OSNR)
+
+-12 to 1.5 dBm, 0.1 dB steps, +/-1 dB accuracy
+
+≤ -40 dBm
+
++/-1.8 GHz
+≥ 36 dB
+
+Tx channel tuning time 
+
+≤ 90 seconds across C-band
+
+Laser safety
+
+Modulation
+
+IEC 60825-1 Class 1
+
+16 QAM, 8 QAM, quadrature phase shift keying (QPSK)
+
+Forward error correction (FEC)
+
+SD-FEC
+
+Modulation formats
+
+Optical carriers
+
+Line rate
+
+Baud rate
+
+Payload
+
+FEC code
+
+Pre-FEC BER threshold
+
+Net coding gain (NCG)
+
+Periodical training sequence
+
+Differential coding
+
+Rx input power range
+
+Rx input power range
+(unamplified/dark-fiber applications)
+
+Rx overload power
+
+Minimum OSNR (typical)
+
+Minimum OSNR (worse-case, EOL)
+
++17 dBm
+
+10.5 dB
+
+11.5 dB
+
+Chromatic Dispersion (CD) tolerance
+
++/- 70,000 ps/nm
+
+Polarization Mode Dispersion (PMD) 
+tolerance
+
+30 ps mean DGD
+
+100 Gbps QPSK
+
+150 Gbps 8 QAM
+
+200 Gbps 16 QAM
+
+136.66 Gbps
+
+205 Gbps
+
+273.33 Gbps
+
+Single-Carrier
+
+34.17 Gbaud
+
+1 x 100GBASE-R Ethernet
+
+½ [3 x 100]GBASE-R]
+
+2 x 100GBASE-R Ethernet
+
+Turbo Product Code (TPC) with soft-decision, 25% OH
+
+~3.4e-2 pre-FEC BER for 1e-15 post-FEC BER
+
+11.6 dB
+
+~12 dB
+
+12.3 dB
+
+Yes
+
+Configurable
+
+-18 dBm to 0 dBm
+
+-32 dBm to 0 dBm
+
+-27 dBm to 0 dBm
+
+-25 dBm to 0 dBm
+
+15.0 dB
+
+16.0 dB
+
+18 dB
+
+19.5 dB
+
++/- 45,000 ps/nm
+
+20 ps mean DGD
+
++/- 30,000 ps/nm
+
+15 ps mean DGD
+
+Polarization tracking speed
+
+100 krad/s
+
+50 krad/s
+
+50 krad/s
+
+4
+
+Data SheetQFX10000 Coherent DWDM Line Card Ordering Information
+Product Number
+
+Description 
+
+QFX10K-12C-DWDM
+
+1.2 Tbps 6-port 200GbE line rate Coherent 
+DWDM line card with MACsec for 
+QFX10000 modular switches
+
+About Juniper Networks
+
+Juniper Networks challenges the status quo with products, 
+solutions and services that transform the economics of 
+networking. Our team co-innovates with customers and partners 
+to deliver automated, scalable and secure networks with agility, 
+performance and value. Additional information can be found at 
+Juniper Networks or connect with Juniper on Twitter and Facebook.
+
+Corporate and Sales HeadquartersJuniper Networks, Inc. 1133 Innovation WaySunnyvale, CA 94089 USAPhone: 888.JUNIPER (888.586.4737)or +1.408.745.2000Fax: +1.408.745.2100www.juniper.net Copyright 2017 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, Juniper, and Junos are registered trademarks of Juniper Networks, Inc. in the United States and other countries. All other trademarks, service marks, registered marks, or registered service marks are the property of their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice. APAC and EMEA HeadquartersJuniper Networks International B.V.Boeing Avenue 2401119 PZ Schiphol-RijkAmsterdam, The NetherlandsPhone: +31.0.207.125.700Fax: +31.0.207.125.701Data SheetQFX10000 Coherent DWDM Line Card  1000615-002-EN   July 2017EXPLORE JUNIPERGet the App.

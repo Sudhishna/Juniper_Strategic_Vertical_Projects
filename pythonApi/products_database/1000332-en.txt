@@ -1,0 +1,421 @@
+Junos Space Security Director
+
+Product Overview
+
+In today’s complex environment, 
+network security management 
+can become overly time 
+consuming and prone to error if 
+management solutions are slow, 
+unintuitive, or restricted in their 
+level of granularity, control, and 
+visibility. Junos Space Security 
+Director provides security policy 
+management for all physical, 
+logical, and virtual firewalls 
+(SRX Series Services Gateways 
+and vSRX) through an intuitive, 
+centralized, web-based interface 
+that offers enforcement across 
+emerging and traditional risk 
+vectors.
+
+With the addition of Policy 
+Enforcer, Security Director 
+automatically updates policies 
+based on threats identified by 
+Sky Advanced Threat Prevention 
+malware detection in the cloud, 
+as well as those found by on-
+premises threat intelligence 
+solutions.  Updated policies are 
+then distributed to enforcement 
+points such as firewalls and 
+switches, ensuring up-to-the-
+minute network protection.
+
+Product Description 
+Juniper Networks® Junos® Space Security Director, an application that runs on the 
+innovative, intuitive, and intelligent Junos Space Network Management Platform, provides 
+detailed visibility into application performance, reducing risk while enabling users to move 
+quickly from “knowing” something is wrong to “doing” something to fix the problem.
+
+Providing extensive scale, granular policy control, and policy breadth across the network, 
+Security Director helps administrators manage all phases of the security policy life cycle 
+for stateful firewall, unified threat management (UTM), intrusion prevention, application 
+firewall (AppFW), VPN, and Network Address Translation (NAT) through a centralized 
+web-based interface. Security Director reduces management costs and errors by providing 
+actionable intelligence, automation, efficient security policy, intuitive workflows, and a 
+powerful application and platform architecture, allowing users to detect threats as they 
+happen and apply remedial actions in real time.
+
+Policy Enforcer simplifies and automates the process of deploying up-to-the-minute 
+enforcement.  An intuitive user interface gives administrators the flexibility to selectively 
+control and modify network elements, enforcement groups, threat management services, 
+and profile definitions.
+
+The Security Director dashboard provides customizable, information-rich widgets offering 
+visually intuitive displays that report security device status at a glance. A pallet allows you 
+to easily navigate between firewall, threat, intrusion prevention system (IPS), application, 
+throughput and device-related information, which can be used to create a customized view 
+of the Juniper Networks SRX Series Services Gateways firewall environment. 
+
+Through the dashboard, you can quickly determine which SRX Series devices have the 
+most alarms, or which have consumed the most CPU cycles or RAM for a specific time 
+period. A Threat Map widget shows the number of IPS events detected per geographic 
+location, giving you industry-leading information gathering and remediation capabilities.
+
+Figure 1: Junos Space Security Director dashboard
+
+1
+
+Data SheetFigure 2: Application Visibility dashboard feature
+
+Drilling down on widgets, users can sort and search various 
+events to effortlessly obtain detailed information such as top 
+viruses blocked, top destinations, top sources, and other details 
+that can be used to ensure that the network is safe.
+
+Blocking traffic from a specific country is also easy and intuitive.  
+Using Security Director’s Live Threat Map, it’s not only possible 
+to see where threats are originating, you can also block traffic 
+coming from or going to a selected geographic location.
+
+Security Director offers the industry’s most innovative solution 
+for managing the application, user, and IP environment. Network 
+administrators can choose between three different views to see 
+how applications and users are affecting the network, observe 
+bandwidth utilization levels, or determine the number of sessions 
+created. Granular usage details, such as which applications 
+are the riskiest, can be viewed. Top talkers are easy to identify 
+and remediate. Different time frames can also be compared to 
+determine when utilization is typically at its peak. 
+
+Unlike other products, Security Director does not require 
+users to run multiple reports or open multiple tabs and then 
+manually analyze the data to determine who is using which 
+applications and to what extent. Instead, Security Director allows 
+administrators to easily correlate users to applications by simply 
+selecting an application icon or a user/user group icon. 
+
+Actionable Intelligence
+
+With most security management solutions, administrators have 
+to run a report or open several tabs to find the applications or 
+users they want to manage. Then they must manually create the 
+required firewall rules, determine where to place those rules, and 
+hope they don’t conflict with any existing rules, thereby creating 
+a host of new problems. This is a tedious, time-consuming, and 
+error-prone process. 
+
+Security Director offers an Actionable Intelligence feature that 
+eliminates the need to engage in this antiquated exercise. Using 
+Actionable Intelligence, administrators can select one or more 
+applications or user/user groups from the Application Visibility or 
+User Visibility charts, then simply select “Block.” Security Director 
+automatically creates the requested rule or rules and deploys 
+them in the optimal location within the rules base, avoiding 
+any anomalies and taking the guesswork out of managing the 
+application and user environment.
+
+Table 1: Junos Space Security Director Features and Benefits 
+
+Features
+
+Policy Enforcer
+
+Description
+
+Benefits
+
+Creates and centrally manages security policies 
+through a user intent-based system, evaluating threat 
+intelligence from multiple sources while dynamically 
+enforcing policies in near real time across the network.
+Enforces threat management policies at firewalls and 
+access switches, aggregating threat feeds from Sky 
+Advanced Threat Prevention, Spotlight Secure, and 
+on-premises custom threat intelligence solutions with 
+white and black list support.
+
+•  Reduces risk of compromise by eliminating stale 
+
+rules and automatically updating enforcement 
+based on network threat conditions.
+Improves protective posture by quarantining and 
+tracking infected hosts.
+
+• 
+
+•  Allows security practitioners to focus on maximizing 
+
+security rather than writing tedious policy rules.
+
+Firewall policy analysis 
+
+Provides ability to schedule reports that show which 
+firewall rules are shadowed or redundant, and 
+recommends actions to fix all reported issues.
+
+Allows administrators to maintain an efficient 
+firewall rule base by easily identifying ineffective and 
+unnecessary rules. 
+
+2
+
+Data SheetJunos Space Security DirectorFeatures
+
+Description
+
+Benefits
+
+Firewall rule replacement 
+guidance 
+
+Firewall policy hit count 
+
+Live threat map 
+
+Innovative application 
+visibility and management 
+
+Upon creation of a new rule, analyzes existing firewall 
+rule base to recommend optimal position and 
+application.
+
+Shows hit counts for each firewall via meters, as well 
+as filters that display which rules are hit the least. 
+Security Director also has the ability to keep a lifetime 
+hit count. 
+
+Displays where threats are originating in near real time 
+and allows you to take action to stop them.
+
+Provides an easy and intuitive way to see which 
+applications use the most bandwidth, have the most 
+sessions, or are most at risk. Know which users are 
+accessing non-productive applications and by how 
+much.
+Top talkers are displayed in an easy-to-understand 
+manner.
+Block applications, IP address, and users with a simple 
+mouse click.
+
+Significantly reduces shadowing rules. 
+
+Allows administrators to assess effectiveness of each 
+firewall rule and quickly identify unused rules, resulting 
+in a better managed firewall environment.
+
+Provides near real-time insight into network-related 
+threats. Allows you to block traffic going to or coming 
+from a specific country with a single click.
+
+Delivers greater visibility, enforcement, control, and 
+protection over the network.
+
+Simplified threat 
+management 
+
+Snapshot support 
+
+Policy life cycle 
+management 
+
+Reports where threats are originating and where they 
+are going via a global map. Blocking a country is easy; 
+simply mouse over the country to take action. 
+
+Provides insight needed to effectively manage network-
+related threats. Allows you to block traffic going to or 
+coming from a specific country with a single click.
+
+Allows users to snapshot, compare, and roll back 
+configuration versions.
+
+Simplifies configuration changes and allows recovery 
+from configuration errors.
+
+Provides ability to manage all phases of security policy 
+life cycles, including create, deploy, monitor, remediate, 
+and maintain.
+
+•  Enables central control over stateful firewall, 
+
+AppFW, UTM, IPS, VPN, and NAT in one Junos Space 
+Security Director management console.
+
+Drag-and-drop 
+
+Allows firewall, IPS, and NAT rules to be reordered by 
+simply dragging them to a new location.
+
+VPN auto provisioning and 
+import 
+
+Role-based access for 
+policies and objects 
+
+Simply tell Security Director which VPN topology to 
+use and which devices you want to participate in the 
+topology, and Security Director will auto-provision 
+the tunnels.  If you have an existing Juniper VPN 
+environment, Security Director can import the VPNs to 
+provide an easy and effective way to manage them.
+
+Allows devices, policies, and objects to be placed 
+within domains and assigns read/write permissions to 
+a user.
+
+•  Eases administration by unifying common policy 
+
+tasks within a single interface.
+
+•  Reduces errors by enabling reuse of policies across 
+
+multiple devices.
+
+Enables firewall, IPS, and NAT objects to be added or 
+copied by dragging them from one cell to another, or 
+from a pallet located at the bottom of the policy table.
+
+Makes pre-existing SRX Series VPNs easier to manage.
+
+Provides customers a way to segment administrative 
+responsibility for policies and objects.
+
+REST APIs for automation 
+
+Provides RESTful APIs that can be used in conjunction 
+with automation tools.
+
+Automates configuration and management of physical, 
+logical, or virtual SRX Series devices. 
+
+Logging and reporting 
+through Junos Space Log 
+Director application 
+
+Enables integrated logging and reporting.
+
+Tight coupling with Junos Space Security Director: 
+•  Displays rules and events in same window 
+•  Allows administrator to easily shift views from logs 
+
+to corresponding rules and vice versa
+
+Direct access to Junos Space Security Director policies 
+and objects: 
+•  Role-based access control (RBAC) 
+•  Event viewer for events aggregation and filtering 
+•  Dashboard with customizable graphs 
+•  Reports generated and automatically sent via e-mail 
+•  E-mail alerts automatically generated based on 
+
+threshold 
+
+SRX Series health monitoring: 
+•  CPU utilization 
+•  Memory utilization 
+•  VPN monitoring 
+System log forwarding to security information and 
+event management (SIEM)
+
+3
+
+Data SheetJunos Space Security DirectorSpecifications
+Client Browser Support
+
+Ordering Information 
+Junos Space Appliance
+
+Security Director is best viewed on the following browsers: 
+
+•  Google Chrome v.33.x and above 
+
+• 
+
+Internet Explorer v.10.x and above 
+
+•  Firefox v.30.x and above 
+
+•  Safari v.7.x and above 
+
+VMware Version
+
+Junos Space works with VMware vSphere 4.0 and above.
+
+Junos (Operating System) Software 
+
+The SRX Series Services Gateways run Junos OS software. 
+Junos Space Security Director runs on Juniper devices running 
+Junos OS 10.3 and later releases.
+
+Junos Space Network Management Platform
+
+Junos Space Security Director 16.1 runs on Junos Space 16.1.
+
+Juniper Networks Services and Support
+Juniper Networks is the leader in performance-enabling services 
+that are designed to accelerate, extend, and optimize your 
+high-performance network. Our services allow you to maximize 
+operational efficiency while reducing costs and minimizing 
+risk, achieving a faster time to value for your network. Juniper 
+Networks ensures operational excellence by optimizing the 
+network to maintain required levels of performance, reliability, 
+and availability. For services information specific to Junos Space 
+Security Director, please consult the Junos Space Security 
+Director with NSM Import QuickStart Service or the Junos Space 
+Security Director QuickStart Service data sheets. For more 
+details, please visit www.juniper.net/us/en/products-services. 
+
+Junos Space Virtual Appliance includes the complete Junos Space 
+software package as well as the Junos OS operating system. It 
+requires users to create a virtual machine in order to deploy the 
+appliance. The recommended specifications for the virtual machine 
+are identical to the specifications of the physical appliance. See 
+www.juniper.net/documentation/en_US/junos-space14.1/topics/
+concept/junos-space-virtual-appliance-overview.html 
+
+Product Number
+JA2500-A-BSE
+
+Description
+Base Appliance
+
+Junos Space Security Director
+
+Junos Space Security Director software is licensed based on the 
+number of security devices you will manage. For example, if you 
+will be managing 100 SRX Series Services Gateways, then you 
+would purchase a single license for JS-SECDIR-100. 
+
+Product Number
+JS-SECDIR-5 
+
+JS-SECDIR-10  
+
+JS-SECDIR-100  
+
+Description
+Junos Space Security Director license 
+for 5 devices
+
+Junos Space Security Director license 
+for 10 devices
+
+Junos Space Security Director license 
+for 100 devices
+
+About Juniper Networks
+Juniper Networks challenges the status quo with products, 
+solutions and services that transform the economics of 
+networking. Our team co-innovates with customers and partners 
+to deliver automated, scalable and secure networks with agility, 
+performance and value. Additional information can be found at 
+Juniper Networks or connect with Juniper on Twitter and Facebook.
+
+EXPLORE JUNIPER
+Get the App.
+
+Corporate and Sales HeadquartersJuniper Networks, Inc. 1133 Innovation WaySunnyvale, CA 94089 USAPhone: 888.JUNIPER (888.586.4737)or +1.408.745.2000Fax: +1.408.745.2100www.juniper.net Copyright 2017 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, and Junos are registered trademarks of Juniper Networks, Inc. in the United States and other countries. All other trademarks, service marks, registered marks, or registered service marks are the property of their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice.APAC and EMEA HeadquartersJuniper Networks International B.V.Boeing Avenue 2401119 PZ Schiphol-RijkAmsterdam, The NetherlandsPhone: +31.0.207.125.700Fax: +31.0.207.125.701Data SheetJunos Space Security Director1000332-018-EN  Apr 2017

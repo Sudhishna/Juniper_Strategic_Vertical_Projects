@@ -1,0 +1,1375 @@
+CTP Series Circuit to 
+Packet Platforms
+
+Product Overview
+
+Juniper Networks CTP Series 
+Circuit to Packet Platforms 
+provide the advanced technology 
+and features required to 
+reliably transport time-division 
+multiplexing and other circuit-
+based applications across next-
+generation IP/MPLS networks. 
+The CTP Series has the field-
+proven flexibility, performance 
+and reliability required for circuit 
+applications. The CTP Series 
+technology includes many 
+advanced clocking options and 
+per-circuit buffers to enable end-
+to-end timing and the removal 
+of jitter to create a psuedowire 
+across the IP/MPLS network.  The 
+CTP Series enables customers to 
+connect digital and analog voice 
+applications easily and reliably 
+across the IP network using circuit 
+emulation over IP, bringing them 
+the advantages of converged 
+multiservice IP networking 
+without the complexities and 
+cost of upgrades required for 
+VoIP. The CTP Series bridges the 
+legacy and IP world and provides 
+many unique features that enable 
+cost reduction by eliminating 
+point-to-point circuits and 
+convergence of all applications 
+onto one IP/MPLS network. 
+
+Your ideas. Connected.™
+
+Product Description 
+With the ongoing deployment of IP networks, the efficiency and cost-savings gains of IP are 
+being realized for a variety of applications and functions. Largely left out of this evolution 
+have been the circuit-based applications such as time-division multiplexing (TDM) leased 
+line and voice private branch exchange (PBX) connections, serial encryption connections, 
+and analog and digital radio systems networking, because their synchronous transport 
+requirements are not addressed by a packet-based network. The Juniper Networks® 
+CTP Series Circuit to Packet Platforms enable customers to connect these circuit-based 
+applications easily and reliably across the IP network, bringing them the advantages of 
+converged multiservice IP networking.
+
+The CTP Series includes the Juniper Networks CTP150, CTP2008, CTP2024, CTP2056 
+Circuit to Packet Platforms, and the Juniper Networks CTPView Network Management 
+System. The products are designed for government agencies, enterprises and service 
+providers running circuit-based applications and range in size, port capacity and 
+redundancy options.
+
+Product
+CTP150
+
+CTP2008
+
+CTP2024
+
+CTP2056
+
+CTPView
+
+Features
+The CTP150 Circuit to Packet Platform supports 4 to 8 interfaces of circuit 
+emulation traffic in a 1 RU rack mountable chassis. The 4-port interface options 
+include T1/E1 and serial, and they interwork with any CTP Series product.
+The CTP2008 Circuit to Packet Platform is a 1 RU rack mountable chassis 
+that supports up to 8 circuit emulation interfaces. The interface modules are 
+software configurable and are the same across the CTP2000 line.
+The CTP2024 Circuit to Packet Platform is a 2 RU rack mountable chassis that 
+supports up to 24 circuit emulation interfaces. The chassis includes the option 
+for redundant power.
+The CTP2056 Circuit to Packet Platform is a 4 RU rack mountable chassis that 
+supports up to 56 circuit emulation interfaces. The chassis includes the option 
+for redundant power.
+The CTPView Network Management System provides network operators with 
+the tools necessary to monitor network availability, report on IP networks 
+performance, provision circuits, and troubleshoot circuit issues through a web-
+based GUI.
+
+1
+
+Data SheetRadio
+
+EIA-530
+RS-422
+RS-232
+
+Analog
+RS-232
+EIA-530
+Diphase
+
+Isochronous
+
+Line Encryptor
+
+EIA-530
+RS-422
+
+DS-1
+E-1
+
+TDM or PBX
+
+CTP2008
+
+Fast
+
+Ethernet
+
+M Series, 
+
+T Series, E Series
+
+Host
+
+M Series, 
+T Series, 
+E Series
+
+Multiservice
+
+Network
+
+M Series, 
+T Series, 
+E Series
+
+Radio
+
+EIA-530
+RS-422
+RS-232
+
+Analog
+RS-232
+EIA-530
+Diphase
+
+Isochronous
+
+CTP2008
+
+Fast
+
+Ethernet
+
+M Series, 
+T Series, 
+E Series
+
+Line Encryptor
+
+EIA-530
+RS-422
+
+DS-1
+E-1
+
+TDM or PBX
+
+Satellite
+modem
+
+CTP2008
+
+Fast
+
+Ethernet
+
+Network Management System
+- Provisioning
+- Troubleshooting
+- Monitoring
+- Performance Reports
+
+Primary Circuit to Packet Solutions
+Application Description
+Application
+
+SS7 transport over IP
+
+Provides transport of  dedicated T1 or E1 SS7 links over 
+the IP/MPLS network.
+
+Benefit
+
+Eliminates point-to-point T1 and E1 links required for 
+transporting SS7 traffic and allows convergence over 
+the  
+IP/MPLS network.
+
+TDM over IP solution
+
+The provisioning of point-to-point TDM trunks over 
+the IP network does not require changes to the TDM 
+equipment.
+
+Allows the continued use and investment protection of 
+the existing TDM equipment or an easy transition path 
+from a TDM network to an IP network.
+
+PBX interconnect  
+over IP solution
+
+Provides T1, E1 and 4WE&M trunking for PBX 
+interconnection over the IP network. 
+
+Reduce WAN infrastructure cost through the 
+elimination of costly point-to-point circuits and 
+leased lines required to support TDM and/or ATM 
+networks. Circuit emulation over IP enables seamless 
+transition to IP transport without upgrading your entire 
+infrastructure to VoIP.
+
+PBX Extension over IP 
+with 2WFXS/2WFXO
+
+Provides two-wire analog PBX to phone extensions 
+over IP and two-wire PBX to PBX/central office 
+connections over IP. Private-line automatic ringdown 
+(PLAR) is also supported.
+
+Reduces IT expenditures by enabling PBX tie lines to 
+be transported across less expensive IP data network 
+connections. Analog voice traffic is converted to IP, 
+eliminating the need for costly T1 tie lines.
+
+Leased line extension  
+over IP solution
+
+Radio over IP solution
+
+Supports standards-based encapsulation and DS0 
+bundling. IETF PWE3 RFCs, SAToP and CESoPSN are 
+supported.
+
+Enables full, fractional and DS0 bundling and mapping 
+of T1 and E1 service provisioned over an IP/MPLS 
+network and enables interoperability between vendors.
+
+Allows for connectivity of analog and digital radios  
+over IP networks.
+
+Provides a mechanism to deploy these systems over IP 
+networks while maintaining critical communications.
+
+Serial encryption  
+over IP solution
+
+Provides transport of KG/KIV bit-synchronous cipher 
+text across an IP network.
+
+Eliminates the need to deploy TDM or ATM 
+equipment—saving cost, time, space, and power.
+
+T1 and E1 backup over IP
+
+Point-to-point T1 or E1 circuits can be automatically 
+backed up over the IP/MPLS network. 
+
+Eliminates redundant point-to-point circuit costs. The 
+end application does not need to detect IP, saving 
+software and hardware upgrade costs.
+
+Features and Benefits
+Key features and benefits of the CTP Series Circuit to Packet Platforms include the following.
+
+Feature
+
+Software circuit 
+provisioning
+
+Scalable product family
+
+Feature Description
+
+Benefit
+
+EIA530, RS-232, V.35, 4WTO, T1, and E1 circuit types 
+are software configured including the line encoding, 
+clocking, rates, and IP settings.
+
+The network quickly fulfills new and changing end user 
+requirements without deploying excess hardware.
+
+A family of four CTP Series Circuit to Packet Platforms 
+provides different port densities. Products can address 
+the requirements of small remote sites through large 
+central network hubs.
+
+Network designers control costs by selecting the 
+CTP Series Circuit to Packet Platforms most suitable 
+for the site when considering circuit quantities and 
+anticipated growth.
+
+2
+
+Data SheetCTP Series Circuit to Packet PlatformsFeature
+
+Feature Description
+
+Benefit
+
+CTPView Network 
+Management System
+
+Secure, multi-user, web-based network management 
+system provides network monitoring, circuit 
+provisioning, IP performance reporting, database 
+backup, and circuit troubleshooting tools.
+
+Multiple system and 
+circuit clocking solutions
+
+CTP Series Circuit to Packet Platforms are designed 
+to use multiple external clocks as monitored and 
+prioritized system references. Circuits are configured 
+to use the system clock, external circuit timing, or to 
+adaptively recover clock information from the remote 
+port when required by the application or when no 
+reference is configured.
+
+Managers quickly deploy circuits and services while 
+proactively monitoring the network. IP performance 
+reports provide detailed information on IP network 
+jitter, delay and packet loss. Circuit troubleshooting 
+tools include integral BERTS and loops to facilitate 
+quick trouble resolution.
+
+Circuit reliability is improved since ports and systems 
+are configured with the clocking solution that is most 
+appropriate for the particular application.
+
+Auto switch
+
+Packet protector
+
+Autobaud
+
+Loops and BERTs
+
+Layer 2 IP aggregation
+
+The status of the CTP Series circuit ports is 
+monitored, and the circuit is automatically switched 
+to an alternate local or remote port when a failure is 
+detected.
+
+Network and circuit reliability are increased when 
+the circuits are automatically restored to alternate 
+locations and equipment in the event of an equipment, 
+site or network failure.
+
+Redundant packets are created and transmitted to the 
+IP network and then processed by the receiving CTP 
+Series.
+
+Circuit quality and reliability are increased when IP 
+connections experience significant packet loss caused 
+by bit errors.
+
+The input timing leads are monitored, and the circuit 
+rate is automatically changed at both ends of the 
+network if a rate change is detected.
+
+Each CTP Series port supports interface and network 
+loops and the ability to generate and monitor a 
+bit error rate test with up to nine BERT patterns 
+selectable.
+
+The CTP Series Circuit to Packet Platforms can 
+aggregate layer 2 traffic from serial EIA530 interfaces 
+onto a Fast Ethernet or Gigabit Ethernet interface. 
+Layer 2 protocols supported are Frame Relay, PPP and 
+Cisco-HDLC. Each CTP Series port is connected to a 
+different VLAN.
+
+Flexible rate agility enables immediate and automatic 
+provisioning changes.
+
+Support for standard circuit troubleshooting tools that 
+are built into the CTP Series help to quickly isolate 
+network, circuit or cable problems.
+
+The ability to aggregate layer 2 traffic on the CTP 
+Series from multiple EIA530 serial interfaces reduces 
+the router interfaces needed for low-speed EIA530 IP 
+aggregation.
+
+Port mirroring
+
+The CTP Series is able to port-mirror any transmit or 
+any receive up to 10 local or remote destinations.
+
+Analog voice—4WE&M
+
+The CTP Series supports analog 4WE&M type I, II,and 
+V interfaces with software selectable transmit and 
+receive-level adjustments per interface.
+
+Port mirroring minimizes the bandwidth required 
+to send the same traffic to multiple sites across 
+the network. It enables easy monitoring for 
+troubleshooting circuit problems. Port mirroring 
+enables the replication of data to multiple local or 
+geographically dispersed locations.
+
+The ability to support analog 4WE&M interfaces 
+allows the CTP Series Circuit to Packet Platforms 
+to offer another PBX trunking option. The 4WE&M 
+interface can also be used for radio interfaces with 
+push-to-talk requirements.
+
+Analog voice—2WFXS
+
+The CTP Series supports analog 2WFXS loop 
+start, ground start, and PLAR modes with software 
+selectable transmit and receive-level adjustments per 
+interface.
+
+The ability to support analog 2WFXS interfaces allows 
+the CTP Series Circuit to Packet Platforms to offer 
+2-wire voice extensions over IP for remote phones,  
+remote central office or PBX equipment.
+
+Analog voice—2WFXO
+
+The CTP Series support analog 2WFXO loop start and 
+ground start modes with software selectable transmit 
+and receive-level adjustments per interface.
+
+Voice compression
+
+The CTP Series Voice Compression module supports 
+64k G.711, 32k G.726, 16k G.726, 16k G.728, 8k G.729, 
+and 2.4k MELP compression algorithms. The voice 
+compression module also supports echo cancellation, 
+silence suppression, fax and modem detection, and 
+companding conversion.
+
+The ability to support analog 2WFXO interfaces allows 
+the CTP Series Circuit to Packet Platforms to offer 
+2-wire voice extensions over IP to remote phones, or 
+remote central office or PBX equipment.
+
+Voice compression can be applied on any T1 or E1 DS0 
+and on the analog 4WE&M interfaces. The use of voice 
+compression and silence suppression can dramatically 
+reduce the bandwidth required in the IP network. 
+Multiple DS0s or analog channels can be bundled into 
+one packet to further reduce the bandwidth required in 
+the IP network.
+
+IRIG-B
+
+The CTP Series supports an inter-range instrumentation 
+group time code (IRIG-B) signal to be transported 
+through an IP network. IRIG-B encodes day of year, hour, 
+minute, and second data on a 1-KHz carrier frequency, 
+with an update rate of once per second.
+
+Provides the ability to support IRIG-B transport over 
+the IP network with options to configure direction, 
+output high and low levels, and data range per 
+interface.
+
+3
+
+Data SheetCTP Series Circuit to Packet PlatformsProduct Options
+
+Option
+
+Option Description
+
+Applicable Products
+
+T1/E1 interface module
+
+Serial interface module
+
+Serial with T1/E1 interface option
+
+8-port T1 and E1 interface module with standard RJ48 
+interfaces. IETF PWE3 RFCs for SAToP and CESoPSN are 
+supported.
+
+CTP2008, CTP2024, CTP2056,  
+CTP150 (4-port only)
+
+8-port serial interface module is provided. Per-port 
+software selectable interfaces, data rates, clocking, etc. 
+are available. Interface support for EIA232, V.24, EIA530, 
+EIA449, V.35, and X.21 is provided.
+
+Provides additional software configurable T1 and E1 
+interface option  
+on the serial interface module. Full and fractional T1/E1 
+support is  
+also available.
+
+CTP2008, CTP2024, CTP2056,  
+CTP150 (4-port only)
+
+CTP2008, CTP2024, CTP2056
+
+Serial with Multiservice interface 
+option
+
+Provides additional software configurable single channel 
+4-wire trunk-only interface option, IRIG-B option or high-
+quality analog option on the serial interface module.
+
+CTP2008, CTP2024, CTP2056, CTP150  
+(4-port serial and 2-port MS support only)
+
+4WE&M analog module
+
+2WFXS analog module 
+
+2WFXO analog module
+
+Voice compression module
+
+8-port 4WE&M front module and rear transition module 
+support type I, II and V signaling options. The interface 
+is a standard RJ21 amphenol connector. One voice 
+compression module is required in the CTP Series.
+
+24-port 2WFXS front module and rear transition module 
+support loop start, ground start and PLAR modes. The 
+interface is a standard RJ21 amphenol connector. One 
+voice compression module is required in the CTP Series.
+
+12-port 2WFXO front module and rear transition module 
+support loop start and ground start modes. The interface 
+is a standard RJ21 amphenol connector. One voice 
+compression module is required in the CTP Series.
+
+The CTP Series Voice Compression module supports 
+compression on T1 and E1 DS0s and all analog voice 
+bundles. The module supports PCM, 32k G.726, 16k 
+G.726, 16k G.728, 8k G.729, and 2.4k MELP compression 
+algorithms. The voice compression module also supports 
+echo cancellation, silence suppression, fax and modem 
+detection, and companding conversion between T1 and E1.
+
+CTP2024, CTP2056
+
+CTP2024, CTP2056
+
+CTP2024, CTP2056
+
+CTP2024, CTP2056
+
+CTP clock main and spoke 
+modules
+
+The CTP Series clock main and spoke modules are 
+required when the 8-port serial module and compression 
+module are installed into one CTP Series device.
+
+CTP2024, CTP2056
+
+Gigabit Ethernet and Fast 
+Ethernet fiber SC modules
+
+Provides for two 1000BASE-FX or 100BASE-FX SC 
+connectors for IP connectivity on the network side.
+
+CTP2008, CTP2024, CTP2056
+
+Gigabit Ethernet SFP fiber options SFP options include 1000BASE-T, 1000BASE-SX and 
+
+CTP2008, CTP2024, CTP2056
+
+Y-cable
+
+AC power
+
+DC power
+
+1000BASE-LX.
+
+A cable connects one DTE to two DCE CTP Series serial 
+ports to provide 1:1 hardware redundancy. This is only 
+supported on serial interfaces. This option is not available 
+on T1 or E1 interfaces.
+
+CTP2008, CTP2024, CTP2056, CTP150
+
+Internal AC power supply is provided.
+
+CTP2008, CTP2024, CTP2056, CTP150
+
+Internal DC power supply is provided.
+
+CTP150, CTP2008, CTP2024, CTP2056
+
+Redundant power
+
+Provides for dual redundancy power supplies.
+
+CTP2024, CTP2056
+
+4
+
+Data SheetCTP Series Circuit to Packet PlatformsCTP150
+
+CTP2008
+
+CTP2024
+
+CTP2056
+
+Specifications
+
+Dimensions and Power
+
+Dimensions (W x H x D)
+
+CTP150
+
+CTP2008
+
+CTP2024
+
+CTP2056
+
+17.25 x 1.75 x 14.5 in  
+(43.8 x 4.5 x 36.8 cm)
+
+17.25 x 1.75 x 11.75 in  
+(43.8 x 4.5 x 29.8 cm)
+
+17.25 x 3.5 x 11.75 in  
+(43.8 x 8.9 x 29.8 cm)
+
+17.25 x 7.0 x 11.75 in  
+(43.8 x 17.8 x 29.8 cm)
+
+Weight (lb)
+
+Mounting
+
+Input voltage (AC)
+
+Input voltage (DC)
+
+Power supply
+
+Input current
+
+Operating temperature
+
+14.5
+
+Front Rack
+
+100-240 VAC
+
+40-60 VDC
+
+100 W
+
+1.5 A at 110 VAC
+
+32° to 104° F 
+(0° to 40° C)
+
+Humidity noncondensing
+
+5 to 90%
+
+12
+
+Front Rack
+
+100-240 VAC
+
+40-72 VDC
+
+250 W
+
+2 A at 110 VAC
+
+32° to 104° F 
+(0° to 40° C)
+
+5 to 90%
+
+Yes
+
+Yes
+
+Yes
+
+8
+
+20
+
+Front Rack
+
+100-240 VAC
+
+40-72 VDC
+
+250 W x 2
+
+2 A at 110 VAC
+
+32° to 104° F 
+(0° to 40° C)
+
+5 to 90%
+
+Yes
+
+Yes
+
+Yes
+
+24
+
+27
+
+Front Rack
+
+100-240 VAC
+
+40-72 VDC
+
+250 W x 2
+
+2.5 A at 110 VAC
+
+32° to 104° F 
+(0° to 40° C)
+
+5 to 90%
+
+Yes
+
+Yes
+
+Yes
+
+56
+
+Serial Interfaces
+
+Interfaces
+EIA232, EIA530, EIA530A, V.35, 
+V.24, EIA449, X.21, T1, E1
+
+IRIG-B
+
+Encoding NRZ, Conditioned 
+Diphase, Isochronous, 
+Asynchronous, AMI, B8ZS, 
+HDB3, TDM/TDC, Transparent
+
+Interface quantity
+
+Rates
+
+Yes
+
+Yes
+
+Yes
+
+8
+
+50 bps–12.880 Mbps
+
+50 bps–12.880 Mbps
+
+50 bps–12.880 Mbps
+
+50 bps–12.880 Mbps
+
+5
+
+Data SheetCTP Series Circuit to Packet PlatformsCTP150
+
+CTP2008
+
+CTP2024
+
+CTP2056
+
+Voice Interfaces
+
+Analog voice 4-wire TO 
+interface quantity
+
+4WE&M
+
+2WFXS
+
+2WFXO
+
+T1 and E1
+
+Voice compression
+
+Echo cancellation
+
+Silence suppression
+
+Fax and modem detection
+
+Companding conversion
+
+IP Interfaces
+
+100BASE-T (RJ-45)
+
+100/1000BASE-T (RJ-45)
+
+100BASE-FX (SC)—Optional
+
+1000BASE-FX (SC)—Optional
+
+SFP 1000BASE-T
+
+SFP 1000BASE-SX
+
+SFP 1000BASE-LX
+
+Precedent setting—(DSCP), 
+configurable TOS byte
+
+VLAN tagging
+
+Virtual IP
+
+Circuit modes—symmetric, 
+asymmetric, unidirectional, 
+hairpin
+
+IPv4 and IPv6
+
+IETF PWE3 RFC SAToP
+
+IETF PWE3 RFC CESoPSN
+
+Layer 2 EIA530 aggregation
+
+Port mirroring
+
+4
+
+N/A
+
+N/A
+
+N/A
+
+8
+
+N/A
+
+ N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+2
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+8
+
+N/A
+
+N/A
+
+N/A
+
+8
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+2
+
+2
+
+2
+
+4
+
+4
+
+4
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+24
+
+16
+
+48
+
+24
+
+24
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+N/A
+
+2
+
+2
+
+2
+
+4
+
+4
+
+4
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+56
+
+48
+
+144
+
+72
+
+56
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+N/A
+
+2
+
+2
+
+2
+
+4
+
+4
+
+4
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Juniper Networks Services and Support
+Juniper Networks is the leader in performance-enabling services that are designed to accelerate, extend, and optimize your high-
+performance network. Our services allow you to maximize operational efficiency while reducing costs and minimizing risk, achieving a 
+faster time to value for your network. Juniper Networks ensures operational excellence by optimizing the network to maintain required 
+levels of performance, reliability, and availability. For more details, please visit www.juniper.net/us/en/products-services. 
+
+6
+
+Data SheetCTP Series Circuit to Packet PlatformsOrdering Information 
+
+Model Number
+CTP150
+
+CTP150-AC
+
+CTP150-DC
+
+CTP150-IM-SER
+
+CTP150-IM-SER-MS
+
+CTP150-IM-T1E1
+
+Description
+
+AC base chassis
+
+-48VDC base chassis
+
+4-port serial module with 4 HD-26 
+pin interfaces and one clock input 
+interface. Serial supports RS-232/V.24, 
+EIA530/530A/RS-422/499/X.21, V.35.
+
+4-port serial module with 4 HD-26 pin 
+interfaces and one clock input interface. 
+Includes two daughter cards to add 4WTO 
+analog, high- quality analog and IRIG 
+capabilities to two ports.
+
+4-port T1/E1 module with 4 RJ48 interfaces 
+and one clock input interface.
+
+CTP150-PWR-AC
+
+Spare AC power supply
+
+UNIV-560W-PS-DC
+
+Spare DC power supply for CTP150
+
+CTP150-CBL-DB15-
+DCE-F
+
+CTP150-CBL-DB15-
+DTE-M
+
+CTP150-CBL-DB25-
+DCE-F
+
+CTP150-CBL-DB25-
+DCE-Y
+
+CTP150-CBL-DB25-
+DTE-M
+
+Model Number
+CTP2000 Line
+Interface Modules
+
+Description
+
+CTP2000-IM-8P-T1E1
+
+8-port T1/E1 RJ48 interface module
+
+CTP2000-IM-8P
+
+CTP2000-IM-8P-T1
+
+CTP2000-IM-8P-MS
+
+8-port serial interface module—
+EIA530/V.11/RS-422/X.21, RS-232/V.24, 
+V.35 
+
+8-port serial interface module—
+EIA530/V.11/RS-422/X.21, RS-232/V.24, 
+V.35, T1, E1
+
+8-port serial interface module—
+EIA530/V.11/RS-422/X.21, RS-232/V.24, 
+V.35, 4TWO, HQ Analog, IRIG
+
+CTP2000-IM-4WEM
+
+8-port 4WE&M analog voice module
+
+4WEM-RTM
+
+8-port 4WE&M 8-port rear transition 
+module
+
+CTP2000-
+COMPRESSION
+
+8-DSP voice compression and echo 
+cancellation module 
+
+CTP-COMPRESSION-2
+
+16-DSP voice compression and echo 
+cancellation module
+
+CTP2000-IM-2WFXS
+
+24-port 2WFXS analog voice module
+
+2WFXS-RTM
+
+24-port 2WFXS rear transition module
+
+CTP2000-IM-2WFXO
+
+12-port 2WFXO analog voice module
+
+2WFXO-RTM
+
+12-port 2WFXO rear transition module
+
+HD-26 interface cable, DB15, DCE, Female
+
+HD-26 interface cable, DB15, DTE, Male
+
+HD-26 interface cable, DB25, DCE, Female
+
+Y-cable with DCE DB25 connectors
+
+HD-26 Interface cable, DB25, DTE, Male
+
+Spares
+
+CTP150-CBL-RJ45-DIU
+
+HD-26 Interface cable, RJ45, V.24
+
+CTP2000 Line
+Base Units
+
+CTP2008-AC-02
+
+CTP2008 AC base chassis
+
+CTP2008-DC-02
+
+CTP2008 DC base chassis
+
+CTP2024-AC-02
+
+CTP2024 AC base chassis
+
+CTP2024-DC-02
+
+CTP2024 DC base chassis
+
+CTP2056-AC-02
+
+CTP2056 AC base chassis
+
+CTP2056-DC-02
+
+CTP2056 DC base chassis
+
+Upgrades
+
+CTP-FX2000GE-UPG
+
+CTP-FX2000FE-UPG
+
+CTP-Fiber-PMC
+
+CTP-SFP-1GE-T
+
+CTP-SFP-1GE-SX
+
+CTP-SFP-1GE-LX
+
+CTP2000-RAM-RTM-
+UPG
+
+CTP2000-RAM-UPG
+
+Dual SC multimode fiber Gigabit Ethernet 
+PMC upgrade
+
+Dual SC multimode fiber Fast Ethernet IM 
+upgrade 
+
+Fiber PMC card for CTP2000 line to 
+support up to 2 SFP modules
+
+Small form-factor pluggable 1000BASE-T 
+Gigabit Ethernet module (uses Cat 5 cable)
+
+Small form -factor pluggable 1000BASE-
+SX Gigabit Ethernet optic module
+
+Small form-factor pluggable 1000BASE-LX 
+Gigabit Ethernet optic module
+
+CTP2000 line upgrade kit for release 6.0 
+includes 1G RAM, 4G CompactFlash card, 
+and new Rear Transition Module (RTM).
+
+CTP2000 line upgrade kit for release 6.0 
+includes 1G RAM and 4G CompactFlash 
+card.
+
+CTP2000-PRC-S
+
+Processor spare
+
+CTP2000-RTC-S
+
+Rear transition module spare
+
+CTP2000-PWR-R
+
+CTP2024/CTP2056 redundant power 
+supply option
+
+CTP2000-PWR-DC-R
+
+CTP2024/CTP2026 redundant DC power 
+supply option
+
+CTP2008-REC-RMK
+
+CTP2008 recessed rack mount kit
+
+CTP2024-REC-RMK
+
+CTP2024 recessed rack mount kit
+
+CTP2056-REC-RMK
+
+CTP2056 recessed rack mount kit
+
+CTP-CBL-4Q
+
+CTP-CBL-4Q-DTE
+
+CTP-CBL-4Q-Y
+
+CTP-CLK-MAIN
+
+CTP-CLK-SPOKE
+
+Cable—100 pin to four (4) DB-25 DCE for  
+CTP2000 line
+
+Cable—100 pin to four (4) DB-25 DTE for  
+CTP2000 line
+
+Redundancy cable for connections 
+between two  
+CTP Series platforms
+
+Clock main rear transition module for 
+CTP2000 line
+
+Clock spoke rear transition module for 
+CTP2000 line
+
+CTP Series Software
+CTP-OS-4G
+
+Current software on 4G CompactFlash card
+
+CTP-CF-4G-S
+
+4G CompactFlash spare, no CTPOS
+
+CTPView Network Management System  
+Hardware/Software
+CTPVIEW-SVR-1
+
+CTPView Network Management System 
+server hardware
+
+CTPVIEW-SW
+
+CTPView Network Management System 
+software
+
+7
+
+Data SheetCTP Series Circuit to Packet PlatformsAbout Juniper Networks
+Juniper Networks is in the business of network innovation. From 
+devices to data centers, from consumers to cloud providers, 
+Juniper Networks delivers the software, silicon and systems that 
+transform the experience and economics of networking. The 
+company serves customers and partners worldwide. Additional 
+information can be found at www.juniper.net.
+
+Corporate and Sales HeadquartersJuniper Networks, Inc. 1133 Innovation WaySunnyvale, CA 94089 USAPhone: 888.JUNIPER (888.586.4737)or +1.408.745.2000Fax: +1.408.745.2100www.juniper.net Copyright 2014 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, Junos and QFabric are registered trademarks of Juniper Networks, Inc. in the United States and other countries. All other trademarks, service marks, registered marks, or registered service marks are the property of their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice.APAC and EMEA HeadquartersJuniper Networks International B.V.Boeing Avenue 2401119 PZ Schiphol-RijkAmsterdam, The NetherlandsPhone: +31.0.207.125.700Fax: +31.0.207.125.701Data SheetCTP Series Circuit to Packet Platforms1000139-005-EN  Oct 2014

@@ -1,0 +1,1152 @@
+OCX1100 Open  
+Networking Switch
+
+Product Overview
+
+Large-scale cloud-based data 
+centers require a new set of 
+networking capabilities that set 
+them apart from traditional IT 
+data centers. With the help of 
+organizations such as the Open 
+Compute Project (OCP), a new 
+breed of switching platform 
+is emerging based on these 
+minimalistic design requirements.
+
+Juniper Networks OCX1100 is an 
+open networking switch based 
+on hardware specifications 
+ratified by the OCP. Combining a 
+cloud-optimized OCP-submitted 
+hardware design with the 
+industry-proven and feature-rich 
+Juniper Networks Junos operating 
+system, the OCX1100 gives 
+customers all of the benefits of 
+an open source hardware design 
+with none of the compromises.
+
+Product Description 
+The Juniper Networks® OCX1100 open networking switch is designed for large Cloud 
+Builders looking to capitalize on innovations derived from real-world, massive scale, data 
+center customer environments and backed by the industry recognized Open Compute 
+Project (OCP) Foundation.
+
+Running the hardened, carrier-class Juniper Networks Junos® operating system, the OCX1100 
+combines the power, performance, and reliability of a proven network OS with cloud-
+optimized, open source switching hardware built on commercially sourced components. 
+
+The OCX1100 is based on OCP-submitted design specifications, ensuring that customers 
+are leveraging a consistent and open hardware platform. By offering a single source 
+solution, the OCX1100 offers customers the economies of an open hardware design while 
+providing a level of software features, support, and reliability not typically available with 
+other white box solutions.
+
+Architecture and Key Components
+The OCX1100 offers 48 small form-factor pluggable and pluggable plus (SFP/ SFP+) 
+transceiver ports and six quad SFP+ (QSFP+) ports in a compact 1 U platform. It is 
+designed for Cloud Builders who want an open source hardware platform but won’t 
+compromise on performance, reliability, or support. Featuring an aggregate throughput of 
+1.44 Tbps per switch, the OCX1100 is an ideal high-density top-of-rack solution for large-
+scale IP Fabric deployments.
+
+Front Panel
+
+The OCX1100 front panel features the following ports:
+
+Port (Form Factor) Quantity
+
+Speed
+
+Description
+
+Reset button
+
+Management port 
+(RJ-45)
+
+Console port (RJ-45)
+
+Storage port (micro-
+USB, type-A)
+
+1
+
+1
+
+1
+
+1
+
+N/A
+
+Located inside the pinhole on 
+the switch’s front panel, pressing 
+and holding this button for 3-5 
+seconds restores factory settings.
+
+10/100/1000 Mbps
+
+Used to configure software 
+features on the switch.
+
+115,200 bps (Bauds)
+
+480 Mbps
+
+An out-of-band console port used 
+to configure software features on 
+the switch.
+
+An external storage port used to 
+back up and load system-related 
+files.
+
+SFP+ ports
+
+QSFP+ ports
+
+48
+
+6
+
+10 Gbps
+
+10GbE SFP+ wire-speed ports.
+
+10 Gbps/40 Gbps
+
+10/40GbE Gbps QSFP+ wire-
+speed ports.
+
+Your ideas. Connected.™
+
+1
+
+Data SheetBack Panel
+
+Data Center Deployments
+
+The OCX1100 back panel features the following modules:
+
+Module
+
+Quantity Air Flow
+
+Description
+
+Fan modules
+
+4
+
+Power supply 
+modules
+
+2
+
+Front-to-back 
+or back-to-
+front
+
+Front-to-back 
+or back-to-
+front
+
+The OCX1100 
+includes four fan 
+module slots. Four 
+fan modules are 
+included in the base 
+unit.
+
+The OCX1100 
+includes two power 
+supply module slots. 
+Two power supply 
+modules (AC or DC) 
+are included in the 
+base unit.
+
+Junos OS
+
+The OCX1100 switch runs Junos OS, Juniper’s feature-rich, 
+powerful, and robust network operating system. The following 
+key Junos OS features enhance the functionality and capabilities 
+of the OCX1100: 
+
+•  A powerful set of scripts for on-box problem detection, 
+
+reporting, and resolution
+
+•  Rich automation capabilities that address the need for more 
+
+automation and programmability in large data centers, 
+including support for Python, Chef, Puppet, and zero-touch 
+provisioning (ZTP)
+
+•  Commit and rollback functionality that ensures error-free 
+
+network configurations
+
+•  Software modularity, with process modules running 
+
+independently in their own protected memory space and the 
+ability to do process restarts
+
+The OCX1100 is ideal for top-of-rack Layer 3 deployments. It 
+supports 48 ports of native 10GbE for server connectivity and up 
+to six 40GbE ports for uplink connectivity, providing very low 2:1 
+oversubscription from access to aggregation.  Each 40GbE port 
+can also be broken out into four 10GbE ports, providing additional 
+options for server connectivity. 
+
+Running the Junos OS, which features the most advanced and 
+robust routing capabilities in the industry, the OCX1100 includes 
+support for RIP, OSPF, IS-IS, and BGP for both IPv4 and IPv6 
+in the base software. With additional capabilities like 64-way 
+equal-cost multipath (ECMP) and BGP add path, the OCX1100 is 
+an optimized building block for deploying IP fabrics (see Figure 1)1.
+
+OCX1100 Switch Benefits
+
+•  Cloud-optimized solution: The OCX1100 offers a cost-
+
+effective, open source switching solution for large-scale cloud 
+deployments that value the simplicity and reliability of the 
+carrier-class Junos operating system. 
+
+•  Open architecture: The OCX1100 is based on OCP-
+
+submitted design specifications, allowing customers to 
+leverage the open source hardware design community.
+
+•  Superior reliability: Combining the carrier-class Junos 
+
+operating system with an open source hardware architecture, 
+the OCX1100 delivers a highly reliable, cost-effective 
+switching solution. 
+
+•  Consistent operating environment: Running Junos OS on 
+
+the cloud-optimized OCX1100 switch lowers the learning 
+curve for customers who already use Juniper switches, 
+routers, or security appliances in other parts of their network.
+
+•  A rich set of Layer 3 features for IPv4 and IPv6 deployments, 
+
+including BGP, OSPF, IS-IS, and BGP add path (see the 
+Software Features section for a detailed list)
+
+• 
+
+Investment protection: Compatible with Juniper Networks 
+QFX5100 Ethernet Switches, the OCX1100 can be easily 
+deployed in existing Juniper network environments.
+
+IP Fabric
+
+OCX1100
+
+OCX1100
+
+OCX1100
+
+OCX1100
+
+1Since the OCX1100 platform is optimized for Layer 3 data centers, certain enterprise features such MC-LAG and Virtual Chassis Fabric are not supported on this platform.
+
+10GbE Access
+
+Figure 1: IP fabric deployment using the OCX1100
+
+2
+
+Data SheetOCX1100 Open Networking Switch•  Single source solution: Both the switching platform and 
+
+operating system come from the same vendor, providing a 
+single point of contact for software and hardware support.
+
+Software Features
+Layer 3 Features (IPv4)
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+ Static routing
+
+ Routing policy
+
+ Routing protocols (RIP, OSPF, IS-IS, BGP)
+
+ Bidirectional Forwarding Detection (BFD) protocol
+
+ Dynamic Host Configuration Protocol (DHCP) relay
+
+ Proxy Address Resolution Protocol (ARP)
+
+OCX1100
+
+ 
+OCX1100 Switch Specifications
+Hardware and Scaling
+
+Layer 3 Features (IPv6)
+
+•  BGP for IPv6
+
+• 
+
+• 
+
+IPv6 static routing
+
+IS-IS for IPv6
+
+•  Dimensions (W x H x D): 17.3 x 1.72 x 19.2 in (44.0 x 4.4 x  
+
+•  Neighbor Discovery Protocol
+
+48.7 cm); 1 U
+
+•  Weight: 9.07 kg (with 2 AC PSUs and 4 fans installed)
+
+•  Power Options: 100 to 240 V AC (single phase) at 50/60 Hz 
+
+or -40.5 to -60 V DC
+
+•  Cooling: Four hot-swappable fan modules with reversible  
+
+air flow
+
+•  Operating Temperature: 0° to 40°C
+
+•  Storage Temperature: -40° to 70°C (-40° to 158°F)
+
+•  Operating Relative Humidity: 0% to 95% (noncondensing)
+
+•  Open Shortest Path First version 3 (OSPFv3) for IPv6
+
+Multicast Features
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+ Internet Group Management Protocol (IGMP): v1, v2, v3
+
+ IGMP snooping: v1, v2, v3
+
+ IGMP filter
+
+ PIM-SM
+
+ Multicast Source Discovery Protocol (MSDP)
+
+IPv6 Multicast Listener Discovery protocols (MLDv1/v2)
+
+•  Storage Relative Humidity: 0% to 95% (noncondensing)
+
+Security and Filters
+
+•  Altitude:  0 to 3,000 meters (0 to 9,850 feet)
+
+•  Throughput: 1.44 Tbps
+
+•  Form Factor: Fixed-configuration platform
+
+•  Data Rate (switching capacity): 1.08 Bpps
+
+•  Port Densities: 48 1GbE/10GbE SFP/SFP+ ports; 6 40GbE 
+
+QSFP+ ports
+
+•  Maximum 10GbE Density: 72 ports (48 10GbE SFP/SFP+ 
+
+ports + 24 10GbE ports using QSFP+ to SFP+ direct attach 
+copper (DAC) or QSFP+ to SFP+ fiber splitter cables and 
+optics)
+
+•  Maximum 40GbE Density: 6 ports
+
+•  Secure interface login and password
+
+•  RADIUS
+
+•  TACACS+
+
+• 
+
+Ingress and egress filters: Allow and deny routed filters, 
+including management port filters
+
+•  Filter actions: Logging, system logging, reject, counters, assign 
+
+forwarding class, permit, drop, police, mark
+
+•  SSH v1, v2
+
+•  Static ARP support
+
+•  Storm control, port error disable, and autorecovery
+
+•  Control plane denial-of-service (DoS) protection
+
+•  Resiliency: Dual hot-swappable AC or DC power supplies 
+
+for 1+1 redundancy (two included); four hot-swappable 
+redundant fan module ports (for fan modules included)
+
+• 
+
+IP Source Guard
+
+•  Dynamic ARP Inspection (DAI)
+
+•  Power Consumption: 185 W
+
+•  Operating System: Junos OS
+
+•  Buffer Size: 12 MB Shared
+
+•  Media Access Control (MAC) Addresses: 288,000
+
+•  Jumbo Frames: 9,216 bytes
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+IPv4 Hosts: 112,000
+
+IPv4 Unicast Routes: 112,000
+
+IPv4 Multicast Routes: 104,000
+
+IPv6 Hosts: 56,000
+
+IPv6 Unicast Routes: 56,000
+
+IPv6 Multicast Routes: 52,000
+
+•  Warranty: Juniper standard one year warranty
+
+• 
+
+ Sticky MAC address
+
+•  DHCP snooping
+
+Quality of Service (QoS)
+
+•  L3 QoS: Classification, rewrite, queuing
+
+•  Rate limiting:
+
+ - Ingress policing: 1 rate 2 color, 2 rate 3 color
+
+ - Egress policing: Policer, policer mark down action
+
+ - Egress shaping: Per queue, per port
+
+•  Strict priority queuing (LLQ), shaped-deficit weighted round-
+robin (SDWRR), weighted random early detection (WRED), 
+weighted tail drop
+
+•  802.1p remarking
+
+•  Congestion avoidance capabilities: WRED
+
+3
+
+Data SheetOCX1100 Open Networking SwitchManagement and Operations
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+ Role-based CLI management and access
+
+ CLI via console, telnet, or SSH
+
+ Extended ping and traceroute
+
+ Junos OS configuration rescue and rollback
+
+ Image rollback 
+
+ SNMP v1/v2/v3
+
+ Junos XML management protocol
+
+ sFlow v5
+
+ High frequency statistics collection
+
+ Beacon LED for port and system
+
+ Automation and orchestration
+
+ Zero-touch provisioning (ZTP)
+
+ OpenStack Neutron Plug-in
+
+ Puppet
+
+ Chef
+
+ Python
+
+ Junos OS event, commit, and OP scripts
+
+Standards Compliance
+Supported RFCs
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+ RFC 768 UDP
+
+ RFC 783 Trivial File Transfer Protocol (TFTP) 
+
+ RFC 791 IP
+
+ RFC 792 ICMP
+
+ RFC 793 TCP
+
+ RFC 826 ARP
+
+ RFC 854 Telnet client and server
+
+ RFC 894 IP over Ethernet
+
+ RFC 903 RARP
+
+ RFC 906 TFTP Bootstrap
+
+ RFC 951 1542 BootP
+
+ RFC 1058 Routing Information Protocol
+
+ RFC 1112 IGMP v1
+
+ RFC 1122 Host requirements
+
+ RFC 1142 OSI IS-IS Intra-domain Routing Protocol
+
+ RFC 1256 IPv4 ICMP Router Discovery (IRDP)
+
+ RFC 1492 TACACS+
+
+ RFC 1519 Classless Interdomain Routing (CIDR)
+
+ RFC 1587 OSPF not-so-stubby area (NSSA) Option
+
+ RFC 1591 Domain Name System (DNS)
+
+ RFC 1745 BGP4/IDRP for IP—OSPF Interaction
+
+ RFC 1772 Application of the Border Gateway Protocol in the 
+Internet
+
+ RFC 1812 Requirements for IP Version 4 routers
+
+ RFC 1997 BGP Communities Attribute
+
+ RFC 2030 SNTP, Simple Network Time Protocol 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+ RFC 2068 HTTP server
+
+ RFC 2131 BOOTP/DHCP relay agent and Dynamic Host
+
+ RFC 2138 RADIUS Authentication
+
+ RFC 2139 RADIUS Accounting
+
+ RFC 2154 OSPF w/Digital Signatures (Password, MD-5)
+
+ RFC 2236 IGMP v2
+
+ RFC 2267 Network ingress filtering
+
+ RFC 2328 OSPF v2 (edge mode)
+
+ RFC 2362 PIM-SM (edge mode)
+
+ RFC 2370 OSPF Opaque link-state advertisement (LSA) 
+Option
+
+ RFC 2385 Protection of BGP Sessions via the TCP Message 
+Digest 5 (MD5) Signature Option
+
+ RFC 2439 BGP Route Flap Damping
+
+ RFC 2453 RIP v2
+
+ RFC 2474 Definition of the Differentiated Services Field in the 
+IPv4 and IPv6 Headers
+
+ RFC 2597 Assured Forwarding PHB (per-hop behavior) 
+Group
+
+ RFC 2598 An Expedited Forwarding PHB
+
+ RFC 2697 A Single Rate Three Color Marker
+
+ RFC 2698 A Two Rate Three Color Marker
+
+ RFC 2796 BGP Route Reflection—An Alternative to Full Mesh 
+Internal BGP (IBGP)
+
+ RFC 2918 Route Refresh Capability for BGP-4
+
+ RFC 3065 Autonomous System Confederations for BGP
+
+ RFC 3376 IGMP v3 (source-specific multicast include mode 
+only)
+
+ RFC 3392 Capabilities Advertisement with BGP-4
+
+ RFC 3446, Anycast RP
+
+ RFC 3569 SSM
+
+ RFC 3618 MSDP
+
+ RFC 3623 Graceful OSPF Restart
+
+ RFC 4271 Border Gateway Protocol 4 (BGP-4)
+
+ RFC 4360 BGP Extended Communities Attribute
+
+ RFC 4456 BGP Route Reflection: An Alternative to Full Mesh 
+IBGP
+
+ RFC 4486 Subcodes for BGP Cease Notification Message
+
+ RFC 4724 Graceful Restart Mechanism for BGP
+
+ RFC 4812 OSPF Restart Signaling
+
+ RFC 4893 BGP Support for Four-octet AS Number Space
+
+ RFC 5176 Dynamic Authorization Extensions to RADIUS
+
+ RFC 5396 Textual Representation of Autonomous System 
+(AS) Numbers
+
+ RFC 5668 4-Octet AS Specific BGP Extended Community
+
+ RFC 5880 Bidirectional Forwarding Detection (BFD)
+
+ Configuration Protocol (DHCP) server
+
+4
+
+Data SheetOCX1100 Open Networking SwitchApprovals
+Safety
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+ CAN/CSA-C22.2 No. 60950-1 (2007) Information Technology 
+Equipment—Safety
+
+ UL 60950-1 (2nd Ed.) Information Technology Equipment—
+Safety
+
+ EN 60950-1 (2005) Information Technology Equipment—
+Safety
+
+ IEC 60950-1 (2005) Information Technology Equipment—
+Safety (All country deviations): CB Scheme report
+
+ CNS 14336-1 
+
+ GB4943.1
+
+EMC
+
+•  EN 55022/EN 55024, Class A
+
+•  FCC CFR47, Part 15B, Class A
+
+• 
+
+ICES-003, Class A
+
+•  CNS 13438, Class A
+
+•  GB9254
+
+•  YDT993 
+
+Regulatory Compliance
+
+•  Comply with CE Markings per directives 2004/108/EC and 
+
+2006/95/EC
+
+•  FCC/IC Report Class A
+
+•  BSMI
+
+•  UL/cUL Listed Mark
+
+•  CCC
+
+•  CB
+
+Juniper Networks Services and Support
+
+Juniper Networks is the leader in performance-enabling ser-
+vices that are designed to accelerate, extend, and optimize your 
+high-performance network. Our services allow you to maximize 
+operational efficiency while reducing costs and minimizing 
+risk, achieving a faster time to value for your network. Juniper 
+Networks ensures operational excellence by optimizing the net-
+work to maintain required levels of performance, reliability, and 
+availability. For more details, please visit www.juniper.net/us/en/
+
+products-services. 
+
+Supported MIBs
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+ RFC 1155 SMI
+
+ RFC 1157 SNMPv1
+
+ RFC 1212, RFC 1213, RFC 1215 MIB-II, Ethernet-Like MIB and 
+TRAPs
+
+ RFC 1850 OSPFv2 MIB
+
+ RFC 1901 Introduction to Community-based SNMPv2
+
+ RFC 2011 SNMPv2 for Internet protocol using SMIv2
+
+ RFC 2012 SNMPv2 for transmission control protocol using 
+SMIv2
+
+ RFC 2013 SNMPv2 for user datagram protocol using SMIv2
+
+ RFC 2233, The Interfaces Group MIB using SMIv2
+
+ RFC 2287 System Application Packages MIB
+
+ RFC 2570 Introduction to Version 3 of the Internet-standard 
+Network Management Framework
+
+ RFC 2571 An Architecture for describing SNMP Management 
+Frameworks (read-only access)
+
+ RFC 2572 Message Processing and Dispatching for the SNMP 
+(read-only access)
+
+ RFC 2576 Coexistence between SNMP Version 1, Version 2, 
+and Version 3
+
+ RFC 2578 SNMP Structure of Management Information MIB
+
+ RFC 2579 SNMP Textual Conventions for SMIv2
+
+ RFC 2580 Conformance Statements for SMIv2
+
+ RFC 2665 Ethernet-like interface MIB
+
+ RFC 2790 Host Resources MIB
+
+ RFC 2819 RMON MIB
+
+ RFC 2863 Interface Group MIB
+
+ RFC 2932 IPv4 Multicast MIB
+
+ RFC 3410 Introduction and Applicability Statements for 
+Internet Standard Management Framework
+
+ RFC 3411 An architecture for describing SNMP Management 
+Frameworks
+
+ RFC 3412 Message Processing and Dispatching for the SNMP
+
+ RFC 3413 Simple Network Management Protocol (SNMP)—
+(all MIBs are supported except the Proxy MIB)
+
+ RFC 3414 User-based Security Model (USM) for version 3 of 
+SNMPv3
+
+ RFC 3415 View-based Access Control Model (VACM) for  
+the SNMP
+
+ RFC 3416 Version 2 of the Protocol Operations for the SNMP
+
+ RFC 3417 Transport Mappings for the SNMP
+
+ RFC 3418 Management Information Base (MIB) for the 
+SNMP
+
+ RFC 3584 Coexistence between Version 1, Version 2, and 
+Version 3 of the Internet-standard Network Management 
+Framework
+
+ RFC 3826 The Advanced Encryption Standard (AES) Cipher 
+Algorithm in the SNMP User-based Security Model 
+
+5
+
+Data SheetOCX1100 Open Networking SwitchAbout Juniper Networks
+Juniper Networks is in the business of network innovation. From 
+devices to data centers, from consumers to cloud providers, 
+Juniper Networks delivers the software, silicon and systems that 
+transform the experience and economics of networking. The 
+company serves customers and partners worldwide. Additional 
+information can be found at www.juniper.net.
+
+Ordering Information 
+
+Model Number
+
+Description
+
+Switch Hardware
+
+OCX1100-48SX-AFI
+
+OCX1100-48SX-AFO
+
+OCX1100-48SX-D-AFI
+
+OCX1100-48SX-D-AFO
+
+OCX-460W-X-AC-AFI
+
+OCX-460W-X-AC-AFO
+
+OCX-800W-X-DC-AFI
+
+OCX-800W-X-DC-AFO
+
+48x10GbE SFP+ and 6x40GbE ports, 1 U 
+system, AC power supply, back-to-front 
+airflow
+
+48x10GbE SFP+ and 6x40GbE ports, 1 U 
+system, AC power supply, front-to-back 
+airflow
+
+48x10GbE SFP+ and 6x40GbE ports, 1 U 
+system, 48 V DC power supply, back-to-
+front airflow
+
+48x10GbE SFP+ and 6x40GbE ports, 1 U 
+system, 48 V DC power supply, front-to-
+back airflow
+
+AC power supply unit, back-to-front 
+airflow
+
+AC power supply unit, front-to-back 
+airflow
+
+DC power supply unit, back-to-front 
+airflow
+
+DC power supply unit, front-to-back 
+airflow
+
+OCX-FAN-X-AFI
+
+Fan module, back-to-front airflow
+
+OCX-FAN-X-AFO
+
+Fan module, front-to-back airflow
+
+Pluggable Optics 
+
+QFX-SFP-10GE-SR
+
+QFX-SFP-10GE-LR
+
+QFX-SFP-DAC-1M
+
+QFX-SFP-DAC-3M
+
+QFX-QSFP-40G-SR4
+
+SFP+ 10GBASE-SR 10GbE optics, 850 
+nm for up to 300 m transmission on 
+multimode fiber (MMF)
+
+SFP+ 10GBASE-LR 10 GbE optics, 1,310 
+nm for 10 km transmission on single 
+mode fiber-optic (SMF)
+
+SFP+ 10GbE Direct Attach Copper 
+(twinax copper cable), 1 m
+
+SFP+ 10GbE Direct Attach Copper 
+(twinax copper cable), 3 m
+
+QSFP+ 40GBASE-SR4 40GbE optics, 
+850 nm for up to 150 m transmission 
+on MMF
+
+Corporate and Sales HeadquartersJuniper Networks, Inc. 1133 Innovation WaySunnyvale, CA 94089 USAPhone: 888.JUNIPER (888.586.4737)or +1.408.745.2000Fax: +1.408.745.2100www.juniper.net Copyright 2014 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, Junos and QFabric are registered trademarks of Juniper Networks, Inc. in the United States and other countries. All other trademarks, service marks, registered marks, or registered service marks are the property of their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice.APAC and EMEA HeadquartersJuniper Networks International B.V.Boeing Avenue 2401119 PZ Schiphol-RijkAmsterdam, The NetherlandsPhone: +31.0.207.125.700Fax: +31.0.207.125.701Data SheetOCX1100 Open Networking Switch1000524-002-EN  Dec 2014

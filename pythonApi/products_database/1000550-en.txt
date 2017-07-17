@@ -1,0 +1,1505 @@
+SRX300 Line of Services  
+Gateways for the Branch
+
+Product Overview
+
+The SRX300 line of services 
+gateways combines security, 
+routing, switching, and WAN 
+interfaces with next-generation 
+firewall and advanced threat 
+mitigation capabilities for cost-
+effective, secure connectivity 
+across distributed enterprise 
+locations. By consolidating fast, 
+highly available switching, routing, 
+security, and next-generation 
+firewall capabilities in a single 
+device, enterprises can remove 
+network complexity, protect and 
+prioritize their resources, and 
+improve user and application 
+experience while lowering total 
+cost of ownership (TCO). 
+
+Product Description 
+Juniper Networks® SRX300 line of services gateways delivers a next-generation 
+networking and security solution that supports the changing needs of cloud-enabled 
+enterprise networks. Whether rolling out new services and applications across locations, 
+connecting to the cloud, or trying to achieve operational efficiency, the SRX300 line helps 
+organizations realize their business objectives while providing scalable, easy to manage, 
+secure connectivity and advanced threat mitigation capabilities. Next-generation firewall 
+and unified threat management (UTM) capabilities also make it easier to detect and 
+proactively mitigate threats to improve the user and application experience.
+
+The SRX300 line consists of four models:
+
+•  SRX300: Securing small branch or retail offices, the SRX300 Services Gateway 
+
+consolidates security, routing, switching, and WAN connectivity in a small desktop 
+device. The SRX300 supports up to 1 Gbps firewall and 300 Mbps IPsec VPN in a 
+single, consolidated, cost-effective networking and security platform.
+
+•  SRX320: Securely connecting small distributed enterprise branch offices, the SRX320 
+
+Services Gateway consolidates security, routing, switching, and WAN connectivity in 
+a small desktop device. The SRX320 supports up to 1 Gbps firewall and 300 Mbps 
+IPsec VPN in a single, consolidated, cost-effective networking and security platform.
+
+•  SRX340: Securely connecting midsize distributed enterprise branch offices, the 
+
+SRX340 Services Gateway consolidates security, routing, switching, and WAN 
+connectivity in a 1 U form factor. The SRX340 supports up to 3 Gbps firewall and  
+600 Mbps IPsec VPN in a single, consolidated, cost-effective networking and security 
+platform.
+
+•  SRX345: Best suited for midsize to large distributed enterprise branch offices, the SRX345 
+
+Services Gateway consolidates security, routing, switching, and WAN connectivity in a 1 
+U form factor. The SRX345 supports up to 5 Gbps firewall and 800 Mbps IPsec VPN in a 
+single, consolidated, cost-effective networking and security platform.
+
+SRX300 Highlights
+The SRX300 line of services gateways consists of secure routers that bring high 
+performance and proven deployment capabilities to enterprises that need to build a 
+worldwide network of thousands of remote sites. Ethernet, serial, T1/E1, ADSL2/2+, 
+VDSL2, and 3G/4G LTE wireless are all available options for WAN or Internet connectivity 
+to link sites. Industry best, high-performance IPsec VPN solutions provide comprehensive 
+encryption and authentication capabilities to secure intersite communications. Multiple 
+form factors with Ethernet switching support on native Gigabit Ethernet ports allow cost-
+effective choices for mission-critical deployments. Juniper Networks Junos® automation 
+and scripting capabilities and Junos Space Security Director reduce operational complexity 
+and simplify the provisioning of new sites. 
+
+1
+
+Data SheetThe SRX300 line of devices recognizes more than 3,500 Layer 
+3-7 applications, including Web 2.0 and evasive peer-to-peer 
+(P2P) applications like Skype, torrents, and others. Correlating 
+application information with user contextual information, the 
+SRX300 line can generate bandwidth usage reports, enforce 
+access control policies, prioritize and rate-limit traffic going 
+out of WAN interfaces, and proactively secure remote sites. 
+This optimizes resources in the branch office and improves the 
+application and user experience. 
+
+For the perimeter, the SRX300 line offers a comprehensive 
+suite of application security services, threat defenses, and 
+intelligence services. The services consist of intrusion prevention 
+system (IPS), application security user role-based firewall 
+controls, and on-box and cloud-based antivirus, anti-spam, and 
+enhanced Web filtering, protecting networks from the latest 
+content-borne threats. Integrated threat intelligence via Juniper 
+Networks Spotlight Secure offers adaptive threat protection 
+
+Features and Benefits
+
+against Command and Control (C&C)-related botnets and policy 
+enforcement based on GeoIP. Customers can also leverage their 
+own custom and third-party feeds for protection from advanced 
+malware and other threats. Integrating the Juniper Networks Sky 
+Advanced Threat Protection solution, the SRX300 line detects 
+and enforces automated protection against known malware and 
+zero-day threats with a very high degree of accuracy.
+
+The SRX300 line enables agile SecOps through automation 
+capabilities that support Zero Touch Deployment, Python scripts 
+for orchestration, and event scripting for operational management.
+
+SRX300 services gateways run Juniper Networks Junos operating 
+system, a proven, carrier-hardened network OS that powers 
+the top 100 service provider networks around the world. The 
+rigorously tested, carrier-class, rich routing features such as IPv4/
+IPv6, OSPF, BGP, and multicast have been proven in over 15 years 
+of worldwide deployments.
+
+Business Requirement Feature/Solution
+
+SRX300 Advantages 
+
+Up to 5 Gbps of routing and 
+firewall performance
+
+•  Best suited for small, medium and large branch office deployments
+•  Addresses future needs for scale and feature capacity 
+
+High performance
+
+Business continuity
+
+Stateful high availability (HA), 
+IP monitoring
+
+End-user experience
+
+App visibility and control
+
+Highly secure
+
+IPsec VPN, Media Access 
+Control Security (MACsec)1
+
+•  Uses stateful HA to synchronize configuration and firewall sessions 
+•  Supports multiple WAN interface with dial-on-demand backup
+•  Route/link failover based on real-time link performance
+
+•  Detects 3,500+ Layer 3-7 applications, including Web 2.0
+•  Controls and prioritizes traffic based on application and use role 
+• 
+
+Inspects and detects applications inside the SSL encrypted traffic
+
+•  Creates secure, reliable, and fast overlay link over public internet
+•  Employs anti-counterfeit features to protect from unauthorized hardware spares
+•  High-performance CPU with built-in hardware assist IPsec acceleration
+•  TPM-based protection of device secrets such as passwords and certificates
+
+Threat protection
+
+IPS, antivirus, anti-spam, 
+Spotlight Secure, Sky 
+Advanced Threat Prevention 2
+
+•  Enables zone-based stateful firewall by default
+•  Protects from malware and attacks with IPS and antivirus 
+• 
+•  Defends against zero-day attacks
+
+Integrates open threat intelligence platform with third-party feeds
+
+Easy to manage and 
+scale
+
+On-box GUI, Security Director
+
+Minimize TCO
+
+Junos OS
+
+• 
+
+• 
+
+Includes centralized management for auto-provisioning, firewall policy 
+management, Network Address Translation (NAT), and IPsec VPN deployments
+Includes simple easy-to-use on-box GUI for local management
+
+Integrates routing, switching, and security in a single device
+
+• 
+•  Reduces operation expense with Junos automation capabilities 
+
+SRX300
+
+SRX320
+
+SRX340
+
+SRX345
+
+1MACsec for LAN/WAN links available in 15.1X49-D100 and later releases.
+2SSL forward proxy and Sky ATP are supported on SRX340 and higher platforms.
+
+2
+
+Data SheetSRX300 Line of Services Gateways for the BranchSRX300 Specifications
+Software Specifications
+Routing Protocols
+
+• 
+
+IPv4, IPv6, ISO, Connectionless Network Service (CLNS) 
+
+•  Static routes 
+
+•  RIP v1/v2
+
+•  OSPF/OSPF v3
+
+•  BGP with Route Reflector
+
+• 
+
+IS-IS
+
+•  Multicast: Internet Group Management Protocol (IGMP) 
+
+v1/v2, Protocol Independent Multicast (PIM) sparse mode 
+(SM)/dense mode (DM)/source-specific multicast (SSM), 
+Session Description Protocol (SDP), Distance Vector 
+Multicast Routing Protocol (DVMRP), Multicast Source 
+Discovery Protocol (MSDP), Reverse Path Forwarding (RPF)
+
+•  Encapsulation: VLAN, Point-to-Point Protocol (PPP), Frame 
+Relay, High-Level Data Link Control (HDLC), serial, Multilink 
+Point-to-Point Protocol (MLPPP), Multilink Frame Relay 
+(MLFR), and Point-to-Point Protocol over Ethernet (PPPoE)
+
+•  Virtual routers
+
+•  Policy-based routing, source-based routing
+
+•  Equal-cost multipath (ECMP) 
+
+QoS Features
+
+•  Support for 802.1p, DiffServ code point (DSCP), EXP 
+
+•  Classification based on VLAN, data-link connection 
+
+identifier (DLCI), interface, bundles, or multifield filters
+
+•  Marking, policing, and shaping
+
+•  Classification and scheduling
+
+•  Weighted random early detection (WRED)
+
+•  Guaranteed and maximum bandwidth
+
+• 
+
+Ingress traffic policing 
+
+•  Virtual channels 
+
+•  Hierarchical shaping and policing
+
+Switching Features
+
+•  ASIC-based Layer 2 Forwarding 
+
+•  MAC address learning
+
+•  VLAN addressing and integrated routing and bridging (IRB) 
+
+support
+
+•  Link aggregation and LACP
+
+•  LLDP and LLDP-MED
+
+•  STP, RSTP, MSTP
+
+•  MVRP
+
+•  802.1X authentication
+
+Firewall Services
+
+•  Stateful and stateless firewall 
+
+•  Zone-based firewall 
+
+•  Screens and distributed denial of service (DDoS) protection
+
+•  Protection from protocol and traffic anomaly
+
+• 
+
+• 
+
+Integration with Pulse Unified Access Control (UAC)
+
+Integration with Aruba Clear Pass Policy Manager
+
+•  User role-based firewall
+
+•  SSL Inspection (Forward-proxy)2
+
+Network Address Translation (NAT)
+
+•  Source NAT with Port Address Translation (PAT)
+
+•  Bidirectional 1:1 static NAT
+
+•  Destination NAT with PAT
+
+•  Persistent NAT
+
+• 
+
+IPv6 address translation
+
+VPN Features 
+
+•  Tunnels: Generic routing encapsulation (GRE)3, IP-IP3, IPsec 
+
+•  Site-site IPsec VPN, auto VPN, group VPN
+
+• 
+
+• 
+
+IPsec crypto algorithms: Data Encryption Standard (DES), 
+triple DES (3DES), Advanced Encryption Standard (AES-256), 
+AES-GCM
+
+IPsec authentication algorithms: MD5, SHA-1, SHA-128, 
+SHA-256
+
+•  Pre-shared key and public key infrastructure (PKI) (X.509)
+
+•  Perfect forward secrecy, anti-reply
+
+• 
+
+IPv4 and IPv6 IPsec VPN
+
+•  Multi-proxy ID for site-site VPN
+
+• 
+
+Internet Key Exchange (IKEv1, IKEv2), NAT-T
+
+•  Virtual router and quality-of-service (QoS) aware 
+
+•  Standard-based dead peer detection (DPD) support 
+
+•  VPN monitoring
+
+Network Services
+
+•  Dynamic Host Configuration Protocol (DHCP) client/server/
+
+relay
+
+•  Domain Name System (DNS) proxy, dynamic DNS (DDNS)
+
+•  Juniper real-time performance monitoring (RPM) and IP-
+
+monitoring
+
+•  Juniper flow monitoring (J-Flow)3
+
+High Availability Features 
+
+•  Virtual Router Redundancy Protocol (VRRP)3
+
+•  Stateful high availability 
+
+ - Dual box clustering 
+
+ - Active/passive 
+
+ - Active/active 
+
+ - Configuration synchronization 
+
+ - Firewall session synchronization
+
+ - Device/link detection 
+
+ - In-Band Cluster Upgrade (ICU)
+
+•  Dial on-demand backup interfaces 
+
+• 
+
+IP monitoring with route and interface failover
+
+Management, Automation, Logging, and Reporting
+
+•  SSH, Telnet, SNMP
+
+•  Smart image download 
+
+•  Juniper CLI and Web UI
+
+•  Junos Space and Security Director
+
+•  Python
+
+•  Junos OS event, commit, and OP script
+
+•  Application and bandwidth usage reporting
+
+•  Auto installation
+
+•  Debug and troubleshooting tools
+
+•  Zero-Touch Provisioning with Contrail Service Orchestration
+
+3GRE, IP-IP, J-Flow monitoring, and VRRP are not supported in stateful high-availbility mode.
+
+3
+
+Data SheetSRX300 Line of Services Gateways for the BranchAdvanced Routing Services
+
+•  Packet mode
+
+•  MPLS (RSVP, LDP)
+
+•  Circuit cross-connect (CCC), translational cross-connect 
+
+(TCC)
+
+•  L2/L3 MPLS VPN, pseudowires
+
+•  Virtual private LAN service (VPLS), next-generation 
+
+multicast VPN (NG-MVPN)
+
+•  MPLS traffic engineering and MPLS fast reroute
+
+Application Security Services4
+
+•  Application visibility and control
+
+•  Application-based firewall
+
+•  Application QoS
+
+•  Application-based advanced policy-based routing 
+
+Threat Defense and Intelligence Services5 
+
+• 
+
+Intrusion prevention
+
+•  Antivirus
+
+•  Antispam
+
+•  Category/reputation-based URL filtering
+
+•  Spotlight Secure threat intelligence
+
+•  Protection from botnets (command and control)
+
+•  Adaptive enforcement based on GeoIP
+
+•  Sky Advanced Threat Prevention to detect and block zero-
+
+day attacks6
+
+Hardware Specifications
+
+Specification
+
+Connectivity
+
+Total onboard ports
+
+Onboard RJ-45 ports 
+
+Onboard small form-factor 
+pluggable (SFP) transceiver ports
+
+MACsec-capable ports
+
+Out-of-band (OOB) management 
+ports
+
+Mini PIM (WAN) slots
+
+Console (RJ-45 + miniUSB) 
+
+USB 3.0 ports (type A)
+
+Optional PoE+ ports
+
+Memory and Storage
+
+System memory (RAM)
+
+Storage (flash)
+
+SSD slots 
+
+Dimensions and Power
+
+Form factor
+
+Size (WxHxD) 
+
+SRX300
+
+SRX320
+
+SRX340
+
+SRX345
+
+8x1GbE
+
+6x1GbE 
+
+2x1GbE
+
+2x1GbE
+
+0
+
+0
+
+1
+
+1
+
+N/A
+
+4 GB
+
+8 GB
+
+0
+
+8x1GbE
+
+6x1GbE
+
+2x1GbE
+
+2x1GbE
+
+0
+
+2
+
+1
+
+1
+
+67
+
+4 GB
+
+8 GB
+
+0
+
+Desktop
+
+Desktop
+
+16x1GbE
+
+8x1GbE
+
+8x1GbE
+
+16x1GbE
+
+1x1GbE
+
+4
+
+1
+
+1
+
+0
+
+4 GB
+
+8 GB
+
+1
+
+1 U
+
+16x1GbE
+
+8x1GbE
+
+8x1GbE
+
+16x1GbE
+
+1x1GbE
+
+4
+
+1
+
+1
+
+0
+
+4 GB
+
+8 GB
+
+1
+
+1 U
+
+12.63 x 1.37 x 7.52 in. 
+(32.08 x 3.47 x 19.10 cm)
+
+11.81 x 1.73 x 7.52 in. 
+(29.99 x 4.39 x 19.10 cm)
+
+17.36 x 1.72 x 14.57 in. 
+(44.09 x 4.36 x 37.01 cm)
+
+17.36 x 1.72 x 14.57 in. 
+(44.09 x 4.36 x 37.01 
+cm) / 17.36 x 1.72 x 18.7 in. 
+(44.09 x 4.36 x 47.5 cm)8
+
+Weight (device and PSU)
+
+4.38 lb (1.98 kg)
+
+3.28 lb (1.51 kg)9 / 3.4 lb 
+(1.55 kb)10
+
+10.80 lb (4.90 kg)
+
+10.80 lb (4.90 kg)
+
+Redundant PSU
+
+Power supply 
+
+No
+
+No
+
+No
+
+Yes
+
+AC (external)
+
+AC (external)
+
+AC (internal)
+
+AC (internal)
+
+N/A
+
+122 W
+
+420 BTU/h
+
+1.364 A
+
+45.5 dBA
+
+Maximum PoE power
+
+Average power consumption
+
+N/A
+
+15.4 W
+
+180 W10
+
+27 W9/112 W10
+
+N/A
+
+122 W
+
+Average heat dissipation
+
+85 BTU/h
+
+157 BTU/h9/755 BTU/h10 420 BTU/h
+
+Maximum current consumption
+
+0.254 A
+
+Acoustic noise level
+
+Airflow/cooling
+
+0dB (fanless)
+
+Fanless
+
+0.473 A9/2.07 A10
+
+37 dBA9/40 dBA10
+
+1.364 A
+
+45.5 dBA
+
+Front to back
+
+Front to back
+
+Front to back
+
+4 Available as part of Junos Software Enhanced (JSE) software package or advanced security subscription licenses.
+5  Offered as advanced security services subscription licenses.
+6 Sky ATP is supported on SRX340 and higher platforms.
+7 PoE ports on SRX320 available as a separate SKU: SRX320-POE.
+8 SRX345 with dual AC PSU model.
+9 SRX320 non PoE model.
+10 SRX320-POE with 6 ports PoE+ model.
+
+4
+
+Data SheetSRX300 Line of Services Gateways for the BranchSpecification
+
+SRX300
+
+SRX320
+
+SRX340
+
+SRX345
+
+Environmental, Compliance, and Safety Certification
+
+Operational temperature
+
+Nonoperational temperature
+
+Operating humidity
+
+Nonoperating humidity
+
+32° to 104° F (0° to 40° C)
+
+4° to 158° F (-20° to 70° C)
+
+10% to 90% noncondensing
+
+5% to 95% noncondensing
+
+Meantime between failures (MTBF)
+
+44.5 years
+
+32.5 years9/ 26 years10
+
+27 years
+
+FCC classification
+
+RoHS compliance
+
+Class A
+
+RoHS 2 
+
+Class A
+
+RoHS 2 
+
+Class A
+
+RoHS 2 
+
+27.4 years
+
+Class A
+
+RoHS 2
+
+Common Criteria certification
+
+NDPP, VPNEP, FWEP, IPSEP (based on Junos 15.1X49-D60)
+
+Performance and Scale
+
+Parameter
+
+SRX300
+
+SRX320
+
+SRX340
+
+SRX345
+
+Routing with packet mode (64 B packet size) 
+in Kpps11
+
+Routing with packet mode (IMIX packet size) 
+in Mbps11
+
+Routing with packet mode (1,518 B packet size 
+in Mbps11
+
+Stateful firewall (64 B packet size) in Kpps11
+
+Stateful firewall (IMIX packet size) in Mbps11
+
+300
+
+800
+
+1,500
+
+200
+
+500 
+
+Stateful firewall (1,518 B packet size) in Mbps11
+
+1,000
+
+IPsec VPN (IMIX packet size) in Mbps11
+
+IPsec VPN (1,400 B packet size) in Mbps11
+
+Application visibility and control in Mbps12
+
+Recommended IPS in Mbps12
+
+Next-generation firewall in Mbps12
+
+100
+
+300
+
+500
+
+200
+
+100
+
+300
+
+800
+
+1,500
+
+200
+
+500 
+
+1,000
+
+100
+
+300
+
+500
+
+200
+
+100
+
+550
+
+1,600
+
+3,000
+
+350
+
+1,100
+
+3,000
+
+200
+
+600
+
+1,000
+
+400
+
+200
+
+750
+
+2,300
+
+5,500
+
+550
+
+1,700
+
+5,000
+
+300
+
+800
+
+1,700
+
+600
+
+300
+
+Route table size (RIB/FIB) (IPv4 or IPv6)
+
+256,000/256,000
+
+256,000/256,000
+
+1 million/600,00013
+
+1 million/600,00013
+
+Maximum concurrent sessions (IPv4 or IPv6) 
+
+64,000
+
+Maximum security policies 
+
+Connections per second
+
+NAT rules
+
+MAC table size
+
+IPsec VPN tunnels
+
+Number of remote access uses
+
+GRE tunnels
+
+Maximum number of security zones
+
+Maximum number of virtual routers
+
+Maximum number of VLANs
+
+AppID sessions
+
+IPS sessions
+
+URLF sessions
+
+1,000
+
+5,000
+
+1,000
+
+15,000
+
+256
+
+25
+
+256
+
+16
+
+32
+
+1,000
+
+16,000
+
+16,000
+
+16,000
+
+11Throughput numbers based on UDP packets and RFC2544 test methodology.
+12Throughput numbers based on HTTP traffic with 44 KB transaction size.
+13Route scaling numbers are with enhanced route-scale features turned on.
+
+WAN Interface Support Matrix
+
+WAN Interface
+
+1 port T1/E1 MPIM (SRX-MP-1T1E1-R)
+
+1 port VDSL2 Annex A/M MPIM (SRX-MP-1VDSL2-R)
+
+1 port serial MPIM (SRX-MP-1SERIAL-R)
+
+4G / LTE MPIM (SRX-MP-LTE-AA & SRX-MP-LTE-AE)
+
+64,000
+
+1,000
+
+5,000
+
+1,000
+
+15,000
+
+256
+
+50
+
+256
+
+16
+
+32
+
+1,000
+
+16,000
+
+16,000
+
+16,000
+
+256,000
+
+375,000
+
+2,000
+
+10,000
+
+2,000
+
+15,000
+
+1,024
+
+150
+
+512
+
+64
+
+64
+
+2,000
+
+64,000
+
+64,000
+
+64,000
+
+4,000
+
+15,000
+
+2,000
+
+15,000
+
+2,048
+
+250
+
+1,024
+
+64
+
+128
+
+3,000
+
+64,000
+
+64,000
+
+64,000
+
+SRX300
+
+SRX320
+
+SRX340
+
+SRX345
+
+No
+
+No
+
+No
+
+No
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+5
+
+Data SheetSRX300 Line of Services Gateways for the BranchOrdering Information
+The SRX300 line offers a number of flexible ordering options. 
+Customers can choose the Junos software package for each 
+SRX300 line platform purchased based on their needs. Two 
+Junos software packages are available with the SRX300 line 
+hardware: Junos Software Base (JSB/JB) and Junos Software 
+Enhanced (JSE/JE). All routing, firewall, IPSec, and advanced 
+networking services are included in the JSB/JB package. The 
+JSE/JE package Includes all JSB capabilities, plus application 
+security services (application identification, application firewall, 
+application QoS, and application routing). Advanced security 
+services intrusion prevention, content security, and Sky Advanced 
+Threat Protection are offered as annual subscription-based 
+services with any of the Junos software packages.
+
+Hardware
+
+Management (CLI, JWEB, SNMP, Telnet, 
+SSH)
+
+Ethernet switching (L2 Forwarding, IRB, 
+LACP etc)
+
+L2 Transparent, Secure Wire
+
+Routing (RIP, OSPF, BGP, Virtual router)
+
+Multicast (IGMP, PIM, SSDP, DMVRP)
+
+Packet Mode
+
+Overlay (GRE, IP-IP)
+
+Network Services (J-Flow, DHCP, QOS, 
+BFD)
+
+Stateful Firewall, Screens, ALGs
+
+NAT (static, SNAT, DNAT)
+
+IPSec VPN (Site-Site VPN, Auto VPN, 
+Group VPN)
+
+Firewall policy enforcement (UAC, Aruba 
+CPPM)
+
+Remote Access VPN (2 free licenses)
+
+Chassis Cluster, VRRP, ISSU / ICU
+
+Automation (Junos scripting, auto-
+installation)
+
+MPLS, LDP, RSVP, L3 VPN, pseudo-wires, 
+VPLS
+
+Application Security (AppID, AppFW, 
+AppQOS, AppRoute)
+
+L = Per-user license-based; two free user licenses included
+
+SRXnnn-
+SYS-JB
+
+SRXnnn-
+SYS-JE
+
+Included
+
+Included
+
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+L
+
+•
+•
+•
+
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+L
+
+•
+•
+•
+•
+
+Base System Model Numbers
+
+Product 
+Number
+
+SRX300-SYS-JB
+
+SRX300-SYS-JE
+
+SRX320-SYS-JB
+
+SRX320-SYS-JE
+
+Description
+
+SRX300 Services Gateway includes hardware 
+(8GbE, 4G RAM, 8G Flash, power adapter and 
+cable) and Junos Software Base (firewall, NAT, 
+IPSec, routing, MPLS and switching). RMK not 
+included.
+
+SRX300 Services Gateway includes hardware 
+(8GbE, 4G RAM, 8G Flash, power adapter and 
+cable) and Junos Software Enhanced (firewall, 
+NAT, IPSec, routing, MPLS, switching and 
+application security). RMK not included.
+
+SRX320 Services Gateway includes hardware 
+(8GbE, 2x MPIM slots, 4G RAM, 8G Flash, 
+power adapter and cable) and Junos Software 
+Base (firewall, NAT, IPSec, routing, MPLS and 
+switching). RMK not included.
+
+SRX320 Services Gateway includes hardware 
+(8GbE, 2x MPIM slots, 4G RAM, 8G Flash, 
+power adapter and cable) and Junos Software 
+Enhanced (firewall, NAT, IPSec, routing, MPLS, 
+switching and application security). RMK not 
+included.
+
+SRX320-SYS-JB-P SRX320 Services Gateway includes hardware 
+(8GbE, 6-port POE+, 2x MPIM slots, 4G RAM, 
+8G Flash, power adapter and cable) and Junos 
+Software Base (firewall, NAT, IPSec, routing, 
+MPLS and switching). RMK not included.
+
+SRX320-SYS-JE-P SRX320 Services Gateway includes hardware 
+(8GbE, 6-port POE+, 2x MPIM slots, 4G RAM, 
+8G Flash, power adapter and cable) and Junos 
+Software Enhanced (firewall, NAT, IPSec, 
+routing, MPLS, switching and application 
+security). RMK not included.
+
+SRX340-SYS-JB
+
+SRX340-SYS-JE
+
+SRX345-SYS-JB
+
+SRX345-SYS-JE
+
+SRX345-SYS-JB-
+2AC
+
+SRX345-SYS-JE-
+2AC
+
+SRX340 Services Gateway includes hardware 
+(16GbE, 4x MPIM slots, 4G RAM, 8G Flash, 
+power supply, cable and RMK) and Junos 
+Software Base (firewall, NAT, IPSec, routing, 
+MPLS and switching)
+
+SRX340 Services Gateway includes hardware 
+(16GbE, 4x MPIM slots, 4G RAM, 8G Flash, 
+power supply, cable and RMK) and Junos 
+Software Enhanced (firewall, NAT, IPSec, 
+routing, MPLS, switching and application 
+security)
+
+SRX345 Services Gateway includes hardware 
+(16GbE, 4x MPIM slots, 4G RAM, 8G Flash, 
+power supply, cable and RMK) and Junos 
+Software Base (firewall, NAT, IPSec, routing, 
+MPLS and switching)
+
+SRX345 Services Gateway includes hardware 
+(16GbE, 4x MPIM slots, 4G RAM, 8G Flash, 
+power supply, cable and RMK) and Junos 
+Software Enhanced (firewall, NAT, IPSec, 
+routing, MPLS, switching and application 
+security)
+
+SRX345 Services Gateway includes hardware 
+(16GbE, 4x MPIM slots, 4G RAM, 8G Flash, dual 
+AC power supply, cable and RMK) and Junos 
+Software Base (firewall, NAT, IPSec, routing, 
+MPLS and switching)
+
+SRX345 Services Gateway includes hardware 
+(16GbE, 4x MPIM slots, 4G RAM, 8G Flash, 
+dual AC power supply, cable and RMK) and 
+Junos Software Enhanced (firewall, NAT, IPSec, 
+routing, MPLS, switching and application 
+security)
+
+6
+
+Data SheetSRX300 Line of Services Gateways for the BranchSRX-RAC-100-
+LTU
+
+SRX-RAC-150-
+LTU
+
+SRX-RAC-250-
+LTU
+
+SRX-RAC-500-
+LTU
+
+Dynamic VPN service: 500 simultaneous 
+Access Manager users
+
+Interfaces Modules
+
+Product 
+Number
+
+SRX-MP-1T1E1-R
+
+SRX-MP-
+1VDSL2-R
+
+SRX-MP-
+1SERIAL-R
+
+SRX-MP-LTE-AA
+
+SRX-MP-LTE-AE
+
+Description
+
+1 port T1E1, MPIM form factor supported on 
+SRX320, SRX340, SRX345 and SRX550M. 
+ROHS complaint
+
+1 port VDSL2 (backward compatible with ADSL 
+/ ADSL2+), MPIM form factor supported on 
+SRX320, SRX340, SRX345 and SRX550M. 
+ROHS complaint
+
+1 port Synchronous Serial, MPIM form factor 
+supported on SRX320, SRX340, SRX345 and 
+SRX550M. ROHS complaint
+
+4G / LTE MPIM support 1, 3, 5, 7-8, 18-19, 21, 
+28, 38-41 LTE bands (for Asia and Australia). 
+Supported on SRX320, SRX340, SRX345 and 
+SRX550M
+
+4G / LTE MPIM support 1-5, 7-8, 12-13, 30, 
+25-26, 29-30, 41 LTE bands (for Americas 
+and EMEA). Supported on SRX320, SRX340, 
+SRX345 and SRX550M
+
+Remote Access VPN (Dynamic VPN) Licenses
+
+Accessories
+
+Product 
+Number
+
+SRX-RAC-5-LTU
+
+Description
+
+Product 
+Number
+
+Description
+
+Dynamic VPN service: 5 simultaneous Access 
+Manager users
+
+SRX300-RMK0
+
+SRX300 rack mount kit with adaptor tray
+
+SRX300-RMK1
+
+SRX300 rack mount kit without adaptor tray
+
+SRX-RAC-10-LTU
+
+Dynamic VPN service: 10 simultaneous Access 
+Manager users
+
+SRX-RAC-25-LTU
+
+Dynamic VPN service: 25 simultaneous Access 
+Manager users
+
+SRX-RAC-50-LTU Dynamic VPN service: 50 simultaneous Access 
+
+Manager users
+
+SRX300-WALL-
+KIT0
+
+SRX300 wall mount kit with brackets
+
+SRX320-P-RMK0
+
+SRX320-POE rack mount kit with adaptor tray
+
+SRX320-P-RMK1
+
+SRX300-POE rack mount kit without adaptor 
+tray
+
+Dynamic VPN service: 100 simultaneous Access 
+Manager users
+
+SRX320-RMK0
+
+SRX320 rack mount kit with adaptor tray
+
+SRX320-RMK1
+
+SRX320 rack mount kit without adaptor tray
+
+Dynamic VPN service: 150 simultaneous Access 
+Manager users
+
+SRX320-WALL-
+KIT0
+
+Dynamic VPN service: 250 simultaneous Access 
+Manager users
+
+JSU-SSD-
+MLC-100
+
+SRX320 wall mount kit with brackets
+
+Juniper Storage Unit, SSD, MLC, 100GB
+
+About Juniper Networks
+Juniper Networks challenges the status quo with products, 
+solutions and services that transform the economics of 
+networking. Our team co-innovates with customers and partners 
+to deliver automated, scalable and secure networks with agility, 
+performance and value. Additional information can be found at 
+Juniper Networks or connect with Juniper on Twitter and Facebook.
+
+EXPLORE JUNIPER
+Get the App.
+
+Corporate and Sales HeadquartersJuniper Networks, Inc. 1133 Innovation WaySunnyvale, CA 94089 USAPhone: 888.JUNIPER (888.586.4737)or +1.408.745.2000Fax: +1.408.745.2100www.juniper.net Copyright 2017 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, Juniper, and Junos are registered trademarks of Juniper Networks, Inc. in the United States and other countries. All other trademarks, service marks, registered marks, or registered service marks are the property of their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice. APAC and EMEA HeadquartersJuniper Networks International B.V.Boeing Avenue 2401119 PZ Schiphol-RijkAmsterdam, The NetherlandsPhone: +31.0.207.125.700Fax: +31.0.207.125.701Data SheetSRX300 Line of Services Gateways for the Branch1000550-006-EN  June 2017

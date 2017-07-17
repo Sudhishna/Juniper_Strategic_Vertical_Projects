@@ -1,0 +1,269 @@
+Firewall Conversion Service
+
+Service Overview
+
+Deploying a new Juniper Networks 
+firewall solution will help 
+safeguard the security of your 
+customers and organization while 
+maintaining your competitive 
+advantage. For rapid and smooth 
+legacy conversions, it is critical 
+for your team to understand and 
+be prepared to address typical 
+conversion challenges that can 
+occur because of interpretation 
+errors, human errors, and zone-
+based versus single zone policies. 
+
+Juniper’s Firewall Conversion 
+Service combines remote 
+consulting, proven processes, and 
+tested technologies to reduce risk 
+and accelerate migration to your 
+new Juniper Networks SRX Series 
+Services Gateways. 
+
+Service Description 
+The Juniper Networks® Firewall Conversion Service is designed to ease the critical transition 
+as you convert from legacy firewalls to your new Juniper Networks SRX Series Services 
+Gateways solution. This service provides your organization with access to a firewall 
+conversion team with extensive knowledge of CheckPoint, Cisco, and Juniper deployments. 
+It employs migration and conversion tools that have been developed using time-tested 
+migration methodologies and automated processes to minimize data entry errors. It 
+enables you to convert to your new SRX Series gateway with Juniper Networks Junos® 
+operating system efficiently and with complete confidence.
+
+As part of this service, you are able to leverage the expertise within the Juniper Networks 
+Professional Services team and receive a configuration file that emulates the access 
+controls provided by the legacy system. This is accomplished using a set of time proven 
+tools to convert the configuration values of the legacy system to equivalent controls on the 
+SRX Series. The service addresses four areas:
+
+1.   Requirements—Review of the prerequisite data, requirements, design, and  
+
+desired results.
+
+2.   Conversion—Conversion of the policy (rules) and their elements (addresses, 
+
+applications, and groups) found in the legacy configuration to a file suitable for the 
+SRX Series gateway.
+
+3.   Review—Detailed review of the converted configuration in comparison to the  
+
+original device.
+
+4.  Implementation—SRX Series cutover and first production day support.
+
+Firewall Conversion Service is a remotely delivered, low cost offering that helps you convert 
+from a single device legacy firewall configuration to a new SRX Series gateway. It has been 
+specifically designed to ease this critical transition and mitigate risks, and it is performed by 
+Juniper experts who have extensive experience in conversions and know how to avoid the 
+potential conversion issues. The processes used will ensure that the resulting configuration 
+will comply with existing security policies and maintain maximum network uptime. The 
+Firewall Conversion Service simplifies your firewall conversion, lowering total cost of 
+ownership, enabling a faster time to deployment, and accelerating the time to revenue 
+activities for the organization. 
+
+The Firewall Conversion Service also provides the conversion of your entire rule base, 
+including access control list (ACL) and Network Address Translation (NAT) rules, plus all 
+address and service objects. 
+
+The service is available for customers switching from legacy firewalls to Juniper firewalls, as 
+well as for customers who are upgrading from Juniper Networks ScreenOS™ Software-based 
+firewalls to Junos OS-based SRX Series Services Gateways. The eligible legacy devices are: 
+Checkpoint, Cisco ASA, Cisco FWSM, Cisco PIX, or ScreenOS-based appliances. 
+
+1
+
+Data SheetFeatures and Benefits
+Feature
+
+Review of requirements and design
+
+Feature Description
+
+Benefit
+
+Consultants review the information regarding 
+legacy data as well as desired end state.
+
+•  Mitigate risks
+•  Receive early warning of potential issues
+
+Use of tried and tested conversion tools 
+and techniques
+
+Automated conversion of configuration files is 
+completed. 
+
+Detailed review of old and new 
+configuration files
+
+Your Professional Services engineer checks that 
+the configuration has been correctly converted.
+
+•  Minimize potential for data entry errors
+•  Accelerate and optimize the time-to-value of 
+
+your Juniper firewall solution
+
+•  Leverage experience from other conversion 
+
+projects 
+
+•  Accelerate availability of new SRX Series 
+
+solution
+
+•  Mitigate risks
+
+Service Deliverables and Benefits 
+This service provides a new configuration file and enables you 
+to easily and effectively convert from a legacy firewall to a SRX 
+Series gateway. The Firewall Conversion Service also provides 
+conversion support for your staff and helps minimize the risks in 
+converting to a new security solution. 
+
+Exclusions
+The Conversion Service does not include:
+
+•  Design review including sizing, interoperability  
+
+and compatibility
+
+•  Base, Skeleton, Configuration or suitability review
+
+• 
+
+ Loading of the file onto a production device. 
+
+Juniper Consulting
+As leaders in networks and security, Juniper Networks 
+Professional Services consultants and engineers are uniquely 
+qualified to assist service providers in designing, implementing, 
+and optimizing security solutions. Our team appreciates 
+the complexities and the subtleties inherent in large-scale 
+internetwork design and can assist service providers and 
+enterprises, or provide customized and integrated  
+“turn-key” solutions. 
+
+Juniper Networks Professional Services helps accelerate your 
+network’s time to value, bringing revenue generating capabilities 
+online faster for bigger productivity gains, faster rollouts of 
+new business models and ventures, greater market reach, 
+and higher levels of customer satisfaction. Your onsite staff 
+will work closely with Juniper specialists, building operational 
+capabilities and reducing your exposure to IT risks. As a result 
+of our previous experience involving hundreds of customers 
+around the world, Juniper Networks Professional Services is 
+uniquely qualified to help you design, implement, and optimize 
+your network for confident operation and rapid returns on 
+infrastructure investments. These professionals understand 
+today’s network and security demands and those that are just 
+around the corner—for bandwidth efficiency, best-in-class 
+security, solid reliability, and cost-effective scaling.
+
+The use of Juniper’s consultants also avoids the requirement  
+for you to have the necessary technical and evaluation skills 
+in-house. The evaluation can be completed faster as you are not 
+forced to wait until internal resources become available, nor do 
+you have to address the issue of conflicting project priorities.
+
+Additional Services to Optimize  
+Your Network 
+Juniper Networks provides additional consulting services to 
+consider along with the Firewall Conversion Service. For example:
+
+•  Data Center Security Evaluation: This service would 
+
+usually be a precursor to the Data Center Security Migration 
+Readiness Evaluation. It is designed to identify areas in which 
+your security statement and your security environment are 
+misaligned with each other and/or misaligned with the 
+requirements of the business. 
+
+In addition, a broad range of consulting and packaged 
+implementation services is available to help you enhance your 
+network design and optimize your production environment. 
+Services to consider in the early stages of your network review are:
+
+•  Strategic Network Consulting: In the planning stage of 
+
+your project, this service will assist you in determining 
+a strategy for your network architecture and a plan to 
+translate that strategy into an optimal solution. It is aimed 
+at understanding your business requirements, determining 
+the impact of the changes on your existing network 
+infrastructure, and providing architectural guidance and 
+recommendations to ensure that your network will be 
+enhanced in a controlled manner.
+
+•  High-Level Design: Implementing a new network or security 
+
+project starts with an evaluation of the requirements and  
+a detailed rendering of the architecture to be used. The 
+High-Level Design service defines the topology, protocols, 
+and equipment required, mapping the design to your needs.
+
+•  Low-Level Design: Once the high-level design of a network 
+is determined, the specifics need to be identified. The Low-
+Level Design service identifies the optimal configuration and 
+equipment necessary to make your network a reality.
+
+2
+
+Data SheetFirewall Conversion Service•  Testing Service: Prior to implementation of a new network, 
+
+Juniper Networks Testing Service provides you with an 
+opportunity to combine your knowledge of your network’s 
+specific performance requirements with Juniper’s sound 
+foundation of network design methodology and products 
+to create a customized test environment that simulates 
+your unique end-to-end deployment scenario. This lets 
+you avoid the cost of creating and operating your own 
+test labs, reduces your project risk, ensures a seamless 
+implementation of new technology into your production 
+environment, and accelerates your time to deployment.
+
+•  Junos Space Network Management Platform Security 
+
+Director QuickStart Service: This is a QuickStart service 
+that provides the expert assistance of an onsite engineer 
+to help rapidly get the most value from your Juniper 
+product investment. During the onsite knowledge transfer 
+process, your Professional Services Consultant will 
+provide expert guidance and learning resources to prepare 
+your staff to install, configure, and operate your Juniper 
+Networks Junos Space Network Management Platform in 
+day-to-day scenarios.
+
+Juniper Networks Services and Support
+Juniper Networks is the leader in performance-enabling services 
+that are designed to accelerate, extend, and optimize your 
+high-performance network. Our services allow you to maximize 
+operational efficiency while reducing costs and minimizing 
+risk, achieving a faster time to value for your network. Juniper 
+Networks ensures operational excellence by optimizing the 
+network to maintain required levels of performance, reliability, 
+and availability. For more details, please visit www.juniper.net/us/
+en/products-services. 
+
+Ordering Information 
+To order the Juniper Networks Firewall Conversion Service, or 
+for additional information, please contact your Juniper account 
+manager. Before the service begins, a statement of work (SOW) 
+will be created outlining the scope of effort to be performed. 
+
+About Juniper Networks
+Juniper Networks challenges the status quo with products, 
+solutions and services that transform the economics of 
+networking. Our team co-innovates with customers and partners 
+to deliver automated, scalable and secure networks with agility, 
+performance and value. Additional information can be found at 
+Juniper Networks or connect with Juniper on Twitter and Facebook.
+
+EXPLORE JUNIPER
+Get the App.
+
+Corporate and Sales HeadquartersJuniper Networks, Inc. 1133 Innovation WaySunnyvale, CA 94089 USAPhone: 888.JUNIPER (888.586.4737)or +1.408.745.2000Fax: +1.408.745.2100www.juniper.net Copyright 2016 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, and Junos are registered trademarks of Juniper Networks, Inc. in the United States and other countries. All other trademarks, service marks, registered marks, or registered service marks are the property of their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice.APAC and EMEA HeadquartersJuniper Networks International B.V.Boeing Avenue 2401119 PZ Schiphol-RijkAmsterdam, The NetherlandsPhone: +31.0.207.125.700Fax: +31.0.207.125.701Data SheetFirewall Conversion Service1000445-003-EN   Nov 2016
