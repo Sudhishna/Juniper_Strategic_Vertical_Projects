@@ -1,0 +1,431 @@
+WANDL IP/MPLSView
+
+Intelligent Network Planning Solution for the Agile Next-Generation 
+Service Provider
+
+Product Overview
+
+Service providers can no longer 
+afford a reactive and overbuilt 
+network to handle traffic growth 
+from emerging services. Instead, 
+they need an approach that first 
+optimizes their existing network 
+assets and then ensures that every 
+bit in the network leads to a dollar 
+of revenue being generated.  
+
+IP/MPLSView is a multivendor, 
+multiprotocol, and multilayer 
+operations support systems 
+(OSS) traffic management and 
+engineering solution for IP and/
+or MPLS networks. With IP/
+MPLSView, service providers 
+can increase overall network 
+utilization with a platform that 
+provides multivendor integration, 
+unprecedented scalability, and 
+powerful fault management 
+capabilities.
+
+Product Description 
+Juniper Networks® WANDL IP/MPLSView is distinguished by its attention to detailed routing 
+protocol behavior, an extensive multivendor library, and scalability and performance for 
+networks up to thousands of routers. The integrated software suite has traffic engineering 
+models for exhaustive single and concurrent device failures, traffic matrix estimation, MPLS 
+diverse path design, fast reroute design, network optimization, and more. Additionally, the 
+IP/MPLSView integrated network management module provides a comprehensive fault, 
+configuration, accounting, performance, and security (FCAPS) solution offering automated 
+network discovery, traffic monitoring, hardware inventory, and fault management tools.
+
+As a multivendor, multiprotocol, and multilayer management suite, IP/MPLSView offers 
+service providers the following benefits:
+
+•  One single platform that provides integrated online FCAPS management
+
+•  Multivendor integration for fast network autodiscovery1  
+
+•  Unprecedented scalability to handle regional, national, and intercontinental network 
+
+topologies
+
+•  Performance management to tune the network for increased efficiency, trending 
+
+analysis, and problem prevention
+
+•  Powerful conformance checking to ensure compliance and address any configuration 
+
+management needs
+
+•  Powerful fault management tools to quickly detect and diagnose issues in the network 
+
+IP/MPLSView combines FCAPS management in a single modular platform. Coupled with 
+complete physical and logical views of the network, network planners, designers, engineers, 
+and operators can now make intelligent and informed real-time decisions regarding the 
+network’s operation and performance. 
+
+As a highly intelligent and automated system, IP/MPLSView also provides a continually 
+refined design and algorithm optimization that reflects industry best practices and years 
+of customer interactions. IP/MPLSView addresses the major areas of network planning, 
+including traffic and routing analysis, capacity planning, resiliency analysis/disaster planning, 
+path design, and optimization. In addition, an intuitive interface allows users of varying levels 
+to use the system effectively without having to program or develop a model first.
+
+1Vendor support includes Cisco, Alcatel-Lucent, Foundry, and Huawei, to name few.
+
+1
+
+Data SheetJava and Web-Browsable Interface
+
+Automatic Network Topology Construction
+
+Multi-Layer Design
+
+and Simulation
+
+FCAPS Monitoring
+and Management
+
+CM
+
+PM
+
+FM
+
+Routing Engine
+
+Threshold
+
+Engine
+
+Event
+
+Processing
+
+Intelligent Parser
+
+Database
+
+Autodiscovery and
+Network Conﬁg/
+Data Collection
+
+TraŠc/SLA
+Collection
+
+SNMP
+Traps
+
+Diagnostics
+and Control
+
+CLI (Telnet/SSH) and SNMP (v1, v2c, v3)
+
+Multi-Vendor IP
+
+or MPLS-enabled Network
+
+Figure 1: IP/MPLSView supports a multivendor/multiprotocol IP  
+
+or MPLS network
+
+Architecture and Key Components
+IP/MPLSView is made up of three suites: Design and Planning, 
+Management and Monitoring, and Service Creation and 
+Provisioning. These three suites support the complete network 
+cycle and handle the varying needs of network designers, 
+planners, operators, and managers. Understanding IP/
+MPLSView’s integrated workflow provides an in-depth look at the 
+product’s comprehensive capabilities, which include advanced 
+OSS functionality that give users visibility into the network 
+layers from physical transport through logical service layers. As a 
+multivendor, multiprotocol, and multilayer solution, IP/MPLSView 
+supports the following goals and network planning requirements:
+
+•  Automate network topology construction
+
+•  Perform traffic load analysis
+
+•  Perform capacity planning 
+
+•  Ensure network resiliency against failure 
+
+• 
+
+Identify and prevent potential bottlenecks
+
+•  Automate low cost, robust network designs
+
+• 
+
+ Validate changes prior to deployment
+
+•  Design and simulate MPLS-TE networks
+
+•  Create and model VPNs
+
+•  Model the VLAN network
+
+•  Model and analyze BGP
+
+•  Analyze CoS to meet SLAs 
+
+•  Simulate multicast 
+
+From a set of network configuration files and other optional 
+data, an intelligent multivendor analyzer within IP/MPLSView 
+immediately constructs an accurate network topology, fully 
+aware of multiple protocols, layers, autonomous systems (AS), 
+areas, VPNS, etc. This network data can be imported into the tool 
+or collected directly by the system itself if used in conjunction 
+with the IP/MPLSView network management online module. 
+Alternatively, the user can manually construct any network 
+topology via the IP/MPLSView advanced graphical interface.
+
+Perform Traffic Load Analysis
+
+With IP/MPLSView, users can access current and historical traffic 
+charts to pinpoint bottlenecks or underutilized links at-a-glance 
+from the topology map. For loading traffic into the network 
+model, IP/MPLSView offers its own traffic collection utilities, as 
+well as support for utilities that import traffic from third-party 
+sources such as MRTG, NetFlow, eHealth, and InfoVista. If you do 
+not know the end-to-end traffic matrix, IP/MPLSView is able to 
+derive it from the interface traffic using intelligent tomography 
+models in the traffic matrix solver module.
+
+Perform Capacity Planning
+
+IP/MPLSView facilitates decisions about future network 
+expansion by studying the impact of adding new demands before 
+they are placed on the real network. Planners can use the system 
+to determine whether there is sufficient available capacity or 
+where more should be added, as well as which links can be 
+pruned without compromising resiliency requirements.
+
+Ensure Network Resiliency Against Failure
+
+With IP/MPLSView, users can study the impact of extensive node, 
+link, site, card, and Shared Risk Link Group (SRLG) multilayer 
+failure scenarios. They can also analyze the way traffic is rerouted 
+and the effect on network links (e.g., worst-case trunk utilization), 
+and even perform exhaustive single, double, and triple failure tests.
+
+Identify and Prevent Potential Bottlenecks
+
+IP/MPLSView provides insights as to why traffic flows or tunnels 
+fail to route and helps identify which trucks become congested 
+under certain failures or what-if scenarios.
+
+Automate Low Cost, Robust Network Designs
+
+IP/MPLSView automatically determines where to add links to 
+satisfy traffic for resiliency against any failure scenario. A network 
+can be designed from scratch or on top of an existing network 
+configuration. Tariff or pricing data can be imported for least cost 
+topology designs.
+
+Validate Changes Prior to Deployment 
+
+IP/MPLSView allows the network planner to validate day-to-day 
+network changes, or model and simulate network migration, 
+network expansion, or the merging of multiple networks. This 
+provides the ability to analyze the impact of these changes in 
+a safe, virtual environment, and also experiment with changing 
+parameters, protocols, topology, and so on.
+
+2
+
+Data SheetWANDL IP/MPLSVIEWIP/MPLSView: One Integrated Solution Covers the
+
+Complete Network Cycle
+
+1
+
+Plan
+
+Plan, design,
+simulate, and
+optimize the 
+network model.
+
+IP/MPLSView
+
+Network
+Model
+
+3
+
+Monitor and
+Manage
+
+Upload network
+data (conﬁgs, 
+tra‚c) via o„ine
+import from third-
+party sources or
+via a direct
+discovery of the
+live network.
+
+2
+
+Deploy
+
+“Conﬁglets”
+generated from
+Step 1 are ready
+for pushing back 
+to the production
+network.
+
+Multivendor IP
+
+or MPLS-enabled Network
+
+or NMS
+
+Figure 2: One integrated solution covers the complete  
+
+network cycle.
+
+Design and Simulate MPLS-TE, LSP Routing
+With IP/MPLSView, users can design and simulate LSP tunnels 
+via intelligent MPLS LSP path calculation. They can perform 
+network outage simulations across both MPLS and IP layers. 
+automate MPLS fast reroute (FRR) backup tunnel design and 
+simulation, automate the design of diverse paths for primary and 
+backup protection tunnels, and optimize LSP paths that have 
+become suboptimal over time
+
+Create and Model VPNs
+IP/MPLSView lets users model a wide variety of VPNs and 
+perform VPN routing simulation. You can use the system to 
+generate VPN traffic and then perform card failure simulation to 
+see if a VPN will be brought down by a single card failure. You can 
+also run VPN-specific integrity checks on the configuration files.
+
+Model the VLAN Network
+IP/MPLSView shows you topology, status, and details for each 
+VLAN, spanning tree, and device. It is easy to model the VLAN 
+network by using the VLAN Wizard to construct or modify VLANs. 
+
+Model and Analyze BGP
+With IP/MPLSView functionality, users can study BGP routing, 
+perform detailed BGP routing analysis and what-if studies 
+involving BGP policy changes or the addition of new BGP peers, 
+and perform detailed BGP neighbor analysis.
+
+Analyze CoS to Meet SLAs 
+To ensure that they are meeting service-level agreements (SLAs), 
+service providers can use IP/MPLSView to model class of service 
+(CoS) classes and policies, as well as different queuing schemes. 
+They can also define application flows based on CoS, which 
+enables the modeling of voice over IP (VoIP) or video on demand 
+(VOD). IP/MPLSView also helps analyze packet loss and delay 
+statistics per class of service.
+
+Simulate Multicast
+
+With IP/MPLSView, users can simulate multicast flows based 
+on user-defined multicast groups and demands. They can 
+also simulate the effect of rendezvous point selection on the 
+distribution tree and on link utilization, as well as shortest-path 
+tree (SPT) switchover.
+
+Features and Benefits
+
+•  Reduce network costs: Effective designs can result in lower 
+
+hardware and maintenance costs. Juniper Networks IP/
+MPLSView features tariff-based design, MPLS LSP traffic 
+engineering for effective utilization of the network, and 
+superior design optimization.
+
+•  Automate for productivity and operational efficiencies: 
+
+With the state-of-the-art IP/MPLSView design engine 
+and heuristics, tasks such as report, topology map, and 
+LSP path generation are automated, as well as tasks such 
+as accommodating traffic growth and optimizing the 
+backbone topology.
+
+•  Guard against unnecessary risk: Assessing the network 
+
+using IP/MPLSView’s intelligent integrity checking, resiliency 
+analysis, fiber cut analysis, etc., helps operators avoid 
+problems and mitigate risk. 
+
+•  Diagnose performance problems: Using IP/MPLSView’s flow 
+
+analysis, bottleneck detection and analysis, peak utilization 
+analysis, discrete event simulation, and multicast simulation 
+helps administrators quickly diagnose performance problems.
+
+•  Validate changes prior to deployment: IP/MPLSView 
+enables designers and administrators to validate new 
+services, new equipment, and new technologies before they 
+are rolled out.
+
+•  Plan for future growth: Using IP/MPLSView’s superior 
+
+capacity planning and data forecasting helps inform and 
+optimize plans for growing the network to meet business 
+needs.
+
+Specifications
+Recommended System Configuration
+
+IP/MPLSView runs on a client/server architecture. The 
+recommended configuration depends upon the size of the 
+network and the number of users. Sample client/server 
+configurations are listed below. For a more precise hardware 
+estimate for your network, please contact your local Juniper 
+representative.
+
+Main Application Server
+
+•  Multi-core CPUs with clock speed greater than 2.5GHz
+
+•  8 GB for a single application server
+
+•  CentOS and RedHat 6.6 to 7.0
+
+•  100+GB server disk space
+
+3
+
+Data SheetWANDL IP/MPLSVIEWJava Client (PC)
+
+•  Windows 7/8/10
+
+•  4 GB RAM or more
+
+Juniper Networks Services and Support
+Juniper Networks is the leader in performance-enabling services 
+that are designed to accelerate, extend, and optimize your 
+high-performance network. Our services allow you to maximize 
+operational efficiency while reducing costs and minimizing 
+risk, achieving a faster time to value for your network. Juniper 
+Networks ensures operational excellence by optimizing the 
+network to maintain required levels of performance, reliability, 
+and availability. For more details, please visit www.juniper.net/us/
+en/products-services. 
+
+Ordering Information
+Contact your Juniper Networks Sales Representative or 
+Authorized Partner for more information.
+
+About Juniper Networks
+Juniper Networks challenges the status quo with products, 
+solutions and services that transform the economics of 
+networking. Our team co-innovates with customers and partners 
+to deliver automated, scalable and secure networks with agility, 
+performance and value. Additional information can be found at 
+Juniper Networks or connect with Juniper on Twitter and Facebook.
+
+EXPLORE JUNIPER
+Get the App.
+
+Corporate and Sales HeadquartersJuniper Networks, Inc. 1133 Innovation WaySunnyvale, CA 94089 USAPhone: 888.JUNIPER (888.586.4737)or +1.408.745.2000Fax: +1.408.745.2100www.juniper.net Copyright 2017 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, Junos and QFabric are registered trademarks of Juniper Networks, Inc. in the United States and other countries. Java is a registered trademark of Oracle. All other trademarks, service marks, registered marks, or registered service marks are the property of their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice.APAC and EMEA HeadquartersJuniper Networks International B.V.Boeing Avenue 2401119 PZ Schiphol-RijkAmsterdam, The NetherlandsPhone: +31.0.207.125.700Fax: +31.0.207.125.701Data SheetWANDL IP/MPLSVIEW1000500-004-EN  Feb 2017

@@ -1,0 +1,3591 @@
+ACX Series Universal  
+Access Routers
+
+Product Overview
+
+ACX Series Universal Access 
+Routers bring operational 
+intelligence to the access and 
+aggregation layers, providing 
+the option to deploy Ethernet 
+or IP/MPLS infrastructure. 
+High-precision synchronization 
+technology, industry-leading 
+security, and high availability 
+features enhance QoE, while 
+extensive OAM, built-in advanced 
+SLA management, and zero 
+touch deployment capabilities 
+reduce TCO. ACX Series platforms 
+address a variety of service 
+provider use cases—including 
+mobile backhaul, residential 
+and business access, and metro 
+Ethernet aggregation—as well as 
+enterprise use cases for power 
+utilities, oil and gas, mining, 
+transportation, and defense and 
+public safety industries. 
+
+Product Description 
+Juniper Networks® ACX Series Universal Access Routers are Juniper’s response to a shift 
+in metro network architecture where the access and aggregation layer is extending the 
+operational intelligence from the service provider edge to the access network. The ACX 
+Series simplifies access and aggregation architectures by eliminating unnecessary layers 
+and network overlays, dramatically reducing CapEx and OpEx. Based on architectural 
+simplification and cost reduction, service providers and enterprises can adopt the true 
+universal access paradigm enabled by the ACX Series. In addition to MEF CE2.0 compliance 
+for supporting both Ethernet and IP/MPLS, the ACX Series provides high capacity and 
+scalability while delivering industry-leading performance with a range of port densities and 
+interface types. Table 1 provides a snapshot of interfaces supported on each ACX Series 
+model. The flexibility and upgradability (mix and match of interface types) makes the ACX 
+Series ideal for a wide range of use cases applications. 
+
+Metro Ethernet
+Carrier Ethernet services have been growing at double-digit rates over the past several 
+years, and the trend is expected to continue—projected to reach over $70 billion revenue 
+globally by 2020. Unabated network traffic growth driven by video and mobility, the 
+continued shift from legacy TDM to IP, increased adoption of cloud services, and the arrival 
+of smart cities and IoT (Internet of Things) all drive the demand for more Ethernet services 
+given its lower cost per bit and bandwidth scalability. Meanwhile, Carrier Ethernet services 
+are being provided by a wide range of service providers, and the increased competition 
+has been putting pressure on the services price. To maintain profitability and compete 
+effectively, service providers need a scalable universal metro Ethernet infrastructure to 
+serve multiple customer segments with differentiated services.
+
+•  Business Services—The ACX500, ACX1000 line, and ACX2000 line can be deployed 
+
+as a CPE or NID to provide L2/3 business access, direct Internet access, and IP 
+services such as IP VPN. The ACX Series features robust OAM and SLA control 
+capabilities; together with automation and zero touch provisioning, the ACX Series 
+enables seamless migration from 1GbE to 10GbE.
+
+•  Residential Aggregation—The ACX5000 is a perfect candidate as a versatile 
+
+metro aggregation platform. It supports high port densities and rich features such 
+as Ethernet OAM for E-LINE, E-LAN, E-TREE over Ethernet or IP/MPLS, and IP VPN.  
+The ACX5000 is also an excellent choice as a converged FTTH and metro Ethernet 
+Services solution.
+
+•  Wholesale Mobile Backhaul—In addition to MEF CE 2.0 compliance, supporting 
+
+both Ethernet and IP/MPLS, the ACX Series provides high capacity and scalability, 
+complete timing and synchronization, and integrated security and SLA tools 
+that wholesale operators could use to differentiate for mobile backhaul services. 
+Additionally, the ACX500 could be used as a last-mile deployment solution for a 
+small cell as-a-service offering. 
+
+1
+
+Data Sheet•  Cloud Exchange—High capacity, low power consumption 
+in combination with rich MEF and IP feature set, all make 
+the ACX5000 a good fit as the aggregation platform for a 
+Cloud Exchange service provider.
+
+Mobile Backhaul and Fronthaul
+
+The accelerating speed of innovation is forcing mobile operators 
+to start planning for migration to LTE-Advanced now and 5G 
+in the near future. LTE-Advanced and 5G place more stringent 
+requirements for capacity, latency, synchronization, and security 
+on the network infrastructure. 
+
+Equipped with 1GbE/10GbE interfaces and providing up to 60 
+Gbps of throughput, the ACX Series satisfies LTE-Advanced 
+and 5G capacity requirements. In addition to high capacity 
+and density to address scaling requirements, the ACX Series 
+also addresses end-user quality requirements through high-
+precision timing, advanced security features, and enhanced SLA 
+management capabilities. 
+
+Today, the ACX Series supports all mobile services profiles 
+including 2G/3G HSPA, 4G LTE, LTE-Advanced, and Small Cell. 
+In a typical backhaul deployment scenario, the ACX500 is used 
+as a small cell router and grandmaster, whereas the ACX1000 
+
+Table 1: Built-In Interface Options for Various ACX Series Models
+
+line, ACX2000 line, or ACX4000 are macro cell site routers. The 
+backhaul traffic carried over Ethernet or IP/MPLS is aggregated 
+by the ACX5000 before it hits the mobile core. In a C-RAN 
+deployment scenario, the ACX5000 could be used for fronthaul 
+in a BBU model.
+
+Enterprise Networking and Field Area Network
+
+As enterprises and governments are embarking on their digital 
+transformation journey, they need to deploy and upgrade their 
+mission-critical communications networks, some of which are 
+located in demanding and harsh environments such as the field 
+area networks for providing SCADA system connectivity. These 
+include power utilities, oil and gas, mining, rail and transportation, 
+defense and public safety industries, etc.
+
+The environmentally hardened small form factor ACX Series 
+platforms deliver comprehensive routing and security services, 
+application awareness and control, with high availability to ensure 
+business continuity and resiliency, and they are perfect choices for 
+supporting such mission-critical communications networks. The 
+ACX Series enables seamless migration from legacy TDM/SONET 
+to Ethernet/IP, with support of legacy services. 
+
+Model
+
+ACX500
+
+ACX500-O
+
+ACX500-O-POE
+
+ACX1000
+
+ACX1100
+
+ACX2100
+
+ACX2200
+
+ACX4000
+
+ACX5048
+
+ACX5096
+
+TDM (T1/E1) OC3 (STM1)/
+OC12 (STM4)
+
+GbE (copper) GbE (combo)
+
+GbE (SFP)
+
+10GbE 
+(SFP+)
+
+40GbE 
+(QSFP)
+
+-
+
+-
+
+-
+
+8
+
+-
+
+16
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Up to 32**
+
+Up to 8/2**
+
+-
+
+-
+
+-
+
+-
+
+-
+
+3
+
+3 with PoE+ 
+
+support
+
+8
+
+8
+
+4
+
+4
+
+-
+
+-
+
+-
+
+4 (PoE+ 
+
+support on 3 
+
+ports)
+
+-
+
+-
+
+4
+
+4
+
+4
+
+4
+
+2
+
+3
+
+3
+
+-
+
+-
+
+2
+
+2
+
+8 (PoE++ 
+
+support on 2 
+
+ports)
+
+Up to 14**
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+2*
+
+2*
+
+2*
+
+48*
+
+96*
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+6
+
+8
+
+* SFP+ ports can be configured to be 1GbE ports and accept 1GbE small form-factor pluggable transceiver (SFP);
+** When equipped with appropriate I/O MIC modules. See table with “Ordering Information”
+
+2
+
+Data SheetACX Series Universal Access RoutersArchitecture and Key Components
+Powered by Juniper Networks Junos® operating system, the 
+ACX Series routers complement Juniper Networks MX Series 3D 
+Universal Edge Routers through a flexible and scalable service 
+provider and enterprise branch routing portfolio optimized to 
+support rapidly growing mobile, video, and cloud computing 
+applications. The ACX Series introduces Juniper’s proven IP/
+MPLS leadership from core and edge into the access layers of the 
+network. Maintaining relative simplicity in the access network, 
+the ACX Series supports a rich suite of L2, L3, and IP/MPLS 
+functionality to allow large-scale seamless MPLS networks with 
+simplified service provisioning and operations.
+
+•  Seamless MPLS—ACX Series routers support both Ethernet 
+
+bridging and MPLS. Growing demands in bandwidth are 
+accompanied by network growth in terms of number 
+of nodes. In some cases, we can see demands to scale 
+a network up to tens of thousands of nodes. Seamless 
+MPLS architecture enables scale and service flexibility by 
+decoupling physical topology for transport and service 
+layers. With a seamless MPLS architecture, service providers 
+can leverage the existing investment of MPLS in the core 
+and edge and extend the operational benefit into the 
+access layer, enabling higher network service flexibility and 
+higher scaling parameters of the MAN where metro Ethernet 
+services can span across multiple network segments and be 
+seamlessly terminated at any point of the network or cloud. 
+
+•  Junos OS—Junos OS is a reliable, high-performance, 
+
+modular network operating system that is supported across 
+all of Juniper’s physical and virtual routing, switching, 
+and security platforms. Junos OS improves network 
+operations and increases service availability, performance, 
+and security with features like low-latency multicast, 
+comprehensive QoS, unified in-service software upgrade 
+(unified ISSU), and Junos Continuity, which eliminates 
+the risk and complexity of OS upgrades. Junos OS comes 
+with embedded scripting tools and APIs, which enable 
+automation of many routines and allow integration 
+practically with any operator’s back-end management 
+tools. With secure programming interfaces, the Juniper 
+Extension Toolkit (JET), versatile scripting support, and 
+integration with popular orchestration frameworks, Junos 
+OS offers flexible options for DevOps-style management 
+that can unlock more value from the network. 
+
+•  Management—Junos Space Network Management 
+
+Platform provides comprehensive management with broad 
+fault, configuration, accounting, performance, and security 
+management (FCAPS) capabilities, for both device and 
+service-level management. For device management, it 
+supports NETCONF, CLI, SNMP v1/v2/v3 protocols, and its 
+northbound APIs support easy integration with existing 
+network management systems (NMS) and operations/
+business support systems (OSS/BSS). Running on 
+the Junos Space Management Platform, Junos Space 
+
+Connectivity Services Director ensures effortless end-to-
+end service provisioning of TDM, ATM, Carrier Ethernet 
+(E-LINE, E-LAN, E-TREE, E-Access), VPLS, L3VPN, and 
+MPLS, using a simple interface to design, validate, and 
+manage these services. Another application of Junos Space, 
+Cross Provisioning Platform (CPP) helps service providers 
+provision E-LINE, Layer 2/3 VPN services, and virtual private 
+LAN service (VPLS) between Juniper devices and those 
+from third-party vendors.
+
+Features and Benefits
+The ACX Series delivers new levels of programmability, reliability, 
+and scalability to the service provider and enterprise networks. 
+The ACX Series portfolio improves customer satisfaction while 
+lowering the total cost of operating, maintaining, and updating 
+the network infrastructure. 
+
+Zero Touch Deployment (ZTD)
+
+Based on Junos OS automation capabilities, ACX Series routers 
+support a zero touch deployment (ZTD) model. The ZTD 
+model significantly minimizes the time for any new equipment 
+installation and provisioning, resulting in lower OpEx and TCO 
+and improved operational efficiency. In addition, the zero 
+touch deployment model reduces the traditional complexity of 
+deploying MPLS in the access. 
+
+Integrated High-Precision Timing
+
+The ACX Series incorporates1 highly scalable and reliable 
+hardware-based timing technology, based on Juniper Networks 
+intellectual property that meets the strictest LTE-A requirements 
+for frequency and phase synchronization. Providing an accurate 
+timing reference is one of the most significant technical and 
+operational challenges for deployment of LTE radio access 
+networks. ACX Series routers support Synchronous Ethernet for 
+frequency as well as Precision Time Protocol (PTP) for both 
+frequency and phase synchronization. Furthermore, the ACX 
+Series allows Synchronous Ethernet and PTP to be used in a 
+hybrid mode for the highest level of frequency (10 ppb) and 
+phase (<500 nS) accuracy required for LTE-A. The ACX500, 
+ACX500-O, and ACX500-O-PoE also provide an integrated 
+GPS receiver and can act as a grandmaster (GM) clock for a 
+distributed PTP implementation, making them an ideal choice 
+for the aggregation of small cell traffic when the backhaul is 
+transported over the Internet.
+
+Advanced Security Services
+
+One of the significant challenges in the rollout of small cells is 
+to address the security threats from easily accessible locations. 
+The ACX500 enables advanced security services such as 
+IPsec, MACsec, NAT, and TPM to protect against potential 
+vulnerabilities to the network as well as subscriber traffic. 
+Hardware acceleration through a purpose-built services engine 
+enhances the scalability of these computational-intensive 
+services to support a large-scale small cell deployment.
+
+3
+
+Data SheetACX Series Universal Access RoutersACX500-O
+
+ACX2200
+
+ACX4000
+
+ACX500
+
+ACX1000
+
+ACX1100
+
+ACX2100
+
+ACX5048
+
+ACX5096
+
+Enhanced Service Assurance, SLA Management, 
+and Ethernet OAM
+
+The ACX Series routers provide the most comprehensive set 
+of features. Using 802.3ah, 802.1ag, Y.1731, Two-Way Active 
+Measurement Protocol (TWAMP) and RFC2544, mobile 
+operators and wholesale service providers can make sure that 
+the services being offered through ACX Series routers are meeting 
+the desired service-level agreements.
+
+Environmentally Hardened Design
+
+Most of the ACX Series models such as ACX500, ACX1x00, 
+and ACX2x00, are temperature hardened and support 
+passive cooling for outdoor deployments in extreme weather 
+conditions. The ACX500-O and ACX500-O-PoE are based 
+on environmentally hardened, ruggedized chassis and are 
+IP65 compliant for outdoor deployments with no need for an 
+enclosure or cabinet. These are designed to be pole or strand 
+mounted alongside outdoor small cells.
+
+High Availability and Reliability
+
+Junos Continuity and unified ISSU features remove the downtime 
+risks associated with implementing new hardware or upgrading 
+operating systems. Junos Continuity eliminates OS upgrades 
+and system reboots when adding new hardware to ACX Series 
+routers—a plug-in package provides the drivers and support 
+files needed to bring the hardware online. Unified ISSU reduces 
+the risks associated with OS upgrades by enabling upgrades 
+between two different Junos OS releases (major or minor) with 
+no control plane disruption and minimal traffic disruption on the 
+forwarding plane.
+
+MEF CE 2.0 Compliant
+
+The ACX Series routers are all MEF CE 2.0 compliant and could 
+support all Carrier Ethernet services, which include E-LINE, 
+E-LAN, E-TREE, and E-ACCESS.
+
+Full Feature Set of L2, L3, IP/MPLS
+
+The ACX Series routers support a full feature set of L2, L3, and IP/
+MPLS. Service providers can not only monetize Layer 2 Ethernet 
+services, but also Layer 3, IP/IP-VPN services, etc., for greater 
+monetization.
+
+4
+
+Data SheetACX Series Universal Access RoutersTable 2: ACX Series Platform Feature Matrix
+
+Features
+
+ACX500, 
+
+ACX500-O, 
+
+ACX500-O-POE
+
+ACX1000, 
+ACX1100
+
+ACX2100, 
+ACX2200
+
+ACX4000
+
+ACX5048, 
+ACX5096
+
+Throughput
+
+Up to 60 Gbps
+
+Up to 60 Gbps
+
+Up to 60 Gbps
+
+Up to 60 Gbps
+
+1.44/2.56 TBps
+
+2
+ 
+r
+e
+y
+a
+L
+
+IEEE 802.3 bridging
+
+IEEE 802.1q
+
+IEEE 802.1ad 
+(Q-in-Q)
+
+VLAN id 
+manipulation for 
+outer/inner: swap/
+pop/push
+
+RSTP/VSTP/MSTP
+
+ERPS G.8032v1
+
+ERPS G8032v2
+
+LACP
+
+Enhanced load 
+balancing based on 
+L2-L4 header info
+
+LLDP
+
+Layer 2 BPDU 
+tunneling/ MAC 
+rewrite
+
+IPv4
+
+IPv6
+
+RPF 
+
+ECMP
+
+3
+ 
+r
+e
+y
+a
+L
+
+Enhanced load 
+balancing based on 
+L2-L4 header info
+
+OSPF
+
+ISIS
+
+BGP
+
+Indirect/composite 
+next hop
+
+ 
+ 
+
+ 
+
+d
+n
+a
+S
+L
+P
+M
+
+ 
+
+S
+L
+P
+M
+s
+s
+e
+m
+a
+e
+S
+
+l
+
+i
+
+s
+e
+c
+v
+r
+e
+S
+
+RSVP
+
+LDP
+
+PCEP
+
+RSVP-TE
+
+BGP-LU
+
+LDP-RSVP
+
+RSVP FRR
+
+IEEE 802.3 bridge 
+domain
+
+PWE (T-LDP)
+
+L2VPN (BGP)
+
+VPLS (T-LDP/BGP/
+LDP autodiscovery)
+
+Layer 3 VPN
+
+Circuit emulation 
+SAToP/CESoPSN/
+ATM o MPLS
+
+Integrated Routing 
+and Bridging (IRB)
+
+Stateless filters 
+L2-L4
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√1
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√1
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+1See Table 2 for E1/T1/STM/OC ports support per each platform.
+
+5
+
+Data SheetACX Series Universal Access RoutersFeatures
+
+8 queues per port 
+with schedulers and 
+shaping
+
+Classification based 
+on 802.1p, DSCP, IP-
+precedence, Exp bit
+
+Single-rate policer 
+ingress/egress
+
+Two-rate three-
+color policer ingress/
+egress
+
+BFD
+
+CFM
+
+Y.1731
+
+RFC2544
+
+TWAMP
+
+PIM
+
+IGMP
+
+IGMP snooping 
+
+BITS/1pps/10MHz
+
+1588v2 BC
+
+1588v2 Transparent
+
+1588v2 over IP
+
+1588v2 over 
+Ethernet
+
+Synchronous 
+Ethernet
+
+Hybrid mode
+
+Embedded GM
+
+L2 storm control
+
+IPsec
+
+NAT 
+
+CLI
+
+NETCONF
+
+SNMP v2/v3
+
+SLAX/Python on-
+box scripting tools
+
+Zero Touch 
+Deployment
+
+YANG
+
+i
+
+)
+S
+o
+C
+(
+ 
+e
+c
+v
+r
+e
+S
+ 
+f
+o
+s
+s
+a
+C
+
+l
+
+ 
+
+ 
+ 
+
+ 
+
+A
+L
+S
+d
+n
+a
+M
+A
+O
+
+ 
+
+t
+n
+e
+m
+e
+g
+a
+n
+a
+M
+
+t
+s
+a
+c
+i
+t
+l
+u
+M
+
+ 
+
+c
+n
+y
+S
+d
+n
+a
+g
+n
+m
+T
+
+ 
+
+i
+
+i
+
+y
+t
+i
+r
+u
+c
+e
+S
+
+ 
+
+ 
+,
+
+n
+o
+i
+t
+a
+r
+u
+g
+i
+f
+n
+o
+C
+
+d
+n
+a
+ 
+t
+n
+e
+m
+e
+g
+a
+n
+a
+M
+
+n
+o
+i
+t
+a
+m
+o
+t
+u
+A
+
+2 SLM and DM are supported.
+3 RFC2544 reflector mode only.
+4 Some restrictions are applicable. See technical documentation for details.
+
+ACX500, 
+
+ACX500-O, 
+
+ACX500-O-POE
+
+ACX1000, 
+ACX1100
+
+ACX2100, 
+ACX2200
+
+ACX4000
+
+ACX5048, 
+ACX5096
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√4
+
+√4
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√4
+
+√4
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√2
+
+√3
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+√
+
+6
+
+Data SheetACX Series Universal Access RoutersSpecifications
+This section lists basic specifications for the ACX Series routers. For further details, please refer to the hardware installation manuals 
+at www.juniper.net/techpubs. 
+
+Specifications
+
+Dimensions 
+(W x H x D)
+
+Weight (lb/kg) fully 
+configured
+
+Power (DC)
+
+ACX500, 
+
+ACX500-O, 
+
+ACX500-O-POE
+
+ACX500:
+17.5x1.75x9.4 in 
+(44.5x4.4x24 cm)
+ACX500-O: 
+8x12.3x4.3 in 
+(20.3x31.2x10.9 cm)
+ACX500-O-POE:
+10x16x4.7 in 
+(25.4x40.6x11.9 cm)
+
+ACX500-DC:
+8.6 lb (3.9 kg) 
+ACX500-AC:
+9.26 lb (4.2 kg) 
+ACX500-O-DC:
+11 lb (5 kg)
+ACX500-O-AC:
+11.68 lb (5.3 kg)
+ACX500-O-POE-DC:
+13.66 lb (6.2 kg) 
+ACX500-O-POE-AC:
+14.33lb (6.5 kg) 
+
+-48 V nominal or  
+-60 V telco nominal 
+or +24 VDC nominal
+
+Power (AC)
+
+90-240 V
+
+Maximum power 
+draw
+
+65 W + PoE power 
+(80 W) (ACX500)
+55 W (ACX500-O)
+55 W + PoE power 
+(80 W) (ACX500-O-
+POE)
+
+ACX1000, 
+ACX1100
+
+ACX2100, 
+ACX2200
+
+ACX4000
+
+17.5x1.75x9.4 in 
+(44.5x4.4x24 cm)
+
+17.5x1.75x9.4 in 
+(44.5x4.4x24 cm)
+
+17.5x4.35x9.25 in 
+(44.5x11x23.5 cm)
+
+ACX5048, 
+ACX5096
+
+ACX5048:
+17.36x1.72x20.48 in 
+(44.09x4.37x52.02 
+cm) 
+ACX5096:
+17.36x3.46x22.44 in 
+(44.09x8.8x57 cm) 
+
+8.3 lb (3.77 kg)
+
+ACX1000:
+6.5 lb (2.94 kg)
+ACX1100:
+7.8 lb (3.54 kg)
+
+23.8 lb (10.82 kg)
+(Fully configured with 
+two power supply 
+units, two Modular 
+Interface Cards 
+(MICs)
+
+ACX5048:
+21.8 lb (9.9 kg) 
+ACX5096:
+32.5 lb (14.74 kg)  
+
+-48 V nominal or
+-60 V telco nominal 
+or +24 VDC nominal
+
+-48 V nominal or
+-60 V telco nominal 
+or +24 VDC nominal
+
+-48 V nominal or
+-60 V telco nominal 
+or +24 VDC nominal
+
+-36 to -72 VDC power
+
+90 to 240 VAC for 
+ACX1100-AC* only
+
+90 to 240 VAC for 
+ACX2100-AC* only
+
+50 W (ACX1000);  
+35 W (ACX1100-AC); 
+40 W (ACX1100-DC)
+
+70 W (ACX2000);  
+60 W (ACX2100-AC); 
+80 W (ACX2100-DC)
+
+90 to 240 VAC
+
+110-240 V
+
+150 W (w/o MICs);  
+45 W for each
+MIC; 65 W for each 
+PoE++ port
+
+~350 W (with optical 
+SFPs) (ACX5048)
+~550 W (with optical 
+SFPs) (ACX5096)
+
+Operating 
+temperature
+
+-40° to 149° F 
+(-40° to 65° C)
+
+-40° to 149° F 
+(-40° to 65° C)
+
+Humidity
+
+95% RH 
+noncondensing
+
+95% RH 
+noncondensing
+
+-40° to 149° F 
+(-40° to 65° C)
+full featured
+
+95% RH 
+noncondensing
+
+-40° to 149° F 
+(-40° to 65° C)
+
+32° to 104° F 
+(0° to 40° C)
+
+95% RH 
+noncondensing
+
+5%-90% RH 
+noncondensing
+
+Approvals
+
+Safety Approvals
+
+CAN/CSA-C22.2 No. 
+60950-1
+
+UL 60950-1
+
+EN 60950-1
+
+IEC 60950-1—CB 
+Scheme
+
+EN 60825-1
+
+UL 60950-22 , IEC 
+60950-22, CSA 
+60950-22: Safety 
+equipment to be 
+installed outdoors 
+
+ACX500
+
+ACX500-O
+
+ACX500-O-
+
+ACX1000
+
+ACX1100
+
+ACX2100
+
+ACX2200
+
+ACX4000
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+-
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+POE
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+-
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+-
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+-
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+-
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+-
+
+ACX5048,
+ACX5096
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+-
+
+7
+
+Data SheetACX Series Universal Access RoutersACX500
+
+ACX500- 
+
+ACX500-O-
+
+ACX1000
+
+ACX1100
+
+ACX2100
+
+ACX2200
+
+ACX4000
+
+O
+
+POE
+
+ACX5048,
+ACX5096
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+EMC
+
+AS/NZS CISPR22  
+Class A
+
+EN55022 Class A
+
+VCCI Class A
+
+FCC Part 15 Class A
+
+IECS-003 Issue 4 
+
+BSMI CNS 13438 and 
+NCC C6357 Taiwan 
+Radiated Emissions
+
+KN 22, Class A
+
+CISPR 32/EN55032: 
+2012 European 
+Radiated Emissions 
+Class A
+
+AS/NZS CISPR22  
+Class B
+
+EN55022 Class B
+
+VCCI Class B
+
+FCC Part 15 Class B
+
+IECS-003 Issue 4 
+Class B
+
+BSMI CNS 13438 and 
+NCC C6357 Taiwan 
+Radiated Emissions
+
+KN 22, Class B
+
+CISPR 32/EN55032: 
+2012 European 
+Radiated Emissions 
+Class B
+
+Immunity
+
+EN-61000-3-2 Power 
+Line Harmonics
+
+EN-61000-3-3 Voltage 
+Fluctuations and 
+Flicker
+
+EN-61000-4-2 ESD
+
+EN-61000-4-3 
+Radiated Immunity
+
+EN-61000-4-4 EFT
+
+EN-61000-4-5 Surge 
+
+Immunity
+
+EN-61000-4-6 Low 
+Frequency Common 
+Immunity
+
+EN-61000-4-11 
+Voltage Dips and Sags
+
+CISPR 24/EN55024 
+Information 
+Technology 
+Equipment Immunity 
+Characteristics
+
+ETSI (European Telecommunications Standardization Institute)
+
+EN 300 386 V1.6.1 
+Telecommuniication 
+Network Equipment, 
+Electromagnetic 
+Compatibility 
+Requirements 
+
+ETSI EN 300 019-2-1 
+(2000)—Storage, 
+Class T1.2
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+8
+
+Data SheetACX Series Universal Access RoutersACX500
+
+ACX500- 
+
+ACX500-O-
+
+ACX1000
+
+ACX1100
+
+ACX2100
+
+ACX2200
+
+ACX4000
+
+O
+
+POE
+
+ACX5048,
+ACX5096
+
+ETSI (European Telecommunications Standardization Institute)
+
+ETSI EN 300 
+019-2-2 (1999)—
+Transportation,  
+Class T2.3
+
+ETSI EN 300 019-2-3 
+(2003)—Stationary 
+Use at Weather 
+Protected Locations, 
+Class T3.4
+
+ETSI EN 300 019-2-3 
+(2003)—Stationary 
+Use at Weather 
+Protected Locations, 
+Class T3.2
+
+ETSI EN 300 019-2-4 
+(2003)—Stationary 
+Use at Non-Weather 
+Protected Locations, 
+Class 4.1
+
+ETSI EN 300 019-2-4 
+(2003)—Stationary 
+Use at Non-Weather 
+Protected Locations, 
+Class 4.1E 
+
+ETSI EN 300 019-2-4 
+(2003)—Stationary 
+Use at Non- Weather 
+Protected Locations, 
+Class 4.2H
+
+ETS 300753 
+(1997)—Acoustic 
+Noise Emitted by 
+Telecommunications 
+Equipment
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+-
+
+Yes
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Yes
+
+Yes
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Yes
+
+-
+
+Yes
+
+Yes
+
+Yes
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Yes
+
+-
+
+-
+
+-
+
+Yes
+
+-
+
+-
+
+-
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Other EMC Requirements
+
+IEEE 1613 Class 2 
+Environmental and 
+Testing Requirements 
+for Communications 
+Networking
+
+Devices in Electric 
+Power Substations
+
+IEC 61850-3 
+Communication 
+networks and systems 
+for power utility 
+automation
+
+EN50121-4 Railway 
+applications
+
+ ETSI EN 300 440-1/-2 
+GPS spurious emission
+
+Deutsche Telekom 
+1TR9 (2008) EMC 
+Specification
+
+British Telecom 
+EMC Immunity 
+Requirements (2007)
+
+ITU-T K.21 (2011) 
+Resistibility of 
+telecommunication 
+equipment installed 
+in customer premises 
+to overvoltages and 
+overcurrents
+
+ITU-T K.20 (2011) 
+Resistibility of 
+telecommunication 
+equipment installed 
+in telecom centers 
+to overvoltages and 
+overcurrents
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+-
+
+-
+
+-
+
+-
+
+Yes
+
+Yes
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Yes
+
+Yes
+
+-
+
+-
+
+9
+
+Data SheetACX Series Universal Access RoutersO
+
+-
+
+-
+
+POE
+
+-
+
+-
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+NEBS
+
+SR-3580 NEBS 
+Criteria Levels (Level 3 
+Compliance)
+
+GR-63-CORE: NEBS, 
+Physical Protection
+
+GR-1089-CORE: 
+EMC and Electrical 
+Safety for Network 
+Telecommunications 
+Equipment (Issue 6 
+compliant)
+
+GR-3108-CORE: 
+Generic Requirements 
+for Network Equipment 
+in the Outside Plant 
+(OSP)
+
+GR 487 - Core - Issue 4 
+Electronic equipment 
+cabinets 
+
+Ingress Protection
+
+IEC 60529 - Degree of 
+protection provided by 
+Enclosure (IP 65) 
+
+Telecomm Compliance
+
+RTTE Directive 
+1995/5/EC
+
+T1 and XDSL Interfaces 
+FCC Part 68
+
+Industry Canada 
+CS-03
+
+JATE Green Book
+
+TBR 21 (XDSL only)
+
+E1 Interface TBR 12/13
+
+ACA TS016
+
+G.703
+
+Telecomm Compliance
+
+Device management: 
+NETCONF, CLI, SNMP 
+v1/v2/v3
+
+Comprehensive 
+fault, configuration, 
+accounting, 
+performance, and 
+security (FCAPS) 
+management 
+through Junos Space 
+Network Management 
+Platform: device-level 
+configuration, software 
+upgrade, alarms, script 
+management
+
+End-to-end 
+provisioning of 
+ELINE, emulated LAN 
+(ELAN), Layer 3 VPN 
+(L3VPN), Operation, 
+Administration, and 
+Maintenance (OAM), 
+class of service (CoS)
+
+ACX500
+
+ACX500- 
+
+ACX500-O-
+
+ACX1000
+
+ACX1100
+
+ACX2100
+
+ACX2200
+
+ACX4000
+
+ACX5048,
+ACX5096
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Yes
+
+Yes  
+
+(T1 Only)
+
+Yes
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+Yes
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+Yes
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Yes
+
+Yes  
+
+(T1 Only)
+
+Yes
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+Yes
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+10
+
+Data SheetACX Series Universal Access RoutersACX500
+
+ACX500- 
+
+ACX500-O-
+
+ACX1000
+
+ACX1100
+
+ACX2100
+
+ACX2200
+
+ACX4000
+
+O
+
+POE
+
+ACX5048,
+ACX5096
+
+Telecomm Compliance
+
+Device and 
+service-level fault 
+management
+
+Device and service-
+level performance 
+management
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Metro Ethernet Forum (MEF)
+
+MEF CE2.0 compliant 
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Juniper Networks Services and Support
+Juniper Networks is the leader in performance-enabling services 
+that are designed to accelerate, extend, and optimize your 
+high-performance network. Our services allow you to maximize 
+operational efficiency while reducing costs and minimizing 
+risk, achieving a faster time to value for your network. Juniper 
+Networks ensures operational excellence by optimizing the 
+network to maintain required levels of performance, reliability, 
+and availability. For more details, please visit www.juniper.net/us/
+en/products-services. 
+
+Ordering Information
+
+Product Number
+
+Name
+
+ACX500-AC
+
+ACX500-DC
+
+ACX500-O-AC
+
+ACX500-O-DC
+
+ACX500-O-POE-AC
+
+ACX500-O-POE-DC
+
+ACX500 indoor unit 2x1GbE (SFP) + 4x1GbE 
+(combo) with single AC PS, 1 U, temperature 
+hardened, passive cooling, rack mounting 
+options, PoE support, Junos OS
+
+ACX500 indoor unit 2x1GbE (SFP) + 4x1GbE 
+(combo) with single DC PS, 1 U, temperature 
+hardened, passive cooling, rack mounting 
+options, PoE support, Junos OS
+
+ACX500 outdoor unit 3x1GbE (SFP) + 
+3x1GbE (Cu) with single AC PS, IP65 
+complaint for outdoor installation, pole/wall 
+mounting options, no Power over Ethernet 
+(PoE) support, Junos OS
+
+ACX500 outdoor unit 3x1GbE (SFP) + 
+3x1GbE (Cu) with single DC PS, IP65 
+complaint for outdoor installation, pole/wall 
+mounting options, no PoE support, Junos OS
+
+ACX500 outdoor unit 3x1GbE (SFP) + 
+3x1GbE (Cu) with single AC PS, IP65 
+complaint for outdoor installation, pole/wall 
+mounting options, PoE support, Junos OS
+
+ACX500 outdoor unit 3x1GbE (SFP) + 
+3x1GbE (Cu) with single DC PS, IP65 
+complaint for outdoor installation, pole/wall 
+mounting options, PoE support, Junos OS
+
+ACX500-LIC-GPS
+
+ACX500 license to activate GPS receiver
+
+ACX500-LIC-SEC
+
+ACX500 license to activate IPsec and NAT 
+features
+
+ACX1000-DC 
+
+ACX1100-DC 
+
+ACX1000 unit, 8xT1/E1, 8xGbE copper, 
+4xGbE combination (copper or SFP), 1 U, 
+ETSI 300, dual feed DC power, temperature 
+hardened, passively cooled, Junos OS (optics 
+sold separately) 
+
+ACX1100 unit, 8xGbE copper and 4xGbE 
+combination (copper or SFP), 1 U, ETSI 300, 
+redundant DC power supplies, temperature 
+hardened, passively cooled, Junos OS (optics 
+sold separately) 
+
+Product Number
+
+Name
+
+ACX1100-AC 
+
+ACX2100-DC 
+
+ACX2100-AC 
+
+ACX2200-DC 
+
+ACX2200-AC 
+
+ACX4000-DC 
+
+ACX4000-AC 
+
+ACX-MIC-6GE-CU-
+SFP 
+
+ACX1100 unit, 8xGbE copper and 4xGbE 
+combination (copper or SFP), 1 U, ETSI 300, 
+redundant AC power, temperature hardened, 
+passively cooled, Junos OS (optics sold 
+separately) 
+
+ACX2100 unit, 16xT1/E1, 2x10GbE SFP+, 
+4xGbE copper, 4xGbE combination 
+(copper or fiber), 2xGbE SFP, 1 U, ETSI 300, 
+redundant DC power, temperature hardened, 
+passively cooled, Junos OS (optics sold 
+separately) 
+
+ACX2100 unit, 16xT1/E1, 2x10GbE SFP+, 
+4xGbE copper, 4xGbE combination 
+(copper or fiber), 2xGbE SFP, 1 U, ETSI 300, 
+redundant AC power, temperature hardened, 
+passively cooled, Junos OS (optics sold 
+separately) 
+
+ACX2200 unit, 2x10GbE SFP+, 4xGbE 
+copper, 4xGbE combination (copper or 
+fiber), 2xGbE SFP, 1 U, ETSI 300, redundant 
+DC power, temperature hardened, passively 
+cooled, Junos OS (optics sold separately) 
+
+ACX2200 unit, 2x10GbE SFP+, 4xGbE 
+copper, 4xGbE combination (copper or 
+fiber), 2xGbE SFP, 1 U, ETSI 300, redundant 
+AC power, temperature hardened, passively 
+cooled, Junos OS (optics sold separately) 
+
+ACX4000 modular unit, 2x10GbE SFP+, 
+8xGbE combo (copper/fiber) with PoE++ 
+on two ports, 2xGbE SFP, 2.5 U, ETSI 300, 
+redundant DC power, temperature hardened, 
+Junos OS, two configurable MIC slots (optics 
+sold separately) 
+
+ACX4000 modular unit, 2x10GbE SFP+, 
+8xGbE combo (copper/fiber) with PoE++ 
+on two ports, 2xGbE SFP, 2.5 U, ETSI 300, 
+redundant AC power, temperature hardened, 
+Junos OS, two configurable MIC slots (optics 
+sold separately) 
+
+6xGbE copper/SFP MIC for ACX4000 
+
+ACX-MIC-4COC3- 
+1COC12-CE 
+
+4xCHOC3/STM-1/1xCHOC12/STM-4 MIC for 
+ACX4000 
+
+ACX-MIC-16CHE1- 
+T1-CE 
+
+ACX5048-AC-L2-L3
+
+ACX5048-DC-L2-L3
+
+ACX5096-AC-L2-L3
+
+16x T1/E1 MIC for ACX4000
+
+ACX5048, 48 SFP+/SFP ports, 6 QSFP ports, 
+redundant fans and AC power supplies; no 
+right to use IP VPN
+
+ACX5048, 48 SFP+/SFP ports, 6 QSFP ports, 
+redundant fans and DC power supplies; no 
+right to use IP VPN
+
+ACX5096, 96 SFP+/SFP ports, 8 QSFP 
+ports, redundant fans and AC power 
+supplies; no right to use IP VPN
+
+11
+
+Data SheetACX Series Universal Access RoutersAbout Juniper Networks
+Juniper Networks challenges the status quo with products, 
+solutions and services that transform the economics of 
+networking. Our team co-innovates with customers and partners 
+to deliver automated, scalable and secure networks with agility, 
+performance and value. Additional information can be found at 
+Juniper Networks or connect with Juniper on Twitter and Facebook.
+
+Product Number
+
+Name
+
+ACX5096-DC-L2-L3
+
+ACX5096, 96 SFP+/SFP ports, 8 QSFP 
+ports, redundant fans and DC power 
+supplies; no right to use IP VPN
+
+ACX5K-L-IPVPN
+
+ACX5K Right to use IP VPN
+
+ACX5K-L-1X10GE-S
+
+ACX5K Right to use a single 10GbE port 
+on ACX5K system; enforceable per ACX5K 
+system
+
+ACX5K-L-8X10GE-S
+
+ACX5K Right to use 8 10GbE ports on ACX5K 
+system; enforceable per ACX5K system
+
+ACX5K-L-16X10GE-S ACX5K Right to use 16 10GbE ports on 
+ACX5K system; enforceable per ACX5K 
+system
+
+ACX5K-L-24X10GE-S ACX5K Right to use 24 10GbE ports on 
+ACX5K system; enforceable per ACX5K 
+system
+
+ACX5K-L-
+48X10GE-S
+
+ACX5K Right to use 48 10GbE ports on 
+ACX5K system; enforceable per ACX5K 
+system
+
+ACX5K-L-72X10GE-S ACX5K Right to use 72 10GbE ports on 
+ACX5K system; enforceable per ACX5K 
+system
+
+ACX5K-L-
+96X10GE-S
+
+ACX5K-L-
+104X10GE-S
+
+ACX5K Right to use 96 10GbE ports on 
+ACX5K system; enforceable per ACX5K 
+system
+
+ACX5K Right to use 104 10GbE ports on 
+ACX5K system; enforceable per ACX5K 
+system
+
+EXPLORE JUNIPER
+Get the App.
+
+Corporate and Sales HeadquartersJuniper Networks, Inc. 1133 Innovation WaySunnyvale, CA 94089 USAPhone: 888.JUNIPER (888.586.4737)or +1.408.745.2000Fax: +1.408.745.2100www.juniper.net Copyright 2017 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, and Junos are registered trademarks of Juniper Networks, Inc. in the United States and other countries. All other trademarks, service marks, registered marks, or registered service marks are the property of their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice.APAC and EMEA HeadquartersJuniper Networks International B.V.Boeing Avenue 2401119 PZ Schiphol-RijkAmsterdam, The NetherlandsPhone: +31.0.207.125.700Fax: +31.0.207.125.701Data SheetACX Series Universal Access Routers1000397-010-EN  Feb 2017

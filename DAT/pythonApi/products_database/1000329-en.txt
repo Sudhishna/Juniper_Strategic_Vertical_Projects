@@ -1,0 +1,1423 @@
+CTP-SFP-1GE-SX
+
+SFP 1000BASE-SX Gigabit Ethernet optic 
+module.
+
+CTP 2008, CTP2024, and 
+CTP2056
+
+GbE
+
+SFP
+
+1000BASE-SX
+
+850
+
+MMF
+
+50/125
+
+MMF
+
+50/125
+
+62.5/125
+
+Max 
+Reach
+
+10 km
+
+550 m
+
+550 m
+
+550 m
+
+275 m
+
+100 m
+
+62.5/125
+
+4 twisted 
+pair, Category 
+5 shielded
+
+Optic Modules
+
+Product Description 
+Juniper Networks® has platforms ranging from the Juniper Networks CTP Series Circuit to 
+Packet Platforms, BX Series Multi-Access Gateways, E Series Broadband Services Routers, M 
+Series Multiservice Edge Routers, MX Series 3D Universal Edge Routers, to the T Series Core 
+Routers. These platforms support multiple interface types and technologies such as Ethernet, 
+ATM, and SONET. Depending on the deployment scenario, they support different pluggable 
+optic modules that can be selected based on distance, form factor, and wavelength. This  
+
+Table 1:  Optic Modules Matrix
+
+datasheet is intended to guide the user through the various options available when choosing an 
+optic module for a given platform depending on the architecture.
+
+Features and Benefits
+The following table lists the different pluggable optic modules and supported platforms, along 
+with the technical specifications for each.
+
+SKU
+
+Description
+
+Platforms
+
+CTP-SFP-1GE-LX
+
+Small form-factor pluggable (SFP) 
+1000BASE-LX Gigabit Ethernet optic module.
+
+CTP2008, CTP2024, and 
+CTP2056
+
+Interface 
+Type
+
+Form 
+Factor
+
+Standard
+
+GbE
+
+SFP
+
+1000BASE-LX
+
+l (TX) 
+(nm)
+
+1310
+
+l (RX) 
+(nm)
+
+Media
+
+Cable
+
+SMF
+
+9/125
+
+CTP-SFP-1GE-T
+
+SFP 1000BASE-T Gigabit Ethernet module 
+(uses Cat 5 cable).
+
+CTP 2008, CTP2024, and 
+CTP2056
+
+GbE
+
+SFP
+
+1000BASE-T
+
+Copper
+
+RX-10KM-SFP
+
+RX-550M-SFP
+
+RX-70KM-SFP
+
+RX-FXSM-SFP
+
+1-port 10 km GbE SFP adapter: provides 
+(1) SFP Gigabit Ethernet single-mode (10 
+km) physical port with an LC full duplex 
+connection. Works with ERX-GIGESFP-IOA.
+
+1-port 550 m GbE SFP adapter: provides 
+(1) SFP Gigabit Ethernet multimode (550 
+M) physical port with an LC full duplex 
+connection. Works with ERX-GIGESFP-IOA.
+
+E120, E320, ERX310, 
+ERX705, ERX710, ERX1410, 
+ERX1440
+
+E120, E320, ERX310, 
+ERX705, ERX710, ERX1410, 
+ERX1440
+
+1-port 70 km GbE SFP adapter: provides 
+(1) SFP Gigabit Ethernet single-mode (70 
+km) physical port with an LC full duplex 
+connection. Works with ERX-GIGESFP-IOA.
+
+1-port 10 km FE SFP adapter: provides (1) 
+SFP Fast Ethernet single-mode (10 km LX) 
+physical port.  SC connector type. Works with 
+ERX-8FXSFP-IOA.
+
+E120, E320, ERX310, 
+ERX705, ERX710, ERX1410, 
+ERX1440
+
+E120, E320, ERX310, 
+ERX705, ERX710, ERX1410, 
+ERX1440
+
+GbE
+
+SFP
+
+1000BASE-LX
+
+1310
+
+SMF
+
+9/125
+
+10 km
+
+GbE
+
+SFP
+
+1000BASE-SX
+
+850
+
+MMF
+
+50/125
+
+550 m
+
+GbE
+
+SFP
+
+1000BASE-ZX
+
+1550
+
+SMF
+
+9/125
+
+70 km
+
+62.5/125
+
+275 m
+
+FE
+
+SFP
+
+100BASE-LX10
+
+1310
+
+SMF
+
+9/125
+
+10 km
+
+1
+
+Data SheetSKU
+
+Description
+
+Platforms
+
+RX-GET-SFP
+
+1000BASE-T GbE SFP for all E Series GbE 
+input/output adapters (IOAs) that accept 
+pluggable interfaces (uses Cat 5 cable with 
+RJ45 connector).
+
+E120, E320, ERX310, 
+ERX705, ERX710, ERX1410, 
+ERX1440
+
+Interface 
+Type
+
+Form 
+Factor
+
+Standard
+
+GbE
+
+SFP
+
+1000BASE-T
+
+l (TX) 
+(nm)
+
+l (RX) 
+(nm)
+
+Media
+
+Cable
+
+Copper
+
+4 twisted 
+pair, Category 
+5 shielded
+
+SFP-1FE-FX
+
+SFP 100BASE-FX Fast Ethernet optic module. MX240, MX480, MX960
+
+FE
+
+SFP-1GE-FE-E-T
+
+SFP capable of support 10/100/1000 speeds. MX240, MX480, MX960
+
+GbE/FE/E
+
+SFP
+
+SFP
+
+100BASE-FX
+
+10BASE-T; 
+100BASE-T; 
+1000BASE-T
+
+1310
+
+MMF
+
+62.5/125
+
+Copper
+
+4 twisted 
+pair, Category 
+5 shielded
+
+Max 
+Reach
+
+100 m
+
+2 km
+
+100 m
+
+SFP-1GE-LH
+
+SFP 1000BASE-LH Gigabit Ethernet  
+optic module.
+
+SFP-1GE-LX
+
+SFP 1000BASE-LX Gigabit Ethernet  
+optic module.
+
+SFP-1GE-SX
+
+SFP 1000BASE-SX Gigabit Ethernet  
+optic module.
+
+SFP-1GE-T
+
+SFP 1000BASE-T Gigabit Ethernet  
+optic module (uses Cat 5 cable).
+
+SFP-1OC48-IR
+
+SFP OC-48 optic module, intermediate reach.
+
+SFP-1OC48-LR
+
+SFP OC-48 optic module—long reach.
+
+SFP-1OC48-SR
+
+SFP OC-48 optic module—short reach.
+
+M7i, M10i, M40e, M120, 
+M320, MX240, MX480, 
+MX960, BX7000, T320, 
+T640, SRX3400, SRX3600
+
+M7i, M10i, M40e, M120, 
+M320, MX240, MX480, 
+MX960, BX7000, 
+T320, T640, SRX3400, 
+SRX3600, SRX5600, 
+SRX5800
+
+M7i, M10i, M40e, M120, 
+M320, MX240, MX480, 
+MX960, BX7000, 
+T320, T640, SRX3400, 
+SRX3600, SRX5600, 
+SRX5800
+
+M7i, M10i, M40e, M120, 
+M320, MX240, MX480, 
+MX960, BX7000, 
+T320, T640, SRX3400, 
+SRX3600, SRX5600, 
+SRX5800
+
+E120, E320, M10i, M40e, 
+M120, M320, MX240, 
+MX480, MX960, T320, 
+T640
+
+E120, E320, M10i, M40e, 
+M120, M320, MX240, 
+MX480, MX960, T320, 
+T640
+
+E120, E320, M10i, M40e, 
+M120, M320, MX240, 
+MX480, MX960, T320, 
+T640
+
+GbE
+
+SFP
+
+1000BASE-ZX
+
+1550
+
+SMF
+
+9/125
+
+70 km
+
+GbE
+
+SFP
+
+1000BASE-LX
+
+1310
+
+SMF
+
+9/125
+
+10 km
+
+GbE
+
+SFP
+
+1000BASE-SX
+
+850
+
+MMF
+
+50/125
+
+MMF
+
+50/125
+
+62.5/125
+
+550 m
+
+550 m
+
+550 m
+
+GbE
+
+SFP
+
+1000BASE-T
+
+62.5/125
+
+275 m
+
+Copper
+
+4 twisted 
+pair, Category 
+5 shielded
+
+100 m
+
+OC48/
+STM16
+
+OC48/
+STM16
+
+OC48/
+STM16
+
+SFP
+
+IR-1
+
+1310
+
+SMF
+
+9/125
+
+15 km
+
+SFP
+
+LR-2
+
+1550
+
+SMF
+
+9/125
+
+80 km
+
+SFP
+
+SR-1
+
+1310
+
+SMF
+
+9/125
+
+2 km
+
+SFP-FE20KT13R15 SFP 100BASE-BX Fast Ethernet optics, Tx 1310 
+
+MX240, MX480, MX960
+
+FE
+
+SFP
+
+100BASE-BX10-U
+
+1310
+
+1550
+
+nm / Rx 1550 nm for 10 km transmission.
+
+9/125
+
+10 km
+
+SMF 
+(single 
+strand 
+fiber)
+
+2
+
+Data SheetOptic ModulesSKU
+
+Description
+
+Platforms
+
+Interface 
+Type
+
+SFP-FE20KT15R13 SFP 100BASE-BX Fast Ethernet optics, Tx 
+
+MX240, MX480, MX960
+
+FE
+
+1550 nm / Rx 1310 nm for 10 km transmission.
+
+Form 
+Factor
+
+SFP
+
+Standard
+
+100BASE-BX10-D
+
+l (TX) 
+(nm)
+
+1550
+
+l (RX) 
+(nm)
+
+1310
+
+Max 
+Reach
+
+10 km
+
+Media
+
+Cable
+
+9/125
+
+GbE
+
+SFP
+
+1000BASE-BX10-U
+
+1310
+
+1490
+
+GbE
+
+SFP
+
+N/A
+
+1310
+
+1550
+
+GbE
+
+SFP
+
+1000BASE-BX10-D
+
+1490
+
+1310
+
+GbE
+
+SFP
+
+N/A
+
+1550
+
+1310
+
+SMF 
+(single 
+strand 
+fiber)
+
+SMF 
+(single 
+strand 
+fiber)
+
+SMF 
+(single 
+strand 
+fiber)
+
+SMF 
+(single 
+strand 
+fiber)
+
+SMF 
+(single 
+strand 
+fiber)
+
+9/125
+
+10 km
+
+9/125
+
+10 km
+
+9/125
+
+10 km
+
+9/125
+
+10 km
+
+SFP-GE10KT13R14 SFP module supporting 1000BASE-BX10, 
+UPLINK, at 10 km (Tx1310 nm / Rx1490). A 
+single fiber is used for both transmit and 
+receive. UPLINK SFP must be matched with 
+DOWNLINK SFP.
+
+SFP-GE10KT13R15 SFP module supporting 1000BASE-BX10, 
+UPLINK, at 10 km (Tx1310 nm / Rx1550). A 
+single fiber is used for both transmit and 
+receive.  UPLINK SFP must be matched with 
+DOWNLINK SFP.
+
+SFP-GE10KT14R13 SFP supporting 1000BASE-BX10, DOWNLINK, 
+
+at 10 km (Tx1490 nm / Rx1310 nm). A 
+single fiber is used for both transmit and 
+receive. UPLINK SFP must be matched with 
+DOWNLINK SFP.
+
+SFP-GE10KT15R13 SFP module supporting 1000BASE-BX10, 
+DOWNLINK, at 10 km (Tx1550 nm / Rx1310 
+nm). A single fiber is used for both transmit 
+and receive. UPLINK SFP must be matched 
+with DOWNLINK SFP.
+
+SFP-GE40KM
+
+SFP supporting 1000BASE-EX Gigabit 
+Ethernet optic module, 40 km.
+
+SFP-
+GE40KT13R15
+
+SFP-
+GE40KT15R13
+
+SFP module supporting 1000BASE-BX, 
+UPLINK, at 40 km (Tx1310 nm / Rx1550 nm). 
+A single fiber is used for both transmit and 
+receive. UPLINK SFP must be matched with 
+DOWNLINK SFP.
+
+SFP module supporting 1000BASE-BX, 
+DOWNLINK, at 40 km. (Tx1550 nm / Rx1310 
+nm). A single fiber is used for both transmit 
+and receive.  UPLINK SFP must be matched 
+with DOWNLINK SFP.
+
+SFP-OC12-IR
+
+OC12/STM4 pluggable transceiver (SFP)—
+intermediate range.
+
+SFP-OC12-LR
+
+OC12/STM4 pluggable transceiver (SFP)—
+long range.
+
+E120, E320, ERX310, 
+ERX705, ERX710, ERX1410, 
+ERX1440, M7i, M10i, M40e, 
+M120, M320, MX240, 
+MX480, MX960, T320, 
+T640, T1600
+
+E120, E320, ERX310, 
+ERX705, ERX710, ERX1410, 
+ERX1440, M7i, M10i, M40e, 
+M120, M320, MX240, 
+MX480, MX960, T320, 
+T640, T1600
+
+E120, E320, ERX310, 
+ERX705, ERX710, ERX1410, 
+ERX1440, M7i, M10i, M40e, 
+M120, M320, MX240, 
+MX480, MX960, T320, 
+T640, T1600
+
+E120, E320, ERX310, 
+ERX705, ERX710, ERX1410, 
+ERX1440, M7i, M10i, M40e, 
+M120, M320, MX240, 
+MX480, MX960, T320, 
+T640, T1600
+
+E120, E320, ERX310, 
+ERX705, ERX710, ERX1410, 
+ERX1440, MX240, MX480, 
+MX960
+
+E120, E320, ERX310, 
+ERX705, ERX710, ERX1410, 
+ERX1440, M7i, M10i, M40e, 
+M120, M320, MX240, 
+MX480, MX960, T320, 
+T640, T1600
+
+E120, E320, ERX310, 
+ERX705, ERX710, ERX1410, 
+ERX1440, M7i, M10i, M40e, 
+M120, M320, MX240, 
+MX480, MX960, T320, 
+T640, T1600
+
+E120, E320, M7i, M10i, 
+M40e, M120, M320, 
+MX240, MX480, MX960, 
+T320, T640
+
+E120, E320, M7i, M10i, 
+M40e, M120, M320, 
+MX240, MX480, MX960, 
+T320, T640
+
+GbE
+
+SFP
+
+1000BASE-LX
+
+1310
+
+SMF
+
+9/125
+
+40 km
+
+GbE
+
+SFP
+
+N/A
+
+1310
+
+1550
+
+GbE
+
+SFP
+
+N/A
+
+1550
+
+1310
+
+9/125
+
+40 km
+
+9/125
+
+40 km
+
+SMF 
+(single 
+strand 
+fiber)
+
+SMF 
+(single 
+strand 
+fiber)
+
+OC12/STM4 SFP
+
+IR-1
+
+OC12/STM4 SFP
+
+LR-1
+
+1310
+
+1310
+
+SMF
+
+9/125
+
+15 km
+
+SMF
+
+9/125
+
+40 km
+
+3
+
+Data SheetOptic ModulesSKU
+
+Description
+
+Platforms
+
+SFP-OC12-SR
+
+OC12/STM4 pluggable transceiver (SFP)—
+short range.
+
+SFP-OC3-IR
+
+SFP OC3 intermediate reach (IR) SM optic 
+module—15 km. 
+
+SFP-OC3-LR
+
+SFP OC3 long reach (LR) SM optic module 
+—40 km.
+
+SFP-OC3-SR
+
+SFP OC3 short reach (SR) MM optic 
+module—2 km. 
+
+E120, E320, M7i, M10i, 
+M40e, M120, M320, 
+MX240, MX480, MX960, 
+T320, T640
+
+E120, E320, ERX310, 
+ERX705, ERX710, ERX1410, 
+ERX1440, M7i, M10i, M40e, 
+M120, M320, MX240, 
+MX480, MX960, T320, 
+T640
+
+E120, E320, ERX310, 
+ERX705, ERX710, ERX1410, 
+ERX1440, M7i, M10i, M40e, 
+M120, M320, MX240, 
+MX480, MX960, T320, 
+T640
+
+E120, E320, ERX310, 
+ERX705, ERX710, ERX1410, 
+ERX1440, M7i, M10i, M40e, 
+M120, M320, MX240, 
+MX480, MX960, T320, 
+T640
+
+Interface 
+Type
+
+Form 
+Factor
+
+Standard
+
+OC12/STM4 SFP
+
+SR-1
+
+l (TX) 
+(nm)
+
+1310
+
+l (RX) 
+(nm)
+
+Media
+
+Cable
+
+SMF
+
+9/125
+
+Max 
+Reach
+
+2 km
+
+OC3/STM1
+
+SFP
+
+IR-1
+
+1310
+
+SMF
+
+9/125
+
+15 km
+
+OC3/STM1
+
+SFP
+
+LR-1
+
+1310
+
+SMF
+
+9/125
+
+40 km
+
+OC3/STM1
+
+SFP
+
+-
+
+1310
+
+MMF
+
+50/125
+
+2 km
+
+62.5/125
+
+2 km
+
+SFP+ 10GbE pluggable transceiver, SMF, 1550 
+nm for 40 km transmission.
+
+MX960, MX480, MX240
+
+10GbE
+
+SFP+
+
+10GBASE-ER
+
+1550
+
+SMF
+
+9/125
+
+40 km
+
+SFPP-10GE-ER
+
+SFPP-10GE-LR
+
+SFP+ 10GbE pluggable transceiver, SMF, 1310 
+nm for 10 km transmission.
+
+MX240, MX480, MX960, 
+T640, T1600
+
+10GbE
+
+SFP+
+
+10GBASE-LR
+
+SFPP-10GE-LRM
+
+SFP+ 10GbE pluggable transceiver, MMF, 1310 
+nm for 220 m transmission.
+
+MX960, MX480, MX240
+
+10GbE
+
+SFP+
+
+10GBASE-LRM
+
+SFPP-10GE-SR
+
+SFP+ 10GbE pluggable transceiver, MMF, 850 
+nm for 300 m transmission.
+
+MX240, MX480, MX960, 
+T640, T1600
+
+10GbE
+
+SFP+
+
+10GBASE-SR
+
+XENPAK-1XGE-ER
+
+XENPAK 10GbE pluggable optic module, 
+10GBASE-ER, 40 km reach.
+
+XENPAK-1XGE-LR
+
+XENPAK 10GbE pluggable optic module, 
+10GBASE-LR, 10 km reach.
+
+XENPAK-1XGE-SR
+
+XENPAK 10GbE pluggable optic module, 
+10GBASE-SR, MMF, 26-300 m reach.
+
+XENPAK-1XGE-ZR
+
+XENPAK 10GbE pluggable optic module, 
+10GBASE-ZR, SMF, 80 km reach.
+
+XFP-10G-CBAND-
+T50-ZR
+
+10GbE DWDM XFP, 80 km reach, tunable 
+across C-Band 50 GHz channel spacing, 
+compliant with ITU-T G.698.1. 
+
+XFP-10GE-ER
+
+10GbE 40 km single-mode pluggable 
+interface.
+
+E120, E320, SRX3400, 
+SRX3600, SRX5600, 
+SRX5800
+
+10GbE
+
+XFP
+
+10GBASE-ER
+
+M120, M320, T320, T640
+
+10GbE
+
+XENPAK
+
+10GBASE-ER
+
+M120, M320, T320, T640
+
+10GbE
+
+XENPAK
+
+10GBASE-LR
+
+M120, M320, T320, T640
+
+10GbE
+
+XENPAK
+
+10GBASE-SR
+
+M120, M320, T320, T640
+
+10GbE
+
+XENPAK
+
+10GBASE-ZR
+
+1550
+
+SMF
+
+9/125
+
+MX240, MX480, MX960, 
+T640, T1600
+
+10GbE
+
+XFP
+
+10GBASE-ZR
+
+1310
+
+1310
+
+850
+
+1550
+
+1310
+
+850
+
+SMF
+
+9/125
+
+10 km
+
+MMF
+
+50/125
+
+62.5/125
+
+MMF
+
+50/125
+
+62.5/125
+
+SMF
+
+9/125
+
+220 m
+
+220 m
+
+300 m
+
+33 m
+
+40 km
+
+SMF
+
+9/125
+
+10 km
+
+MMF
+
+50/125
+
+62.5/125
+
+300 m
+
+33 m
+
+80 km
+
+50 GHz 
+Tunable 
+C-BAND 
+ITU Grid
+
+1550
+
+SMF
+
+9/125
+
+80 km
+
+SMF
+
+9/125
+
+40 km
+
+4
+
+Data SheetOptic ModulesInterface 
+Type
+
+Form 
+Factor
+
+Standard
+
+10GbE
+
+XFP
+
+10GBASE-LR
+
+l (TX) 
+(nm)
+
+1310
+
+l (RX) 
+(nm)
+
+Media
+
+Cable
+
+SMF
+
+9/125
+
+Max 
+Reach
+
+10 km
+
+XFP
+
+10GBASE-ER
+
+1550
+
+SMF
+
+9/125
+
+40 km
+
+XFP
+
+10GBASE-SR
+
+850
+
+MMF
+
+50/125
+
+300 m
+
+XFP
+
+10GBASE-LR
+
+1310
+
+SMF
+
+9/125
+
+10 km
+
+62.5/125
+
+33 m
+
+XFP
+
+10GBASE-SR
+
+850
+
+MMF
+
+50/125
+
+300 m
+
+XFP
+
+10GBASE-ZR
+
+1550
+
+SMF
+
+9/125
+
+80 km
+
+62.5/125
+
+33 m
+
+SKU
+
+Description
+
+Platforms
+
+XFP-10GE-LR
+
+10GbE XFP pluggable transceiver; single-mode 
+1310 nm 10 km reach.
+
+XFP-10G-E-
+OC192-IR2
+
+XFP-10GE-SR
+
+XFP-10G-L-
+OC192-SR1
+
+XFP-10G-S
+
+Dual rate 10GbE pluggable transceiver 
+for 10GbE and OC192, 1550 nm for 40 km 
+transmission.
+
+10GbE short reach multimode pluggable 
+interface.
+
+Dual rate 10GbE pluggable transceiver 
+for 10GbE and OC192, 1310 nm for 10 km 
+transmission.
+
+10GbE pluggable transceiver, 850 nm for 300 
+m transmission.
+
+E120, E320, SRX3400, 
+SRX3600, SRX5600, 
+SRX5800
+
+M120, M320, MX240, 
+MX480, MX960, T320, 
+T640
+
+E120, E320, SRX3400, 
+SRX3600, SRX5600, 
+SRX5800
+
+M120, M320, T320, T640, 
+MX240, MX480, MX960
+
+M120, M320, MX240, 
+MX480, MX960, T320, 
+T640
+
+10GbE/
+OC192/
+STM64
+
+10GbE
+
+10GbE/
+OC192/
+STM64
+
+10GbE
+
+XFP-10G-Z-
+OC192-LR2
+
+Dual rate 10GbE pluggable transceiver 
+for 10GbE and OC192, 1550 nm for 80 km 
+transmission.
+
+M120, M320, T320, T640, 
+MX240, MX480, MX960, 
+E120, E320
+
+10GbE/
+OC192/
+STM64
+
+SFP (form factor) = small form-factor pluggable transceiver 
+SMF (media) = single-mode fiber-optic 
+
+MMF (media) = multimode fiber-optic 
+XFP (form factor) = 10-gigabit small form-factor pluggable transceiver
+
+Ordering Information
+The SKU and the platforms support are listed in the table above. 
+
+About Juniper Networks
+Juniper Networks is in the business of network innovation. From devices to data centers, from 
+consumers to cloud providers, Juniper Networks delivers the software, silicon and systems that 
+transform the experience and economics of networking. The company serves customers and 
+partners worldwide. Additional information can be found at www.juniper.net.
+
+Corporate and Sales HeadquartersJuniper Networks, Inc. 1133 Innovation WaySunnyvale, CA 94089 USAPhone: 888.JUNIPER (888.586.4737)or +1.408.745.2000Fax: +1.408.745.2100www.juniper.net Copyright 2015 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, Junos and QFabric are registered trademarks of Juniper Networks, Inc. in the United States and other countries. All other trademarks, service marks, registered marks, or registered service marks are the property of their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice.APAC and EMEA HeadquartersJuniper Networks International B.V.Boeing Avenue 2401119 PZ Schiphol-RijkAmsterdam, The NetherlandsPhone: +31.0.207.125.700Fax: +31.0.207.125.701Data SheetOptic Modules1000329-003-EN  Feb 2015

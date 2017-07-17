@@ -1,0 +1,424 @@
+BTI7000 Packet Optical
+Transport Systems
+
+Product Overview
+
+The BTI7000 line of packet optical 
+transport systems offers massively 
+scalable, carrier-grade networking 
+for simple deployment across 
+mobile backhaul, Ethernet business 
+services, and broadband residential 
+applications. Offering tremendous 
+densities and capacities in 
+compact, modular platforms, the 
+BTI7000 conserves precious rack 
+space while facilitating service-
+oriented connectivity across metro 
+service networks. The BTI7000 
+platforms support an entire 
+portfolio of client service modules 
+and photonic layer building blocks. 
+
+ 
+
+  
+
+Your ideas. Connected.™
+
+Product Description 
+Juniper Networks® BTI7000 line of packet optical transport systems effectively addresses 
+high-capacity network and service requirements. Purpose-built to consolidate packet 
+optical service delivery, wavelength-division multiplexing (WDM), reconfigurable optical 
+add-drop multiplexing (ROADM), and photonic layer building blocks, the BTI7000 
+platforms integrate seamlessly with the BTI7800 and BTI800 product lines, and Juniper 
+Networks proNX software to address campus, metro, and regional long haul applications.
+
+The BTI7000 line is composed of three platforms: the BTI7200, BTI7060, and BTI7020 
+Packet Optical Transport Systems.
+
+BTI7000 Platform Overview
+Model
+BTI7200
+
+Service Slots
+20 (expandable up to 60)
+
+BTI7060
+
+BTI7020
+
+6 (expandable up to 24)
+
+2 (passive only)
+
+Features and Benefits
+
+Rack Units
+7
+
+2
+
+1
+
+•  End-to-End Packet Optical Networking: BTI7000 devices offer a common platform 
+across multiple form factors to deliver end-to-end network solutions—from customer 
+premises to metro core—that converge Carrier Ethernet, multiprotocol optical client 
+interfaces, coarse wavelength-division multiplexing (CWDM) and dense wavelength-
+division multiplexing (DWDM), ROADM, and photonic layer modules, all in one platform.
+
+•  Flexible Shelf Architectures: BTI7000 platforms offer modular utility for service 
+
+connectivity and infrastructure applications. The any-slot-any-module architecture 
+enables provisioning and deployment of any mix of packet or optical layer modules to 
+address diverse networking requirements and applications in a configuration that best 
+fits your operational model.
+
+•  Expansion Shelf Architectures for Seamless Scalability: The BTI7200 and 
+
+BTI7060 support an industry-leading expansion shelf architecture which enables a 
+flexible pay-as-you-grow deployment model that allows capital expenditures to be 
+granularly attuned to service growth. The expansion architecture allows deployment 
+of additional BTI7200 or BTI7060 shelves, providing incremental service slots that 
+are viewed and managed as a single network entity through the main shelf, greatly 
+simplifying operations.
+
+•  Common Management and Control: The BTI7000 platforms all use the same 
+
+software, system control processor, and cooling units. Additionally, the proNX 
+software manages the entire Juniper Networks BTI Series Packet Optical Transport 
+Systems and Ethernet Access Device portfolio, delivering a consistent operational 
+model, common software releases, and minimized sparing costs.
+
+1
+
+Data SheetBTI7200
+
+BTI7200
+
+BTI800
+
+BTI7060
+
+BTI7060
+
+BTI7200
+
+Main
+
+Expansion
+
+Expansion
+
+BTI7060
+
+BTI7060
+
+Aggregation
+
+High Capacity Point-to-Point
+
+Head End/Ring
+
+Interconnect
+
+Expansion Shelf
+
+Architecture
+
+Figure 1. BTI7000 deployment options
+
+Common Equipment
+
+•  The BTI7000 line of packet optical transport systems 
+provides carrier-grade, high availability power, cooling, 
+and client service module and network management 
+communications.
+
+•  The System Control Processor controls platform operation, 
+
+providing external communications for craft access and 
+small form-factor pluggable optics for optical supervisory 
+channel and expansion shelf architecture communications.
+
+•  A main shelf interface (MSI) provides alarm and shelf 
+status indicators, an IP addressable Ethernet interface 
+to LAN management, and a 26-pin connector for 
+housekeeping alarms.
+
+•  The common communication module (CCM) communicates 
+
+with the client service and reach extension modules, acting 
+as the primary interface of expansion shelves back to the 
+main shelf within an expansion shelf architecture.
+
+•  The BTI7000 cooling unit consists of two independent, hot-
+
+swappable, multispeed fans which can support extended 
+temperatures.
+
+•  BTI7000 platforms provide integrated, redundant, front- or 
+rear-mounted -48 V DC feeds. Typical power consumption 
+is 25 W per 10 Gbps for a fully loaded system.
+
+System Control Processor
+
+Main Shelf Interface
+
+Common Communication Module
+
+Cooling Unit
+
+Figure 2. BTI7000 line common components
+
+6 Slots
+2 RU
+
+24 Slots
+8 RU
+
+20 Slots
+
+7 RU
+
+60 Slots
+21 RU
+
+A
+
+B
+
+C
+
+D
+
+BTI7060
+Single
+
+BTI7060
+w/3 expansion  shelves
+
+BTI7200
+Single
+
+BTI7200
+w/2 expansion  shelves
+
+A
+
+B
+
+C
+
+D
+
+Figure 3: BTI7000 configuration options
+
+2
+
+Data SheetBTI7000 Packet Optical Transport SystemsTable 1. BTI7000 Common Equipment
+
+SCP
+
+MSI
+
+Expansion shelf interface*
+
+Cooling unit
+
+AC power module
+
+Pec code
+
+Module size
+
+Pec code
+
+Module size
+
+Pec code
+
+Module size
+
+Pec code
+
+Pec code
+
+Module size
+
+BTI7200
+BT7A20CA
+
+Single slot
+
+BT7A53EA
+
+Dedicated slot
+
+N/A
+
+N/A
+
+BT7A52EA
+
+Dedicated slot
+
+BT7A58DA, BT7A58DB
+
+BTI7060
+BT7A20CA
+
+Single slot
+
+BT7A53BA, BT7A53BB
+
+Dedicated slot
+
+BT7A54BA
+
+Dedicated slot
+
+BT7A52DA, BT7A52EA
+
+Dedicated slot
+
+BT7A58AA
+
+Increases shelf height by 1 U
+
+Increases shelf depth to 465 mm
+
+Common communication module
+
+Pec code
+
+Module size
+
+BT7A54EA
+
+Dedicated slot
+
+N/A
+
+N/A
+
+*Expansion shelf interface; used instead of main shelf interface on BTI7060s; configured as expansion shelves
+
+BTI7000 Platform Specifications
+
+Variants
+
+Module slots
+
+Module support
+
+Dimensions (HxWxD)
+
+BTI7200
+BT7A51AA
+BT7A51AR (w/rear -48 V access)
+
+BTI7060
+BT7A50AA
+BT7A50AR (w/rear -48 V access)
+
+20
+
+Active/passive
+
+6
+
+Active/passive
+
+BTI7020
+BT7A56BA
+
+2
+
+Passive
+
+Without cover: 
+   12.2 x 17.3 x 11.0 in (31.11 x 43.95 x  
+   28.0 cm)
+With cover: 
+   12.2 x 17.3 x 12.0 in (31.11 x 43.95 x 
+   30.5 cm)
+
+Without cover:  
+   3.5 x 17.3 x 11.0 in (8.89 x 43.95 x 
+   27.94 cm)
+With cover: 
+   3.5 x 17.3 x 12.0 in (8.89 x 43.95 x 
+   30.48 cm)
+
+Without cover: 
+   1.74 x 17.3 x 11.0 in (4.44 x 43.95 x 
+   27.94 cm)
+With cover: 
+   1.74 x 17.3 x 12.0 in (4.44 x 43.95 x 
+   30.48 cm)
+
+Weight (empty)
+
+9.1 kg
+
+5.9 kg
+
+Power consumption
+
+Extended temperature 
+support
+
+Environmental and
+safety certifications
+
+-48 V DC, 35 A (max)
+AC power options available 
+Power per 10 Gbps = 25 W (typical)
+
+-48 V DC, 10 A (max)
+AC power options available
+Power per 10 Gbps = 25 W (typical)
+
+2.5 kg
+
+N/A
+
+-5° to +50°C
+
+-20° to +65°C
+
+-20° to +65°C
+
+Telcordia NEBS Level 3, Earthquake 
+Zone 4, GR-63-CORE, GR-78-CORE, 
+FCC Part 15 Class A, GR-1089-
+CORE, IEC/UL/CSA 60950, IEC 
+60825
+
+Telcordia NEBS Level 3, Earthquake 
+Zone 4, GR-63-CORE, GR-78-CORE, 
+FCC Part 15 Class A, GR-1089-
+CORE, IEC/UL/CSA 60950, IEC 
+60825
+
+Telcordia NEBS Level 3, Earthquake 
+Zone 4, GR-63-CORE, GR-78-CORE, 
+FCC Part 15 Class A, GR-1089-
+CORE, IEC/UL/CSA
+60950, IEC 60827
+
+Ordering Information
+For ordering information, please consult the Juniper Networks price list or contact your local Juniper sales representative.
+
+3
+
+Data SheetBTI7000 Packet Optical Transport SystemsAbout Juniper Networks
+Juniper Networks challenges the status quo with products, 
+solutions and services that transform the economics of 
+networking. Our team co-innovates with customers and partners 
+to deliver automated, scalable and secure networks with agility, 
+performance and value. Additional information can be found at 
+Juniper Networks or connect with Juniper on Twitter and Facebook.
+
+Corporate and Sales HeadquartersJuniper Networks, Inc. 1133 Innovation WaySunnyvale, CA 94089 USAPhone: 888.JUNIPER (888.586.4737)or +1.408.745.2000Fax: +1.408.745.2100www.juniper.net Copyright 2016 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, Junos and QFabric are registered trademarks of Juniper Networks, Inc. in the United States and other countries. All other trademarks, service marks, registered marks, or registered service marks are the property of their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice.APAC and EMEA HeadquartersJuniper Networks International B.V.Boeing Avenue 2401119 PZ Schiphol-RijkAmsterdam, The NetherlandsPhone: +31.0.207.125.700Fax: +31.0.207.125.701Data SheetBTI7000 Packet Optical Transport Systems1000577-002-EN   May 2016EXPLORE JUNIPERGet the App.

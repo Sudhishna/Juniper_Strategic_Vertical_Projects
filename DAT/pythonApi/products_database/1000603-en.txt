@@ -1,0 +1,225 @@
+proNX Service Manager
+
+Product Overview
+
+The proNX Service Manager 
+helps network operations 
+center personnel streamline the 
+deployment and administration 
+of next-generation metro and 
+cloud networks. The software 
+enables cloud and service 
+providers to accelerate time-to-
+market, increase service velocity, 
+improve customer satisfaction, 
+and boost profitability by 
+eliminating operational expense 
+and complexity.
+
+Product Description 
+Juniper Networks® proNX Service Manager software offers a graphical user interface 
+that dramatically simplifies service activation, monitoring, and troubleshooting tasks. It 
+also provides a complete set of device configuration, inventory, fault, and performance 
+management capabilities for a broad variety of Juniper packet optical network elements.
+
+Architecture and Key Components
+The proNX Service Manager software includes provisioning templates, configuration 
+wizards, and one-click service activation features that eliminate manually intensive and 
+error-prone tasks, accelerate bandwidth turn-up and capacity expansion, and simplify 
+operations. Using the point-and-click interface, NOC administrators can rapidly deploy new 
+network resources and easily complete a wide variety of day-to-day tasks across the entire 
+Juniper packet optical portfolio. High-level, service-centric views make it easy to provision, 
+monitor, and troubleshoot end-to-end services. The proNX Service Manager solution 
+provides a simple visual representation of each service, along with its components and 
+performance details. The application also supports key fault, configuration, accounting, 
+performance, and security management (FCAPS), including real-time and historical fault 
+and performance reporting plus inventory management and software administration for 
+network elements.
+
+The proNX Service Manager Dashboard delivers a concise view of the health and 
+performance of all Juniper packet optical platforms, including network-wide alarms and 
+events as well as performance and inventory data. All information is presented on a single 
+screen, allowing users to drill down to access detailed information as required.
+
+At-a-glance network-wide visibility helps network administrators quickly identify and 
+resolve issues, often before customers are even aware they exist. Utilization data provides 
+instant visibility into configured and consumed capacity, allowing users to easily identify 
+where network resources are reaching their limits and enabling proactive planning for 
+network expansion. A browser-based responsive design user interface provides easy access 
+from any device—PC, smartphone, or tablet.
+
+1
+
+Data SheetApplication So(cid:157)ware
+
+proNX
+
+Service Manager
+
+proNX
+
+Dashboard
+
+Third-Party
+
+Apps
+
+RESTful APIs
+
+Control So(cid:157)ware
+
+proNX Control So(cid:157)ware
+
+NETCONF, SNMP
+
+Intelligent Network Infrastructure
+
+BTI7800 Line
+
+BTI7000 Line
+
+BTI800 Line
+
+MX Series
+
+PTX Series
+
+Network Nodes
+
+Third-Party
+
+Figure 1. Juniper Networks proNX software portfolio
+
+Features and Benefits
+
+•  Accelerates time-to-market and customer turn-up
+
+•  Optimizes service quality and customer satisfaction
+
+•  Eliminates manually intensive, error-prone management tasks
+
+•  Reduces ongoing operational expenditures
+
+•  Provides real-time visibility into network conditions
+
+•  Offers service-centric GUI with network topology map and 
+
+device views
+
+•  Enables comprehensive web-based dashboard NOC 
+
+monitoring
+
+•  Delivers point-and-click service activation, monitoring, and 
+
+troubleshooting
+
+• 
+
+Includes service provisioning templates, configuration 
+wizards, and end-to-end provisioning tools
+
+•  Provides FCAPS management capabilities
+
+•  Produces real-time alarms, events, and performance 
+
+statistics reports
+
+•  Compiles historical fault and performance reports
+
+•  Offers network element management, including backup/
+
+restore, software and inventory management
+
+Product Options
+The proNX Service Manager is an integral component of 
+Juniper Networks proNX Management Applications suite. The 
+proNX software supports a layered, software-driven solutions 
+architecture with distinct network, control, and application 
+planes for ultimate scalability and extensibility.
+
+Core Control Engine and Rich Management 
+Applications
+
+The proNX portfolio includes the proNX Control software domain 
+controller, plus an extensive collection of service provisioning, 
+monitoring, and troubleshooting applications including the proNX 
+Service Manager. The proNX Control server provides a centralized 
+control layer that facilitates end-to-end management and 
+service orchestration across network elements and geographies. 
+The software monitors and controls Juniper platforms via 
+industry-standard NETCONF/YANG and SNMP interfaces. It 
+also provides comprehensive northbound RESTful APIs that 
+streamline integration with Juniper and third-party management 
+applications such as operations support systems and business 
+support systems (OSS/BSS).
+
+2
+
+Data SheetproNX Service ManagerHighly Scalable Client/Server Deployment Model
+
+Juniper supports a distributed client/server network management 
+deployment model. The proNX Service Manager software is 
+a platform-independent, Java-based client front-end that 
+communicates with back-end proNX Control servers via RESTful 
+APIs. The proNX Dashboard Web client provides comprehensive 
+monitoring and troubleshooting capabilities designed for NOC 
+personnel to maximize service uptime. The proNX Control 
+software runs on industry-standard x86 Linux hardware 
+platforms or virtual machines, and can be clustered for high 
+scalability and availability.
+
+Figure 3. Service templates
+
+Figure 2. Service Activation screen
+
+Specifications
+Supported products
+
+Service types supported
+
+Figure 4. Service Manager dashboard
+
+BTI7800 line: BTI7814, BTI7802; BTI7801
+BTI7000 line: BTI7200, BTI7060, BTI7030, BTI7020
+BTI700 line: BTI702, BTI704, BTI712, BTI718, BTI718E
+BTI800 line: BTI805, BTI810, BTI821, BTI822
+MX Series 3D Universal Edge Routers: MX240, MX480, MX960, MX2010, MX2020
+PTX Series Packet Transport Routers: PTX3000, PTX5000
+
+Optical and transport layer services, including multiprotocol muxponders, multiprotocol 
+transponders, reconfigurable optical add/drop multiplexing (ROADM), dense wavelength-division 
+multiplexing (DWDM) OTN MIC
+
+Carrier Ethernet: EPLINE, EVPLINE, EPLAN, EVPLAN, E-ACCESS, including UNI/ NNI, UNI/NNI LAG, 
+SLA/CFM, Y.1731, ERPS, MEF pseudowire
+
+Simultaneous client support
+
+20
+
+Base server hardware and software
+recommendation
+
+Intel 64 bit processor, 6 cores, 12 GB DDR3 RAM, 2x 1 TB 7k disks, hardware-based RAID, 2x 
+10/100/1000 Ethernet
+
+Note: proNX Service Manager and proNX Control Software are distributed together. They are not ordered separately.
+
+Red Hat Enterprise Linux 6.3 or later, CentOS equivalent
+
+3
+
+Data SheetproNX Service ManagerOrdering Information
+For ordering information, please consult the Juniper Networks 
+price list or contact your local Juniper sales representative. 
+
+About Juniper Networks
+Juniper Networks challenges the status quo with products, 
+solutions and services that transform the economics of 
+networking. Our team co-innovates with customers and partners 
+to deliver automated, scalable and secure networks with agility, 
+performance and value. Additional information can be found at 
+Juniper Networks or connect with Juniper on Twitter and Facebook.
+
+Corporate and Sales HeadquartersJuniper Networks, Inc. 1133 Innovation WaySunnyvale, CA 94089 USAPhone: 888.JUNIPER (888.586.4737)or +1.408.745.2000Fax: +1.408.745.2100www.juniper.net Copyright 2016 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, and Junos are registered trademarks of Juniper Networks, Inc. in the United States and other countries. All other trademarks, service marks, registered marks, or registered service marks are the property of their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice.APAC and EMEA HeadquartersJuniper Networks International B.V.Boeing Avenue 2401119 PZ Schiphol-RijkAmsterdam, The NetherlandsPhone: +31.0.207.125.700Fax: +31.0.207.125.701Data SheetproNX Service Manager1000603-001-EN   Oct 2016EXPLORE JUNIPERGet the App.

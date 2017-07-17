@@ -1,0 +1,1972 @@
+EX3400 Ethernet Switch
+
+Product Overview
+
+Juniper Networks EX3400 
+Ethernet Switch delivers a high-
+performance, flexible, and cost-
+effective solution for today’s 
+most demanding converged data, 
+voice, and video enterprise access 
+environments.
+
+To simplify network operations, 
+the EX3400 is hardware-ready1 
+to act as a satellite device to 
+support a Juniper Networks Junos 
+Fusion Enterprise deployment, 
+which can combine several 
+wiring closets into one logical 
+management platform. The 
+EX3400 also supports Juniper 
+Networks Virtual Chassis 
+technology, allowing up to 10 
+switches to be interconnected 
+over uplink ports and managed 
+as a single device, delivering 
+a scalable, pay-as-you-grow 
+solution for expanding network 
+environments.
+
+Product Description  
+The Juniper Networks® EX3400 Ethernet Switch with Juniper Networks Junos® Fusion 
+Enterprise and Virtual Chassis technology provides enterprises with the flexibility and ease 
+of management that previously was only available with higher-end access switches. The 
+fixed-configuration EX3400 supports a number of key features, including: 
+
+•  Junos Fusion Enterprise allows large numbers of EX3400 switches to be configured 
+as satellite devices that connect to an EX9200 core aggregation switch to create a 
+single logical device. 
+
+•  24-port and 48-port models with and without Power over Ethernet (PoE/PoE+) are 
+
+for campus wiring closet deployments.
+
+•  Data center-optimized cooling options offer both front-to-back and back-to-front 
+
+airflows, making the EX3400 suitable for GbE data center access deployments.
+
+•  Two redundant, field-replaceable power supplies each provide up to 920 watts of 
+
+power.
+
+•  24-port data center models are included for metro deployments.
+
+•  Four dual-mode (GbE/10GbE) small form-factor pluggable transceiver (SFP/SFP+) 
+
+uplink ports and two 40GbE QSFP+ ports are available.
+
+•  Uplink ports can be configured as Virtual Chassis interfaces and connected via 
+
+standard 10GbE/40GbE optic interfaces (40GbE uplink ports are preconfigured by 
+default as Virtual Chassis ports).
+
+•  Comprehensive Layer 2 functionality with RIP and static routing is provided.
+
+•  A compact, 13.8-inch deep 1 U form factor supports flexible deployment options.
+
+•  An easy-to-manage solution includes centralized software upgrades and a single 
+
+management interface.
+
+•  Support is available for the same consistent modular Juniper Networks Junos 
+
+operating system control plane feature implementation used by all other Juniper 
+fixed-configuration Juniper Networks EX Series Ethernet Switches.
+
+•  Support Is provided for Layer 3 (OSPF v2, IGMP v1/v2/v3, PIM, VRRP, Q-in-Q, BFD, 
+
+virtual router) via an enhanced feature license (optional license required).
+
+•  Support is available for IPv6 management, including neighbor discovery, stateless 
+auto configuration, telnet, SSH, DNS, system log, NTP, ping, traceroute, ACL, CoS 
+static routing, and RIPng.
+
+• 
+
+IPv6 routing features (OSPFv3, virtual router support for unicast, VRRPv6, PIM, 
+MLDv1/v2) are supported via an enhanced feature license.
+
+•  Energy Efficient Ethernet (EEE) capability is provided.
+
+1 Software to come in future
+
+1
+
+Data SheetArchitecture and Key Components
+Junos Fusion Enterprise Technology
+
+Junos Fusion Enterprise technology provides automated 
+network configuration and simplifies scalability for medium 
+to large enterprise networks. Using Juniper Networks EX9200 
+programmable switches as aggregation devices and switches as 
+satellite nodes, Junos Fusion Enterprise technology can be deployed 
+across a building (or multiple buildings) to connect large numbers of 
+switches in a fabric that can be managed as a single device.
+
+With Junos Fusion technology, enterprises can reduce network 
+complexity and operational costs by collapsing underlying network 
+elements into a single logical point of control from Junos OS-
+based Juniper routing and switching platforms. It is designed for 
+customers who need to cost-effectively deploy numerous switch 
+ports throughout their enterprise campus network and manage 
+them all from a central device. The EX3400 switches can be easily 
+added to a Junos Fusion Enterprise architecture with a simple 
+software upgrade, offering full investment protection. 
+
+In Junos Fusion Enterprise deployments, satellite devices are not 
+required to be individually connected to aggregation devices. 
+Up to 10 satellite devices can be interconnected via standard 
+10GbE/40GbE interfaces to form a “cluster,” which in turn can 
+be connected to the aggregation device(s) over a pair of fiber 
+uplinks. Satellite devices or clusters can also be dual-homed or 
+single- homed to the aggregation devices. 
+
+In Junos Fusion Enterprise deployments, satellite devices forward all 
+traffic to the aggregation device, enabling network administrators 
+to monitor and manage the entire enterprise campus building from 
+a single device. Features such as PoE/PoE+, LLDP-MED, and 802.1x 
+are also supported in Junos Fusion Enterprise architectures to help 
+meet enterprise campus requirements.
+
+EX9200 Aggregation Devices
+
+EX3400 Satellite Devices
+
+Figure 1: EX3400 Junos Fusion Enterprise deployment
+
+Virtual Chassis Technology
+
+The EX3400 supports Juniper Networks Virtual Chassis technology, 
+allowing up to 10 switches to be interconnected over uplink ports 
+and managed as a single logical device, delivering a scalable, pay-
+as-you-grow solution for expanding network environments. 
+
+When deployed in a Virtual Chassis configuration, the EX3400 
+switches elect a primary and backup switch based on a 
+
+set of criteria or preconfigured policies. The master switch 
+automatically creates and updates the switching and optional 
+routing tables on all switches in the Virtual Chassis configuration. 
+Virtual Chassis technology allows switches to be added or 
+removed without service disruption. An EX3400 Virtual Chassis 
+configuration operates as a highly resilient unified system, 
+providing simplified management using a single IP address, 
+single telnet session, single command-line interface (CLI), 
+automatic version checking, and automatic configuration. The 
+EX3400 switches are also capable of local switching, so that 
+packets coming into a port destined for another port on the same 
+switch do not have to traverse the Virtual Chassis, increasing the 
+forwarding capacity of the switch.
+
+The EX3400 implements the same slot/module/port numbering 
+schema as other Juniper Networks chassis-based products 
+when numbering Virtual Chassis ports, providing true chassis-like 
+operations. By using a consistent operating system and a single 
+configuration file, all switches in a Virtual Chassis configuration 
+are treated as a single device, simplifying overall system 
+maintenance and management.
+
+The two QSFP+ ports on the EX3400 switch can be configured 
+as Virtual Chassis ports or as uplinks to aggregation devices.
+
+Closet 1
+
+EX3400
+
+10GbE uplinks
+
+40GbE Virtual Chassis
+
+Closet 2
+
+EX3400
+
+10GbE uplinks
+
+40GbE Virtual Chassis
+
+Aggregation
+
+Figure 2: EX3400 Virtual Chassis deployments
+
+Simplified Management and Operations
+
+Junos Fusion Enterprise technology dramatically simplifies 
+EX3400 management by enabling a large number of the 
+switches to be managed from a single interface when deployed 
+as satellite devices. With features such as plug-and-play 
+deployment and rolling software upgrades, Junos Fusion 
+Enterprise eliminates the need to individually manage every 
+access switch in the enterprise environment, leading to lower 
+operational costs and overall lower TCO.
+
+Virtual Chassis technology simplifies network management for 
+smaller deployments. Up to 10 interconnected EX3400 switches 
+
+2
+
+Data SheetEX3400 Ethernet Switchcan be managed as a single device utilizing a single Junos OS 
+image and a single configuration file, reducing the overall number 
+of units to monitor and manage. When the Junos OS is upgraded 
+on the master switch in an EX3400 Virtual Chassis configuration, 
+the software is automatically upgraded on all other member 
+switches at the same time.
+
+In addition, a feature called system snapshot makes a copy of 
+all software files used to run the switch, including the Junos 
+operating system, the active configuration, and the rescue 
+configuration. These copies can be used to reboot the switch the 
+next time it is powered up or as a backup boot option. The Junos 
+OS software can also be preinstalled on a flash drive and used to 
+boot the EX3400 at any time.
+
+Another feature, called automatic software download, enables 
+network administrators to easily upgrade the EX3400 using 
+the DHCP message exchange process to download and install 
+software packages. Users simply configure the automatic 
+software download feature on EX3400 switches acting as DHCP 
+clients and establish a path to the server where the software 
+package file is installed. The server then communicates the path 
+to the software package file through DHCP server messages.
+
+A zero touch provisioning (ZTP) feature allows a DHCP server 
+to push configuration details and software images to multiple 
+switches at boot-up time.
+
+Three system management options are available for the EX3400 
+line. The standard Junos OS CLI management interface offers 
+the same granular capabilities and scripting parameters found in 
+any router powered by the Junos operating system. The EX3400 
+also includes the integrated J-Web interface, an embedded Web-
+based device manager that allows users to configure, monitor, 
+troubleshoot, and perform system maintenance on individual 
+switches via a browser-based graphical interface. 
+
+Juniper Networks Junos Space Network Director software can be 
+used to manage the EX3400, both as a standalone device and as 
+satellite devices in a Junos Fusion Enterprise deployment.
+
+Finally, EX3400 fault, configuration, and performance data can 
+also be exported to leading third-party management systems 
+such as HP OpenView, IBM Tivoli, and Computer Associates 
+Unicenter software, providing a complete, consolidated view of 
+network operations.
+
+Features and Benefits
+Power
+
+The EX3400 supports the 802.3af Class 3 Power over Ethernet 
+(PoE) and 802.3at PoE+ standards for supporting networked 
+devices such as telephones, video cameras, IEEE 802.11ac WLAN 
+access points, and videophones in converged networks. While 
+EX3400 switches ship with a single power supply by default, 
+they can support redundant 600W or 920W power supplies that 
+provide PoE (15.4W) or PoE+ (30W) power to all ports in the 
+switch. Spare power supplies can be ordered as needed.
+
+There are two PoE power mode settings on the EX3400 switches:
+
+•  Static mode allows customers to specify the maximum PoE 
+
+power setting on an individual port.
+
+•  Class mode allows end devices to specify PoE class and 
+negotiate whether the switch can provide PoE power to  
+the device.
+
+The EX3400 also supports the industry-standard Link Layer 
+Discovery Protocol (LLDP) and LLDP-Media Endpoint Discovery 
+(LLDP-MED), which enable the switches to automatically 
+discover Ethernet-enabled devices, determine their power 
+requirements, and assign virtual LAN (VLAN) parameters. LLDP-
+MED-based granular PoE management allows the EX3400 to 
+negotiate PoE usage down to a fraction of a watt on powered 
+devices, enabling more efficient PoE utilization across the switch.
+
+The EX3400 supports the IEEE 802.3az standard for Energy 
+Efficient Ethernet (EEE) functionality, reducing power consumption 
+of copper physical layers during periods of low link utilization.
+
+In addition, the EX3400 supports rich quality-of-service (QoS) 
+functionality for prioritizing data, voice, and video traffic. The 
+switches support 12 QoS queues (8 unicast and 4 multicast) on 
+every port, enabling them to maintain multilevel, end-to-end 
+traffic prioritization. The EX3400 also supports a wide range of 
+scheduling options, such as priority and shaped-deficit weighted 
+round-robin (SDWRR) scheduling.
+
+Security
+
+The EX3400 switches fully interoperate with Juniper Networks 
+Access Policy Infrastructure, which consolidates all aspects of a 
+user’s identity, device, and location, enabling administrators to 
+enforce access control and security down to the individual port 
+or user levels. Working as an enforcement point in the Access 
+Policy Infrastructure, the EX3400 provides both standards-
+based 802.1X port-level access control and Layer 2-4 policy 
+
+Table 1: EX3400 PoE Power Budget
+
+SKU
+
+Total 10/100/ 
+
+1000BASE-T Ports
+
+Total 30 W PoE+ 
+Ports That Can Be 
+
+Total 15.4 W PoE 
+Ports That Can Be 
+
+Enabled
+
+Enabled
+
+EX3400-24P
+
+EX3400-48P
+
+24
+
+48
+
+24 ports up to 30W
+
+24 ports up to 15.4W
+
+48 ports up to 30W
+
+48 ports up to 15.4W
+
+AC
+
+AC
+
+Power Supply Type PoE+ Power Budget 
+
+(W)
+
+370W/720W
+
+740W/1440W
+
+3
+
+Data SheetEX3400 Ethernet Switchenforcement based on user identity, location, device, or a 
+combination of these. A user’s identity, device type, machine 
+posture check, and location can be used to not only grant or deny 
+access but also to determine the duration of access. If access is 
+granted, the switch assigns the user to a specific VLAN based on 
+authorization levels. The switch can also apply QoS policies or 
+mirror user traffic to a central location for logging, monitoring, or 
+threat detection by an intrusion prevention system (IPS).
+
+The EX3400 also provides a full complement of port security 
+features, including Dynamic Host Configuration Protocol (DHCP) 
+snooping, dynamic ARP inspection (DAI), and media access 
+control (MAC) limiting to defend against internal and external 
+spoofing, man-in-the-middle, and denial-of-service (DoS) attacks.
+
+MACsec
+
+EX3400 switches support IEEE 802.1ae MACsec, providing 
+support for link-layer data confidentiality, data integrity, and data 
+origin authentication. The MACsec feature enables the EX3400 
+to support 88 Gbps of near line-rate hardware-based traffic 
+encryption on all GbE and 10GbE ports.
+
+Defined by IEEE 802.1AE, MACsec provides secure, encrypted 
+communication at the link layer that is capable of identifying 
+and preventing threats from DoS and intrusion attacks, as well 
+as man-in-the-middle, masquerading, passive wiretapping, 
+and playback attacks launched from behind the firewall. When 
+MACsec is deployed on switch ports, all traffic is encrypted on the 
+wire but traffic inside the switch is not. This allows the switch to 
+apply all network policies such as QoS, deep packet inspection, 
+and sFlow to each packet without compromising the security of 
+packets on the wire.
+
+Hop-by-hop encryption enables MACsec to secure 
+communications while maintaining network intelligence. In 
+addition, Ethernet-based WAN networks can use MACsec to 
+provide link security over long-haul connections. MACsec is 
+transparent to Layer 3 and higher-layer protocols and is not 
+limited to IP traffic—it works with any type of wired or wireless 
+traffic carried over Ethernet links.
+
+Product Options
+Table 2: EX3400 Ethernet Switch Models
+
+Junos Operating System
+
+The EX3400 switches run the same Junos OS that is used by 
+other Juniper Networks EX Series Ethernet Switches, QFX Series 
+Switches, Juniper Routers, Juniper SRX Firewalls, and the Juniper 
+NFX Series Network Services Platform. By utilizing a common 
+operating system, Juniper delivers a consistent implementation 
+and operation of control plane features across all products. 
+To maintain that consistency, Junos OS adheres to a highly 
+disciplined development process that uses a single source 
+code and employs a highly available modular architecture that 
+prevents isolated failures from bringing an entire system down.
+
+These attributes are fundamental to the core value of the 
+software, enabling all Junos OS-powered products to be updated 
+simultaneously with the same software release. All features are 
+fully regression tested, making each new release a true superset 
+of the previous version. Customers can deploy the software with 
+complete confidence that all existing capabilities are maintained 
+and operate in the same way.
+
+Converged Environments
+
+The EX3400 switches provide a flexible solution for demanding 
+converged data, voice, and video environments. The EX3400-
+24P and EX3400-48P support PoE+, delivering up to 30 watts of 
+power per port to support networked devices such as telephones, 
+video cameras, IEEE 802.11ac wireless LAN (WLAN) access 
+points, and videophones. The PoE+ standard provides nearly 
+double the 15.4 watts per port available with the IEEE 802.3af 
+PoE standard.
+
+High Availability
+
+The EX3400 line of Ethernet switches is designed to support 
+many of the same failover capabilities and high availability (HA) 
+functionality as other Juniper EX access switches with Virtual 
+Chassis technology.
+
+Each EX3400 switch is capable of functioning as a Routing Engine 
+(RE) when deployed in a Virtual Chassis configuration. When two 
+or more EX3400 switches are interconnected in a Virtual Chassis 
+configuration, all member switches share a single control plane. 
+Junos OS automatically initiates an election process to assign a 
+
+SKU
+
+Total 10/100/
+1000BASE-T 
+
+Ports
+
+Uplinks
+
+Airflow
+
+Power 
+Supply 
+Type
+
+PoE+ Power 
+Budget (W)
+
+Max. System 
+
+Power Supply 
+
+Power 
+
+Rating (W)
+
+Consumption 
+
+(W)*
+
+EX3400-24T
+
+EX3400-48T
+
+EX3400-48T-AFI
+
+EX3400-24P
+
+EX3400-48P
+
+EX3400-24T-DC
+2 1 power supply
+3 2 power supplies
+* Input power without PoE
+
+24
+
+48
+
+48
+
+24 PoE+
+
+48 PoE+
+
+24
+
+10GbE/GbE 
+SFP+/SFP 
+
+ports
+
+2 40GbE 
+
+QSFP+ ports
+
+Front-to-back
+
+Front-to-back
+
+Back-to-front
+
+Front-to-back
+
+Front-to-back
+
+Front-to-back
+
+AC
+
+AC
+
+AC
+
+AC
+
+AC
+
+DC
+
+0
+
+0
+
+0
+
+370W2/720W3
+
+740W2/1440W3
+
+0
+
+100
+
+120
+
+120
+
+110
+
+120
+
+100
+
+150W
+
+150W
+
+150W
+
+600W
+
+920W
+
+150W
+
+4
+
+Data SheetEX3400 Ethernet Switchprimary (active) and backup (hot-standby) Routing Engine. An 
+integrated Layer 2 and Layer 3 graceful Routing Engine switchover 
+(GRES) feature maintains uninterrupted access to applications, 
+services, and IP communications in the unlikely event of a master 
+Routing Engine failure. 
+
+When more than two switches are interconnected in a Virtual 
+Chassis configuration, the remaining switch elements act as line 
+cards and are available to take on the backup Routing Engine 
+position should the designated master fail. Master, backup, 
+and line card priority status can be assigned by the network 
+operations team to dictate the order of ascension. This N+1 
+Routing Engine redundancy—coupled with GRES, the nonstop 
+routing (NSR), and, in the future, the nonstop bridging (NSB) 
+capabilities of Junos OS—ensures a smooth transfer of control 
+plane functions following unexpected failures.
+
+The EX3400 also supports the following HA features:
+
+EX3400-48T/P
+
+ 
+
+EX3400-24T/P
+
+Physical Specifications
+Dimensions (W x H x D)
+
+•  17.4 x 1.72 x 13.8 in (44.2 x 4.4 x 35 cm)
+
+Backplane 
+
+•  160 Gbps (with QSFP+ ports) or 80 Gbps (with SFP+ 
+
+ports) Virtual Chassis interconnect to link up to 10 switches 
+as a single logical device
+
+•  Redundant trunk group—To avoid the complexities of 
+
+Uplink
+
+Spanning Tree Protocol (STP) without sacrificing network 
+resiliency, the EX3400 employs redundant trunk groups to 
+provide the necessary port redundancy and simplify switch 
+configuration.
+
+•  Cross-member link aggregation—Cross-member link 
+
+aggregation allows redundant link aggregation connections 
+between devices in a single Virtual Chassis configuration, 
+providing an additional level of reliability and availability.
+
+•  Nonstop bridging (NSB) and nonstop active routing 
+(NSR)—NSB and NSR on the EX3400 switch ensure 
+control plane protocols, states, and tables are synchronized 
+between master and backup REs to prevent protocol flaps 
+or convergence issues following a Routing Engine failover.
+
+•  Fixed 4-port uplinks can be individually configured as GbE 
+
+(SFP) or 10GbE (SFP+) ports; 2 x 40G QSFP+ ports.
+
+System Weight
+
+•  EX3400 switch (no power supply or fan module): 10.49 lb 
+
+(4.76 kg) maximum
+
+•  EX3400 switch (with single power supply and two fan 
+
+modules): 12.65 lb (5.74 kg) maximum
+
+•  150 W AC power supply: 1.43 lb (0.65 kg)
+
+•  600 W AC power supply: 1.82 lb (0.83 kg)
+
+•  920 W AC power supply: 1.87 lb (0.85 kg)
+
+•  150 W DC power supply: 1.43 lb (0.65 kg)
+
+•  Fan module: 0.16 lb (0.07 kg)
+
+Environmental Ranges
+
+•  Nonstop software upgrade (NSSU)—With NSSU, all 
+
+•  Operating temperature: 32° to 113° F (0° to 45° C)
+
+members of an EX3400 Virtual Chassis configuration can 
+be upgraded with a single command. Mission-critical traffic 
+can be configured as a link aggregate across multiple Virtual 
+Chassis switch members, ensuring minimal disruption 
+during the upgrade process.
+
+Enhanced Limited Lifetime Warranty
+The EX3400 includes an enhanced limited lifetime hardware 
+warranty that provides return-to-factory switch replacement for 
+as long as the original purchaser owns the product. The warranty 
+includes lifetime software updates, advanced shipping of spares 
+within one business day, and 24x7 Juniper Networks Technical 
+Assistance Center (JTAC) support for 90 days after the purchase 
+date. Power supplies and fan trays are covered for a period of 
+five years. For complete details, please visit www.juniper.net/
+support/warranty.
+
+•  Storage temperature: -40° to 158° F (-40° to 70° C)
+
+•  Operating altitude: up to 10,000 ft (3048 m) 
+
+•  Nonoperating altitude: up to 16,000 ft (4877 m)
+
+•  Relative humidity operating: 10% to 85% (noncondensing) 
+
+•  Relative humidity nonoperating: 0% to 95% 
+
+(noncondensing)
+
+Hardware Specifications
+Switching Engine Model
+•  Store and forward 
+
+DRAM
+
+•  2 GB with ECC
+
+Flash
+
+•  2 GB 
+
+CPU
+
+•  Dual Core 1 GHz
+
+GbE port density per system
+
+•  EX3400-24T/EX3400-24P/EX3400-24T-DC: 30 (24 host 
+
+ports + four 1/10 GbE and two 40GbE uplink ports)
+
+•  EX3400-48T/EX3400-48T-AFI/EX3400-48P: 54 (48 host 
+
+ports + four 1/10 GbE and two 40GbE uplink ports)
+
+5
+
+Data SheetEX3400 Ethernet SwitchPhysical Layer 
+
+• 
+
+IEEE 802.3z: 1000BASE-X
+
+•  Cable diagnostics for detecting cable breaks and shorts
+
+•  Layer 3 VLAN-tagged subinterface
+
+•  Auto medium-dependent interface/medium-dependent 
+
+•  PVLAN support
+
+interface crossover (MDI/MDIX) support
+
+•  Port speed downshift/setting maximum advertised speed 
+
+on 10/100/1000BASE-T ports 
+
+•  Digital optical monitoring for optical ports
+
+Packet-Switching Capacities (Maximum with 64-Byte Packets)
+
+•  EX3400-24T, EX3400-24P, EX3400-24T-DC: 288 Gbps
+
+•  EX3400-48T, EX3400-48T-AFI, EX3400-48P: 336 Gbps 
+
+Software Specifications
+Layer 2/Layer 3 Throughput (Mpps) (Maximum with 64 Byte 
+Packets)
+
+•  24P/24T/24T-DC: 214 Mpps
+
+•  48P/48T/48T-BF: 250 Mpps
+
+Layer 2 Features 
+
+•  Multicast VLAN routing
+
+•  Adding/removing single tag
+
+•  Filter-based SVLAN tagging
+
+•  Flexible CoS (outer .1P marking)
+
+Layer 3 Features: IPv4
+
+•  Maximum number of ARP entries: 16,000
+
+•  Maximum number of IPv4 unicast routes in hardware: 
+
+14,000 prefixes; 36,000 host routes
+
+•  Maximum number of IPv4 multicast routes in hardware: 
+
+18,000 groups; 4,000 multicast routes
+
+•  Routing Protocols: RIP v1/v2, OSPF v2
+
+•  Static routing
+
+•  Layer 3 redundancy: VRRP
+
+•  Maximum MAC addresses per system: 32,000
+
+• 
+
+IP directed broadcast—traffic forwarding
+
+•  Jumbo frames: 9216 bytes
+
+•  Number of VLANs supported: 4,096
+
+•  Range of possible VLAN IDs: 1-4094
+
+•  Port-based VLAN
+
+•  MAC-based VLAN
+
+•  Voice VLAN
+
+•  Virtual router (VRF-Lite) supporting RIP, OSPF
+
+•  Routing policy
+
+•  Filter-based forwarding (FBF)
+
+•  Unicast reverse-path forwarding 
+
+Layer 3 Features: IPv6
+
+•  Maximum number of Neighbor Discovery entries: 8,000
+
+•  Compatible with Per-VLAN Spanning Tree Plus (PVST+)
+
+•  Maximum number of IPv6 unicast routes in hardware: 3,500 
+
+•  RVI (routed VLAN interface)
+
+•  Persistent MAC (sticky MAC)
+
+•  RSTP and VSTP running concurrently
+
+• 
+
+IEEE 802.1AB: Link Layer Discovery Protocol (LLDP)
+
+•  LLDP-MED with VoIP integration
+
+prefixes; 18,000 host routes
+
+•  Maximum number of IPv6 multicast routes in hardware: 
+
+9,000 groups; 2,000 multicast routes
+
+•  Neighbor discovery, system logging, Telnet, SSH, Junos 
+
+Web, SNMP, Network Time Protocol (NTP), Domain Name 
+System (DNS)
+
+IEEE 802.1ae Media Access Control Security (MACsec)
+
+•  Routing protocols: RIPng, OSPF v3
+
+IEEE 802.1ak Multiple VLAN Registration Protocol (MVRP)
+
+•  Static routing
+
+• 
+
+• 
+
+IPv6 ACL (PACL, VACL, RACL)
+
+IPv6 CoS (BA, MF classification and rewrite, scheduling 
+based on TC)
+
+•  MLDv1/v2 snooping
+
+• 
+
+• 
+
+• 
+
+• 
+
+IPv6 ping, traceroute
+
+IPv6 stateless auto-configuration
+
+IPv6 Layer 3 forwarding in hardware
+
+IPv6 Layer 3 redundancy: VRRP v6
+
+•  Virtual Router support for IPv6 unicast
+
+•  PIM for IPv6 multicast
+
+Access control lists (ACLs) (Junos OS firewall filters)
+
+•  Port-based ACL (PACL)—ingress and egress
+
+•  VLAN-based ACL (VACL)—ingress and egress
+
+•  Router-based ACL (RACL)—ingress and egress
+
+•  ACL entries (ACE) in hardware per system: 1500
+
+•  ACL counter for denied packets
+
+6
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+IEEE 802.1br: Bridge Port Extension
+
+IEEE 802.1D: Spanning Tree Protocol
+
+IEEE 802.1p: CoS prioritization
+
+IEEE 802.1Q-in-Q: VLAN stacking
+
+IEEE 802.1Q: VLAN tagging
+
+IEEE 802.1s: Multiple Spanning Tree Protocol (MSTP)
+
+•  Number of MST instances supported: 64
+
+•  Number of VSTP instances supported: 510
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+ IEEE 802.1w: Rapid Spanning Tree Protocol (RSTP)
+
+IEEE 802.1X: Port access control
+
+IEEE 802.3: 10BASE-T
+
+IEEE 802.3ab: 1000BASE-T
+
+IEEE 802.3ad: Link Aggregation Control Protocol (LACP)
+
+IEEE 802.1ad Q-in-Q tunneling
+
+IEEE 802.3ae: 10-Gigabit Ethernet
+
+IEEE 802.3af: PoE
+
+IEEE 802.3at: PoE+
+
+IEEE 802.3u: 100BASE-T
+
+Data SheetEX3400 Ethernet Switch•  ACL counter for permitted packets
+
+•  802.1p, DiffServ code point (DSCP/IP) precedence trust and 
+
+•  Ability to add/remove/change ACL entries in middle of list 
+
+marking
+
+(ACL editing)
+
+•  L2-L4 ACL
+
+•  Trusted Network Connect (TNC) certified
+
+•  Static MAC authentication
+
+•  MAC-RADIUS
+
+•  Control plane denial-of-service (DoS) protection
+
+•  Firewall filter on me0 interface (control plane protection)
+
+•  Captive portal—Layer 2 interfaces
+
+•  Fallback authentication
+
+•  Media Access Control Security (MACsec)
+
+Access Security
+
+•  MAC limiting
+
+•  Allowed MAC addresses, configurable per port
+
+•  Dynamic ARP inspection (DAI)
+
+•  Proxy ARP
+
+•  Static ARP support
+
+•  DHCP snooping
+
+•  802.1X port-based
+
+•  802.1X multiple supplicants
+
+•  802.1X with VLAN assignment
+
+•  802.1X with authentication bypass access (based on host 
+
+MAC address)
+
+•  802.1X with VoIP VLAN support
+
+•  802.1X dynamic access control list (ACL) based on RADIUS 
+
+attributes
+
+•  802.1X supported EAP types: MD5, Transport Layer Security 
+(TLS), Tunneled Transport Layer Security (TTLS), Protected 
+Extensible Authentication Protocol (PEAP)
+
+• 
+
+• 
+
+IPv6 RA Guard
+
+IPv6 Neighbor Discovery Inspection
+
+•  Media Access Control security (MACsec)
+
+High Availability
+
+•  Link aggregation:
+
+•  802.3ad (LACP) support
+
+•  Number of link aggregation groups (LAGs) supported: 128
+
+•  Maximum number of ports per LAG: 16
+
+•  Tagged ports support in LAG
+
+•  Graceful Route Engine switchover (GRES) for IGMP v1/v2/
+
+v3 snooping
+
+•  Nonstop routing (OSPF v1/v2/v3, RIP/RIPng, PIM)
+
+•  Nonstop software upgrade (NSSU)
+
+Quality of Service (QoS) 
+
+•  Layer 2 QoS
+
+•  Layer 3 QoS
+
+• 
+
+Ingress policing: two-rate three-color
+
+•  Hardware queues per port: 12 (8 unicast, 4 multicast)
+
+•  Scheduling methods (egress): Strict Priority (SP), SDWRR
+
+•  L2-L4 classification criteria, including Interface, MAC 
+
+address, EtherType, 802.1p, VLAN, IP address, DSCP/IP 
+precedence, and TCP/UDP port numbers
+
+•  Congestion avoidance capabilities: Tail drop
+
+Multicast
+
+• 
+
+• 
+
+• 
+
+IGMP snooping entries: 1000
+
+IGMP snooping
+
+IGMP v1/v2/v3
+
+•  PIM SM, PIM SSM, PIM DM
+
+•  VRF-Lite support for PIM and IBMP
+
+•  MLD v1/v2 snooping
+
+• 
+
+IGMP filter
+
+•  Multicast Source Discovery Protocol (MSDP)
+
+•  PIM for IPv6 multicast
+
+Services and Manageability
+
+•  Junos OS CLI
+
+•  Web interface: Junos Web support
+
+•  Out-of-band management: Serial, 10/100BASE-T Ethernet
+
+•  ASCII configuration
+
+•  Rescue configuration
+
+•  Configuration rollback
+
+• 
+
+Image rollback
+
+•  Element management tools: Junos Space Network 
+
+Management Platform
+
+•  Real-time performance monitoring (RPM)
+
+•  SNMP: v1, v2c, v3
+
+•  Remote monitoring (RMON) (RFC 2819) Groups 1, 2, 3, 9
+
+•  Network Time Protocol (NTP)
+
+•  DHCP server
+
+•  DHCP client and DHCP proxy
+
+•  DHCP relay and helper
+
+•  VR-aware DHCP
+
+•  RADIUS authentication
+
+•  TACACS+ authentication
+
+•  SSHv2
+
+•  Secure copy
+
+•  HTTP/HTTPs
+
+•  DNS resolver
+
+•  System logging
+
+•  Temperature sensor
+
+•  Configuration backup via FTP/secure copy
+
+•  sFlow
+
+• 
+
+Interface range
+
+•  Port profile associations
+
+•  Uplink failure detection 
+
+•  Zero Touch Provisioning using DHCP
+
+7
+
+Data SheetEX3400 Ethernet SwitchSupported RFCs
+
+•  RFC 768 UDP
+
+•  RFC 1724 RIPv2 MIB
+
+•  RFC 1905 RFC 1907 SNMP v2c, SMIv2, and Revised MIB-II
+
+•  RFC 783 Trivial File Transfer Protocol (TFTP)
+
+•  RFC 1981 Path MTU Discovery for IPv6
+
+•  RFC 791 IP
+
+•  RFC 2011 SNMPv2 Management Information Base for the IP 
+
+•  RFC 792 Internet Control Message Protocol (ICMP)
+
+using SMIv2
+
+•  RFC 793 TCP
+
+•  RFC 826 Address Resolution Protocol (ARP)
+
+•  RFC 854 Telnet client and server
+
+•  RFC 894 IP over Ethernet
+
+•  RFC 903 Reverse ARP (RARP)
+
+•  RFC 906 Bootstrap Loading using TFTP
+
+•  RFC 951, 1542 BootP
+
+•  LLDP-MED, ANSI/TIA-1057, draft 08
+
+•  RFC 1027 Proxy ARP
+
+•  RFC 1058 RIP v1
+
+•  RFC 1122 Host requirements
+
+•  RFC 1256 IPv4 ICMP Router Discovery (IRDP)
+
+•  RFC 1492 TACACS+
+
+•  RFC 1519 Classless Interdomain Routing (CIDR)
+
+•  RFC 1591 Domain Name System (DNS)
+
+•  RFC 1812 Requirements for IP Version 4 routers
+
+•  RFC 2030 Simple Network Time Protocol (SNTP)
+
+•  RFC 2068 HTTP/1.1
+
+•  RFC 2012 SNMPv2 Management Information Base for the 
+
+Transmission Control Protocol using SMIv2
+
+•  RFC 2013 SNMPv2 Management Information Base for the 
+
+User Datagram Protocol using SMIv2
+
+•  RFC 2096 IPv4 Forwarding Table MIB
+
+•  RFC 2287 System Application Packages MIB
+
+•  RFC 2328 OSPF v2
+
+•  RFC 2460 IPv6 Specification
+
+•  RFC 2464 Transmission of IPv6 Packets over Ethernet 
+
+Networks
+
+•  RFC 2570-2575 SNMPv3, user-based security, encryption, 
+
+and authentication
+
+•  RFC 2576 Coexistence between Version 1, Version 2, and 
+Version 3 of the Internet-standard Network Management 
+Framework
+
+•  RFC 2578 SNMP Structure of Management Information MIB
+
+•  RFC 2579 SNMP textual conventions for SMIv2
+
+•  RFC 2665 Definitions of Managed Objects for the Ethernet-
+
+like Interface Types
+
+•  RFC 2819 RMON MIB
+
+•  RFC 2131 BootP/DHCP relay agent and DHCP server
+
+•  RFC 2863 Interface Group MIB
+
+•  RFC 2138 RADIUS Authentication
+
+•  RFC 2139 RADIUS Accounting
+
+•  RFC 2267 Network Ingress Filtering
+
+•  RFC 2328 OSPF v2
+
+•  RFC 2453 RIP v2
+
+•  RFC 2474 DiffServ Precedence, including 8 queues/port
+
+•  RFC 2597 DiffServ Assured Forwarding (AF)
+
+•  RFC 2598 DiffServ Expedited Forwarding (EF)
+
+•  RFC 2710 Multicast Listener Discovery Version (MLD) for IPv6
+
+•  RFC 2925 Definitions of Managed Objects for Remote Ping, 
+
+Traceroute, and Lookup Operations
+
+•  RFC 3569 PIM SSM
+
+•  RFC 3579 RADIUS Extensible Authentication Protocol (EAP) 
+
+support for 802.1X
+
+•  RFC 3618 Multicast Source Discovery Protocol (MSDP)
+
+•  RFC 3768 VRRP
+
+•  RFC 3973 PIM DM
+
+•  RFC 4601 PIM SM
+
+•  RFC 5176 Dynamic Authorization Extensions to RADIUS
+
+Supported MIBs
+
+•  RFC 1155 Structure of Management Information (SMI)
+
+•  RFC 1157 SNMPv1
+
+•  RFC 1212, RFC 1213, RFC 1215 MIB-II, Ethernet-like MIB, and 
+
+Traps
+
+•  RFC 1493 Bridge MIB
+
+•  RFC 1643 Ethernet MIB
+
+•  RFC 2863 The Interfaces Group MIB
+
+•  RFC 2922 LLDP MIB
+
+•  RFC 2925 Definitions of Managed Objects for Remote Ping/
+
+Traceroute, and Lookup Operations
+
+•  RFC 3413 SNMP application MIB
+
+•  RFC 3414 User-based Security Model for SNMPv3
+
+•  RFC 3415 View-based access control model (VACM) for 
+
+SNMP
+
+•  RFC 3484 Default Address Selection for IPv6
+
+•  RFC 3621 PoE-MIB (PoE switches only)
+
+•  RFC 3810 Multicast Listener Discovery Version 2 (MLDv2) 
+
+for IPv6
+
+•  RFC 4188 STP and Extensions MIB
+
+•  RFC 4213 Basic Transition Mechanisms for IPv6 Hosts and 
+
+Routers
+
+•  RFC 4291 IPv6 Addressing Architecture
+
+•  RFC 4363 Definitions of Managed Objects for Bridges with 
+
+Traffic Classes, Multicast Filtering, and VLAN Extensions
+
+•  RFC 4443 ICMPv6 for the IPv6 Specification
+
+•  RFC 4861 Neighbor Discovery for IPv6
+
+•  RFC 4862 IPv6 Stateless Address Autoconfiguration
+
+•  RFC 5643 OSPF v3 MIB Support
+
+• 
+
+IEEE 802.1ad Q-in-Q
+
+•  Draft – blumenthal – aes – usm - 08
+
+•  Draft – reeder - snmpv3 – usm - 3desede -00
+
+8
+
+Data SheetEX3400 Ethernet SwitchTroubleshooting
+
+•  Debugging: CLI via console, telnet, or SSH
+
+•  Diagnostics: Show and debug command statistics
+
+•  Traffic mirroring (port)
+
+•  Traffic mirroring (VLAN)
+
+•  Filter-based mirroring
+
+•  Mirroring destination ports per system: 4
+
+•  LAG port monitoring
+
+•  Multiple destination ports monitored to 1 mirror (N:1)
+
+•  Maximum number of mirroring sessions: 4
+
+•  Mirroring to remote destination (over L2): 1 destination VLAN
+
+•  Encapsulated Remote Switched Port Analyzer (ERSPAN)
+
+• 
+
+IP tools: Extended ping and trace
+
+•  Juniper Networks commit and rollback
+
+Safety Certifications
+
+•  UL-UL60950-1 (Second Edition)
+
+•  C-UL to CAN/CSA 22.2 No.60950-1 (Second Edition)
+
+•  TUV/GS to EN 60950-1 (Second Edition), Amendment  
+
+A1-A4, A11
+
+•  CB-IEC60950-1, (Second Edition with all country deviations)
+
+•  EN 60825-1 (Second Edition)
+
+Electromagnetic Compatibility Certifications
+
+•  FCC 47CFR Part 15 Class A
+
+•  EN 55022 Class A
+
+• 
+
+ICES-003 Class A
+
+•  VCCI Class A
+
+•  AS/NZS CISPR 22 Class A
+
+•  CISPR 22 Class A
+
+•  EN 55024
+
+•  EN 300386
+
+•  CE
+
+Telecom Quality Management
+
+•  TL9000
+
+Environmental
+
+•  Reduction of Hazardous Substances (ROHS) 6
+
+Telco
+
+•  CLEI code
+
+Noise Specifications
+
+Switches
+
+EX3400-24T
+
+EX3400-24P
+
+EX3400-24T-DC
+
+EX3400-48T
+
+EX3400-48T-AFI
+
+EX3400-48P
+
+EX3400-24T-TAA
+
+EX3400-24P-TAA
+
+EX3400-48T-TAA
+
+Noise measurements are based on operational tests taken from 
+bystander position (front) and performed at 23° C in compliance 
+with ISO 7779.
+
+EX3400-48P-TAA
+
+Table 3: Noise Test Results
+
+Model
+
+EX3400-24T
+
+EX3400-24P
+
+EX3400-24T-DC
+
+EX3400-48T
+
+EX3400-48T-AFI
+
+EX3400-48P
+
+Warranty
+
+Acoustic Noise in DBA
+
+36
+
+37
+
+36
+
+35
+
+39
+
+46
+
+Accessories
+
+EX-4PST-RMK
+
+EX-RMK
+
+EX-WMK
+
+•  Limited lifetime switch hardware warranty
+
+Juniper Networks Services and Support
+Juniper Networks is the leader in performance-enabling services 
+that are designed to accelerate, extend, and optimize your 
+high-performance network. Our services allow you to maximize 
+operational efficiency while reducing costs and minimizing 
+risk, achieving a faster time to value for your network. Juniper 
+Networks ensures operational excellence by optimizing the 
+network to maintain required levels of performance, reliability, 
+and availability. For more details, please visit www.juniper.net/us/
+en/products-services. 
+
+Ordering Information
+Product Number Description
+
+EX3400 24-port 10/100/1000BASE-T with 4 
+SFP+ and 2 QSFP+ uplink ports (optics not 
+included)
+
+EX3400 24-port 10/100/1000BASE-T (24 PoE+ 
+ports) with 4 SFP+ and 2 QSFP+ uplink ports 
+(optics not included)
+
+EX3400 24-port 10/100/1000BASE-T with 4 
+SFP+ and 2 QSFP+ uplink ports (optics not 
+included) and DC power supply
+
+EX3400 48-port 10/100/1000BASE-T, 4 
+x 1/10GbE SFP/SFP+, 2 x 40GbE QSFP+, 
+redundant fans, front-to-back airflow, 1 AC 
+PSU JPSU-150-AC-AFO included (optics sold 
+separately)
+
+EX3400 48-port 10/100/1000BASE-T, 4 
+x 1/10GbE SFP/SFP+, 2 x 40GbE QSFP+, 
+redundant fans, back-to-front airflow, 1 AC 
+PSU JPSU-150-AC-AFI included (optics sold 
+separately)
+
+EX3400 48-port 10/100/1000BASE-T (48 PoE+ 
+ports) with 4 SFP+ and 2 QSFP+ uplink ports 
+(optics not included)
+
+EX3400 TAA 24-port 10/100/1000BASE-T, 
+4 x 1/10GbE SFP/SFP+, 2 x 40GbE QSFP+, 
+redundant fans, front-to-back airflow, 1 AC 
+PSU JPSU-150-AC-AFO included (optics sold 
+separately)
+
+EX3400 TAA 24-port 10/100/1000BASE-T 
+PoE+, 4 x 1/10GbE SFP/SFP+, 2 x 40GbE QSFP+, 
+redundant fans, front-to-back airflow, 1 AC 
+PSU JPSU-600-AC-AFO included (optics sold 
+separately)
+
+EX3400 TAA 48-port 10/100/1000BASE-T, 
+4 x 1/10GbE SFP/SFP+, 2 x 40GbE QSFP+, 
+redundant fans, front-to-back airflow, 1 AC 
+PSU JPSU-150-AC-AFO included (optics sold 
+separately)
+
+EX3400 TAA 48-port 10/100/1000BASE-T 
+PoE+, 4 x 1/10GbE SFP/SFP+, 2 x 40GbE QSFP+, 
+redundant fans, front-to-back airflow, 1 AC 
+PSU JPSU-920-AC-AFO included (optics sold 
+separately)
+
+Adjustable 4-post rack-mount kit for EX2200, 
+EX3200, EX3400, and EX4200
+
+Rack-mount kit for EX2200, EX3200, EX3400, 
+and EX4200
+
+EX4200, EX3200, EX3400, and EX2200 wall-
+mount kit with baffle
+
+9
+
+Data SheetEX3400 Ethernet SwitchProduct Number Description
+
+Product Number Description
+
+AC power cable, Australia (10 A/250V, 2.5m)
+
+AC power cable, patch cord (10 A/250V,  
+2.5 m) for EU only
+
+EX-SFP-10GE-
+DAC-5M
+
+EX-SFP-10GE-
+DAC-7M
+
+SFP+ 10-Gigabit Ethernet Direct Attach Copper 
+(twinax copper cable), 5m
+
+SFP+ 10-Gigabit Ethernet Direct Attach Copper 
+(twinax copper cable), 7m 
+
+CBL-EX-PWR-
+C13-AU
+
+CBL-EX-PWR-
+C13-C14
+
+CBL-EX-PWR-
+C13-CH
+
+CBL-EX-PWR-
+C13-EU
+
+CBL-EX-PWR-
+C13-IT
+
+CBL-EX-PWR-
+C13-JP
+
+CBL-EX-PWR-
+C13-KR
+
+CBL-EX-PWR-
+C13-SZ
+
+CBL-EX-PWR-
+C13-UK
+
+CBL-EX-PWR-
+C13-US
+
+AC power cable, China (10 A/250V, 2.5m)
+
+EX-SFP-10GE-ER
+
+AC power cable, Europe (10 A/250V, 2.5m)
+
+EX-SFP-10GE-ZR
+
+AC power cable, Italy (10 A/250V, 2.5m)
+
+EX-SFP-10GE-LR
+
+AC power cable, Japan (12 A/125V, 2.5m)
+
+AC power cable, Korea (10 A/250V, 2.5m)
+
+EX-SFP-10GE-
+LRM
+
+AC power cable, Switzerland (10 A/250V, 2.5m)
+
+EX-SFP-10GE-SR
+
+SFP+ 10GBASE-ER 10-Gigabit Ethernet Optics, 
+1550 nm for 40 km transmission on SMF
+
+SFP+ 10GBASE-ZR; LC connector; 1550 nm; 80 
+km reach on single-mode fiber
+
+SFP+ 10GBASE-LR 10-Gigabit Ethernet Optics, 
+1310 nm for 10 km transmission on single-mode 
+fiber-optic (SMF)
+
+SFP+ 10-Gigabit Ethernet LRM Optics, 1310 nm 
+for 220m transmission on multimode fiber-
+optic (MMF)
+
+SFP+ 10GBASE-SR 10-Gigabit Ethernet Optics, 
+850 nm for up to 300m transmission on MMF
+
+SFP+ 10-Gigabit Ethernet Ultra Short Reach 
+Optics, 850 nm for 10m on OM1, 20m on OM2, 
+100m on OM3 multimode fiber
+
+SFP 1000BASE-LX Gigabit Ethernet Optics, 1310 
+nm for 10 km transmission on SMF
+
+SFP 1000BASE-LX Gigabit Ethernet Optics, 1310 
+nm for 40 km transmission on SMF
+
+SFP 1000BASE-SX Gigabit Ethernet Optics, 850 
+nm for up to 550m transmission on MMF
+
+SFP 1000BASE-LH Gigabit Ethernet Optics, 
+1550 nm for 70 km transmission on SMF
+
+SFP 10/100/1000BASE-T Copper Transceiver 
+Module for up to 100m transmission on 
+Category 5
+
+SFP 1000BASE-BX Gigabit Ethernet Optics, Tx 
+1310 nm/Rx 1490 nm for 10 km transmission on 
+single strand of SMF
+
+SFP 1000BASE-BX Gigabit Ethernet Optics, Tx 
+1310 nm/Rx 1550 nm for 10 km transmission on 
+single strand of SMF
+
+SFP 1000BASE-BX Gigabit Ethernet Optics, Tx 
+1490 nm/Rx 1310 nm for 10 km transmission on 
+single strand of SM
+
+SFP 1000BASE-BX Gigabit Ethernet Optics, Tx 
+1550 nm/Rx 1310 nm for 10 km transmission on 
+single strand of SMF
+
+SFP 1000BASE-BX Gigabit Ethernet Optics, Tx 
+1310 nm/Rx 1550 nm for 40 km transmission on 
+single strand of SMF
+
+SFP 1000BASE-BX Gigabit Ethernet Optics, Tx 
+1550 nm/Rx 1310 nm for 40 km transmission on 
+single strand of SMF
+
+SFP Gigabit Ethernet CWDM, LC connector; 1470 
+nm, 80 km reach on single-mode fiber
+
+SFP Gigabit Ethernet CWDM, LC connector; 1490 
+nm, 80 km reach on single-mode fiber
+
+SFP Gigabit Ethernet CWDM, LC connector; 1510 
+nm, 80 km reach on single-mode fiber
+
+SFP Gigabit Ethernet CWDM, LC connector; 1530 
+nm, 80 km reach on single-mode fiber
+
+SFP Gigabit Ethernet CWDM, LC connector; 1550 
+nm, 80 km reach on single-mode fiber
+
+SFP Gigabit Ethernet CWDM, LC connector; 1570 
+nm, 80 km reach on single-mode fiber
+
+SFP Gigabit Ethernet CWDM, LC connector; 1590 
+nm, 80 km reach on single-mode fiber
+
+SFP Gigabit Ethernet CWDM, LC connector; 1610 
+nm, 80 km reach on single-mode fiber
+
+10
+
+EX-SFP-10GE-
+USR
+
+EX-SFP-1GE-LX
+
+EX-SFP-1GE-
+LX40K
+
+EX-SFP-1GE-SX
+
+EX-SFP-1GE-LH
+
+EX-SFP-1GE-T
+
+EX-SFP-
+GE10KT13R14
+
+EX-SFP-
+GE10KT13R15
+
+EX-SFP-
+GE10KT14R13
+
+EX-SFP-
+GE10KT15R13
+
+EX-SFP-
+GE40KT13R15
+
+EX-SFP-
+GE40KT15R13
+
+EX-SFP-
+GE80KCW1470
+
+EX-SFP-
+GE80KCW1490
+
+EX-SFP-
+GE80KCW1510
+
+EX-SFP-
+GE80KCW1530
+
+EX-SFP-
+GE80KCW1550
+
+EX-SFP-
+GE80KCW1570
+
+EX-SFP-
+GE80KCW1590
+
+EX-SFP-
+GE80KCW1610
+
+AC power cable, UK (10 A/250V, 2.5m)
+
+AC power cable, U.S. (13 A/125V, 2.5m)—Not to 
+be used with EX3400-48P SKUs
+
+CBL-PWR-C13-
+US-48P
+
+AC power cable, US/Canada (15A/125V, 2.5m)– 
+For EX3400-48P only
+
+Feature Licenses
+
+EX-24-EFL
+
+EX-48-EFL
+
+Enhanced Feature License for EX3400-24P, 
+EX3400-24T, and EX3400-24T-DC switches 
+includes licenses for IPv4 routing (OSPF v2/
+v3, IGMP v1/v2/v3, VRRP, BFD, and IPv4 Virtual 
+Router support), IPv6 routing (RIPng, OSPF 
+v3, VRRP v6, VR support for unicast and 
+filter-based forwarding—FBF, MSDP, and PIM), 
+Real-Time Performance Monitoring (RPM), and 
+Unicast RPF
+
+Enhanced Feature License for EX3400-48P, 
+EX3400-48T, and EX3400-48T-AFI switches 
+includes licenses for IPv4 routing (OSPF v2/
+v3, IGMP v1/v2/v3, VRRP, BFD, and IPv4 Virtual 
+Router support), IPv6 routing (RIPng, OSPF 
+v3, VRRP v6, VR support for unicast and 
+filter-based forwarding—FBF, MSDP, and PIM), 
+Real-Time Performance Monitoring (RPM), and 
+Unicast RPF
+
+EX-QFX-MACSEC-
+ACC4
+
+MACsec Software License for EX3400, EX4300, 
+and EX4200 Access Switches
+
+Power Supplies
+
+JPSU-150-AC-AFI
+
+EX3400 150W AC power supply, back-to-front 
+airflow (power cord ordered separately)
+
+JPSU-150-AC-AFO EX3400 150W AC power supply, front-to-back 
+
+airflow (power cord ordered separately)
+
+JPSU-150-DC-AFO EX3400 150W DC power supply, front-to-back 
+
+airflow (power cord ordered separately)
+
+JPSU-600-AC-
+AFO
+
+JPSU-920-AC-
+AFO
+
+Fans
+
+EX3400 600W AC power supply, front-to-back 
+airflow (power cord ordered separately)
+
+EX3400 920W AC power supply, front-to-back 
+airflow (power cord ordered separately)
+
+EX3400-FAN-AFI
+
+EX3400 back-to-front fan, spare
+
+EX3400-FAN-AFO EX3400 front-to-back fan, spare
+
+Optics
+
+EX-SFP-10GE-
+DAC-1M
+
+EX-SFP-10GE-
+DAC-3M
+
+SFP+ 10-Gigabit Ethernet Direct Attach Copper 
+(twinax copper cable), 1m 
+
+SFP+ 10-Gigabit Ethernet Direct Attach Copper 
+(twinax copper cable), 3m
+
+4 Not available in Russia and CIS countries
+
+Data SheetEX3400 Ethernet SwitchAbout Juniper Networks
+Juniper Networks challenges the status quo with products, 
+solutions and services that transform the economics of 
+networking. Our team co-innovates with customers and partners 
+to deliver automated, scalable and secure networks with agility, 
+performance and value. Additional information can be found at 
+Juniper Networks or connect with Juniper on Twitter and Facebook.
+
+Product Number Description
+
+For 40G VCP Ports
+
+QFX-QSFP-40G-
+SR4
+
+QSFP+ 40GBASE-SR4 40-Gigabit Optics, 850 
+nm for up to 150m transmission on multimode 
+fiber
+
+QFX-QSFP-DAC-
+1M
+
+QSFP+ 40-Gbps QSFP+ Passive DAC Cable, 1 
+meter
+
+QFX-QSFP-DAC-
+3M
+
+QSFP+ 40-Gbps QSFP+ Passive DAC Cable, 3 
+meter
+
+EX-QSFP-40GE-
+DAC-50CM
+
+QSFP+ 40-Gbps QSFP+ Passive DAC Cable, 
+50 cm
+
+JNP-QSFP-DAC-
+5M
+
+QSFP+ 40-Gbps QSFP+ Passive DAC Cable, 5 
+meter
+
+QFX-QSFP-40G-
+eSR4
+
+QSFP+ 40-Gbps QSFP+ on OM3/OM4 
+multimode fiber
+
+JNP-QSFP-40G-
+LR4
+
+QSFP+ 40-Gbps QSFP+, 10 km range on 
+single-mode fiber
+
+Corporate and Sales HeadquartersJuniper Networks, Inc. 1133 Innovation WaySunnyvale, CA 94089 USAPhone: 888.JUNIPER (888.586.4737)or +1.408.745.2000Fax: +1.408.745.2100www.juniper.net Copyright 2017 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, and Junos are registered trademarks of Juniper Networks, Inc. in the United States and other countries. All other trademarks, service marks, registered marks, or registered service marks are the property of their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice.APAC and EMEA HeadquartersJuniper Networks International B.V.Boeing Avenue 2401119 PZ Schiphol-RijkAmsterdam, The NetherlandsPhone: +31.0.207.125.700Fax: +31.0.207.125.701Data SheetEX3400 Ethernet Switch1000581-008-EN   Apr 2017EXPLORE JUNIPERGet the App.

@@ -1,0 +1,302 @@
+Optical Inline Amplifier
+
+Product Overview
+
+To meet the ever-increasing 
+demands of metro networks, 
+service providers and content 
+providers are requiring high-
+capacity, compact, and easy-to-
+manage next-generation DWDM 
+solutions. Juniper’s Optical Inline 
+Amplifier provides high-capacity 
+coherent DWDM transport with 
+industry-leading performance and 
+automation.
+
+Product Description 
+Juniper Networks® Optical Inline Amplifier is a standalone 1 U bidirectional erbium-doped 
+fiber amplifier (EDFA) that provides periodic amplification of coherent dense wavelength-
+division multiplexing (DWDM) signals to enable long-distance transmission as it travels 
+along a fiber span. 
+
+The Optical Inline Amplifier is a switched gain inline amplifier that provides a fully 
+automatic and dynamic amplifier range (0-35 dB) supporting up to 120 channels in the 
+C-band. Combined with Juniper’s integrated Coherent DWDM PICs (PTX-5-100G-WDM) 
+and MICs (MIC3-100G-DWDM), as well as the Integrated Photonics Line Card (IPLC-E-32), 
+Juniper provides a true end-to-end packet optical solution. The Optical Inline Amplifier 
+automatically provisions all photonic layer parameters and discovers the optical topologies 
+across a DWDM network. Junos® Space Connectivity Services Director is used to provision, 
+monitor, and troubleshoot Juniper’s end-to-end packet optical solution, including the 
+Optical Inline Amplifier.   
+
+IPLC
+
+IPLC
+
+ILA
+
+ILA
+
+ILA
+
+PTX3000
+
+PTX3000
+
+Figure 1.  Point-to-point Optical Inline Amplifier configuration
+
+Features and Benefits
+Juniper Networks Optical Inline Amplifier provides the following benefits:
+
+•  Bidirectional amplification in a compact 1 U form factor
+
+•  Automatic gain control for ease of use
+
+•  Optical supervisory channel (OSC) capabilities
+
+• 
+
+Intuitive and efficient GUI-based provisioning
+
+•  Detailed performance monitoring statistics for optical signals
+
+•  Redundant and hot-swappable fan modules 
+
+•  Redundant and hot-swappable power supplies
+
+1
+
+Data SheetFeatures and Benefits
+Parameter 
+
+Condition 
+
+Operative input power range
+
+Full channel load with maximum value of signal 
+output power [assuming 96 channels]
+
+Single channel with minimum value of signal 
+output power
+
+Signal output power range
+
+Full channel load 
+
+Single channel 
+
+Standard gain range
+
+Output gain tilt = 0 dB 
+
+Extended gain range 
+
+Output gain tilt ≠ 0 
+
+Minimum
+
+Maximum
+
+-15.2
+
+-35
+
+10
+
+30
+
+9.8
+
+-10
+
+19.8
+
+0
+
+30
+
+35
+
+Unit
+
+dBm
+
+dBm
+
+dBm
+
+dBm
+
+dB
+
+dB
+
+ILA-M Optical Inline Amplifier
+
+Specifications
+Capacity
+
+•  19.2 Tbps
+
+Dimensions (HxWxD) 
+
+•  AC version: 1.72 x 17.24 x 9.6 in. (4.36 x 43.78 x 24.38 cm)
+
+•  DC version: 1.72 x 17.4 x 9.8 in. (4.36 x 44.19 x 24.89 cm)
+
+Weight  
+
+•  11.7 lb (5.3 kg)
+
+Power Consumption  
+
+•  Typical: 75 W    
+
+•  Max: 115.5 W
+
+AC Input Voltage     
+
+•  100 to 240 V AC
+
+DC Input Voltage    
+
+•  -40 to 72 VDC
+
+Management 
+
+• 
+
+ CLI and SNMP
+
+• 
+
+IEC 60950-1 Information Technology Equipment—Safety 
+(All country deviations)
+
+•  EN 60825-1 Safety of Laser Products—Part 1: Equipment 
+
+Classification
+
+Electromagnetic Compatibility 
+
+•  FCC 47CFR Part 15—Class A
+
+• 
+
+ICES-003 Class A
+
+•  EN 55022 Class A
+
+•  EN 55032
+
+•  CISPR 22 Class A
+
+•  CISPR 32
+
+•  EN 55024
+
+•  CISPR 24
+
+•  EN 300 386
+
+•  VCCI Class A
+
+•  AS/NZS CISPR 32
+
+•  Korea KN32 and KN35
+
+•  CNS 13438 Class A
+
+•  EN 61000-3-2
+
+•  EN 61000-3-3
+
+Environmental Compliance
+
+•  Restriction of Hazardous Substances (ROHS) 6/6
+
+•  Silver PSU Efficiency
+
+•  Recycled material 
+
+Standards Compliance and Interoperability
+Safety and Compliance 
+Compliance
+
+•  Telecordia GR-1312-CORE: Generic requirements for optical 
+fiber amplifiers and proprietary dense wavelength-division 
+multiplexed systems 
+
+Safety requirements:
+
+•  CAN/CSA-C22.2 No.60950-1-03-/UL 60950-1, Safety of 
+
+Information Technology Equipment
+
+•  UL 60950-1 Safety of Information Technology Equipment—
+
+Safety 
+
+•  EN 60950-1 Safety of Information Technology Equipment—
+
+Safety 
+
+•  Waste Electronics and Electrical Equipment (WEEE)
+
+•  Registration, Evaluation, Authorization and Restriction of 
+
+Chemicals (REACH)
+
+•  China Restriction of Hazardous Substances (ROHS)
+Juniper Networks Services and Support
+Juniper Networks is the leader in performance-enabling services 
+that are designed to accelerate, extend, and optimize your 
+high-performance network. Our services allow you to maximize 
+operational efficiency while reducing costs and minimizing 
+risk, achieving a faster time to value for your network. Juniper 
+Networks ensures operational excellence by optimizing the 
+network to maintain required levels of performance, reliability, 
+and availability. For more details, please visit www.juniper.net/us/
+en/products-services. 
+
+2
+
+Data SheetOptical Inline AmplifierOrdering Information
+Product Number
+
+Description
+
+PTX-ILA-M-DC
+
+PTX-ILA-M-AC
+
+Standalone 1 U bidirectional EDFA inline 
+amplifier; 0-35 dB dynamic range; redundant 
+AC power; redundant FAN
+
+Standalone 1 U bidirectional EDFA inline 
+amplifier; 0-35 dB dynamic range; redundant 
+AC power; redundant FAN
+
+About Juniper Networks
+Juniper Networks challenges the status quo with products, 
+solutions and services that transform the economics of 
+networking. Our team co-innovates with customers and partners 
+to deliver automated, scalable and secure networks with agility, 
+performance and value. Additional information can be found at 
+Juniper Networks or connect with Juniper on Twitter and Facebook.
+
+FAN-ILA-S
+
+Spare fan tray
+
+JPSU-150-AC-AFO
+
+AC power supply
+
+JPSU-150-DC-AFO
+
+DC power supply
+
+Corporate and Sales HeadquartersJuniper Networks, Inc. 1133 Innovation WaySunnyvale, CA 94089 USAPhone: 888.JUNIPER (888.586.4737)or +1.408.745.2000Fax: +1.408.745.2100www.juniper.net Copyright 2016 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, and Junos are registered trademarks of Juniper Networks, Inc. in the United States and other countries. All other trademarks, service marks, registered marks, or registered service marks are the property of their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice.APAC and EMEA HeadquartersJuniper Networks International B.V.Boeing Avenue 2401119 PZ Schiphol-RijkAmsterdam, The NetherlandsPhone: +31.0.207.125.700Fax: +31.0.207.125.701Data SheetOptical Inline Amplifier1000601-001-EN   Oct 2016EXPLORE JUNIPERGet the App.

@@ -1,0 +1,583 @@
+BTI7800 Packet Optical  
+Transport Systems
+
+Product Overview
+
+The growth in bandwidth-intensive 
+applications, coupled with the 
+migration from local compute/
+storage models to cloud-based 
+services, is driving a need for 
+more efficient converged network 
+infrastructure solutions, enabling 
+improved network utilization, 
+simplified large-scale operations, 
+and lower cost per Gbps. 
+
+The BTI7800 line of packet optical 
+transport systems supports large 
+scale 10 Gbps, 100 Gbps, and 200 
+Gbps wavelength capacities in an 
+open SDN platform. Leveraging 
+a rich set of optical capabilities, 
+including coherent modules with 
+integrated ROADMs, the BTI7800 
+line helps network operators 
+increase network capacity, reduce 
+space/power/cooling costs, 
+improve network utilization, and 
+simplify the deployment of high-
+value services. 
+
+ 
+
+  
+
+Product Description 
+The Juniper Networks® BTI7800 line of packet optical transport systems leverages a 
+modular, flexible, pay-as-you-grow architecture. At the heart of the BTI7800 are flexible 
+Universal Forwarding Modules (UFMs), each capable of switching up to 400 Gbps. UFMs 
+can be equipped with 10 Gbps, 100 Gbps, and 200 Gbps interfaces providing the flexibility 
+to support a wide range of muxponder and transponder connectivity. Optimized for metro 
+and regional networks, the BTI7800 devices support a broad range of interfaces, including 
+10 Gbps, 100 Gbps, 200 Gbps, OTU2, OTU4, and OC-192/STM-64.
+
+The BTI7800 line is managed by the Juniper Networks proNX software, an SDN-
+architected, high-performance network management and control platform with open APIs, 
+Web GUI interfaces, and software-enabled networking.
+
+Architecture and Key Components
+The BTI7800 Packet Optical Transport Systems integrate simple, plug-and-play 
+reconfigurable optical add-drop multiplexer (ROADM) technology to increase the capacity 
+of existing networks or roll out new 100 Gbps or 200 Gbps networks. A variety of blade 
+options, including ROADM, optional amplifiers, and pluggable pre-amplifiers, satisfy diverse 
+capacity, span and reach requirements, while optimizing equipment expenses. The system 
+automatically discovers all network nodes and modules, and automatically establishes 
+intra-node and extra-node connections, eliminating manually intensive and error-prone 
+configuration tasks to streamline operations.
+
+Features and Benefits
+
+•  Leading density, space, and power: Designed for massive capacity in a compact 
+
+footprint, the BTI7800 architecture supports up to 5.6 Tbps of wavelength capacity in 
+a 14 U chassis, with 10/100/200 Gbps scale (2x200 Gbps per slot client and line-side 
+connectivity) to 16.8 Tbps in a single rack.
+
+•  Diverse capacity, span and reach capabilities: The BTI7800 integrates ROADM-on-
+
+a-blade, improving deployment flexibility and economics.
+
+•  Open management and control: Open SDN-architected proNX software and 
+
+associated applications enable new levels of programmability, automation, and 
+control, simplifying and accelerating service delivery.
+
+• 
+
+Investment protection and migration path to applications integration: The BTI7800 
+modular architecture supports the addition of future interfaces and applications.
+
+1
+
+Data SheetData Center
+
+Interconnect
+
+Data Center
+
+100 Gbps x N
+
+BTI7801
+
+200 Gbps x N
+
+Metro
+
+Aggregation
+
+Metro Regional
+
+200 Gbps x N
+
+100 Gbps x N
+
+BTI7814
+
+Metro
+
+Aggregation
+
+10 Gbps x N
+
+10 Gbps x N
+
+BTI7814
+
+BTI7814
+
+Figure 1: BTI7800 flexible, scalable deployment options
+
+Platform Options
+
+Rack units
+
+Module slots
+
+Capacities
+
+   10GbE capacity
+
+   100GbE capacity
+
+Multichassis
+
+Dimensions (HxWxD)
+
+Power consumption
+
+Normal operating 
+temperature range
+
+Environmental and
+safety certifications
+
+BTI7814
+14
+
+14
+
+5.6 Tbps
+
+   560
+
+   56
+
+Yes
+
+BTI7802
+3
+
+2
+
+800 Gbps
+
+   80
+
+   8
+
+Yes
+
+BTI7801
+1
+
+1
+
+400 Gbps
+
+   40
+
+   4
+
+Hardware-ready
+
+24.5 x 17.9 x 22.0 in (62.2 x 43.0 x 
+56.0 cm)
+
+5.2 x 17.5 x 12.0 in (13.3 x 44.4 x 30.5 
+cm)
+
+1.75 x 17.4 x 24.2 in (4.4 x 44.0 x 61.5 
+cm)
+
+-48V DC, 100A (max)
+AC power options available
+Power per 10GbE = 7 W (typical)
+
+-48VDC, 20A (max)
+AC power options available
+Power per 10GbE = 9 W (typical)
+
+-48VDC, 15A (max)
+AC power options available
+Power per 10 Gbps = 10 W (typical)
+
+0°C to 40°C
+
+0° to 40°C
+
+0° to 32°C
+
+Telecordia NEBs Level 3, Earthquake
+Zone 4, GR-63-CORE, GR-78-CORE,
+FCC Part 15 Class A, GR-1089-
+CORE,
+IEC/UL/CSA 60950, IEC 60825
+
+Telecordia NEBs Level 3, Earthquake
+Zone 4, GR-63-CORE, GR-78-CORE,
+FCC Part 15 Class A, GR-1089-
+CORE,
+IEC/UL/CSA 60950, IEC 60825
+
+Telcordia GR-3160 Generic
+Requirements for data center
+Equipment and Spaces, FCC Part
+15 Class A. IEC/UL/CSA 60950, IEC 
+60825
+
+Specifications
+Universal Forwarding Module (UFM) Configuration 
+Options
+
+Each chassis option supports a number of common UFM 
+configuration options:
+
+•  UFM Type 3: Supports two BIC slots
+
+•  UFM Type 6: Supports 10 quad small form-factor pluggable 
+
+transceiver (QSFP) ports
+
+BTI7801
+
+BTI7802
+
+BTI7814
+
+UFM3
+
+UFM6
+
+RDM2
+
+AMP1
+
+AMPL
+
+WPS4
+
+3
+
+3
+–
+
+–
+
+–
+
+3
+
+3
+
+3
+
+3
+
+3
+
+3
+
+3
+
+3
+
+3
+
+3
+
+3
+
+3
+
+3
+
+Protocol Support
+
+•  10 Gbps LAN/WAN, OC-192, STM-64, OTU2
+
+•  100 Gbps, OTU4
+
+•  200 Gbps, OTU4
+
+Optical Layer Supported Span Loss
+
+•  ROADM-on-a-blade/ILA module only: 23 db
+
+•  ROADM-on-a-blade/ILA module with pluggable pre-amp:  
+
+32 db
+
+Pluggable Optics
+
+•  Small form-factor pluggable plus transceiver (SFP+), 850 nm
+
+•  SFP+, 1310 nm
+
+•  SFP+, dense wavelength-division multiplexing (DWDM)
+
+•  C form-factor pluggable transceiver (CFP), 100GBASE-SR10
+
+•  CFP, 100 Gbps Coherent
+
+•  CFP, 100GBASE-LR4
+
+•  QSFP+, 40x10G, LR
+
+2
+
+Data SheetBTI7800 Packet Optical Transport SystemsManagement
+
+•  CLI, SNMP, and NETCONF/YANG
+
+Line Side Protection
+
+•  Optical protection switch
+
+•  Wavelength protection switch (WSP4)
+
+400G Coherent MSA XCVR (2x200G)
+
+Transmitter Specifications
+
+Parameter
+
+Frequency range
+
+Laser frequency stability
+
+Output power range
+
+Transmitter optical signal-
+to-noise ratio (OSNR) 
+(in-band)
+
+Min.
+
+191.35
+
+-1.8
+
+1.5
+
+36
+
+Optical return loss tolerance
+
+27
+
+Receive Specifications
+
+Frequency range
+
+Input power range
+
+OSNR tolerance
+
+Polarization mode dispersion 
+(PMD) tolerance
+
+Polarization dependent loss 
+(PDL) tolerance
+
+191.35
+
+-18
+
+—
+
+15
+
+3
+
+Max.
+
+196.1
+
+1.8
+
+—
+
+—
+
+—
+
+196.1
+
+0
+
+19.5
+
+—
+
+—
+
+Unit
+
+THz
+
+GHz
+
+dBm
+
+dB/0.1nm
+
+dB
+
+THz
+
+dBm
+
+dB
+
+ps
+
+dB
+
+Dispersion tolerance
+
+-30,000
+
+30,000
+
+ps/nm
+
+Optical return loss from 
+receiver
+
+27
+
+—
+
+dB
+
+Coherent Optics—CFP
+
+Transmitter Specifications
+
+Parameter
+
+Frequency range
+
+Laser frequency stability
+
+Output power range
+
+Transmitter optical signal-
+to-noise ratio (OSNR) 
+(in-band)
+
+Min.
+
+191.35
+
+-1.8
+
+-15
+
+27
+
+Optical return loss tolerance
+
+27
+
+Receive Specifications
+
+Max.
+
+196.1
+
+1.8
+
+1
+
+—
+
+—
+
+Frequency range
+
+Input power range
+
+OSNR tolerance
+
+Polarization mode dispersion 
+(PMD) tolerance
+
+Polarization dependent loss 
+(PDL) tolerance
+
+191.35
+
+196.1
+
+-18*
+
+17.1
+
+—
+
+—
+
+0
+
+—
+
+15
+
+3
+
+Unit
+
+THz
+
+GHz
+
+dBm
+
+dB/0.1nm
+
+dB
+
+THz
+
+dBm
+
+dB
+
+ps
+
+dB
+
+Dispersion tolerance
+
+-22,000
+
+22,000
+
+ps/nm
+
+Optical return loss from 
+receiver
+
+* -21 dBm in unamplified systems
+
+27
+
+—
+
+dB
+
+Ordering Information
+For ordering information, please consult the Juniper Networks 
+price list or contact your local Juniper sales representative.
+
+About Juniper Networks
+Juniper Networks challenges the status quo with products, 
+solutions and services that transform the economics of 
+networking. Our team co-innovates with customers and partners 
+to deliver automated, scalable and secure networks with agility, 
+performance and value. Additional information can be found at 
+Juniper Networks or connect with Juniper on Twitter and Facebook.
+
+Corporate and Sales HeadquartersJuniper Networks, Inc. 1133 Innovation WaySunnyvale, CA 94089 USAPhone: 888.JUNIPER (888.586.4737)or +1.408.745.2000Fax: +1.408.745.2100www.juniper.net Copyright 2017 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, Junos and QFabric are registered trademarks of Juniper Networks, Inc. in the United States and other countries. All other trademarks, service marks, registered marks, or registered service marks are the property of their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice.APAC and EMEA HeadquartersJuniper Networks International B.V.Boeing Avenue 2401119 PZ Schiphol-RijkAmsterdam, The NetherlandsPhone: +31.0.207.125.700Fax: +31.0.207.125.701Data SheetBTI7800 Packet Optical Transport Systems1000574-004-EN   Feb 2017EXPLORE JUNIPERGet the App.
