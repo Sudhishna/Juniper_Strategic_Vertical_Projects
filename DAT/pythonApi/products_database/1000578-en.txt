@@ -1,0 +1,317 @@
+proNX Management and  
+Control Software
+
+Product Overview
+
+The proNX management and 
+control software suite from 
+Juniper Networks streamlines 
+the deployment and operation of 
+next-generation metro and cloud 
+networks. This SDN-enabled 
+management and control 
+software helps cloud and service 
+providers accelerate time to 
+market, increase service velocity, 
+improve customer satisfaction, 
+and boost profitability by 
+dramatically reducing network 
+management cost and 
+complexity while accelerating 
+service automation.
+
+Product Description  
+The comprehensive Juniper Networks® proNX software portfolio provides centralized control 
+for managing Juniper Networks BTI Series Packet Optical Transport Systems and Ethernet 
+Access Devices, as well as other third-party network elements. The proNX software also 
+includes an extensive collection of service provisioning, monitoring, and troubleshooting 
+applications that leverage an open SDN approach. These applications include:
+
+•  proNX Control: Centralized control engine with end-to-end service activation, 
+monitoring, and troubleshooting plus fully functional northbound RESTful APIs
+
+•  proNX Service Manager: Complete task-based management application, including 
+
+point-and-click service provisioning, fault and performance monitoring, and 
+comprehensive troubleshooting
+
+•  proNX Dashboard: Targeted monitoring application, providing operations staff with 
+
+intuitive insight into current network health, recent fault and performance trends, and 
+resource utilization
+
+•  proNX SLA Portal: Hosted access application, providing real-time and historical 
+
+service-level assurance reporting
+
+Architecture and Key Components
+Built on a software-driven solutions architecture designed to unleash innovation, the BTI 
+Series platforms support an open, layered, SDN networking architecture with distinct 
+network, control, and application planes for ultimate scalability and extensibility. The 
+centralized proNX control layer software manages BTI Series packet-optical transport and 
+Ethernet access/aggregation platforms as well as third-party network elements, providing 
+abstract northbound APIs that streamline integration with third-party management 
+applications. The software-driven architecture enables the creation of highly adaptable and 
+programmable networks that are ideally suited for today’s on-demand service environments.
+
+Your ideas. Connected.™
+
+1
+
+Data SheetApplication So(cid:144)ware
+
+proNX
+
+Service Manager
+
+proNX
+
+Dashboard
+
+proNX
+
+SLA Portal
+
+RESTful APIs
+
+Control So(cid:144)ware
+
+proNX Control So(cid:144)ware
+
+Intelligent Network Infrastructure
+
+NETCONF, SNMP
+
+BTI7800
+
+Line
+
+BTI7000
+
+Line
+
+BTI800
+
+Line
+
+Third-Party
+
+Network Nodes
+
+Figure 1. Juniper Networks proNX software portfolio
+
+proNX Software Product Line
+proNX Control software is the cornerstone of the BTI Series 
+software-enabled architecture. It provides a centralized control 
+layer that facilitates end-to-end management and service 
+orchestration across network elements and geographies. The 
+software monitors and controls BTI Series platforms as well 
+as third-party devices via industry-standard interfaces such as 
+NETCONF and SNMP.
+
+High-Level Application Programming Interfaces
+
+The proNX Control software supports open northbound RESTful 
+APIs that streamline integration with Juniper and third-party 
+management applications such as higher layer SDN controllers, 
+service orchestrators, and operations and business support 
+systems (OSS/BSS). External applications like Juniper Networks 
+NorthStar Controller and Junos® Space Connectivity Services 
+Director can monitor network health; provision connections, 
+bandwidth, and policies; and influence traffic flows in real time to 
+enable on-demand services, optimize performance and service 
+quality, and enforce service-level agreements (SLAs).
+
+The proNX Control software accelerates service deployment and 
+controls go-to-market expenses with abstract APIs that shield 
+programmers from the complexities of the underlying networking 
+infrastructure. Web developers who aren’t deeply versed in 
+networking technology or the BTI Series platforms can create 
+innovative applications quickly and easily with proNX.
+
+Highly Scalable and Reliable Deployment Model
+
+proNX Control supports a distributed client/server deployment 
+model that enables high scalability and availability for 
+management services. It runs on industry-standard x86 
+Linux platforms, either in bare-metal form or in a virtualized 
+environment. Multiple active proNX Control servers can 
+be clustered to improve scalability and ensure continuous 
+availability. The proNX Control servers can be geographically 
+distributed to enable disaster recovery or support decentralized 
+operations teams.
+
+Open Soˆware-Driven Portfolio Delivering Scale,
+
+Convergence, and Virtualization
+
+Application Soˆware
+
+proNX Service
+Manager (PSM)
+proNX SLA Portal
+proNX Dashboard
+
+BTI Series or 
+Third-Party 
+SDN Apps
+
+BTI Series or 
+Third-Party 
+NFV Apps
+
+BTI Series or 
+Third-Party
+Orchestration
+
+Apps
+
+RESTful APIs
+
+Control Soˆware
+
+proNX
+
+Control Soˆware
+
+REST
+
+Open SDN
+Controllers
+
+Intelligent Network Infrastructure
+
+NETCONF, SNMP, OpenFlow
+
+BTI7800
+
+Line
+
+BTI7000
+
+Line
+
+BTI800
+
+Line
+
+Third-Party
+
+Network Nodes
+
+Figure 2. proNX SDN-ready architecture
+
+proNX Service Manager
+The proNX Service Manager application provides provisioning 
+templates, configuration wizards, and one-click service activation 
+features that eliminate manually intensive and error-prone 
+tasks, accelerate bandwidth turn-up and capacity expansion, 
+and simplify operations. Using an intuitive GUI, administrators 
+can rapidly deploy new network resources and easily complete 
+a wide variety of routine, day-to-day tasks across the entire BTI 
+Series portfolio. High-level, service-centric views make it easy to 
+provision, monitor, and troubleshoot end-to-end services; proNX 
+Service Manager provides a simple visual representation of each 
+service, along with its components and performance details.
+
+2
+
+Data SheetproNX Management and Control SoftwareproNX Dashboard
+The proNX Dashboard delivers a concise view of the health and 
+performance of all BTI Series platforms, including network-wide 
+alarms and events as well as performance and inventory data. 
+This is presented on a single screen, allowing users to drill down 
+to access detailed information as required.
+
+At-a-glance network-wide visibility helps network administrators 
+quickly identify and resolve issues, often before customers 
+are even aware they exist. Utilization data also provides rapid 
+visibility into configured and consumed capacity, allowing users 
+to easily identify where network resources are reaching their 
+limits and enable proactive planning for network expansion. A 
+browser-based interface provides easy access from any device—
+PC, smartphone, or tablet.
+
+proNX SLA Portal
+The proNX SLA Portal provides tracking, reporting, and real-
+time visibility into critical SLA data. Providers can define service 
+levels, measure conformance, and gain visibility into real-time 
+and historical information. The portal features a browser-based 
+interface for defining and managing SLAs, while summary-level 
+displays provide global visibility for all services. Detailed views 
+break out specific SLA performance metrics such as jitter, latency, 
+and throughput. The extensible proNX SLA Portal is easily 
+partitioned, branded, and tailored for end-customer use.
+
+In addition, through the same user interface, customers can 
+modify individual services on demand to adjust bandwidth or 
+service quality commitments for Ethernet virtual connections. 
+This provides a powerful premium service that eliminates the 
+elapsed time for service modifications, improving time to revenue 
+and reducing operational costs.
+
+Features and Benefits
+
+•  Accelerates time-to-market and customer turn-up
+
+•  Enables on-demand applications and elastic services
+
+•  Optimizes service quality and customer satisfaction
+
+•  Reduces ongoing operations costs and complexity
+
+Technical Specifications
+Supported Products
+
+•  BTI7800 product line: BTI7814, BTI7802, BTI7801
+
+•  BTI7000 product line: BTI7200, BTI7060, BTI7030, BTI7020
+
+•  BTI700 product line: BTI702, BTI704, BTI712, BTI718, 
+
+BTI718E
+
+•  BTI800 product line: BTI805, BTI810, BTI821, BTI822
+
+•  Other vendors
+
+Service Types Supported
+
+•  Carrier Ethernet: EPLINE, EVPLINE, EPLAN, EVPLAN, 
+
+operator virtual circuits (OVCs), including the user-to-
+network/network-to-network (UNI/NNI) interface, UNI/NNI 
+link aggregation group (LAG), SLA/CFM, Y.1731,ERPS, MEF 
+pseudowire
+
+•  BTI Series dynamic optical layer, multiprotocol muxponders, 
+
+multiprotocol transponders, ROADM
+
+Base Server Hardware and Software 
+Recommendation
+
+• 
+
+Intel 64 bit processor, 6 cores, 12 GB DDR3 RAM, 2x 1 TB 7k 
+disks, hardware-based RAID, 2x 10/100/1000 Ethernet Red 
+Hat Enterprise Linux 6.3 or later, CentOS equivalent
+
+Note: proNX Service Manager, proNX Dashboard, and proNX 
+Control software are distributed as a single package. See 
+individual product details for proNX Service Manager and proNX 
+SLA Portal system requirements.
+
+Ordering Information
+For ordering information, please consult the Juniper Networks 
+price list or contact your local Juniper sales representative.
+
+About Juniper Networks
+Juniper Networks challenges the status quo with products, 
+solutions and services that transform the economics of 
+networking. Our team co-innovates with customers and partners 
+to deliver automated, scalable and secure networks with agility, 
+performance and value. Additional information can be found at 
+Juniper Networks or connect with Juniper on Twitter and Facebook.
+
+Corporate and Sales HeadquartersJuniper Networks, Inc. 1133 Innovation WaySunnyvale, CA 94089 USAPhone: 888.JUNIPER (888.586.4737)or +1.408.745.2000Fax: +1.408.745.2100www.juniper.net Copyright 2016 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, Junos and QFabric are registered trademarks of Juniper Networks, Inc. in the United States and other countries. All other trademarks, service marks, registered marks, or registered service marks are the property of their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice.APAC and EMEA HeadquartersJuniper Networks International B.V.Boeing Avenue 2401119 PZ Schiphol-RijkAmsterdam, The NetherlandsPhone: +31.0.207.125.700Fax: +31.0.207.125.701Data SheetproNX Management and Control Software1000578-001-EN   Apr 2016EXPLORE JUNIPERGet the App.

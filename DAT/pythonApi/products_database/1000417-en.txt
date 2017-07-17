@@ -1,0 +1,1306 @@
+MX2000 3D Universal 
+Edge Routers
+
+Product Overview
+
+As cloud builders, telecom 
+service providers, and cable 
+operators seek to improve 
+customized digital experiences 
+for their customers, they must 
+concurrently address ever-
+increasing bandwidth demands 
+on their network.  Meeting these 
+objectives requires a dynamic, 
+service-oriented edge routing 
+platform that cost-effectively 
+scales to meet both current 
+demand and long-term forecasts.
+
+The SDN-ready MX2000 line of 
+3D Universal Edge Routers helps 
+network operators achieve their 
+business goals by combining 
+unparalleled performance and 
+reliability with a programmable, 
+software-centric design at 
+massive scale.  Simply put, the 
+MX2000 routers offer the greatest 
+system capacity, the highest line-
+rate port density, and the most 
+full-featured edge service delivery 
+platform available today. 
+
+Product Description 
+Increasingly sophisticated technology users are seeking highly responsive and customizable 
+cloud-like online experiences and services that align with their unique needs and interests. 
+At the same time, these users are creating more traffic that consume ever-increasing 
+amounts of network bandwidth. For example, global e-commerce sales are growing at 20 
+percent annually1; enterprises are increasingly moving infrastructure to the cloud2; every 
+minute of every day, more than 300 hours of video are uploaded to YouTube3; and analysts 
+expect 26 billion Internet of Things (IoT) devices to be in use by 2020—more than a tenfold 
+increase from 20154. 
+
+As network operators strive to profitably meet these market demands, they are thwarted 
+by traditional hardware-centric edge routers that lack programmability and scale, which 
+limits their competitiveness, constrains their revenue and market share growth, and 
+increases their CapEx, OpEx and TCO. Now more than ever, service providers need agile, 
+service-oriented edge routers that cost-effectively scale to meet current demand and long-
+term forecasts. 
+
+Meeting these challenges head-on, Juniper Networks® MX2000 line of 3D Universal 
+Edge Routers are service-rich platforms with the scale and performance to meet current 
+demand and the most aggressive long-term forecasts. Consisting of the 80 Tbps-capable 
+MX2020 and the 40 Tbps-capable MX2010 and MX2008, the MX2000 line enables 
+network operators to confidently build the best network across residential, mobile, 
+business, and cloud/hosting markets.
+
+Significantly, the MX2000 platforms run the same Juniper Networks Junos® OS as the 
+entire MX Series 3D router portfolio, ensuring complete feature consistency and a common 
+operational and management framework. This consistency reduces the cost, risk, and 
+complexity of network evolution, helping current MX Series customers rapidly qualify and 
+deploy the MX2000 routers. 
+
+1  Source: B2C eCommerce Sales Worldwide, Statistica, www.staGsta.com/staGsGcs/261245/b2c-e-commerce-sales-
+
+worldwide/
+
+2  Source: Digital Business, Rethinking Fundamentals, Bill McNee, Founder and CEO, Saugatuck Technology
+3  Source: YouTube Statistics, www.youtube.com/yt/press/statistics.html
+4  Source: Gartner Says the Internet of Things Installed Base Will Grow to 26 Billion Units By 2020; http://www.gartner.com/
+
+newsroom/id/2636073
+
+1
+
+Data SheetArchitecture and Key Components
+
+Platform Components 
+Switch Fabric Board
+
+Switch Fabric Boards (SFBs) create a highly scalable and 
+resilient “all-active” centralized switch fabric that delivers up to 
+2 Tbps of full-duplex switching capacity to each MPC slot in an 
+MX2000 router. 
+
+MS-MPCs, which also require an adapter card for use in the 
+MX2000 line, provide dedicated processing for Network Edge 
+Services (CGN, IPsec, stateful firewall, deep packet inspection 
+[DPI], monitoring, and other compute-intensive services) and 
+efficiently integrate these services directly on the MX2000 
+platforms at scale and without impacting forwarding performance. 
+MS-MPCs also reduce dependence on appliances and the layers 
+of complexity they add to the operations environment.
+
+Control Board and Routing Engine
+
+Junos Operating System
+
+Dual redundant Control Board and Routing Engines (CB-REs) 
+run the 64-bit Junos OS and support routing protocol processing, 
+router interface control, and control plane functions such as 
+chassis component, system management, and user access 
+to the router. These processes run on top of a kernel that 
+interacts with the Packet Forwarding Engine (PFE) on Modular 
+Port Concentrators (MPCs) via dedicated high-bandwidth 
+management channels, providing a clean separation of the 
+control and forwarding planes. 
+
+Power
+
+The MX2000 power and thermal subsystems use advanced 
+technology to optimize power efficiency without sacrificing 
+scale or features. The power subsystem has a highly resilient 
+architecture for full power supply and power cable feed 
+redundancy. MX2000 routers are available with -48 V DC or AC 
+power (in Delta or Wye 3-phase configuration), and allow power 
+to be added to the rack as needed. 
+
+Modular Port Concentrators
+
+Modular Port Concentrators (MPCs) provide comprehensive routing, 
+switching, inline services, subscriber management, and advanced 
+hierarchical quality of service (HQoS) to address the widest set 
+of network and service applications. Some MPCs provide network 
+connectivity directly; others host Modular Interface Cards (MICs) 
+that allow users to mix-and-match interfaces.
+
+The MPC6E, MPC8E and MPC9E are specifically designed to take 
+advantage of the ultra-high fabric capacity of the MX2000 line. 
+Powered by the programmable Junos Trio chipset, these MPCs 
+offer extremely high 10GbE, 40GbE and 100GbE port densities 
+with line-rate performance. The MPC9 is also 400GbE ready, 
+providing a built-in migration path from 10GbE to 400GbE when 
+the optics are available. These MPCs also stream telemetry for 
+performance management and billing purposes.
+
+An adapter card5 allows the use of the MPC1 through MPC5, as 
+well as the MPC7E, in the MX2000 line, protecting existing MPC 
+investments. Importantly, the MPC7E-10G provides per-port line 
+rate MACSec Phy encryption/decryption, with no fragmentation 
+impact.  This feature provides an inexpensive and simple 
+mechanism to secure L2 communications. 
+
+Junos is a reliable, high-performance, modular network operating 
+system that is supported across all of Juniper Networks physical 
+and virtual routing, switching, and security platforms, reducing 
+the cost, complexity, and resources required to implement and 
+maintain the network. With secure programming interfaces, the 
+Juniper Extension Toolkit and versatile scripting support, and 
+integration with popular orchestration frameworks, Junos OS 
+offers flexible options for continuous delivery and DevOps style 
+management that helps service providers of all types unlock 
+more value from the network. 
+
+For more details on Junos OS, please visit www.juniper.net/us/en/
+products-services/nos/junos/
+
+Features and Benefits
+Industry-Leading Scale 
+The MX2000 line offers extremely high capacity and density (see 
+Table 1). The MX2020 is the highest capacity, highest density full-
+featured single chassis edge router available today. 
+
+Table 1. MX2000 Maximum Line-Rate Port Density 
+
+Interface
+
+Per MPC MX2020 MX2010 MX2008
+
+10GbE
+
+40GbE
+
+100GbE
+
+96
+
+24
+
+16
+
+1,920
+
+480 
+
+320
+
+960
+
+240 
+
+160
+
+960
+
+240 
+
+160
+
+Unmatched Network Availability
+The MX2000 line of 3D Universal Edge Routers offers a broad 
+set of hardware and software features that together ensure 
+nonstop network availability. The MX2000 line supports N+1 
+fabric redundancy, control plane redundancy, N+N power feed 
+redundancy, and even N+1 power supply module redundancy. 
+In addition, Virtual Chassis technology supports chassis-
+level redundancy while allowing users to manage two routers 
+as a single element. Juniper’s link aggregation group (LAG) 
+implementation also supports stateful card and port redundancy, 
+as well as subscriber and session persistence. 
+
+5  To provide optimal air flow and maximize interface density, MX2000 line MPC slots are wider than the MPC slots on the MX240, MX480, and MX960.  An Adapter Card enables MPC1 
+
+through MPC5, MPC7 and MSMPC use in the MX2000 line; these cards require no configuration and are visible in the system inventory from the CLI.
+
+2
+
+Data SheetMX2000 3D Universal Edge RoutersFrom a software perspective, Junos OS runs each program 
+independently in its own protected memory space, ensuring 
+individual processes do not interfere with one another. Unified 
+ISSU permits non-disruptive OS upgrades, while Junos Continuity 
+allows new hardware to be added to an MX Series router with the 
+addition of a simple plug-in package, which is installed fully in 
+service without any interruption.
+
+Embedded Element-Layer Analytics
+
+The programmable Junos Trio chipsets provide the power to 
+monitor and collect data at the component level, and use the 
+Junos Telemetry Interface to stream this data in a scalable 
+manner into monitoring, analytics, and performance management 
+applications (see Figure 1), and to Path Computation Elements 
+such as Juniper Networks NorthStar Controller.
+
+Figure 1. Visualized analytics derived from an  
+
+MX2020 router and MPCs.
+
+This information will help identify current and trending 
+congestion, resource utilization, traffic volume, latency and delay, 
+which service providers can use to detect issues, make informed 
+decisions on network design, optimization and investment. 
+
+Integrated Network Edge Services
+
+Hosting Network Edge Services directly on MX2000 routers—
+without impacting routing or forwarding performance—helps 
+consolidate and eliminate service-specific appliances as well as 
+their operating systems and management systems, which helps 
+streamline operations and reduces TCO. 
+
+Juniper’s Network Edge Services portfolio includes: 
+
+•  Junos Address Aware, which conserves the IPv4 address 
+
+pool, ensures IPv4/IPv6 coexistence, and aids in the 
+transition to IPv6
+
+•  Junos Network Secure, which provides stateful firewall 
+services for network protection and managed security
+
+•  Junos VPN Site Secure, which uses standard encryption 
+
+modes to secure communications over access networks, and 
+for added security over L3 VPNs
+
+•  Junos Traffic Vision, which provides the granular traffic 
+
+visibility needed to improve network efficiency, increase 
+security, and support operational tasks
+
+•  Junos Video Focus, which provides standards-based video 
+monitoring and automatic issue mitigation to ensure high-
+quality customer experiences
+
+•  Junos Web Aware, a powerful application that tracks HTTP 
+
+requests and responses, and enables tag insertion and 
+header enrichment
+
+•  Junos L4 Load Balancer, a hybrid traffic load balancer based 
+
+on advanced Junos OS capabilities that increases network 
+efficiency
+
+Network Edge Services are optionally licensed individually; the 
+MX2000 routers can host multiple services concurrently. Network 
+Edge Services can be also be deployed on a Juniper Networks 
+Service Control Gateway—an MX Series router running Junos 
+Subscriber Aware and/or Junos Application Aware.
+
+For more details on network edge services, see www.juniper.net/
+us/en/products-services/network-edge-services/
+
+Outstanding Power Design and Efficiency
+
+The MX2000 line sets the bar for edge router power design 
+and efficiency, increasingly important considerations for next-
+generation network elements. 
+
+At the system level, users can flexibly provision power to 
+meet site-specific environmental conditions; less power can 
+be provisioned in facilities that consistently operate at <25C, 
+providing significant operational savings. Power consumption 
+is also dynamically managed based on actual hardware 
+configuration, only allocating additional power when a MIC is 
+installed versus pre-provisioning power for worst-case scenarios. 
+Additionally, fan speed is dynamically governed by actual 
+temperature monitoring; at ambient temperature, fans consume 
+only 20 percent of their maximum power. 
+
+Juniper has also implemented power optimizations at the 
+silicon level. “Clock gating” reduces dynamic power dissipation 
+by disabling unused logic circuitry; unused memory is also 
+dynamically placed in “sleep mode” to conserve power.
+
+These optimizations, when coupled with Juniper’s most 
+advanced MPCs and optics, enable the MX2000 line to achieve 
+an incredible power-to-throughput efficiency ratio of .6W/GbE; 
+this means the MX2020 consumes just six-tenths of a watt to 
+forward 1GB of traffic.
+
+Addresses Broadest Set of Service Provider 
+Applications
+Broadband Edge 
+
+The MX2000 line offers powerful Broadband Network Gateway 
+(BNG) features that allow broadband services to be provisioned 
+for today and tomorrow, with support for Point-to-Point Protocol 
+(PPP) subscriber termination, Dynamic Host Configuration 
+Protocol (DHCP), IPv4/IPv6 local server, and relay proxy for 
+subscriber migration to DHCP access models. Juniper’s BNG 
+also supports hierarchical queuing, granular QoS, and dynamic 
+multilayer service activation, RADIUS, and diameter support for 
+backend server integration to facilitate authentication, policy 
+control, and accounting, as well as support for flexible L2/L3 
+wholesale models.
+
+3
+
+Data SheetMX2000 3D Universal Edge RoutersBusiness Edge 
+
+The MX2000 line of routers includes a comprehensive VPN 
+toolkit to support feature-rich, standards-based, secure 
+internetworking for innovative business services. In addition to 
+basic L2/L3 VPN and VPLS support, the MX2000 line offers 
+enhanced VPN services such as QoS-prioritized VPN traffic for 
+voice and video, VPN-aware multicast and firewall services that 
+leverage technologies such as LDP-BGP / VPLS internetworking, 
+point-to-multipoint label-switched paths (P2MP LSPs), BGP-
+based multicast L3VPN, L2 VPN internetworking to connect 
+dissimilar L2 access networks, MPLS plug-and-play, and IPsec/
+generic routing encapsulation (GRE) VPNs. 
+
+Metro Ethernet
+
+The MX2000 line of routers provides outstanding support for 
+metro and aggregation networks by offering a full suite of routing 
+and switching features, allowing network operators to choose a 
+deployment model that fits their business and technical needs. 
+The MX2000 line can be deployed as IP/IP VPN edge routers, 
+Ethernet VPN (E-VPN) and VPLS provider edge routers (VPLS–
+PE), MPLS label-switching routers (LSR), and as Layer 2 Ethernet 
+switches or Layer 3 IP routers.
+
+Universal SDN Gateway
+
+The MX2000 routers are ideal universal SDN gateways, 
+interconnecting virtual and physical networks and virtual 
+networks operating with different technologies. Key enabling 
+features include support for Multiprotocol BGP (MBGP), dynamic 
+tunnels using MPLS-over-GRE or VXLAN encapsulation, virtual 
+routing and forwarding (VRF) tables or E-VPNs, and Netconf, 
+as well as mechanisms to send traffic between VRF and global 
+routing tables based on configuration and policy. 
+
+Service Control Gateway
+
+The MX2000 line provides an excellent foundation for the Service 
+Control Gateway, an advanced solution that considers network 
+state, application type, subscriber privilege, and operator policy to 
+deliver networked services. Leveraging Junos Application Aware, 
+which uses deep-packet inspection techniques to identify and 
+classify traffic on a per application basis, and Junos Subscriber 
+Aware, which associates traffic flows with the subscriber 
+that generated them, the Service Control Gateway supports 
+differentiated service creation and delivery, and when used with 
+Contrail Cloud Platform, can create and dynamically direct traffic 
+into complex service chains.
+
+For more information on the Service Control Gateway, see www.
+juniper.net/assets/us/en/local/pdf/datasheets/1000540-en.pdf.
+
+MX2008
+
+MX2010
+
+MX2020
+
+Specifications and Approvals
+This section lists basic specifications by platform. For full details, 
+please refer to the hardware installation manuals at www.juniper.
+net/techpubs/en_US/release-independent/junos/information-
+products/pathway-pages/mx-series/
+
+Table 2. MX2020, MX2010 and MX2008 Physical Specifications 
+
+Specification
+Physical 
+dimensions 
+(H x D x W)
+
+Airflow
+Number of fan 
+trays
+Approximate 
+maximum weight
+
+System mounting
+
+Rack units
+
+MX2020
+78.75 x 36.2 x 
+17.5 in 
+(200 x 91.95 x  
+44.45 cm)
+
+MX2010
+59.5 x 36.2 x 
+17.5 in 
+(151.1 x 91.95 x  
+44.45 cm)
+
+Front to back
+4
+
+Front to back
+4
+
+MX2008
+42 x 34.5 
+x 17.37 in 
+(106.68 x 
+87.63 x 44.13 
+cm)
+Front to back
+2
+
+1,500 lbs 
+(680.39 kg)
+Four-post 
+rack mounting
+45
+
+1,000 lbs 
+(453.59 kg)
+Four-post 
+rack mounting
+34
+
+915 lbs 
+(415.04 kg)
+
+Four-post 
+rack mounting
+24
+
+Juniper Networks Services and Support
+
+Juniper Networks is the leader in performance-enabling ser-
+vices that are designed to accelerate, extend, and optimize your 
+high-performance network. Our services allow you to maximize 
+operational efficiency while reducing costs and minimizing 
+risk, achieving a faster time to value for your network. Juniper 
+Networks ensures operational excellence by optimizing the net-
+work to maintain required levels of performance, reliability, and 
+availability. For more details, please visit www.juniper.net/us/en/
+products-services. 
+
+4
+
+Data SheetMX2000 3D Universal Edge RoutersOrdering Information
+
+Description
+Product Number
+Premium and Base Units, Spares
+MX2020-BASE-AC
+
+20 slot MX2020 chassis, base bundle with 1 Routing Engine, SFBs, fan trays, AC power
+
+MX2020-BASE-DC
+
+20 slot MX2020 chassis, base bundle with 1 Routing Engine, SFBs, fan trays, DC power
+
+MX2010-BASE-AC
+
+MX2010-BASE-DC
+
+MX2008-BASE
+
+10 slot MX2010 chassis, base bundle with 1 Routing Engine, SFBs, fan trays, AC power
+
+10 slot MX2010 chassis, base bundle with 1 Routing Engine, SFBs, fan trays, DC power
+
+10 slot MX2008 chassis, base bundle with 1 Routing Engine, SFBs, fan trays
+
+MX2020-PREMIUM-AC
+
+20 slot MX2020 chassis, premium bundle with redundant Routing Engine, SFBs, fan trays, AC power
+
+MX2020-PREMIUM-DC
+
+20 slot MX2020 chassis, premium bundle with redundant Routing Engine, SFBs, fan trays, DC power
+
+MX2010-PREMIUM-AC
+
+10 slot MX2010 chassis, premium bundle with redundant Routing Engine, SFBs, fan trays, AC power
+
+MX2010-PREMIUM-DC
+
+10 slot MX2010 chassis, premium bundle with redundant Routing Engine, SFBs, fan trays, DC power
+
+MX2008-PREMIUM
+
+10 slot MX2008 chassis, premium bundle with redundant Routing Engine, SFBs, fan trays
+
+MX2020-PREMIUM2-AC
+
+20 slot MX2020 premium 2 chassis with optimized AC power
+
+MX2020-PREMIUM2-DC
+
+20 slot MX2020 premium 2 chassis with optimized DC power
+
+MX2010-PREMIUM2-AC
+
+10 slot MX2010 premium 2 chassis with optimized AC power
+
+MX2010-PREMIUM2-DC
+
+10 slot MX2010 premium 2 chassis with optimized DC power
+
+CHAS-BP-MX2020-S
+
+20 slot MX2020 chassis with backplane installed, spare
+
+CHAS-BP-MX2010-S
+
+10 slot MX2010 chassis with backplane installed, spare
+
+CHAS-MX2008-BB
+
+10 slot MX2008 chassis with backplane installed, base
+
+CHAS-MX2008-S
+Routing Engines (REs)
+REMX2K-X8-64G-BB
+
+REMX2K-X8-64G-R
+
+REMX2K-X8-64G-S
+
+10 slot MX2008 chassis with backplane installed, spare
+
+Routing Engine and control board, 8 Core 2,300 Ghz per CPU with 64 GB memory, base bundle for MX2010  
+and MX2020
+
+Routing Engine and control board, 8 Core 2,300 Ghz per CPU with 64 GB memory, redundant for MX2010  
+and MX2020
+
+Routing Engine and control board, 8 Core 2,300 Ghz per CPU with 64 GB memory, spare for MX2010  
+and MX2020
+
+REMX2008-X8-64G-BB
+
+Routing Engine and Control Board, 8 Core, 2100 Ghz per CPU with 64 GB memory, base for MX2008
+
+REMX2008-X8-64G-R
+
+Routing Engine and Control Board, 8 Core, 2100 Ghz per CPU with 64 GB memory, redundant for MX2008
+
+REMX2008-X8-64G-S
+
+Routing Engine and Control Board, 8 Core, 2100 Ghz per CPU with 64 GB memory, spare for MX2008
+
+REMX2K-X8-64G-LT-B
+
+REMX2K-X8-64G-LT-R
+
+REMX2K-X8-64G-LT-S
+
+REMX2K-1800-32G-BB
+
+REMX2K-1800-32G-R
+
+Routing Engine and control board, 8 Core 2,300 Ghz per CPU with 64 GB memory, limited encryption version, 
+base bundle, for MX2010 and MX2020
+
+Routing Engine and control board, 8 Core 2,300 Ghz per CPU with 64 GB memory, limited encryption version, 
+redundant, for MX2010 and MX2020
+
+Routing Engine and control board, 8 Core 2,300 Ghz per CPU with 64 GB memory, limited encryption version, 
+spare, for MX2010 and MX2020
+
+Routing Engine and control board, Quad Core 1,800 GHz with 32 GB memory, base bundle for MX2010  
+and MX2020
+
+Routing Engine and control board, Quad Core 1,800 GHz with 32 GB memory, redundant option for MX2010  
+and MX2020
+
+REMX2K-1800-32G-S
+
+Routing Engine and control board, Quad Core 1,800 GHz with 32 GB memory, spare for MX2010 and MX2020
+
+REMX2K-1800-32G-WB
+
+REMX2K-1800-32G-WR
+
+REMX2K-1800-32G-WS
+
+Routing Engine and control board, Quad Core 1,800 GHz with 32 GB memory, worldwide version, 
+base bundle for MX2010 and MX2020
+
+Routing Engine and control board, Quad Core 1,800 GHz with 32 GB memory, worldwide version, redundant for 
+MX2010 and MX2020
+
+Routing Engine and control board, Quad Core 1,800 GHz with 32 GB memory, worldwide version, spare for 
+MX2010 and MX2020
+
+RE-MX2000-1800x4-S
+
+Routing Engine and control board, Quad Core 1,800 GHz with 16 GB memory, spare for MX2010 and MX2020
+
+RE-MX2000-1800x4-BB
+
+Routing Engine and control board, Quad Core 1,800 GHz with 16 GB memory, base bundle for MX2010  
+and MX2020
+
+RE-MX2000-1800x4-R
+
+Routing Engine and control board, Quad Core 1,800 GHz with 16 GB memory, redundant option for MX2010  
+and MX2020
+
+RE-MX2000-1800x4-WW-S
+
+Routing Engine and control board, Quad Core 1,800 GHz with 16 GB memory, worldwide version, spare for 
+MX2010 and MX2020
+
+5
+
+Data SheetMX2000 3D Universal Edge RoutersProduct Number
+Switch Fabric Boards (SFBs)
+MX2000-SFB2-BB
+
+Description
+
+Enhanced switch fabric board, base bundle for MX2010 and MX2020
+
+MX2000-SFB2-R
+
+MX2000-SFB2-S
+
+Enhanced switch fabric board, redundant option for MX2010 and MX2020
+
+Enhanced switch fabric board, spare for MX2010 and MX2020
+
+MX2008-SFB2-BB
+
+Enhanced switch fabric board, base bundle for MX2008
+
+MX2008-SFB2-R
+
+MX2008-SFB2-S
+
+MX2000-SFB-BB
+
+MX2000-SFB-R
+
+MX2000-SFB-S
+MPCs
+MX2K-MPC9E
+
+Enhanced switch fabric board, redundant option for MX2008
+
+Enhanced switch fabric board, spare for MX2008
+
+Switch fabric board, base bundle for MX2010 and MX2020
+
+Switch fabric board, redundant option for MX2010 and MX2020
+
+Switch fabric board, spare for MX2010 and MX2020
+
+2-slot modular line card; includes full-scale L2/L2.5 and reduced scale L3 features. Interface cards sold 
+separately.
+
+MX2K-MPC9E-RB
+
+2-slot modular line card bundle; includes full-scale L3, L2 and L2.5 features. Interface cards sold separately.
+
+MX2K-MPC9E-IRB
+
+MX2K-MPC9EQ-B
+
+MX2K-MPC9EQ-RB
+
+MX2K-MPC9EQ-IRB
+
+MX2K-MPC8E
+
+MX2K-MPC8E-RB
+
+MX2K-MPC8E-IRB
+
+MX2K-MPC8EQ-B
+
+MX2K-MPC8EQ-RB
+
+MX2K-MPC8EQ-IRB
+
+MX2K-MPC6E
+
+MX2K-MPC6E-IRB
+
+2-slot modular line card bundle; includes full-scale L2/L2.5 and L3 features and up to 16 L3VPN instances per 
+card. Interface cards sold separately.
+
+2-slot modular line card bundle; includes full-scale L2/L2.5 and reduced scale L3 features, full scale per-VLAN 
+queuing, and H-QoS. Interface cards sold separately.
+
+2-slot modular line card bundle; includes full-scale L3, L2 and L2.5 features, full scale per-VLAN queuing, and 
+H-QoS. Interface cards sold separately.
+
+2-slot modular line card bundle; includes full-scale L2/L2.5 and L3 features and up to 16 L3VPN instances per 
+card, full-scale per-VLAN queuing, and H-QoS. Interface cards sold separately.
+2-slot modular line card; includes full-scale L2/L2.5 and reduced scale L3 features. Interface cards sold 
+separately.
+2-slot modular line card bundle; includes full-scale L3, L2 and L2.5 features. Interface cards sold separately.
+
+2-slot modular line card bundle; includes full-scale L2/L2.5 and L3 features and up to 16 L3VPN instances per 
+card. Interface cards sold separately.
+2-slot modular line card bundle; includes full-scale L2/L2.5 and reduced scale L3 features, full scale per-VLAN 
+queuing, and H-QoS. Interface cards sold separately.
+
+2-slot modular line card bundle; includes full-scale L3, L2 and L2.5 features, full-scale per-VLAN queuing, and 
+H-QoS. Interface cards sold separately.
+
+2-slot modular line card bundle; includes full-scale L2/L2.5 and L3 features and up to 16 L3VPN instances per 
+card, full-scale per-VLAN queuing, and H-QoS. Interface cards sold separately.
+
+MPC6E, supports any two MIC6 cards. 
+
+MPC6E line card bundle supports any two MIC6 cards with full-scale L2/L2.5, L3 features and up to 16 L3VPN 
+instances. 
+
+MPC6E line card bundle supports any two MIC6 cards with full-scale L2/L2.5, L3 features and L3VPN features.
+
+40x10GbE SFP+ port line card.  Price includes full-scale L2/L2.5 and reduced scale L3 features. Optics sold 
+separately.
+
+MPC7E-10G-RB
+
+MPC7E-10G-IRB
+
+MPC7EQ-10G-B
+
+MPC7EQ-10G-RB
+
+MPC7EQ-10G-IRB
+
+MPC7E-MRATE-RB
+
+MPC7EQ-MRATE-B
+
+40x10GbE SFP+ port line card bundle.  Price includes full-scale L3, L2 and L2.5 features. Optics sold separately.
+
+40x10GbE SFP+ port line card bundle.  Price includes full-scale L2/L2.5 and L3 features and up to 16 L3VPN 
+instances per card. Optics sold separately.
+
+40x10GbE SFP+ port line card bundle.  Price includes full-scale L2/L2.5 and reduced-scale L3 features, full-
+scale per-VLAN queuing and H-QoS. Optics sold separately.
+
+40x10GbE SFP+ port line card bundle.  Price includes full-scale L3, L2 and L2.5 features, full-scale per-VLAN 
+queuing and H-QoS. Optics sold separately.
+
+40x10GbE SFP+ port line card bundle.  Price includes full-scale L2/L2.5 and L3 features and up to 16 L3VPN 
+instances per card, full scale per-VLAN queuing and H-QoS. Optics sold separately.
+
+12xQSFP+/QSFP28 multirate port line card bundle.  Price includes full-scale L3, L2 and L2.5 features. Optics 
+sold separately.
+
+12xQSFP+/QSFP28 multirate port line card bundle.  Price includes full-scale L2/L2.5 and reduced scale L3 
+features, full-scale per-VLAN queuing and H-QoS. Optics sold separately.
+
+MPC7EQ-MRATE-RB
+
+12xQSFP+/QSFP28 multirate port line card bundle.  Price includes full-scale L3, L2 and L2.5 features, full-scale 
+per-VLAN queuing and H-QoS. Optics sold separately.
+
+6
+
+MX2K-MPC6E-RB
+MX2000 Line Adapter Card 
+MX2000-LC-ADAPTER
+MX Series MPCs (require MX2000-LC-ADAPTER card for use in MX2000)
+MPC7E-10G
+
+MPC adapter, required when using MPC1s through MPC5s, MPC7s and MS-MPC ins MX2000
+
+Data SheetMX2000 3D Universal Edge RoutersProduct Number
+
+Description
+
+MPC7EQ-MRATE-IRB
+
+MPC5E-100G10G
+
+MPC5E-100G10G-IRB
+
+MPC5E-100G10G-RB
+
+MPC5E-40G10G
+
+MPC5E-40G10G-IRB
+
+MPC5EQ-100G10G
+
+MPC5EQ-100G10G-IRB
+
+MPC5EQ-100G10G-RB
+
+MPC5EQ-40G10G
+
+MPC5EQ-40G10G-IRB
+
+MPC5EQ-40G10G-RB
+
+12xQSFP+/QSFP28 multirate port line card bundle.  Price includes full-scale L2/L2.5 and L3 features and up to 
+16 L3VPN instances per card, full-scale per-VLAN queuing and H-QoS. Optics sold separately.
+
+Fixed 2x 100GbE and 4x 10GbE line card bundle with full scale L2/L2.5 and reduced scale L3 features, optional 
+license permits up to 32,000 queues with HQoS.
+
+Fixed 2x 100GbE and 4x 10GbE line card bundle with full scale L2/L2.5, L3 features and up to 16 L3VPN 
+instances, optional license permits up to 32,000 queues with HQoS.
+
+Fixed 2x 100GbE and 4x 10GbE line card bundle with full scale L2/L2.5, L3 and L3VPN features, optional license 
+permits up to 32,000 queues with HQoS.
+
+Fixed 6x 40GbE or 24x 10GbE line card bundle with full scale L2/L2.5 and reduced scale L3 features, optional 
+license permits up to 32,000 queues with HQoS.
+
+Fixed 6x 40GbE or 24x 10GbE line card bundle with full scale L2/L2.5, L3 features and up to 16 L3VPN instances, 
+optional license permits up to 32,000 queues with HQoS.
+
+Fixed 2x 100GbE and 4x 10GbE line card bundle with HQoS; supports 1 million queues and 128,000 sessions; 
+includes full scale L2/L2.5 and reduced scale L3 features.
+
+Fixed 2x 100GbE and 4x 10GbE GbE line card bundle with HQoS; supports 1 million queues and 128,000 
+sessions; includes full scale L2/L2.5, L3 features and up to 16 L3VPN instances.
+
+Fixed 2x 100GbE and 4x 10GbE GbE line card bundle with HQoS; supports 1 million queues and 128,000 
+sessions; includes full scale L2/L2.5, L3 and L3VPN features. 
+
+Fixed 6x 40GbE or 24x 10GbE GbE line card bundle with HQoS; supports 1 million queues and 128,000 sessions; 
+includes full scale L2/L2.5 and reduced scale L3 features.
+
+Fixed 6x 40GbE or 24x 10GbE GbE line card bundle with HQoS; supports 1 million queues and 128,000 sessions, 
+includes full scale L2/L2.5, L3 features and up to 16 L3VPN instances.
+
+Fixed 6x 40GbE or 24x 10GbE GbE line card bundle with HQoS; supports 1 million queues and 128,000 sessions, 
+includes full scale L2/L2.5, L3 and L3VPN features.
+
+MPC4E-3D-2GE
+
+Fixed 2x 100GbE and 8x 10GbE line card bundle with full scale L2/L2.5 and reduced scale L3 features
+
+MPC4E-3D-32XGE-SFPP
+
+Fixed 32x 10GbE line card bundle with full scale L2/L2.5 and reduced scale L3 features
+
+MPC4E-3D-2CGE-8XGE-IRB
+
+Fixed 2x 100GbE and 8x 10GbE line card bundle with full scale L2/L2.5, L3 features, up to 16 L3VPNs
+
+MPC4E-3D-32XGE-IRB
+
+Fixed 32x 10GbE SFPP line card bundle with full scale L2/L2.5, L3 features, up to 16 L3VPNs
+
+MPC4E-3D-2CGE8XGE-RB
+
+Fixed 2x 100GbE and 8x 10GbE line card bundle with full scale L2/L2.5, L3 and L3VPN features
+
+MPC4E-3D-32XGE-RB
+
+Fixed 32x GbE SFPP line card bundle with full scale L2/L2.5, L3 and L3VPN features
+
+MX-MPC3E-3D
+
+MPC3 with support for 100GbE, 40GbE, and 10GbE interfaces, L2.5 features, optics sold separately
+
+MX-MPC3E-3D-R-B
+
+MPC3E-3D-NG
+
+MPC3E-3D-NG-IR-B
+
+MPC3E-3D-NG-R-B
+
+MPC3E-3D-NG-Q
+
+MPC3E-3D-NG-Q-IR-B
+
+MPC3E-3D-NG-Q-R-B
+
+MPC3E with support for 100GbE, 40GbE, and 10GbE interfaces, includes full scale L2, L3, L3VPN features, optics 
+sold separately
+
+Next-generation MPC3E with upgraded CPU and memory. Offers full feature parity with MPC1E, MPC2E, and 
+MPC3E. Includes full scale L2/L2.5 and reduced scale L3 features. Flexible queuing option enables hierarchical 
+QoS support with up to 32,000 total queues. Supports all MICs supported by MPC1E, MPC2E, and MPC3E.
+
+Next-generation MPC3E line card bundle with upgraded CPU and memory. Offers full feature parity with the 
+MPC1E, MPC2E, and MPC3E. Includes full scale L2/L2.5 and L3 features and up to 16 L3VPNs per MPC. Flexible 
+queuing option enables hierarchical QoS support with up to 32,000 total queues. Supports all MICs supported 
+by the MPC1E, MPC2E, and MPC3E.
+
+Next-generation MPC3E line card bundle with upgraded CPU and memory. Offers full feature parity with the 
+MPC1E, MPC2E, and MPC3E. Includes full scale L2/L2.5, L3 and L3VPN features. Flexible queuing option enables 
+hierarchical QoS support with up to 32,000 total queues. Supports all MICs supported by the MPC1E, MPC2E, 
+and MPC3E.
+
+Next-generation MPC3E with upgraded CPU and memory. Offers full feature parity with the MPC1E, MPC2E, and 
+MPC3E. Includes full scale L2/L2.5 features, reduced scale L3 features, and hierarchical QoS with up to 512,000 
+queues per slot. Supports all MICs supported by the MPC1E, MPC2E, and MPC3E.
+
+Next-generation MPC3E line card bundle with upgraded CPU and memory. Offers full feature parity with the 
+MPC1E, MPC2E, and MPC3E. Includes full scale L2/L2.5, L3 and up to 16 L3VPN features, and hierarchical QoS 
+with up to 512,000 queues per slot. Supports all MICs supported by the MPC1E, MPC2E, and MPC3E
+
+Next-generation MPC3E line card bundle with upgraded CPU and memory. Offers full feature parity with the 
+MPC1E, MPC2E, and MPC3E. Includes full scale L2/L2.5 features, L3 features, and hierarchical QoS with up to 
+512,000 queues per slot. Supports all MICs supported by the MPC1E, MPC2E, and MPC3E.
+
+MPC-3D-16XGE-SFPP
+
+Fixed 16x 10GbE line card bundle with L2.5 features
+
+MPC-3D-16XGE-SFPP-R-B
+
+Fixed 16x 10GbE GbE line card bundle with full scale L2/L2.5 and L3 features
+
+MPC2E-3D-NG
+
+MPC2E-3D-NG-IR-B
+
+Next-generation MPC2E with upgraded CPU and memory. Offers full feature parity with the MPC1E, MPC2E, and 
+MPC3E. Includes full scale L2/L2.5 and reduced scale L3 features. Flexible queuing option enables hierarchical 
+QoS support with up to 32,000 total queues. Supports all MICs supported by MPC1E and MPC2E.
+
+Next-generation MPC2E line card bundle with upgraded CPU and memory. Offers full feature parity with MPC1E, 
+MPC2E, and MPC3E. Includes full scale L2/L2.5, L3 features and up to 16 L3VPNs per MPC. Flexible queuing 
+option enables hierarchical QoS support with up to 32,000 total queues. Supports all MICs supported by 
+MPC1E and MPC2E.
+
+7
+
+Data SheetMX2000 3D Universal Edge RoutersProduct Number
+
+MPC2E-3D-NG-R-B
+
+MPC2E-3D-NG-Q
+
+MPC2E-3D-NG-Q-IR-B
+
+MPC2E-3D-NG-Q-R-B
+
+MX-MPC2-3D
+
+MX-MPC2-3D-EQ
+
+Description
+
+Next-generation MPC2E line card bundle with upgraded CPU and memory. Offers full feature parity with MPC1E, 
+MPC2E, and MPC3E. Includes full scale L2/L2.5, L3 and L3VPN features. Flexible queuing option enables 
+hierarchical QoS support with up to 32,000 total queues. Supports all MICs supported by MPC1E and MPC2E.
+
+Next-generation MPC2E with upgraded CPU and memory. Offers full feature parity with MPC1E, MPC2E, and 
+MPC3E. Includes full scale L2/L2.5, and reduced scale L3 features, and hierarchical QoS with up to 512,000 
+queues per slot. Supports all MICs supported by MPC1E and MPC2E.
+
+Next-generation MPC2E line card bundle with upgraded CPU and memory. Offers full feature parity with MPC1E, 
+MPC2E, and MPC3E. Includes full scale L2/L2.5, L3 and up to 16 L3VPN features, and hierarchical QoS with up 
+to 512,000 queues per slot. Supports all MICs supported by MPC1E and MPC2E.
+
+Next-generation MPC2E line card bundle with upgraded CPU and memory. Offers full feature parity with MPC1E, 
+MPC2E, and MPC3E. Includes full scale L2/L2.5, L3 features, and hierarchical QoS with up to 512,000 queues 
+per slot. Supports all MICs supported by MPC1E and MPC2E.
+
+MPC2 with port queuing; includes full scale L2/L2.5 and reduced scale L3 features
+
+MPC2 line card bundle with per-IFL HQoS, 512,000 queues; includes full scale L2/L2.5 and reduced scale L3 
+features
+
+MX-MPC2-3D-EQ-R-B
+
+MPC2 line card bundle with per-IFL HQoS, 512,000 queues; includes full scale L3, L2 and L2.5 features
+
+MX-MPC2-3D-Q
+
+MPC2 line card bundle with per-IFL HQoS, 256,000 queues (max 128,000 egress); includes full scale L2/L2.5 
+and reduced scale L3 features
+
+MX-MPC2-3D-Q-R-B
+
+MPC2 line card bundle; includes full scale L3, L2, and L2.5 features
+
+MX-MPC2-3D-R-B
+
+MPC2 line card bundle; includes full scale L3, L2, and L2.5 features
+
+MX-MPC2E-3D
+
+Enhanced MPC2 with port queuing; includes full scale L2/L2.5 and reduced scale L3 features
+
+MX-MPC2E-3D-EQ
+
+Enhanced MPC2 with per-IFL HQoS, 512,000 queues; includes full scale L2/L2.5 and reduced scale L3 features
+
+MX-MPC2E-3D-EQ-R-B
+
+Enhanced MPC2 line card bundle; includes full scale L3, L2, and L2.5 features
+
+MX-MPC2E-3D-P
+
+Enhanced MPC2 with 1588v2, port queuing; includes full scale L2/L2.5 and reduced scale L3 features
+
+MX-MPC2E-3D-P-Q-B
+
+Enhanced MPC2 line card bundle; includes 1588v2, per-IFL HQoS, 256,000 queues (maximum 128,000 egress), 
+full scale L2/L2.5 and reduced scale L3 features
+
+MX-MPC2E-3D-P-Q-R-B
+
+Enhanced MPC2 line card bundle; includes 1588v2, per-IFL HQoS, 256,000 queues (maximum 128,000 egress), 
+full scale L3, L2, and L2.5 features
+
+MX-MPC2E-3D-P-R-B
+
+Enhanced MPC2 line card bundle; includes 1588v2, full scale L3, L2, and L2.5 features
+
+MX-MPC2E-3D-Q
+
+Enhanced MPC2 line card bundle, includes per-IFL HQoS, 256,000 queues (maximum 128,000 egress); 
+includes full scale L2/L2.5 and reduced scale L3 features
+
+MX-MPC2E-3D-Q-R-B
+
+Enhanced MPC2E line card bundle; includes per-IFL HQoS, 256,000 queues (maximum 128,000 egress), full 
+scale L3, L2, and L2.5 features
+
+MX-MPC1-3D
+
+MX-MPC1-3D-Q
+
+MPC1 with port queuing; includes full scale L2/L2.5 and reduced scale L3 features
+
+MPC1 with per-IFL HQoS, 128,000 queues (maximum 64000 egress); includes full scale L2/L2.5 and reduced 
+scale L3 features
+
+MX-MPC1-3D-Q-R-B
+
+MPC1 line card bundle; includes full scale L3, L2, and L2.5 features
+
+MX-MPC1-3D-R-B
+
+MPC1 line card bundle; includes full scale L3, L2, and L2.5 features
+
+MX-MPC1E-3D
+
+MX-MPC1E-3D-Q
+
+Enhanced MPC1 with port queuing; includes full scale L2/L2.5 and reduced scale L3 features
+
+Enhanced MPC1 with per-IFL HQoS, 128,000 queues (max 64,000 egress); includes full scale L2/L2.5 and 
+reduced scale L3 features
+
+MX-MPC1E-3D-Q-R-B
+
+Enhanced MPC1 with per-IFL HQoS, 128,000 queues (max 64,000 egress) line card bundle; includes full scale 
+L3, L2, and L2.5 features
+
+MX-MPC1E-3D-R-B
+
+Enhanced MPC1 line card bundle; includes full scale L3, L2, and L2.5 features
+
+MS-MPC
+
+MICs for MPC6E
+MIC6-10G
+
+MIC6-100G-CXP
+
+MIC6-10G-OTN 
+
+Multiservices MPC supports a variety of optionally licensed applications including Stateful firewall, Carrier-
+Grade NAT (CGN), and deep packet inspection (DPI); each purchased separately. 
+
+24x 10GbE MIC for MPC6 only
+
+4x 100GbE CXP MIC for MPC6 only
+
+24x 10GbE SFP OTN MIC for MPC6 only; requires S-MIC6-OPT-LIC 
+
+MIC6-100G-CFP2
+
+2x 100GbE CFP2 OTN MIC for MPC6 only; requires S-MIC6-OPT-LIC; requires S-MIC6-OPT-LIC
+
+MICs for MPC8E and MPC9E
+MIC-MRATE
+
+12xQSFP+/QSFP28 multirate port interface card. Optics sold separately.
+
+Licenses
+S-MIC6-OPT-LIC
+
+OTN license for MIC6-10G-OTN and MIC6-100G-CFP2.
+
+8
+
+Data SheetMX2000 3D Universal Edge RoutersProduct Number
+Cable Management
+MX2000-CBL-TOP-S
+
+Description
+
+MX2000 line front upper cable manager, spare
+
+MX2000-CBL-BTM-S
+
+MX2000 line front lower cable manager, spare
+
+MX2000-CBL-MID-S
+
+MX2000 line front middle cable manager, spare
+
+Fan Trays
+MX2000-FANTRAY-S
+
+MX2000 line fan tray, spare
+
+MX2000-FANTRAY-BB
+
+MX2000 line fan tray, base bundle
+
+MX2000-FANTRAY-R
+
+MX2000 line fan tray, redundant option
+
+Air Filters
+MX2020-FLTR-KIT-S
+
+MX2020 filter set, containing 1 of each filter required
+
+MX2010-FLTR-KIT-S
+
+MX2010 filter set, containing 1 of each filter required
+
+MX2008-FLTR-KIT-S
+
+MX2008 filter set, containing 1 of each filter required
+
+Craft Interface
+MX2020-CRAFT-S
+
+Craft interface panel, MX2020 chassis, spare
+
+MX2010-CRAFT-S
+
+Craft interface panel, MX2010 chassis, spare
+
+MX2008-CRAFT-S
+
+Craft interface panel, MX2008 chassis, spare
+
+Power Distribution Modules
+MX2000-PDM-AC-WYE-S
+
+MX2000 line 3 phase AC Wye power distribution module, spare
+
+MX2000-PDM-AC-WYE-BB MX2000 line 3 phase AC power distribution module, base bundle
+
+MX2000-PDM-AC-WYE-R
+
+MX2000 line 3 phase AC power distribution module, redundant option
+
+MX2000-PDM-AC-DELTA-S MX2000 line 3 phase AC Delta power distribution module, spare
+
+MX2000-PDM-AC-DELTA-
+BB
+
+MX2000 line 3 phase AC Delta power distribution module, base bundle
+
+MX2000-PDM-AC-DELTA-R MX2000 line 3 phase AC Delta power distribution module, redundant option
+
+MX2000-PDM-DC-S
+
+MX2000 line DC power 60 Amp distribution module, spare
+
+MX2000-PDM-DC-R
+
+MX2000 line DC power 60 Amp distribution module, spare
+
+MX2K-PDM-AC-1PH-BB
+
+MX2000 line 1 phase AC power distribution module, base
+
+MX2K-PDM-AC-1PH-S
+
+MX200 line 1 phase AC power distribution module, spare
+
+MX2K-PDM-OP-AC-BB
+
+MX2000 line optimized AC power distribution module, base bundle
+
+MX2K-PDM-OP-AC-S
+
+MX2000 line optimized AC power distribution module, spare
+
+MX2K-PDM-OP-DC-BB
+
+MX2000 line optimized DC power distribution module, base bundle 
+
+MX2K-PDM-OP-DC-S
+
+MX2000 line optimized DC power distribution module, spare
+
+Power Supply Modules
+MX2000-PSM-AC-S
+
+MX2000 line AC power supply module, spare
+
+MX2000-PSM-AC-BB
+
+MX2000 line power supply module, base bundle
+
+MX2000-PSM-AC-R
+
+MX2000 line power supply module, redundant option
+
+MX2000-PSM-DC-S
+
+MX2000 line DC power supply module, spare
+
+MX2000-PSM-DC-BB
+
+MX2000 line DC power supply module, base bundle
+
+MX2000 line DC power supply module, redundant option
+
+MX2000-PSM-DC-R
+Shipping Containers and Miscellaneous
+MX2020-CHAS-PKG-S
+MX2010-CHAS-PKG-S
+MX2008-CHAS-PKG-S
+MX2020-LC-PKG-S
+MX2020-PSM-PKG-S
+Power Cable Manager
+MX2020-DC-CBL-MGR-S
+Mounting Tray
+MX2000-MOUNT-TRAY-S
+
+MX2020 20 slot chassis shipping container, spare
+MX2010 10 slot chassis shipping container, spare
+MX2008 10 slot chassis shipping container, spare
+MX2020 line card bulk shipping container, spare
+MX2020 power supply module bulk shipping container, spare
+
+MX2020 cable manager for DC power cables, spare
+
+MX2000 line rack mount tray, spare
+
+9
+
+Data SheetMX2000 3D Universal Edge RoutersProduct Number
+Lug Kits
+MX2000-DCLUG-4AWG-S
+MX2000-DCLUG-6AWG-S
+Junos OS
+USA
+Worldwide
+
+Description
+
+MX2000 line DC 4AWG terminal lug kit
+MX2000 line DC 6AWG terminal lug kit
+
+Junos OS
+Junos-WW
+
+About Juniper Networks
+Juniper Networks is in the business of network innovation. From devices to data centers, from consumers to cloud providers, Juniper 
+Networks delivers the software, silicon and systems that transform the experience and economics of networking. The company serves 
+customers and partners worldwide. Additional information can be found at www.juniper.net.
+
+Corporate and Sales HeadquartersJuniper Networks, Inc. 1133 Innovation WaySunnyvale, CA 94089 USAPhone: 888.JUNIPER (888.586.4737)or +1.408.745.2000Fax: +1.408.745.2100www.juniper.net Copyright 2016 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, Junos and QFabric are registered trademarks of Juniper Networks, Inc. in the United States and other countries. All other trademarks, service marks, registered marks, or registered service marks are the property of their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice.APAC and EMEA HeadquartersJuniper Networks International B.V.Boeing Avenue 2401119 PZ Schiphol-RijkAmsterdam, The NetherlandsPhone: +31.0.207.125.700Fax: +31.0.207.125.701Data SheetMX2000 3D Universal Edge Routers1000417-015-EN   Nov 2016EXPLORE JUNIPERGet the App.

@@ -1,0 +1,655 @@
+Service Control Gateway Solution 
+
+Product Overview
+
+Now more than ever, service 
+providers are seeking network 
+solutions that increase 
+monetization, efficiency, and 
+competitive advantage through 
+rapid service delivery and 
+granular service customization, 
+while concurrently providing 
+deep insight into network and 
+subscriber usage patterns. 
+
+The Service Control Gateway 
+solution, supported on industry-
+leading MX Series 3D Universal 
+Edge Routers, is an access-
+agnostic converged services 
+platform that helps service 
+providers of all types achieve 
+these goals by enabling service 
+innovation through consolidation, 
+virtualization, automation, and 
+analytics.
+
+Your ideas. Connected.™
+
+Product Description 
+Today, services are typically delivered by a complex set of diverse network elements—
+routers, switches, and service-specific appliances—each with its own unique OS, feature 
+release schedules, maintenance and troubleshooting procedures, and power and cooling 
+requirements. Service providers must test and validate each element, both individually 
+and collectively, before stitching them together to create services in a lengthy, manually 
+intensive, and risk-prone process. The result is a highly inflexible, expensive, and static 
+network where new services require new elements and service modifications takes months 
+to complete.
+
+Therefore, it is no surprise that service providers want to transform their networks to 
+improve service agility and increase operational efficiency. Service agility is required to 
+support both consumer demand for personalization and business demand for a “cloud-
+like” network experience; at the same time, operational efficiency is needed to speed 
+service creation and contain TCO. 
+
+This transformation requires network edges and service cores (Gi-LANs) that support 
+automated, policy- and customer-driven service control and orchestration to enable the 
+rapid instantiation or modification of virtualized services across multiple physical and 
+virtual elements. 
+
+Juniper Networks® Service Control Gateway (SCG) is an innovative services solution that 
+facilitates this transformation, helping you achieve service agility and efficiency at scale. 
+The Service Control Gateway supports multiple services organically, including carrier-grade 
+NAT, firewall, server load balancing, IP/MPLS VPNs, switching, and routing—which reduces 
+network cost and complexity by eliminating numerous elements, operating systems, and 
+element interconnections. 
+
+The Service Control Gateway utilizes subscriber awareness, deep packet inspection 
+(DPI), and policy management to determine traffic treatment on a per-subscriber and 
+per-application basis, enabling highly customizable and differentiated services at scale. 
+Working with Juniper Networks Contrail Cloud Platform, the SCG can steer traffic into 
+complex service chains that include onboarding services as well as other physical and 
+virtual appliances. This granular understanding of traffic flows provides a rich set of data 
+to analytics engines and back-office systems to permit real-time charging and end-user 
+engagement at the application and content level.
+
+Implemented on Juniper Networks MX Series 3D Universal Edge Routers, the SCG solution 
+scales to provide the capacity and performance needed to confidently meet traffic 
+demands today and tomorrow. A wide range of services can be implemented directly on 
+Modular Port Concentrators (MPCs), as well as on MS-MPCs and MS-MICs that provide 
+dedicated compute resources for processor-intensive applications. Both MPCs and MS-
+MPCs are powered by the programmable Junos® Trio chipset, ensuring service consistency 
+and line-rate performance.
+
+1
+
+Data SheetActing as a true service gateway, the SCG solution delivers a 
+converged scalable service architecture with a single control 
+plane across network services and value-added services in the 
+same scalable and cost-effective platform. With extensibility to 
+third-party physical and virtual appliances, the SCG represents 
+a single point of operations support systems (OSS) integration; 
+when combined with Contrail, it also supports complex service 
+chains for highly automated and customized services. 
+
+IP flow to a mobile subscriber identity (IMSI or MSISDN) or 
+fixed subscriber identity (username, Line ID, E164) via RADIUS. 
+Subscriber management passes subscriber identity (from AAA) 
+to the policy and charging enforcement function (PCEF), which 
+maps the subscriber’s identity, policy (Gx), and application 
+metadata and enforces policies on the data traffic. Dynamic 
+application and signature database updates are also supported 
+to keep up with the flood of new protocols.
+
+Architecture and Key Components
+The essence of the Service Control Gateway is its unique 
+ability to incorporate subscriber identification (via access-
+agnostic subscriber learning), application identification (via 
+DPI technology), and policy-based network control (via 
+integration with policy and charging rule function [PCRF] and/or 
+RADIUS AAA) on a single platform. Each application is licensed 
+separately; additional services can be layered on top of these 
+core capabilities or implemented independently. 
+
+The SCG solution is built on MX Series 3D Universal Edge Routers, 
+a portfolio of high-performance, software-centric physical and 
+virtual routers that support a broad set of applications in service 
+provider, enterprise, and cloud networks. In addition to offering 
+extremely high-density network connectivity via 100GbE, 10GbE, 
+and 1GbE interfaces, the MX Series uses MS-MPCs and MS-
+MICs to provide dedicated compute resources for the packet 
+processing-intensive services enabled by the SCG. MS-MPCs 
+deliver services at scale while maintaining great performance. 
+With powerful routing, switching, and services capabilities, the MX 
+Series delivers unmatched flexibility and investment protection. 
+
+Powered by Juniper Networks Junos operating system and the 
+programmable Junos Trio Chipset, the MX Series streamlines 
+network operations and improves the availability, performance, 
+and security of all types of services. It offers the most complete, 
+advanced features in the industry, including traffic segmentation 
+and virtualization with MPLS, subscriber management, 
+sophisticated virtualization techniques including virtual CPE 
+(vCPE) and low-latency multicast, as well as comprehensive 
+security and quality-of-service (QoS) implementations that 
+ensure the quality delivery of time-sensitive applications and 
+services. Optimized for emerging network architectures and 
+services, the MX Series is purpose-built for the most demanding 
+carrier and enterprise applications. By combining the best-
+in-class MX Series with the reliability and service flexibility of 
+Junos OS, the MX Series delivers a combination of features and 
+capabilities unparalleled in edge routing. 
+
+Junos Subscriber Aware 
+
+Junos Subscriber Aware is a licensed application that allows 
+the SCG to operate in RADIUS accounting server mode to learn 
+subscriber identity, device type, and other useful information 
+via RADIUS accounting messages. The SCG solution binds an 
+
+Junos Application Aware
+
+Junos Application Aware uses DPI to enable extensive 
+protocol and application coverage and metadata extraction. 
+More than 1,500 protocols and applications and 5,000+ 
+metadata extractions are supported using the advanced DPI 
+engine. Categories of protocols that can be detected include 
+standardized protocols, Web applications, next-generation IP-
+based services, P2P protocols, and terminal and desktop sharing. 
+Integrated into the PCEF, Junos Application Aware passes the 
+application detection metadata to the PCEF, which maps the 
+subscriber identity (from AAA), policy (Gx), and application 
+metadata and enforces policies on the data traffic. Dynamic 
+application and signature database updates are also supported 
+to keep up with the flood of new protocols.
+
+Junos Policy Control
+
+The SCG solution invokes subscriber- and application-level 
+policies by interfacing with PCRF using a diameter interface. 
+This interface is a pre-standards implementation of the Third 
+Generation Partnership Project Sd application (3GPPSd) 
+interface and includes support for Application Detection and 
+Control rules, which will be available in 3GPP release 12. The 
+SCG binds a subscriber context (learned through RADIUS) with a 
+set of per-subscriber policies, provisioned by a PCRF via Gx / Sd 
+interfaces. The SCG then performs policy control on a per flow 
+(at L4 or L7) such as gating or rating limiting in uplink or downlink 
+direction and redirection
+
+Junos Web Aware
+
+Junos Web Aware dynamically associates HTTP transactions 
+with the subscriber that initiated the request, and can insert 
+provider-defined tags into the HTTP header when a request 
+matches a provider-defined policy. HTTP requests and responses 
+can also be dynamically redirected when the request or response 
+matches a provider-defined policy. 
+
+These capabilities leverage subscriber relationships to further 
+monetize the network and increase average revenue per user 
+(ARPU) with new services like parental control, blacklisting, and 
+threat mitigation; these subscriber relationships can be further 
+monetized by relationships with online advertisers. Of course, 
+HTTP transactions can also be filtered, counted, and logged for 
+reporting and analytics purposes.
+
+2
+
+Data SheetService Control Gateway SolutionJunos Address Aware (Carrier-Grade NAT)
+
+Junos Address Aware is a licensed addressing and tunneling 
+software that conserves and extends the IPv4 address pool, 
+ensuring IPv4/IPv6 coexistence and pragmatically transitioning 
+to IPv6 in a cost-effective and low risk manner. Mature and field-
+proven, Junos Address Aware is widely deployed in mobile, cable, 
+and wireline networks1 globally.
+
+Junos Address Aware provides a comprehensive set of 
+technologies, including IPv4/IPv6 dual stack and NAT44, 
+NAPT44, NAT-PT, NAT64, 6to4-PMT, 6rd, and DS-lite. Junos 
+Address Aware also supports all BEHAVE RFCs2, as well as 
+hairpinning, endpoint independent mapping (EIM) and endpoint 
+independent filtering (EIF), EIF prefix list support, address pooling 
+paired, and many other features. Operational features include 
+flexible port allocation algorithms (port block, secure port block, 
+round-robin across pools, random, sequential, and combinations) 
+and an extensive set of application-level gateways (ALGs) for 
+supporting popular applications incompatible with NAT.
+
+Junos Network Secure (Stateful Firewall)
+
+Junos Network Secure implements a per-flow state table and 
+performs packet inspection to track and control the flow of 
+traffic and detect attacks, including anomaly-based attacks, 
+by dropping packets that do not comply with the protocol 
+state. These stateful firewall capabilities provide security by 
+using state information derived from past communications and 
+other applications to make dynamic control decisions for new 
+communication attempts. 
+
+Junos Network Secure is often used in conjunction with Junos 
+Address Aware to provide an extra layer of protection for the 
+carrier-grade NAT infrastructure, and can also be offered as part 
+of a revenue-generating managed service. 
+
+Junos VPN Site Secure (IPsec)
+
+Junos VPN Site Secure is an important component of revenue-
+generating managed services, as it implements industry-
+standard IPsec cryptography to enable secure branch-to-branch 
+communications of private IP or MPLS networks. You can use 
+Advanced Encryption Standard (AES), Data Encryption Standard 
+(DES), and triple Data Encryption Standard (3DES) to encrypt 
+traffic over site-to-site VPNs between customer locations, 
+between a customer premises device and your edge network over 
+a third-party access network, and between your edge networks 
+over a third-party transport network. 
+
+It is also possible to create Group VPNs that simplify 
+management by defining groups of VPN participants where each 
+peer has a single tunnel to a defined group. The VPN Group is 
+defined and controlled by the Group Controller, which is also the 
+Key Server. A group member can communicate securely to others 
+in their defined group.
+
+Junos Traffic Load Balancer
+
+Junos Traffic Load Balancer is a traffic distributor built on a 
+combination of hash-based packet load balancing and server 
+health monitoring. It uses an enhanced version of equal-cost 
+multipath (ECMP) to facilitate the distribution of sessions across 
+multiple next-hop servers. Enhancements to native ECMP ensure 
+that when servers fail, only flows associated with those servers 
+are impacted, minimizing the overall network churn on services 
+and sessions.
+
+Junos Traffic Vision (Flow Monitoring)
+
+Junos Traffic Vision monitors traffic flows, collects and 
+aggregates key flow details, and exports flow records to third-
+party offline applications using industry standard-based formats. 
+It can be implemented at the individual interface, sub-interface, 
+or virtual router level to enable usage-based accounting, traffic 
+profiling, traffic engineering, attack/intrusion detection, capacity 
+planning, traffic analysis for peering policy decisions, and service-
+level agreement (SLA) monitoring. 
+
+Importantly, Junos Traffic Vision performs analysis on mirrored 
+traffic, which is replicated and sampled on ingress without 
+introducing delay or jitter to the production traffic. In fact, all 
+monitoring is transparent to the network and can take place 
+alongside lawful intercept filtering and port mirroring, without any 
+impact on performance or changes to end stations. 
+
+Junos Video Focus
+
+Junos Video Focus uses IETF RFC 4445 Media Delivery Index (MDI) 
+as well as MPEG and RTP header analysis to assess video quality. 
+Deployed inline on MX Series MPCs, Junos Video Focus can be 
+broadly implemented without adding the cost and complexity 
+imposed by specialized video probes and port mirroring. 
+
+Junos Video Focus monitors and assesses video quality at the 
+ingress and egress ports using Delay Factor (DF), Media Loss 
+Rate (MLR), and Media Rate Variation (MRV); it also analyzes 
+MPEG headers to identify the specific video streams impacted by 
+network issues. Critically, Junos Video Focus can detect potential 
+issues before they affect services; when configurable thresholds 
+are exceeded, alarms are triggered to alert you before customers 
+are impacted.
+
+1  Junos Address Aware has been implemented by 80 of the largest 125 service providers 
+
+globally.
+
+2  BEHAVE RFCs include RFC 4787, RFC 5382, RFC 5508, and RFC 6889.
+
+3
+
+Data SheetService Control Gateway SolutionFeatures and Benefits
+Operational Improvements Through Service 
+Consolidation
+
+Consolidating routing, switching, security, and services 
+on the MX Series 3D Universal Edge Routers significantly 
+simplifies network and service design, lowers the time and 
+cost to implement and operate your network, and reduces 
+environmental impact. Running multiple applications and Junos 
+OS on the MX Series improves operations and provides a single 
+release train for feature enhancements. Consolidation also 
+reduces implementation and service risks. All applications are 
+“prequalified” to work together and are added to the platform 
+by software license, without having to qualify new hardware or 
+releases.
+
+ACG Research found that by eliminating appliances and 
+operating systems, reducing training and troubleshooting 
+complexity, and providing a single element management system 
+(EMS) and point of OSS integration, the SCG solution lowers TCO 
+by up to 49 percent, Operation, Administration, and Maintenance 
+(OAM) costs by up to 80 percent, and power demands by up to 
+64 percent.3
+
+Higher ROI Through Investment Protection
+
+The ability to non-disruptively add services and service capacity 
+to MX Series platforms helps you nimbly adapt to developing 
+market opportunities and service evolution. Low risk service 
+adoption via software license lets you flexibly evaluate and 
+deploy innovative services on new and previously installed MX 
+Series platforms, extending the value of the MX Series well 
+beyond initial deployment applications. 
+
+Increased Automation with Dynamic Service 
+Selection
+
+The Service Control Gateway solution supports dynamic policy-
+based forwarding decisions based on subscriber identity and 
+application types. Additionally, it is possible to incorporate 
+network conditions to make traffic steering decisions. This 
+permits the selection of optimal traffic paths for individual 
+applications and subscriber groups in support of tiered service 
+plans and service personalization and customization. It also 
+ensures the most efficient utilization of network elements. 
+
+The SCG solution can steer traffic into a predefined sequence 
+of services (aka service chaining) in order to create more 
+complex services. In conjunction with service orchestration from 
+Contrail Cloud Platform, the SCG can act as the “service chain 
+attachment point”—the element where end-to-end service 
+chains are initiated and where flows are steered to a specific 
+service chain that includes services running on the SCG as well as 
+services running on non-Juniper appliances. 
+
+Consistent Subscriber Experience in Converged 
+Fixed/Mobile Networks 
+
+The SCG solution offers access-agnostic subscriber- and 
+application-level policy control that you can leverage to maintain 
+a unified online experience, regardless of how the subscriber 
+connects to the network. Subscriber identification is access-
+agnostic and supports both fixed and mobile access types using 
+standard AAA accounting messages. Application-level policy 
+control is based on DPI running on the SCG, without the need for 
+external appliances. 
+
+Reporting and Analytics
+
+The Service Control Gateway logs and reports detailed flow L3/
+L4 and L7 metadata on a per-subscriber and per-application 
+basis, in real time, without impacting forwarding performance 
+or platform scale. This data can be forwarded to third-party 
+big data analytics systems that deliver reports and dashboards 
+about subscribers’ data consumption and application usage. 
+These reports can also support sales and marketing activities by 
+identifying the most popular over-the-top (OTT) services as well 
+as the most active users. Traffic profiling information also helps 
+network design and engineering teams accurately plan for service 
+growth and optimize the network for traffic distribution.
+
+Specifications
+The Service Control Gateway is supported on the MX960, 
+MX480, and MX240 3D Universal Edge Routers using the RE-
+1800, Enhanced Switch Control Board (SCBE/SCBE2), and 
+MS-MPCs. The following table lists basic dimension and power 
+specifications by platform; for comprehensive platform and 
+module specifications, please refer to the hardware installation 
+manuals at www.juniper.net/techpubs/hardware. 
+
+Specification
+
+MX240
+
+MX480
+
+MX960
+
+Physical dimensions (W x H x D)
+
+17.5 x 8.7 x 23.8 in
+(44.5 x 22.1 x 60.5 cm)
+
+17.5 x 14 x 23.8 in
+(44.5 x 35.6 x 60.5 cm)
+
+17.5 x 27.8 x 23.5 in
+(44.5 x 70.5 [16 U] x 59.7 cm)
+
+Weight (lb/kg) fully configured
+
+130 lb/59 kg
+
+Mounting
+
+Power (DC/AC)
+
+Front or center
+
+-40 to -72 V DC
+100 to 240 V AC
+
+180 lb/81.7 kg
+
+Front or center
+
+-40 to -72 V DC
+100 to 240 V AC
+
+334 lb/151.6 kg
+
+Front or center
+
+-40 to -72 V DC
+100 to 240 V AC
+
+For all software specifications, refer to Junos OS documentation at www.juniper.net/techpubs/software.
+
+3  Optimizing the Network Edge with Juniper Networks MX Series 3D Universal Edge Router; ACG Research.
+
+4
+
+Data SheetService Control Gateway SolutionJuniper Networks Services and Support
+Juniper Networks is the leader in performance-enabling services 
+that are designed to accelerate, extend, and optimize your 
+high-performance network. Our services allow you to maximize 
+operational efficiency while reducing costs and minimizing 
+risk, achieving a faster time to value for your network. Juniper 
+Networks ensures operational excellence by optimizing the 
+network to maintain required levels of performance, reliability, 
+and availability. For more details, please visit www.juniper.net/us/
+en/products-services. 
+
+Warranty 
+For warranty information, please visit www.juniper.net/support/
+warranty/. 
+
+Ordering Information
+The following table provides ordering information for the 
+licensed software that alone or in combination creates the 
+Service Control Gateway. For MX960, MX480, MX240 ordering 
+information, please see www.juniper.net/assets/us/en/local/pdf/
+datasheets/1000208-en.pdf.
+
+Model Number Description
+Junos Subscriber Aware
+JSUB-10K
+
+Junos Subscriber Aware policy enforcement 
+(local policies only) 10,000 subscriber license. 
+Provides L3/L4 traffic classification, analytics 
+data source, and allows up to 30 kbps per 
+subscriber.
+
+JSUB-100K
+
+JSUB-1M
+
+JSUB-VPN-20
+
+JSUB-VPN-100
+
+Junos Subscriber Aware policy enforcement 
+(local policies only) 10,000 subscriber license. 
+Provides L3/L4 traffic classification, analytics 
+data source, and allows up to 30 kbps per 
+subscriber.
+
+Junos Subscriber Aware policy enforcement 
+(local policies only) 10,000 subscriber license. 
+Provides L3/L4 traffic classification, analytics 
+data source, and allows up to 30 kbps per 
+subscriber.
+
+Junos Subscriber Aware policy enforcement 
+(local policies only) 20 VRF license. Provides L3/
+L4 traffic classification, analytics data source, 
+and allows up to 30 kbps per subscriber.
+
+Junos Subscriber Aware policy enforcement 
+(local policies only) 100 VRF license. Provides 
+L3/L4 traffic classification, analytics data source, 
+and allows up to 30 kbps per subscriber.
+
+Junos Application Aware
+JAPAW-10K
+
+Junos Application Aware 10,000 subscriber 
+license. Identifies and classifies applications 
+(VoIP, P2P, etc.) which match a signature 
+database.
+
+JAPAW-100K
+
+JAPAW-1M
+
+Junos Application Aware 10,000 subscriber 
+license. Identifies and classifies applications 
+(VoIP, P2P, etc.) which match a signature 
+database.
+
+Junos Application Aware 10,000 subscriber 
+license. Identifies and classifies applications 
+(VoIP, P2P, etc.) which match a signature 
+database.
+
+JAPAW-VPN-20
+
+Junos Application Aware 20 VRF license 
+restricted to a single chassis. Identifies and 
+classifies applications (VoIP, P2P, etc.) which 
+match a signature database.
+
+JAPAW-VPN-100 Junos Application Aware 100 VRF license 
+
+restricted to a single chassis. Identifies and 
+classifies applications (VoIP, P2P, etc.) which 
+match a signature database.
+
+Junos Policy Control
+JPC-10K
+
+Junos Policy Control 10,000 subscriber license. 
+Provides dynamic policy enforcement and online 
+charging using Gx and Gy interfaces.
+
+JPC-100K
+
+JPC-1M
+
+JPC-VPN-20
+
+JPC-VPN-100
+
+Junos Policy Control 100,000 subscriber license. 
+Provides dynamic policy enforcement and online 
+charging using Gx and Gy interfaces.
+
+Junos Policy Control 1,000,000 subscriber 
+license. Provides dynamic policy enforcement 
+and online charging using Gx and Gy interfaces.
+
+Junos Policy Control 20 VRF license restricted 
+to a single chassis. Provides dynamic policy 
+enforcement and online charging using Gx and 
+Gy interfaces.
+
+Junos Policy Control 100 VRF license restricted 
+to a single chassis. Provides dynamic policy 
+enforcement and online charging using Gx and 
+Gy interfaces.
+
+Junos Address Aware (Carrier-Grade NAT)
+S-NAT-NPU
+
+CGNAT software license based on a single NPU 
+per MS-MIC, MS-DPC, or MS-MPC in MX Series 
+routers.
+
+Junos Network Secure (Stateful Firewall)
+S-FW-NPU
+
+Software license for stateful firewall on one NPU 
+per MS-MIC, MS-DPC, or MS-MPC in MX Series 
+routers.
+
+Junos Traffic Vision (Flow Monitoring)
+S-JFLOW-CH-
+MX240
+
+Chassis-based software license for inline flow 
+monitoring on MX240 chassis.
+
+S-JFLOW-CH-
+MX480
+
+S-JFLOW-CH-
+MX960
+
+S-JFLOW-NPU
+
+Chassis-based software license for inline flow 
+monitoring on MX480 chassis.
+
+Chassis-based software license for inline flow 
+monitoring on MX960 chassis.
+
+Software license allows the end user to run flow 
+monitoring on one NPU per MS-MIC, MS-DPC, or 
+MS-MPC in MX Series routers.
+
+Junos VPN Site Secure (Security Services)
+S-ES-NPU
+
+Security services (IPsec, VPN, and Group VPN) 
+software license based on a single NPU for MS-
+MIC, MS-DPC, or MS-MPC in MX Series routers.
+
+Junos Video Focus (Inline Video Monitoring)
+S-IVM-CH-
+MX240
+
+Chassis-based software license for inline video 
+monitoring on MX240 chassis.
+
+S-IVM-CH-
+MX480
+
+S-IVM-CH-
+MX960
+
+Chassis-based software license for inline video 
+monitoring on MX480 chassis.
+
+Chassis-based software license for inline video 
+monitoring on MX960 chassis.
+
+Junos Traffic Load Balancer
+S-TLB-NPU
+
+Load-balancing software license based on a 
+single NPU for MS-MIC, MS-DPC, or MS-MPC in 
+MX Series routers.
+
+5
+
+Data SheetService Control Gateway SolutionAbout Juniper Networks
+Juniper Networks is in the business of network innovation. From 
+devices to data centers, from consumers to cloud providers, 
+Juniper Networks delivers the software, silicon and systems that 
+transform the experience and economics of networking. The 
+company serves customers and partners worldwide. Additional 
+information can be found at www.juniper.net.
+
+Corporate and Sales HeadquartersJuniper Networks, Inc. 1133 Innovation WaySunnyvale, CA 94089 USAPhone: 888.JUNIPER (888.586.4737)or +1.408.745.2000Fax: +1.408.745.2100www.juniper.net Copyright 2015 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, Junos and QFabric are registered trademarks of Juniper Networks, Inc. in the United States and other countries. All other trademarks, service marks, registered marks, or registered service marks are the property of their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice.APAC and EMEA HeadquartersJuniper Networks International B.V.Boeing Avenue 2401119 PZ Schiphol-RijkAmsterdam, The NetherlandsPhone: +31.0.207.125.700Fax: +31.0.207.125.701Data SheetService Control Gateway Solution1000540-001-EN   July 2015

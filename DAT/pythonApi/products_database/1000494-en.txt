@@ -1,0 +1,452 @@
+NorthStar Controller
+
+Product Overview
+
+Juniper Networks NorthStar 
+Controller is a powerful and 
+flexible traffic-engineering 
+solution that enables granular 
+visibility and control of IP/MPLS 
+flows in large service provider and 
+enterprise networks. It enables 
+network operators to optimize 
+their network infrastructure 
+through proactive monitoring, 
+planning, and explicit routing of 
+large traffic loads dynamically 
+based on the constraints 
+specified. This allows operators to 
+run their networks “hotter” while 
+ensuring predictability, resiliency, 
+and service-level guarantees. 
+NorthStar Controller leverages 
+IETF and Web protocol standards 
+to ensure seamless integration 
+into multivendor infrastructure 
+and existing OSS/BSS systems. 
+NorthStar Controller is industry’s 
+first multi-layer controller that 
+can dynamically interact with 
+transport/optical controllers  
+and reroute IP/MPLS  flows, 
+adapting to real-time changes  
+in multiple layers.
+
+Product Description 
+Service providers and large enterprises are under increasing pressure to rapidly deploy 
+services while reducing overall CapEx and OpEx. It is no longer economically viable to 
+tolerate the idle network infrastructure while passively anticipating the growth needs. 
+Network managers need to move to an operational model where capacity upgrades 
+are targeted, service-driven, and can adapt dynamically to ever-changing needs of their 
+customers in real time.
+
+Architecture and Key Components
+Juniper Networks® NorthStar Controller is based on the Path Computation Element (PCE) 
+architecture as defined in RFC 5440. It specifically leverages the “active stateful PCE” 
+concept, which enables it to learn about the network and LSP path state via the Path 
+Computation Element Protocol (PCEP) by communication with a client-side component 
+present in the network devices themselves. The client is referred to as a Path Computation 
+Client (PCC). 
+
+The stateful PCE implementation in NorthStar Controller provides the following functions:
+
+•  Offers real-time LSP path computation and provisioning
+
+•  Provides global optimization of LSPs
+
+•  Triggers LSP reroute when there is a need to reoptimize the network
+
+•  Changes LSP bandwidth when there is an increase in bandwidth demand from  
+
+an application
+
+•  Modifies other LSP attributes on the router, such as ERO, setup priority, and hold priority
+
+Additionally, NorthStar Controller is able to discover the topology of the network dynamically 
+by peering via IGP (ISIS-TE, OSPF-TE) and listening to BGP-LS updates, while the discovery 
+of optical network topology and optical virtual paths can be done via REST API calls using 
+notion of Abstract topology as defined in IETF standards into the optical plane. Modification 
+of existing paths or provisioning new paths can be achieved through PCEP standard and 
+service mapping with NETCONF/YANG.
+
+Source Packet Routing in Networks (SPRING) is an SDN-enabled method of routing where 
+a centralized controller maintains network resources and directs traffic based on the 
+application’s needs.  NorthStar Controller can also receive real-time performance monitoring 
+data from the Junos Telemetry Interface or other similar solutions. By streaming data to a 
+performance management system, network administrators can measure trends in link and 
+node utilization, and troubleshoot issues such as network congestion in real time.
+
+1
+
+Data SheetVPN Service
+Creation App
+
+Design and
+Planning App
+
+Underlay Topology
+
+Abstraction API
+
+Data Center
+Controller API
+
+OSS/BSS
+
+Third-Party App
+
+Telemetry
+
+App
+
+YANG Abstract Models
+
+REST / RESTCONF
+
+Path Computation
+
+Services
+
+Topology
+
+Visualization
+
+Calendaring and
+
+Scheduling
+
+Real TIme
+Monitoring
+
+Topology Abstraction
+
+Topology Discovery
+
+Network Path Management
+
+BGP-LS
+
+IS-IS
+
+OSPF
+
+PCEP
+
+NETCONF/
+
+YANG
+
+Analytics
+
+Engine
+
+l
+
+m
+r
+o
+f
+t
+a
+P
+ 
+r
+a
+t
+S
+h
+t
+r
+o
+N
+
+Optical
+
+Physical
+
+Virtual
+
+Figure 1. NorthStar architecture
+
+Multivendor
+Infrastructure
+
+Multi Layer Packet Optical Integration
+NorthStar Controller provides operators with multi-layer views of 
+the network by interacting dynamically with transport controllers. 
+Operators no longer need to manually configure Shared Risk 
+Link Groups (SRLGs) on network devices to plan LSPs. Instead, 
+NorthStar Controller communicates directly with transport 
+controllers via REST/RESTCONF to learn the abstract topology as 
+defined by IETF standards, making it a true multivendor solution.
+
+NorthStar Controller helps operators design diverse-path 
+creations (LSPs) without having to manually configure SRLG 
+on network devices. NorthStar also gets real-time updates from 
+transport controllers, enabling operators to perform optimization 
+tasks such as multi-layer network design and planning as well as 
+coordinated packet and optical node maintenance planning.
+
+Figure 3. Multi-layer network view
+
+2
+
+Figure 2. NorthStar live network visualization
+
+Operations
+NorthStar Controller has a global view of the bandwidth demand 
+in the network and performs external path computations after 
+querying the traffic engineering database. It then modifies 
+one or more LSP attributes and sends an update to the client 
+(PCC). The client uses the parameters it receives from NorthStar 
+Controller to resignal the LSP. This allows NorthStar Controller 
+to provide a cooperative operation of distributed functionality 
+used to address specific challenges of a shortest interdomain 
+constrained path computation. It eliminates congestion scenarios 
+in which traffic streams are inefficiently mapped onto available 
+resources causing overutilization of some subsets of network 
+resources, while other resources remain underutilized.
+
+On the management side, NorthStar Controller has a set of 
+standard web-based northbound interfaces that are RESTful/
+Thrift-based APIs that enable ease of integration with existing 
+OSS/BSS systems, third-party traffic modeling/planning scripts, 
+or custom applications. This rich set of controls allows NorthStar 
+Controller to interoperate with most incumbent programmable 
+network management systems.
+
+Data SheetNorthStar ControllerNORTHSTAR CONTROLLER
+
+So(cid:157)ware Driven Policy
+
+Analyze
+
+Optimize
+
+Virtualize
+
+Topology Discovery
+
+Path Computation
+
+Path Installation
+
+Routing
+
+Junos CSPF
+
+PCEP
+
+Topology
+Learning:
+
+IS-IS, OSPF, 
+
+BGP-LS
+
+Install traŒc
+engineered
+
+LSP, one
+
+session per
+head node.
+
+Netconﬁg/
+
+Yang
+
+May include:
+
+BGP, DMI.
+OpenFlow.
+12RS and
+other state
+
+injection
+methods.
+
+Figure 4. Typical NorthStar Controller workflow
+
+Key Features
+
+•  Complex Interdomain path-computation and network 
+
+optimization
+
+Benefits
+Key benefits of the NorthStar Controller application architecture 
+include the following;
+
+•  Sophisticated industry-leading path computation algorithms 
+
+•  Provides specific ordering and synchronization of paths 
+
+•  Ability to address multilayer optimization with multiple user-
+
+signaled across routed network elements
+
+defined constraints
+
+• 
+
+Intelligent interface between RSVP-TE networks and 
+SPRING-enabled networks
+
+•  Customizable display includes ability to rearrange fields and 
+
+create node, link, LSP, or SRLG views
+
+•  Typical applications and use cases include:
+
+ - Explicit path routing with predictable and deterministic 
+
+failover 
+
+ - IP/MPLS global LSP path/bandwidth optimization
+
+ - Flexible bandwidth calendaring
+
+•  Allows global view of network state for monitoring, 
+
+management, and proactive planning 
+
+•  Features predictable, deterministic network state within 
+
+margin of demand forecast error
+
+•  Offers minimized distributed state, increased efficiency of 
+existing network elements via offloading of control plane 
+processing 
+
+•  Can act as a foundation for additional centralized network 
+
+infrastructure services—API for the network
+
+•  Provides operational simplicity through enabling of an SDN 
+control point across disparate elements across the network
+
+ - Coordinated network optimization performed during 
+
+maintenance windows helps maintain SLAs and supports 
+automatic path restoration
+
+Specifications
+Standard protocol support:
+
+ - Network defragmentation (bin packing) with traffic 
+
+engineering (TE)++
+
+ - Path diversity with partially/wholly disjoint head-ends and 
+
+shared risk link groups (SRLG)
+
+ - Programmable user-defined cost function
+
+ - Network Visualization
+
+ - IGP metric optimization
+
+ - High controller availability and geographic redundancy 
+
+(active/standby and active/active)
+
+•  Path Control Element (RFC 4655)
+
+•  Path Computation Element (PCE) Communication Protocol 
+
+(PCEP) – (RFC 5440)
+
+•  OSPF–TE (based on Juniper Networks Junos® operating 
+
+system)
+
+• 
+
+ISIS-TE (based on Junos OS)
+
+•  BGP-LS (based on Junos OS)
+
+•  NETCONF (based on Junos OS)
+
+•  Representational State Transfer (REST)
+
+•  REST CONF (IETF draft)
+
+•  Abstract Topology (IETF draft)
+
+3
+
+Data SheetNorthStar ControllerSupported Platforms
+
+•  Juniper Network Routers: MX including vMX, PTX, M Series, 
+
+and T Series.
+
+•  3rd Party Routers supporting RFC 5440
+
+System and operating environment recommendations:
+
+•  Hardware: 64-bit dual x86 processor, minimum memory 
+
+16 GB RAM (quad-core x86 with 32 GB or more of memory 
+recommended)
+
+•  Storage: 1Tb Serial Advanced Technology Attachment 
+
+(SATA), Serial Attached SCSI (SAS), or solid-state drive 
+(SSD); Volume storage: 2 disks with 2 TB SATA
+
+•  Network: 1/10 GB interface card (2)
+
+•  OS: Linux OS (CentOS 6.4, RHEL 6.4) with kernel-based 
+
+virtual machine (KVM) support
+
+Juniper Networks Services and Support
+Juniper Networks is the leader in performance-enabling services 
+that are designed to accelerate, extend, and optimize your 
+high-performance network. Our services allow you to maximize 
+operational efficiency while reducing costs and minimizing 
+risk, achieving a faster time to value for your network. Juniper 
+Networks ensures operational excellence by optimizing the 
+network to maintain required levels of performance, reliability, 
+and availability. For more details, please visit www.juniper.net/us/
+en/products-services. 
+
+Ordering Information
+This product adheres to the Juniper Software Advantage pricing 
+model—thus, please be advised of the following items that 
+constitute an order:
+
+As this is a virtual appliance/software product, you would 
+not buy any hardware license from Juniper, but, instead, 
+procure the hardware and additional required support for this 
+hardware from an additional third-party vendor. For additional 
+information on supported hypervisor(s) and VM requirements 
+and recommended hardware configuration, please refer to the 
+technical documentation for this product on our website  
+(www.juniper.net) under the support section.
+
+Juniper Networks products are sold directly as well as through 
+Juniper partners and resellers. For more information on the 
+Juniper Software Advantage business model, please visit  
+http://www.juniper.net/us/en/products-services/sdn/NorthStar-
+network-controller/.
+
+For information on how to buy, please visit www.juniper.net/us/
+en/how-to-buy
+
+About Juniper Networks
+Juniper Networks challenges the status quo with products, 
+solutions and services that transform the economics of 
+networking. Our team co-innovates with customers and partners 
+to deliver automated, scalable and secure networks with agility, 
+performance and value. Additional information can be found at 
+Juniper Networks or connect with Juniper on Twitter and Facebook.
+
+EXPLORE JUNIPER
+Get the App.
+
+Corporate and Sales HeadquartersJuniper Networks, Inc. 1133 Innovation WaySunnyvale, CA 94089 USAPhone: 888.JUNIPER (888.586.4737)or +1.408.745.2000Fax: +1.408.745.2100www.juniper.net Copyright 2017 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, Juniper, and Junos are registered trademarks of Juniper Networks, Inc. in the United States and other countries. All other trademarks, service marks, registered marks, or registered service marks are the property of their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice. APAC and EMEA HeadquartersJuniper Networks International B.V.Boeing Avenue 2401119 PZ Schiphol-RijkAmsterdam, The NetherlandsPhone: +31.0.207.125.700Fax: +31.0.207.125.701Data SheetNorthStar Controller1000494-005-EN  May 2017

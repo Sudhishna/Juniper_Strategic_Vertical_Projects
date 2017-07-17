@@ -1,0 +1,367 @@
+EIGHT-PoRT 
+SyNCHRoNoUS SERIAL 
+GIGABIT-BACKPLANE 
+PHySICAL INTERFACE 
+MoDULE (GPIM)  
+
+Product Overview
+
+Providing the physical connection 
+to serial network media types, 
+Juniper’s eight-port synchronous 
+serial Gigabit-Backplane Physical 
+Interface Module (GPIM) is used for 
+the Juniper Networks® SRX550 and 
+SRX650 Services Gateway products 
+to increase bandwidth capabilities for 
+synchronous serial connectivity and 
+provide high density aggregation.
+
+Product Description 
+The Juniper Networks eight-port synchronous serial GPIM provides the physical connection 
+to serial network media types, receiving incoming packets from the network and 
+transmitting outgoing packets to the network. The eight-port synchronous serial GPIM 
+forwards packets for processing while performing framing and line-speed signaling.
+
+Features and Benefits
+The Juniper Networks eight-port synchronous serial GPIM provides increased bandwidth 
+capabilities for synchronous serial connectivity as well as high density aggregation, while 
+making effective use of the SRX550 and SRX650 interface slots. Features include:
+
+•	 60-pin synchronous serial (female) connector type
+•	 Support for the following standards: TIA/EIA 530, EIA 530A, V.35, X.21, RS-232, RS-449
+•	 Up to 8 Mbps per physical port
+•	 Clock rate configurable 1.2 KHz to 8 MHz
+•	 Crypto resynchronization support
+•	 Juniper’s proprietary data terminal equipment (DTE) and data circuit-terminating equipment 
+
+(DCE) cables available for each protocol (10 in all) with auto-detection for DTE/DCE modes
+
+Specifications
+Interface Specifications
+•	 Transmit rate: 8 Mbps per port
+•	 Receive bit rate: 8 Mbps per port
+•	 Line encoding: NRZ, NRZI
+•	 Line protocols: EIA530, X.21, RS449/RS422, RS232, V35
+•	 Modes: DTE, DCE
+Data Interface
+•	 Data interface Point-to-Point Protocol (PPP)
+•	 Frame Relay
+•	 High-Level Data Link Control (HDLC) features
+
+ -   56 KB/64 Kb mode
+ -   Cyclic redundancy check (CRC) 16/32
+ -   Shared flag
+ -   Idle flag/fill
+ -   Counters: Runts, giants, fcs error, abort error, align error
+
+1
+
+DATASHEETTable 1: Interface Connector
+
+Product Number
+SRX-CBL-EIA530-DCE-2
+
+SRX-CBL-EIA530-DTE-2
+
+SRX-CBL-EIA530A-DCE-2
+
+SRX-CBL-EIA530A-DTE-2
+
+SRX-CBL-RS232-DCE-2
+
+SRX-CBL-RS232-DTE-2
+
+SRX-CBL-RS449-DCE-2
+
+SRX-CBL-RS449-DTE-2
+
+SRX-CBL-V35-DCE-2
+
+SRX-CBL-V35-DTE-2 
+
+SRX-CBL-X21-DCE-2
+
+SRX-CBL-X21-DTE-2
+
+Type
+2 Port EIA530 cable (DCE)
+
+2 Port EIA530 cable (DTE)
+
+2 Port EIA530A cable (DCE)
+
+2 Port EIA530A cable (DTE)
+
+2 Port RS232 cable (DCE)
+
+2 Port RS232 cable (DTE)
+
+2 Port RS449 cable (DCE)
+
+2 Port S449 cable (DTE)
+
+2 Port V.35 cable (DCE)
+
+2 Port V.35 cable (DTE)
+
+2 Port X.21 cable (DCE)
+
+2 Port X.21 cable (DTE)
+
+System Timing
+•	 Clocking modes: DCE, internal, loop
+•	 Clocking rates: 1.2 KHz, 2.4 KHz, 9.6 KHz, 19.2 KHz, 38.4 KHz, 56.0 
+KHz, 64.0 KHz, 72.0 KHz, 125.0 KHz, 148.0 KHz, 250.0 KHz, 500.0 
+KHz, 800.0 KHz, 1.0 MHz, 1.3 MHz, 2.0 MHz, 4.0 MHz, 8.0 MHz
+
+ Rx clock absent
+ Tx clock absent
+ Data carrier detect (DCD) absent
+ Clear to send (CTS) absent
+ Data set ready (DSR) absent
+
+Dimensions and Weight (W x H x D)
+•	 6.72 x 0.76 x 8.23 in (170.8 x 19.2 x 209.1 mm)
+•	 16.6 oz (0.470 kg)
+Environmental
+•	 operating temperature: 0° to 40° C
+•	 Storage temperature: -40° to 70° C
+•	 Relative humidity: 5% to 90% noncondensing
+Diagnostics
+•	 Loopbacks: Local, DCE-local, remote loopback
+Network Alarms
+•	
+•	
+•	
+•	
+•	
+Error Counters
+•	
+•	
+•	
+•	
+•	
+•	
+•	
+•	
+•	
+LEDs
+Status
+•	
+•	
+•	
+
+ Controlled slipped seconds (CSS or CS)
+ Line errored seconds (LES)
+ Errored seconds (ES)
+ Bursty errored seconds (BES)
+ Severely errored seconds (SES)
+ Severely errored framing seconds (SEFS)
+ Loss of signal seconds (LoS)
+ Loss of frame seconds (LoFS)
+ Unavailable seconds (UAS)
+
+ Red light on: GPIM has failed 
+ Red light off: GPIM has no power and can be removed safely
+ Amber light on: GPIM is starting up, running diagnostics, or 
+shutting down
+
+P0 – P7
+•	
+•	
+
+ yellow: An alarm is present
+ Green: An alarm is not present
+
+2
+
+Length
+10 feet
+
+10 feet
+
+10 feet
+
+10 feet
+
+10 feet
+
+10 feet
+
+10 feet
+
+10 feet
+
+10 feet
+
+10 feet
+
+10 feet
+
+10 feet
+
+Connector Type
+Female
+
+Male
+
+Female
+
+Male
+
+Female
+
+Male
+
+Female
+
+Male
+
+Female
+
+Male
+
+Female
+
+Male
+
+Management Capabilities
+•	
+
+ Telnet/console: Remote and local configuration, monitoring, and 
+troubleshooting
+
+Standards and Compliance
+Safety
+•	
+•	
+•	
+•	
+
+ CAN/CSA-C22.2 No. 60950-1 
+ UL 60950-1 
+ EN 60950-1 
+ IEC 60950-1
+
+EMC (Emissions)
+•	
+•	
+•	
+•	
+
+ AS/NZS CISPR22 Class B
+ EN55022 Class B
+ FCC Part 15 Class B
+ VCCI Class B
+
+ EN-61000-4-2 ESD
+ EN-61000-4-3 Radiated Immunity
+ EN-61000-4-4 EFT
+ EN-61000-4-5 Surge
+ EN-61000-4-6 Low Frequency Common Immunity
+
+Immunity
+•	
+•	
+•	
+•	
+•	
+•	 European Telecommunications Standardization Institute (ETSI)
+•	
+
+ ETSI EN-300386-2 Telecommunication Network Equipment 
+Electromagnetic Compatibility
+
+Standards
+•	
+ ITU V.35
+ ITU X.21
+•	
+ EIA/TIA 530, 530A
+•	
+ EIA/TIA 232
+•	
+•	
+ EIA/TIA 422
+Juniper Networks Services and Support
+Juniper Networks is the leader in performance-enabling services 
+that are designed to accelerate, extend, and optimize your 
+high-performance network. our services allow you to maximize 
+operational efficiency while reducing costs and minimizing 
+risk, achieving a faster time to value for your network. Juniper 
+Networks ensures operational excellence by optimizing the 
+network to maintain required levels of performance, reliability, and 
+availability. For more details, please visit www.juniper.net/us/en/
+products-services. 
+
+Ordering Information
+
+Model Number
+SRX-GP-8SERIAL
+
+Description
+Eight-port sync serial GPIM
+
+Note: order Up to four cables listed in Table 1 for the eight serial 
+ports on the GPIM
+
+Software
+The eight-port synchronous serial GPIM is supported on the 
+SRX550 Services Gateway and SRX650 Services Gateway running 
+Juniper Networks Junos® operating system 12.1R2 and higher 
+releases.
+
+About Juniper Networks
+Juniper Networks is in the business of network innovation. From 
+devices to data centers, from consumers to cloud providers, 
+Juniper Networks delivers the software, silicon and systems that 
+transform the experience and economics of networking. The 
+company serves customers and partners worldwide. Additional 
+information can be found at www.juniper.net.
+
+3
+
+Corporate and Sales Headquarters
+Juniper Networks, Inc.  
+1194 North Mathilda Avenue 
+Sunnyvale, CA 94089 USA 
+Phone: 888.JUNIPER (888.586.4737) 
+or 408.745.2000 
+Fax: 408.745.2100 
+www.juniper.net
+
+APAC Headquarters
+Juniper Networks (Hong Kong) 
+26/F, Cityplaza one 
+1111 King’s Road 
+Taikoo Shing, Hong Kong 
+Phone: 852.2332.3636 
+Fax: 852.2574.7803
+
+EMEA Headquarters
+Juniper Networks Ireland 
+Airside Business Park  
+Swords, County Dublin, Ireland 
+Phone: 35.31.8903.600 
+EMEA Sales: 00800.4586.4737 
+Fax: 35.31.8903.601
+
+Copyright 2012 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, Junos, 
+NetScreen, and ScreenoS are registered trademarks of Juniper Networks, Inc. in the United States and other 
+countries. All other trademarks, service marks, registered marks, or registered service marks are the property of 
+their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper 
+Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice.
+
+1000406-001-EN    Apr 2012
+
+ Printed on recycled paper
+
+4
+
+To purchase Juniper Networks solutions, 
+please contact your Juniper Networks 
+representative at 1-866-298-6428 or  
+authorized reseller.
+
+

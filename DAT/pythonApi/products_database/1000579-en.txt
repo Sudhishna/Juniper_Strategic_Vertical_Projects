@@ -1,0 +1,1531 @@
+EX2300 Ethernet Switch
+
+Product Overview
+
+The Juniper Networks EX2300 
+Ethernet Switch offers an 
+economical, entry-level, 
+standalone solution for access-
+layer deployments in branch 
+and remote offices, as well as 
+enterprise campus networks.
+
+To simplify network operations, 
+the EX2300 is hardware-ready to 
+act as a satellite device to support 
+a Juniper Networks Junos Fusion 
+Enterprise deployment, which can 
+combine several wiring closets 
+into one logical management 
+platform. For smaller networks, up 
+to four EX2300 switches can be 
+interconnected in a Virtual Chassis 
+configuration, allowing them to be 
+managed as a single switch.
+
+Product Description  
+The Juniper Networks® EX2300 line of Ethernet switches offers a compact, high-
+performance solution for supporting today’s converged network access deployments.
+
+Each EX2300 switch includes an ASIC-based Packet Forwarding Engine (PFE) with an 
+integrated CPU to consistently deliver wire-rate forwarding, even with all control plane 
+features enabled. Based on existing, field-proven Juniper Networks technology, the PFE 
+brings the same level of carrier-class performance and reliability to the EX2300 switches 
+that Juniper Networks routers bring to the world’s largest service provider networks.
+
+Select EX2300 models also support the 802.3af Class 3 Power over Ethernet (PoE) and 
+802.3at PoE+ standards for supporting networked devices such as telephones, video 
+cameras, IEEE 802.11ac WLAN access points, and videophones in converged networks. The 
+PoE-enabled EX2300 switches include a maximum system budget of 740 watts to deliver 
+up to 30 watts to select ports. 
+
+The EX2300 fixed-configuration Ethernet switches provide exceptional value to enterprise 
+customers by supporting the following key technologies:
+
+•  Juniper Networks Junos® Fusion Enterprise allows more than 100 EX2300 switches to 
+
+be configured as satellite devices that connect to EX9200 core aggregation devices. 
+
+•  Virtual Chassis technology enables up to four interconnected EX2300 switches to 
+
+form a single logical device.
+
+•  Flexible 4x1GbE SFP/10GbE SFP+ uplinks provide high-speed connectivity to 
+
+aggregation layer switches or other upstream devices.
+
+•  Up to 48 10/100/1000BASE-T ports are available with or without PoE/PoE+.
+
+•  Energy Efficient Ethernet (EEE) support is provided on 1GbE ports.
+
+•  Complete Layer 2 and basic Layer 3 switching capabilities are available.
+
+•  Simplified management uses Juniper Networks Junos Space Network Director and 
+
+J-Web GUI.
+
+Additional features include:
+
+•  PoE-enabled EX2300 switches can simultaneously deliver up to 15.4 watts of 
+
+standards-based 802.3af Class 3 PoE to a maximum of 48 ports or 30 watts of 
+standards-based 802.3at PoE+ to a maximum of 24 ports, based on a total system 
+budget of 740 watts.
+
+•  Uplink ports can be configured as Virtual Chassis interfaces and connected via 
+
+standard 10GbE optics interfaces (optional license required).
+
+•  Fixed power supply and uplink ports ensure operational simplicity.
+
+•  Low power consumption, low acoustic fans, and a small 10-inch deep footprint 
+
+enable flexible, environmentally friendly deployment.
+
+1
+
+Data Sheet•  Support for L2 protocols as well as L3 protocols like RIP and 
+
+static routing are included in the base license.
+
+•  An optional enhanced license is available for supporting 
+
+additional L3 protocols such as OSPF, Internet Group 
+Management Protocol (IGMP v1/v2/v3), Protocol Independent 
+Multicast (PIM), Bidirectional Forwarding Detection (BFD), 
+and Virtual Router Redundancy Protocol (VRRP).
+
+•  Support is available for IPv6 management, including 
+
+neighbor discovery, telnet, SSH, DNS, system log, and NTP.
+
+•  A single release train for Juniper Networks Junos operating 
+
+system is supported to ensure a consistent control plane 
+feature implementation.
+
+•  Modular Junos OS prevents a switch reboot if a single 
+
+protocol feature fails.
+
+•  The device integrates with Juniper Networks Unified Access 
+
+Control to provide per-user access control and policing.
+
+•  Built-in Web interface (Juniper Networks J-Web Software) 
+
+is provided.
+
+•  RJ-45 serial console port is available.
+
+•  USB mini console port is included.
+
+•  Out-of-band Ethernet management port is provided.
+
+•  Reduction of Hazardous Waste (RoHS) is certified.
+
+Architecture and Key Components
+The EX2300 occupies a single rack unit, delivering a compact 
+solution for crowded wiring closets and access locations where 
+space and power are at a premium. The EX2300 switch’s 
+10-inch/12-inch depth and low acoustics also make it ideal for 
+open office deployments. For silent operation requirements, please 
+see the EX2300-C, a compact, fanless version of the EX2300.
+
+Each EX2300 switch supports four fixed front-panel 1GbE/10GbE 
+uplink ports with pluggable optics (purchased separately) for 
+high-speed backbone or link aggregation connections between 
+wiring closets and upstream aggregation switches. The EX2300 
+also features a front-panel mode button that offers a simple 
+interface for bringing devices up and selecting LED modes.
+
+A dedicated rear panel RJ-45 Ethernet port is available for out-
+of-band management, while a rear panel USB port can be used 
+to easily upload the Junos OS and configuration files.
+
+Junos Fusion Enterprise Technology
+
+Juniper Networks Junos Fusion Enterprise technology provides 
+automated network configuration and simplifies scalability for 
+medium to large enterprise networks. Using Juniper Networks 
+EX9200 line of programmable switches as aggregation devices 
+and EX2300 switches as satellite nodes, Junos Fusion Enterprise 
+technology can be deployed across a building (or multiple 
+buildings) to connect large numbers of switches in a fabric that 
+can be managed as a single device. 
+
+EX9200 Aggregation Devices
+
+EX2300 Satellite Devices
+
+Figure 1:  Junos Fusion Enterprise deployment using EX2300 
+
+switches as satellite devices
+
+With Junos Fusion technology, enterprises can reduce network 
+complexity and operational costs by collapsing underlying 
+network elements into a single logical point of control from 
+Junos OS-based Juniper routing and switching platforms. It is 
+designed for customers who need to cost-effectively deploy 
+numerous switch ports throughout their enterprise campus 
+network and manage them all from a central device. In addition, 
+existing EX2300 switches can be easily added to a Junos Fusion 
+Enterprise deployment with a simple software upgrade, offering 
+full investment protection. 
+
+In Junos Fusion Enterprise deployments, satellite devices do not 
+require to be individually connected to aggregation devices. Up 
+to 10 satellite devices can be interconnected via standard 10GbE 
+interfaces to form a “cluster,” which in turn can be connected to 
+the aggregation device(s) over a pair of fiber uplinks. Satellite 
+devices or clusters can also be dual-homed or single-homed to 
+the aggregation devices. 
+
+In Junos Fusion Enterprise deployments, satellite devices forward all 
+traffic to the aggregation device, enabling network administrators 
+to monitor and manage the entire enterprise campus building from 
+a single device. Features such as PoE/PoE+, LLDP-MED, and 802.1x 
+are also supported in Junos Fusion Enterprise architectures to help 
+meet enterprise campus requirements.
+
+Virtual Chassis Technology
+
+The EX2300 supports Juniper’s unique Virtual Chassis 
+technology, enabling up to four interconnected EX2300 switches 
+to be managed as a single logical device, delivering a scalable, 
+pay-as-you-grow solution for expanding network environments. 
+
+While EX2300 switches can be interconnected over any of the 
+front-panel uplink ports using standard 10GbE SFP+ transceivers 
+(sold separately), these ports can also be configured as 
+1GbE/10GbE uplinks to aggregation devices by disabling the 
+Virtual Chassis technology.
+
+When deployed in a Virtual Chassis configuration, the EX2300 
+switches elect a primary and a backup switch based on a 
+set of preconfigured policies or criteria. The primary switch 
+automatically creates and updates the switching and optional 
+routing tables on all other Virtual Chassis switch members. 
+Switches can be added to or removed from the Virtual Chassis 
+configuration without service disruption. 
+
+2
+
+Data SheetEX2300 Ethernet SwitchEX2300 Virtual Chassis configurations operate as highly resilient 
+unified systems, providing simplified management using a single 
+IP address, single telnet session, single command-line interface 
+(CLI), automatic version checking, and automatic configuration. 
+The EX2300 switches are also capable of local switching, so 
+packets coming into a port destined for another port on the same 
+switch do not have to traverse the Virtual Chassis, increasing 
+forwarding capacities.
+
+EX2300 Virtual Chassis configurations implement the 
+same slot/module/port numbering schema as other Juniper 
+Networks chassis-based products, providing true chassis-like 
+operations. By using a consistent operating system and a single 
+configuration file, all switches in a Virtual Chassis configuration 
+are treated as a single device, simplifying overall system 
+maintenance and management.
+
+Simplified Management and Operations
+
+Junos Fusion Enterprise technology dramatically simplifies EX2300 
+management by enabling a large number of the switches to 
+be managed from a single interface when deployed as satellite 
+devices. With features such as plug-and-play deployment and 
+rolling software upgrades, Junos Fusion Enterprise eliminates the 
+need to individually manage every access switch in the enterprise 
+network, leading to lower operational costs and overall lower TCO.
+
+Virtual Chassis technology simplifies network management 
+for smaller deployments. Up to four interconnected EX2300 
+switches can be managed as a single device utilizing a single 
+Junos OS image and a single configuration file, reducing the 
+overall number of units to monitor and manage. When the Junos 
+OS is upgraded on the primary switch in an EX2300 Virtual 
+Chassis configuration, the software is automatically upgraded on 
+all other member switches at the same time.
+
+The EX2300 includes port profiles that allow network 
+administrators to automatically configure ports with security, 
+
+QoS, and other parameters based on the type of device 
+connected to the port. Six preconfigured profiles are available, 
+including default, desktop, desktop plus IP phone, WLAN access 
+point, routed uplink, and Layer 2 uplink. Users can select from 
+the existing profiles or create their own and apply them through 
+the command-line interface (CLI), J-Web Software interface, or 
+management system.
+
+In addition, a feature called system snapshot makes a copy of 
+all software files used to run the switch—including the Junos 
+operating system, the active configuration, and the rescue 
+configuration. These files can be used to reboot the switch at 
+the next power-up or as a backup boot option. The Junos OS 
+software can also be preinstalled on a flash drive and used to 
+boot the EX2300 at any time.
+
+Another feature, called automatic software download, enables 
+network administrators to easily upgrade the EX2300 using 
+the DHCP message exchange process to download and install 
+software packages. Users simply configure the automatic 
+software download feature on EX2300 switches acting as DHCP 
+clients and establish a path to the server where the software 
+package file is installed. The server then communicates the path 
+to the software package file through DHCP server messages.
+
+A zero touch provisioning (ZTP) feature allows a DHCP server 
+to push configuration details and software images to multiple 
+switches at boot-up time.
+
+Two system management options are available for the EX2300 
+line. The standard Junos OS CLI management interface offers 
+the same granular capabilities and scripting parameters found in 
+any router powered by the Junos operating system. The EX2300 
+also includes the integrated J-Web interface, an embedded Web-
+based device manager that allows users to configure, monitor, 
+troubleshoot, and perform system maintenance on individual 
+switches via a browser-based graphical interface. 
+
+Wiring Closet 1
+
+Wiring Closet 2
+
+Wiring Closet 3
+
+Wiring Closet 4
+
+EX2300
+
+EX2300
+
+EX2300
+
+EX2300
+
+Dual 10GbE uplinks
+
+Access
+
+Aggregation
+
+Figure 2: EX2300 switches support Virtual Chassis technology, which enables up to four interconnected switches to 
+
+operate as a single, logical device.
+
+3
+
+Data SheetEX2300 Ethernet SwitchFeatures and Benefits
+High Availability Features
+
+To avoid the complexities of the Spanning Tree Protocol (STP) 
+without sacrificing network resiliency, the EX2300 employs a 
+redundant trunk group (RTG) to provide the necessary port 
+redundancy and simplify switch configuration. It also supports 
+cross-member link aggregation, which allows redundant link 
+aggregation connections between devices in a single Virtual 
+Chassis configuration, providing an additional level of reliability 
+and availability.
+
+Junos Operating System
+
+The EX2300 switches run the same Junos OS that is used by 
+other Juniper Networks EX Series Ethernet Switches, QFX Series 
+Switches, Juniper Routers, Juniper SRX Firewalls, and the Juniper 
+NFX Series Network Services Platform. By utilizing a common 
+operating system, Juniper delivers a consistent implementation 
+and operation of control plane features across all products. To 
+maintain that consistency, the Junos OS adheres to a highly 
+disciplined development process that uses a single source code, 
+and it employs a highly available modular architecture that 
+prevents isolated failures from bringing down an entire system.
+
+These attributes are fundamental to the core value of the 
+software, enabling all Junos OS-powered products to be updated 
+simultaneously with the same software release. All features are 
+fully regression-tested, making each new release a true superset 
+of the previous version. Customers can deploy the software with 
+complete confidence that all existing capabilities are maintained 
+and operate in the same way.
+
+Converged Environments
+
+The EX2300 provides the highest levels of flexibility and features 
+in its class for the most demanding converged data, voice, and 
+video environments, delivering a reliable platform for unifying 
+enterprise communications.
+
+By providing a full 15.4 watts of Class 3 PoE to VoIP telephones, 
+closed-circuit security cameras, wireless access points, and 
+other IP-enabled devices, the EX2300 delivers a future-proofed 
+solution for converging disparate networks onto a single IP 
+infrastructure. The EX2300 PoE switches also support 802.3at 
+standards-based PoE+, delivering 30 watts for powering 
+networked devices such as IEEE 802.11ac wireless access points, 
+and videophones that might require more power than available 
+with IEEE 802.3af.
+
+To ease deployment, the EX2300 supports the industry-standard 
+Link Layer Discovery Protocol (LLDP) and LLDP-Media Endpoint 
+Discovery (LLDP-MED) protocol, enabling the switches to 
+automatically discover Ethernet-enabled devices, determine their 
+power requirements, and assign virtual LAN (VLAN) membership. 
+LLDP-MED-based granular PoE management allows the EX2300 
+to negotiate PoE usage down to a fraction of a watt on powered 
+devices, enabling more efficient PoE utilization across the switch.
+
+In addition, the EX2300 supports rich quality-of-service (QoS) 
+functionality for prioritizing data, voice, and video traffic. The 
+switches support eight class-of-service (CoS) queues on every 
+port, enabling them to maintain multilevel, end-to-end traffic 
+prioritizations. The EX2300 also supports a wide range of policy 
+options, including strict priority, low latency, weighted random 
+early detection (WRED), and shaped-deficit weighted round-
+robin (SDWRR) queuing.
+
+Security
+
+Working as an enforcement point in Access Policy Infrastructure, 
+the EX2300 provides both standards-based 802.1X port-level 
+access control for multiple devices per port, as well as Layer 2-4 
+policy enforcement based on user identity, location, device, or 
+a combination of these. A user’s identity, device type, machine 
+posture check, and location can be used to determine whether 
+access should be granted and for how long. If access is granted, 
+the switch provides access to the network based on authorization 
+attributes sent by the authentication server. The switch can also 
+apply security policies, QoS policies, or both, or it can mirror 
+user traffic to a central location for logging, monitoring, or threat 
+detection by intrusion prevention systems.
+
+The EX2300 also provides a full complement of integrated 
+port security and threat detection features, including Dynamic 
+Host Configuration Protocol (DHCP) snooping, dynamic ARP 
+inspection (DAI), and media access control (MAC) limiting to 
+defend against internal and external spoofing, and man-in-the-
+middle and denial of service (DoS) attacks.
+
+Junos Space
+Juniper also offers a comprehensive suite of network 
+management tools that provide a smart, simple, and open 
+approach for automating the deployment and operation of a 
+Juniper infrastructure.
+
+These tools are based on a single network application platform 
+called Juniper Networks Junos Space, an open, programmable 
+application platform for hosting network infrastructure and 
+operational applications across the entire management life 
+cycle of the network. Explicitly designed to allow partners and 
+customers to build and deploy smart, simple, and easy-to-
+use applications, Junos Space provides multiple management 
+and infrastructure applications for managing Juniper resources 
+and assets, including inventory management, device and 
+interface configuration, automated software management 
+and deployment, and event-driven fault management. These 
+platform applications are embedded within the core product, 
+allowing users to control any part of their environment when 
+used in conjunction with multiple add-on applications. Junos 
+Space supports a full portfolio of applications for automating 
+network infrastructure and operations covering the campus LAN 
+and data center network environments.
+
+4
+
+Data SheetEX2300 Ethernet SwitchDesigned to automate the configuration, visualization, monitoring, 
+and administration of large switch and router networks, these 
+Junos Space applications offer predefined automation schemes 
+and best practice templates to enable rapid and accurate 
+deployments. When managing a group of EX2300 switches, 
+the Junos Space platform and associated applications provide 
+network-level management across all Juniper Networks switches 
+from a single console.
+
+Network Director can manage the EX2300 as standalone switches 
+as well as satellite devices in a Junos Fusion Enterprise fabric.
+
+Enhanced Limited Lifetime Warranty
+The EX2300 includes an enhanced limited lifetime hardware 
+warranty that provides return-to-factory switch replacement for 
+as long as the original purchaser owns the product. The warranty 
+includes lifetime software updates, advanced shipping of spares 
+within one business day, and 24x7 Juniper Networks Technical 
+Assistance Center (JTAC) support for 90 days after the purchase 
+date. Power supplies and fan trays are covered for a period of 
+five years. For complete details, please visit www.juniper.net/
+support/warranty.
+
+EX2300-24T/24P
+
+EX2300-48T/48P
+
+Physical Specifications
+Power Options
+
+Model
+
+Max. System Power 
+Consumption (Input Power 
+without PoE)
+
+Total PoE 
+Power Budget
+
+EX2300-24T
+
+55 W AC
+
+EX2300-24P
+
+80 W AC
+
+EX2300-48T
+
+70 W AC
+
+EX2300-48P
+
+100 W AC
+
+Dimensions (W x H x D)
+
+•  Width:
+
+0
+
+370 W
+
+0
+
+740 W
+
+ -   17.4 in (44.19 cm) for desktop installations
+
+ -   17.5 in (44.6 cm) with rack-mount brackets
+
+•  Height: 1.75 in (4.45 cm) for 1U installations
+
+•  Depth: 
+
+ - EX2300-24T: 10.2 in (25.9 cm)
+
+ - EX2300-24P: 12.2 in (30.98 cm)
+
+ - EX2300-48T: 10.2 in (25.9 cm)
+
+ - EX2300-48P: 12.2 in (30.98 cm)
+
+Backplane
+
+•  80 Gbps Virtual Chassis interconnect to link up to four 
+
+switches as a single logical device
+
+System Weight
+
+•  EX2300-24T: 7.25 lb (3.29 kg)
+
+•  EX2300-24P: 9.89 lb (4.49 kg)
+
+•  EX2300-48T: 8.29 lb (3.76 kg)
+
+•  EX2300-48P: 11.07 lb (5.02 kg)
+
+Environmental Ranges
+
+•  Operating temperature: 32° to 113° F (0° to 45° C) 
+
+•  Storage temperature: -40° to 158° F (-40° to 70° C) 
+
+•  Operating altitude: up to 13,000 ft (3962 m) at 40° C 
+
+according to GR-63
+
+•  Non-operating altitude: up to 15,000 ft (4572 m) 
+
+•  Relative humidity operating: 10% to 85% (noncondensing) 
+
+•  Relative humidity non-operating: 0% to 95% 
+
+(noncondensing) 
+
+Cooling
+
+•  Airflow: 
+
+ -   EX2300-24T: 25 cfm
+
+ -   EX2300-24P: 23 cfm
+
+ - EX2300-48T: 24 cfm
+
+ - EX2300-48P: 25 cfm
+
+Hardware Specifications
+Switching Engine Model
+•  Store and forward 
+
+DRAM
+
+•  2 GB
+
+Flash
+
+•  2 GB 
+
+CPU
+
+•  1.25GHz ARM CPU 
+
+GbE port density per system
+
+•  EX2300-24P/24T: 28 (24 host ports + four-port SFP/SFP+ 
+
+uplinks)
+
+•  EX2300-48P/48T: 52 (48 host ports + four-port SFP/SFP+ 
+
+uplinks)
+
+Supported Optics 
+
+•  10/100/1000BASE-T connector type RJ-45 
+
+•  GbE SFP optic/connector type: RJ-45, or LC SFP fiber 
+
+supporting 1000BASE-T SFP, SX (multimode), LX (single-
+mode), or LH (single-mode) 
+
+Physical Layer 
+
+•  Physical port redundancy: Redundant trunk group (RTG)
+
+•  Cable diagnostics for detecting cable breaks and shorts 
+
+•  Auto MDI/MDIX (medium-dependent interface/medium-
+
+dependent interface crossover) support
+
+•  Port speed downshift/setting maximum advertised speed 
+
+on 10/100/1000BASE-T ports 
+
+•  Digital optical monitoring for optical ports
+
+5
+
+Data SheetEX2300 Ethernet SwitchPacket-Switching Capacities (Maximum with 64-Byte Packets)
+
+•  Bidirectional Forwarding Detection (BFD) with slow timers 
+
+•  EX2300-24P/24T: 128 Gbps
+
+•  EX2300-48P/48T: 176 Gbps 
+
+Software Specifications
+Layer 2/Layer 3 Throughput (Mpps) (Maximum with 64 Byte 
+Packets)
+
+•  EX2300-24P/24T: 95 Mpps (wire speed)
+
+•  EX2300-48P/48T: 130 Mpps (wire speed)
+
+Layer 2 Features 
+
+•  Maximum MAC addresses in hardware: 16,000
+
+•  Jumbo frames: 9216 bytes
+
+•  Number of VLANs supported: 4093
+
+•  Range of possible VLAN IDs: 1-4094
+
+•  Port-based VLAN
+
+•  MAC-based VLAN
+
+•  Voice VLAN
+
+• 
+
+IEEE 802.1ak: Multiple VLAN Registration Protocol (MVRP)
+
+•  Compatible with Per-VLAN Spanning Tree Plus (PVST+) 
+
+•  RVI (Routed VLAN Interface)
+
+• 
+
+IEEE 802.1AB: Link Layer Discovery Protocol (LLDP)
+
+•  LLDP-MED with VoIP integration
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+IEEE 802.1ad Q-in-Q tunneling
+
+IEEE 802.1br: Bridge Port Extension
+
+IEEE 802.1D: Spanning Tree Protocol
+
+IEEE 802.1p: CoS Prioritization
+
+IEEE 802.1Q: VLAN Tagging
+
+IEEE 802.1Q-in-Q: VLAN Stacking
+
+IEEE 802.1s: Multiple Spanning Tree Protocol (MSTP)
+
+•  Number of MST instances supported: 64
+
+•  Number of VSTP instances supported: 253
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+IEEE 802.1w: Rapid Spanning Tree Protocol (RSTP)
+
+IEEE 802.1X: Port Access Control
+
+IEEE 802.3: 10BASE-T
+
+IEEE 802.3u: 100BASE-T
+
+IEEE 802.3ab: 1000BASE-T
+
+IEEE 802.3z: 1000BASE-X 
+
+IEEE 802.3af: PoE
+
+IEEE 802.3at: PoE+
+
+IEEE 802.3ad: Link Aggregation Control Protocol (LACP)
+
+IEEE 802.3ah: Ethernet in the First Mile
+
+(> 3 sec)
+
+• 
+
+IP directed broadcast
+
+Layer 3 Features: IPv6
+
+•  Maximum number of Neighbor Discovery (ND) entries: 1,500
+
+•  Maximum number of IPv6 unicast routes in hardware: 512 
+
+prefixes; 2,048 host routes
+
+•  Maximum number of IPv6 multicast routes in hardware: 
+
+1,024 groups; 1,024 multicast routes
+
+•  Neighbor discovery, system logging, Telnet, SSH, SNMP, 
+
+Network Time Protocol (NTP), Domain Name System 
+(DNS)
+
+•  Static routing
+
+•  Routing protocols: RIPng, OSPF v3
+
+Access control lists (ACLs) (Junos OS firewall filters)
+•  Port-based ACL (PACL)—256 ingress; 256 egress
+
+•  VLAN-based ACL (VACL)— 256 ingress; 256 egress
+
+•  Router-based ACL (RACL)—256 ingress; 512 egress
+
+•  ACL entries (ACE) in hardware per system: 2,000
+
+•  ACL counter for denied packets
+
+•  ACL counter for permitted packets
+
+•  Ability to add/remove/change ACL entries in middle of list 
+
+(ACL editing)
+
+•  L2-L4 ACL 
+
+Access Security
+
+•  MAC limiting
+
+•  Allowed MAC addresses—configurable per port
+
+•  Sticky MAC (persistent MAC address learning)
+
+•  Dynamic ARP inspection (DAI)
+
+•  Proxy ARP
+
+•  Static ARP support
+
+•  DHCP snooping
+
+•  802.1X port-based
+
+•  802.1X multiple supplicants
+
+•  802.1X with VLAN assignment
+
+•  802.1X with authentication bypass access (based on host 
+
+MAC address)
+
+•  802.1X with VoIP VLAN support
+
+•  802.1X dynamic ACL based on RADIUS attributes
+
+•  802.1X Supported EAP types: Message Digest 5 (MD5), 
+
+Transport Layer Security (TLS), Tunneled Transport Layer 
+Security (TTLS), Protected Extensible Authentication 
+Protocol (PEAP)
+
+Layer 3 Features: IPv4
+
+•  Maximum number of ARP entries: 1,500
+
+•  Maximum number of IPv4 unicast routes in hardware:  
+
+512 prefixes; 4,096 host routes
+
+•  Maximum number of IPv4 multicast routes in hardware: 
+
+2,048 groups; 2,048 multicast routes
+
+•  Routing Protocols: RIP v1/v2, OSPF v1/v2
+
+•  Static routing
+
+•  Routing policy
+
+• 
+
+• 
+
+IPv6 RA Guard
+
+IPv6 Neighbor Discovery Inspection
+
+•  Captive Portal
+
+•  Static MAC authentication
+
+•  MAC-RADIUS
+
+•  Control plane DoS protection
+
+•  Fallback authentication
+
+•  Trusted Network Connect (TNC) certified
+
+6
+
+Data SheetEX2300 Ethernet SwitchHigh Availability
+
+•  Link aggregation
+
+Supported RFCs
+
+•  RFC 768 UDP
+
+•  802.3ad (LACP) support:
+
+•  RFC 783 Trivial File Transfer Protocol (TFTP) 
+
+ -   Number of LAGs supported: 128
+
+•  RFC 791 IP
+
+ -   Maximum number of ports per LAG: 8
+
+•  RFC 792 Internet Control Message Protocol (ICMP)
+
+•  Tagged ports support in LAG
+
+•  Uplink Failure Detection 
+
+Quality of Service (QoS) 
+
+•  Layer 2 QoS
+
+•  Layer 3 QoS
+
+• 
+
+Ingress policing: one-rate two-color; two-rate three-color 
+markers
+
+•  Hardware queues per port: 8
+
+•  Scheduling methods (egress): Strict Priority (SP), shaped-
+
+deficit weighted round-robin (SDWRR)
+
+•  802.1p, DSCP /IP precedence trust and marking 
+
+•  L2-L4 classification criteria: Interface, MAC address, 
+
+EtherType, 802.1p, VLAN, IP address, DSCP/IP precedence, 
+TCP/UDP port numbers
+
+•  RFC 793 TCP
+
+•  RFC 826 ARP
+
+•  RFC 854 Telnet client and server
+
+•  RFC 894 IP over Ethernet
+
+•  RFC 903 Reverse ARP (RARP)
+
+•  RFC 906 Bootstrap Loading using TFTP
+
+•  RFC 951, 1542 BootP
+
+•  RFC 1027 Proxy ARP
+
+•  RFC 1058 RIP v1
+
+•  RFC 1122 Requirements for Internet Hosts
+
+•  RFC 1256 IPv4 ICMP Router Discovery (IRDP)
+
+•  RFC 1492 TACACS+
+
+•  RFC 1519 Classless Interdomain Routing (CIDR)
+
+•  Congestion avoidance capabilities: Tail drop and WRED
+
+•  RFC 1591 Domain Name System (DNS)
+
+Multicast
+
+• 
+
+• 
+
+• 
+
+IGMP snooping entries: 2,000
+
+IGMP: v1, v2, v3
+
+IGMP snooping
+
+•  PIM-SM, PIM-SSM, PIM-DM
+
+Services and Manageability
+
+•  Junos OS CLI 
+
+•  Web interface (J-Web)
+
+•  RFC 1812 Requirements for IP Version 4 routers
+
+•  RFC 2030 Simple Network Time Protocol (SNTP) 
+
+•  RFC 2068 HTTP/1.1
+
+•  RFC 2131 BOOTP/DHCP relay agent and DHCP server
+
+•  RFC 2138 RADIUS Authentication
+
+•  RFC 2139 RADIUS Accounting
+
+•  RFC 2267 Network Ingress Filtering
+
+•  RFC 2453 RIP v2
+
+•  Out-of-band management: Serial, 10/100BASE-T Ethernet
+
+•  RFC 2474 DiffServ Precedence, including 8 queues/port
+
+•  ASCII configuration
+
+•  Rescue configuration
+
+•  Configuration rollback
+
+• 
+
+Image rollback
+
+•  RFC 2597 DiffServ Assured Forwarding (AF)
+
+•  RFC 2598 DiffServ Expedited Forwarding (EF)
+
+•  RFC 2710 Multicast Listener Discovery Version (MLD) for 
+
+IPv6
+
+•  Element management tools: Junos Space Network 
+
+Management Platform
+
+•  RFC 2925 Definitions of Managed Objects for Remote Ping, 
+
+Traceroute, and Lookup Operations
+
+•  Simple Network Management Protocol (SNMP): v1, v2c, v3
+
+•  RFC 3176 sFlow
+
+•  Remote monitoring (RMON) (RFC 2819) Groups 1, 2, 3, 9
+
+•  RFC 3579 RADIUS Extensible Authentication Protocol (EAP) 
+
+•  Network Time Protocol (NTP)
+
+•  DHCP server
+
+•  DHCP client and DHCP proxy 
+
+•  DHCP relay and helper
+
+•  RADIUS authentication
+
+•  TACACS+ authentication
+
+•  SSHv2
+
+•  Secure copy
+
+•  HTTP/HTTPs
+
+•  DNS resolver
+
+•  System log logging
+
+•  Temperature sensor
+
+support for 802.1X
+
+•  RFC 5176 Dynamic Authorization Extensions to RADIUS
+
+•  LLDP Media Endpoint Discovery (LLDP-MED), ANSI/TIA-
+
+1057, draft 08
+
+Supported MIBs
+
+•  RFC 1155 Structure of Management Information (SMI)
+
+•  RFC 1157 SNMPv1
+
+•  RFC 1212, RFC 1213, RFC 1215 MIB-II, Ethernet-like MIB, and 
+
+TRAPs
+
+•  RFC 1493 Bridge MIB
+
+•  RFC 1643 Ethernet MIB
+
+•  RFC 1724 RIPv2 MIB
+
+•  Configuration backup via FTP/secure copy
+
+•  RFC 1905 RFC 1907 SNMP v2c, SMIv2 and Revised MIB-II
+
+• 
+
+Interface range
+
+•  RFC 1981 Path MTU Discovery for IPv6
+
+7
+
+Data SheetEX2300 Ethernet Switch•  RFC 2011 SNMPv2 Management Information Base for the IP 
+
+•  Mirroring destination ports per system: 4
+
+using SMIv2
+
+•  RFC 2012 SNMPv2 Management Information Base for the 
+
+Transmission Control Protocol using SMIv2
+
+•  RFC 2013 SNMPv2 Management Information Base for the 
+
+User Datagram Protocol using SMIv2
+
+•  RFC 2096 IPv4 Forwarding Table MIB
+
+•  RFC 2287 System Application Packages MIB
+
+•  RFC 2460 IPv6 Specification
+
+•  RFC 2464 Transmission of IPv6 Packets over Ethernet 
+
+Networks
+
+•  LAG port monitoring
+
+•  Multiple destination ports monitored to 1 mirror (N:1)
+
+•  Maximum number of mirroring sessions: 4
+
+•  Mirroring to remote destination (over L2): 1 destination 
+
+VLAN
+
+•  Encapsulated Remote Switched Port Analyzer (ERSPAN)
+
+• 
+
+IP tools: Extended ping and trace
+
+•  Juniper Networks commit and rollback
+
+Safety Certifications
+
+•  RFC 2570-2575 SNMPv3, User-based Security, Encryption, 
+
+•  UL-UL60950-1 (Second Edition)
+
+and Authentication
+
+•  RFC 2576 Coexistence between Version 1, Version 2, and 
+Version 3 of the Internet-standard Network Management 
+Framework
+
+•  RFC 2578 SNMP Structure of Management Information MIB
+
+•  RFC 2579 SNMP Textual Conventions for SMIv2 
+
+•  RFC 2665 Definitions of Managed Objects for the Ethernet-
+
+like Interface Types
+
+•  RFC 2819 RMON MIB
+
+•  RFC 2863 The Interfaces Group MIB 
+
+•  RFC 2922 LLDP MIB
+
+•  RFC 2925 Definitions of Managed Objects for Remote Ping, 
+
+Traceroute, and Lookup Operations
+
+•  RFC 3413 SNMP Application MIB
+
+•  RFC 3414 User-based Security Model for SNMPv3
+
+•  RFC 3415 View-based Access Control Model (VACM) for 
+
+SNMP
+
+•  RFC 3484 Default Address Selection for IPv6
+
+•  RFC 3621 PoE-MIB (PoE switches only) 
+
+•  RFC 3810 Multicast Listener Discovery Version 2 (MLDv2) 
+
+for IPv6
+
+•  RFC 4188 STP and Extensions MIB
+
+•  C-UL to CAN/CSA 22.2 No.60950-1 (Second Edition)
+
+•  TUV/GS to EN 60950-1 (Second Edition)
+
+•  CB-IEC60950-1 (Second Edition with all country 
+
+deviations)
+
+•  EN 60825-1 (Second Edition)
+
+Electromagnetic Compatibility Certifications
+
+•  FCC 47CFR Part 15 Class A
+
+•  EN 55022 Class A 
+
+• 
+
+ICES-003 Class A
+
+•  VCCI Class A
+
+•  AS/NZS CISPR 22 Class A
+
+•  CISPR 22 Class A
+
+•  EN 55024
+
+•  EN 300386
+
+•  CE
+
+Telecom Quality Management
+
+•  TL9000
+
+Environmental
+
+•  Reduction of Hazardous Substances (ROHS) 6
+
+Telco
+
+•  CLEI code
+
+•  RFC 4213 Basic Transition Mechanisms for IPv6 Hosts and 
+
+Noise Specifications
+
+Routers
+
+•  RFC 4291 IPv6 Addressing Architecture
+
+•  RFC 4363 Definitions of Managed Objects for Bridges with 
+
+Traffic Classes, Multicast Filtering, and VLAN Extensions
+
+•  RFC 4443 ICMPv6 for the IPv6 Specification
+
+•  RFC 4861 Neighbor Discovery for IPv6
+
+•  RFC 4862 IPv6 Stateless Address Autoconfiguration
+
+•  Draft – blumenthal – aes – usm - 08
+
+•  Draft – reeder - snmpv3 – usm - 3desede -00
+
+Troubleshooting
+
+•  Debugging: CLI via console, telnet, or SSH
+
+•  Diagnostics: Show and debug command statistics
+
+•  Traffic mirroring (port)
+
+•  Traffic mirroring (VLAN)
+
+•  ACL-based mirroring
+
+Noise measurements based on operational tests taken from 
+bystander position (front) and performed at 25° C in compliance 
+with ISO 7779. The PoE load was 370 W (24 ports powered at 
+15.4W each) on the EX2300-24P and 740 W (48 ports powered 
+at 15.4W each) on the EX2300-48P.
+
+Model
+
+EX2300-24T
+
+EX2300-24P
+
+EX2300-48T
+
+EX2300-48P
+
+Warranty 
+
+Acoustic Noise in DB
+
+34.2
+
+39.3
+
+34.6
+
+48.5
+
+•  Enhanced limited lifetime switch hardware warranty
+
+8
+
+Data SheetEX2300 Ethernet SwitchJuniper Networks Services and Support
+Juniper Networks is the leader in performance-enabling services 
+that are designed to accelerate, extend, and optimize your 
+high-performance network. Our services allow you to maximize 
+operational efficiency while reducing costs and minimizing 
+risk, achieving a faster time to value for your network. Juniper 
+Networks ensures operational excellence by optimizing the 
+network to maintain required levels of performance, reliability, 
+and availability. For more details, please visit www.juniper.net/us/
+en/products-services. 
+
+Ordering Information
+Product Number
+
+Description
+
+Switches
+
+EX2300-24T
+
+EX2300-24T-VC
+
+EX2300-24P
+
+EX2300-24P-VC
+
+EX2300-24T-DC
+
+EX2300 24-port 10/100/1000BASE-T, 4 x 
+1/10GbE SFP/SFP+ (optics sold separately)
+
+EX2300 24-port non-PoE+ w/ Virtual Chassis 
+License
+
+EX2300 24-port 10/100/1000BASE-T PoE+,  
+4 x 1/10GbE SFP/SFP+ (optics sold separately)
+
+EX2300 24-port PoE+ w/ Virtual Chassis 
+License
+
+EX2300 24-port 10/100/1000BASE-T with 
+internal DC PSU, 4 x 1/10GbE SFP/SFP+ 
+(optics sold separately)
+
+EX2300-24T-TAA
+
+EX2300 TAA 24-port 10/100/1000BASE-T, 4 x 
+1/10GbE SFP/SFP+ (optics sold separately)
+
+EX2300-24P-TAA
+
+EX2300-48T
+
+EX2300 TAA 24-port 10/100/1000BASE-T 
+PoE+, 4 x 1/10GbE SFP/SFP+ (optics sold 
+separately)
+
+EX2300 48-port 10/100/1000BASE-T, 4 x 
+1/10GbE SFP/SFP+ (optics sold separately)
+
+EX2300-48T-VC
+
+EX2300 48-port non-PoE+ w/ Virtual Chassis 
+License
+
+EX2300-48P
+
+EX2300 48-port 10/100/1000BASE-T PoE+, 4 
+x 1/10GbE SFP/SFP+ (optics sold separately)
+
+EX2300-48P-VC
+
+EX2300 48-port PoE+ w/ Virtual Chassis 
+License
+
+EX2300-48T-TAA
+
+EX2300 TAA 48-port 10/100/1000BASE-T, 4 
+x 1/10GbE SFP/SFP+ (optics sold separately)
+
+EX2300-48P-TAA
+
+EX2300 TAA 48-port 10/100/1000BASE-T 
+PoE+, 4 x 1/10GbE SFP/SFP+ (optics sold 
+separately)
+
+Accessories
+
+EX-RMK
+
+Rack-mount kit for EX2300
+
+EX-4PST-RMK
+
+Adjustable 4-post rack-mount kit for EX2300
+
+EX-WMK
+
+Licenses
+
+Wall-mount kit for EX2300
+
+EX2300-VC
+
+EX2300 Virtual Chassis License
+
+EX-24-EFL/EX-48-
+EFL
+
+Enhanced Feature License for EX2300 24- 
+and 48-port switches. Includes licenses for 
+IPv4 routing (OSPF v2/v3, IGMP v1/v2/v3, 
+VRRP, and BFD), IPv6 routing (RIPng, OSPF 
+v3, VRRP v6, MSDP, and PIM), and Real-Time 
+Performance Monitoring (RPM).
+
+Product Number
+
+Description
+
+Pluggable Optics
+EX-SFP-1GE-T
+
+EX-SFP-1GE-SX
+
+SFP 10/100/1000BASE-T copper; RJ-45 
+connector; 100m reach on UTP
+SFP 1000BASE-SX; LC connector; 850 nm; 
+550m reach on multimode fiber
+
+EX-SFP-1GE-SX-ET SFP 1000BASE-SX; LC connector; 850 nm; 
+550m reach on multimode fiber. extended 
+temperature
+SFP 1000BASE-LX; LC connector; 1310 nm; 10 
+km reach on single-mode fiber
+SFP 1000BASE-LH; LC connector; 1550 nm; 70 
+km reach on single-mode fiber
+
+EX-SFP-1GE-LH
+
+EX-SFP-1GE-LX
+
+EX-SFP-1GE-LX40K SFP 1000BASE-LX; LC connector; 1310 nm; 40 
+
+EX-SFP-
+GE10KT13R14
+
+EX-SFP-
+GE10KT13R15
+
+EX-SFP-
+GE10KT14R13
+
+EX-SFP-
+GE10KT15R13
+
+EX-SFP-
+GE40KT13R15
+
+EX-SFP-
+GE40KT15R13
+
+EX-SFP-
+GE80KCW1470
+EX-SFP-
+GE80KCW1490
+EX-SFP-
+GE80KCW1510
+EX-SFP-
+GE80KCW1530
+EX-SFP-
+GE80KCW1550
+EX-SFP-
+GE80KCW1570
+EX-SFP-
+GE80KCW1590
+EX-SFP-
+GE80KCW1610
+EX-SFP-10GE-USR
+
+EX-SFP-10GE-SR
+
+EX-SFP-10GE-LR
+
+EX-SFP-10GE-ER
+
+EX-SFP-10GE-ZR
+
+EX-SFP-10GE-DAC-
+1M
+EX-SFP-10GE-DAC-
+3M
+EX-SFP-10GE-DAC-
+5M
+
+km reach on single-mode fiber
+SFP 1000BASE-BX; TX 1310 nm/RX 1490 nm 
+for 10 km transmission on single-strand, single-
+mode fiber
+SFP 1000BASE-BX; TX 1310 nm/RX 1550 nm 
+for 10 km transmission on single-strand, single-
+mode fiber
+SFP 1000BASE-BX; TX 1490 nm/RX 1310 nm 
+for 10 km transmission on single-strand, single-
+mode fiber
+SFP 1000BASE-BX; TX 1550 nm/RX 1310 nm 
+for 10 km transmission on single-strand, single-
+mode fiber
+SFP 1000BASE-BX; TX 1310 nm/RX 1550 
+nm for 40 km transmission on single-strand, 
+single-mode fiber
+SFP 1000BASE-BX; TX 1550 nm/RX 1310 
+nm for 40 km transmission on single-strand, 
+single-mode fiber
+SFP Gigabit Ethernet CWDM, LC connector; 
+1470 nm, 80 km reach on single-mode fiber 
+SFP Gigabit Ethernet CWDM, LC connector; 
+1490 nm, 80 km reach on single-mode fiber
+SFP Gigabit Ethernet CWDM, LC connector; 
+1510 nm, 80 km reach on single-mode fiber
+SFP Gigabit Ethernet CWDM, LC connector; 
+1530 nm, 80 km reach on single-mode fiber
+SFP Gigabit Ethernet CWDM, LC connector; 
+1550 nm, 80 km reach on single-mode fiber
+SFP Gigabit Ethernet CWDM, LC connector; 
+1570 nm, 80 km reach on single-mode fiber
+SFP Gigabit Ethernet CWDM, LC connector; 
+1590 nm, 80 km reach on single-mode fiber
+SFP Gigabit Ethernet CWDM, LC connector; 
+1610 nm, 80 km reach on single-mode fiber
+SFP+ 10 Gigabit Ethernet Ultra Short Reach 
+Optics, 850 nm for 10m on OM1, 20m on OM2, 
+100m on OM3 multimode fiber 
+SFP+ 10GBASE-SR; LC connector; 850 nm; 
+300m reach on 50 microns multimode fiber; 
+33m on 62.5 microns multimode fiber 
+SFP+ 10GBASE-LR; LC connector; 1310 nm; 10 
+km reach on single-mode fiber 
+SFP+ 10GBASE-ER 10 Gigabit Ethernet Optics, 
+1550 nm for 40 km transmission on single-
+mode fiber 
+SFP+ 10GBASE-ZR; LC connector; 1550nm; 80 
+km reach on single-mode fiber 
+SFP+ 10 Gigabit Ethernet Direct Attach Copper 
+(twinax copper cable) – 1-meter length
+SFP+ 10 Gigabit Ethernet Direct Attach Copper 
+(twinax copper cable) – 3-meter length
+SFP+ 10 Gigabit Ethernet Direct Attach Copper 
+(twinax copper cable) – 5-meter length
+
+9
+
+Data SheetEX2300 Ethernet SwitchAbout Juniper Networks
+Juniper Networks challenges the status quo with products, 
+solutions and services that transform the economics of 
+networking. Our team co-innovates with customers and partners 
+to deliver automated, scalable and secure networks with agility, 
+performance and value. Additional information can be found at 
+Juniper Networks or connect with Juniper on Twitter and Facebook.
+
+Corporate and Sales HeadquartersJuniper Networks, Inc. 1133 Innovation WaySunnyvale, CA 94089 USAPhone: 888.JUNIPER (888.586.4737)or +1.408.745.2000Fax: +1.408.745.2100www.juniper.net Copyright 2017 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, Juniper, and Junos are registered trademarks of Juniper Networks, Inc. in the United States and other countries. All other trademarks, service marks, registered marks, or registered service marks are the property of their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice. APAC and EMEA HeadquartersJuniper Networks International B.V.Boeing Avenue 2401119 PZ Schiphol-RijkAmsterdam, The NetherlandsPhone: +31.0.207.125.700Fax: +31.0.207.125.701Data SheetEX2300 Ethernet Switch1000579-010-EN   June 2017EXPLORE JUNIPERGet the App.

@@ -1,0 +1,2438 @@
+EX4300 Ethernet 
+Switch
+
+Product Overview
+
+The Juniper Networks EX4300 
+line of Ethernet switches 
+delivers the performance 
+and scale required for both 
+campus and data center Gigabit 
+Ethernet (GbE) access switch 
+deployments. Combined with 
+Juniper’s market leading Virtual 
+Chassis technology, the EX4300 
+scales up to 10 members, 
+delivering the high availability 
+and plug-and-play scale that 
+businesses demand. Combining 
+compact, pay-as-you-grow 
+economics and low power and 
+cooling with the performance, 
+availability, and port densities 
+of chassis-based platforms, the 
+EX4300 with Virtual Chassis 
+technology enables businesses 
+to deploy with speed and agility 
+to increase revenue and improve 
+productivity.
+
+Product Description 
+The Juniper Networks® EX4300 line of Ethernet switches with Virtual Chassis technology 
+combines the carrier-class reliability of modular systems with the economics and flexibility 
+of stackable platforms, delivering a high-performance, scalable solution for data center, 
+campus and branch office environments.
+
+Offering a full suite of Layer 2 and Layer 3 switching capabilities, the EX4300 enables a 
+variety of deployments, including campus, branch and data center access. A single 24-
+port or 48-port EX4300 switch can be deployed initially. As requirements grow, Juniper 
+Networks Virtual Chassis technology allows up to 10 EX4300 switches to be seamlessly 
+interconnected and managed as a single device, delivering a scalable, pay-as-you-grow 
+solution for expanding network environments. A pair of 32-port EX4300 fiber switches 
+can also be deployed as a consolidated aggregation or small core switch. Additionally, the 
+EX4300 integrates with QFX3500, QFX3600 and QFX5100 10GbE and 40GbE data center 
+access switches in a single stack or a Virtual Chassis configuration, enabling non-disruptive 
+10GbE server upgrades and simplified management of a mixed access environment.
+
+The EX4300 switches can be interconnected over multiple 40GbE quad small form-
+factor pluggable plus (QSFP+) transceiver ports to form a 320 gigabit per second (Gbps) 
+backplane. A flexible uplink module that supports both 1GbE and 10GbE options is also 
+available, enabling high-speed connectivity to aggregation- or core-layer switches which 
+connect multiple floors or buildings.
+
+All EX4300 switches include high availability (HA) features such as redundant, hot-
+swappable internal power supplies and field-replaceable fans to ensure maximum uptime. 
+In addition, Power over Ethernet (PoE)-enabled EX4300 switch models offer standards-
+based 802.3at PoE+ for delivering up to 30 watts on all ports for supporting high-density IP 
+telephony and 802.11n wireless access point deployments.
+
+Chassis-Like Features in an Expandable Form Factor
+
+The fixed-configuration EX4300 switches include a number of high availability features 
+typically associated with chassis-based solutions, including the following:
+
+•  Hot-swappable fans
+
+•  Modular Juniper Networks Junos® operating system (consistent with chassis systems)
+
+•  Dual Routing Engines with graceful Routing Engine switchover (GRES) in a Virtual 
+
+Chassis configuration
+
+•  Single management interface
+
+•  Easy, centralized software upgrades
+
+•  Scalability from 24 to 480 10/100/1000BASE-T ports, with up to 40 10GbE uplinks and 
+
+40 40GbE uplinks
+
+1
+
+Data SheetEach EX4300 switch includes a single application-specific 
+integrated circuit (ASIC)-based Packet Forwarding Engine, the 
+EX-PFE. The integrated Routing Engine (RE) delivers all control 
+plane functionality. The EX4300 also leverages the same modular 
+Junos OS as other Juniper Networks switches, routers, and security 
+devices, ensuring a consistent implementation and operation of 
+control plane features across the Juniper Networks infrastructure.
+
+Architecture and Key Components
+The EX4300 switches are single rack unit devices that deliver 
+a compact solution for crowded wiring closets and access 
+switch locations where space and power are at a premium. 
+Each EX4300 supports standard 40GbE QSFP+ ports which are 
+preconfigured to support high-speed Virtual Chassis backplane 
+connections. These ports can also serve as uplinks to upstream 
+aggregation devices. In addition, each EX4300 supports an 
+optional front panel uplink module offering 1GbE or 10GbE 
+ports for high-speed backbone or link aggregation connections 
+between wiring closets and upstream aggregation switches. 
+Uplink modules can be installed without powering down the 
+switch, enabling users to add high-speed connectivity at any 
+time or migrate from one uplink type to the other, delivering the 
+ultimate in flexible, high-performance interconnectivity. 
+
+The EX4300 also features a front panel LCD that offers a flexible 
+interface for performing device bring-up and configuration 
+rollbacks, reporting switch alarm and LED status, or restoring the 
+switch to its default settings. When deployed as a member of a 
+Virtual Chassis configuration, the LCD also displays the switch’s 
+chassis “slot number” and RE status for rapid identification and 
+problem resolution. 
+
+The four integrated rear panel 40GbE QSFP+ ports support 
+EX4300 Virtual Chassis deployment over a 320 Gbps virtual 
+backplane. When deployed in close proximity such as in wiring 
+
+closets or in top-of-rack data center applications, the EX4300 
+switches can be securely connected using standard 40GbE QSFP+ 
+DAC cables (available in 50 cm, 1 m, 3 m and 5m lengths). 
+
+Switches deployed in Virtual Chassis configurations spread over 
+larger areas can be interconnected using optical QSFP+ transceivers 
+such as the QSFP+ SR4, which supports distances up to 150 m.
+
+A dedicated rear panel RJ-45 port is available for out-of-band 
+management, while a rear panel USB port can be used to easily 
+upload Junos OS and configuration files. In addition, a dedicated 
+front panel USB console port and a rear panel RJ-45 console port 
+offer flexible out-of-band console options.
+
+Virtual Chassis Technology
+
+Up to 10 EX4300 switches can be interconnected using Virtual 
+Chassis technology, creating a single logical device supporting 
+up to 480 10/100/1000BASE-T ports, plus up to 40 additional 
+10GbE and 40 additional 40GbE uplink ports. For mixed 1GbE and 
+10GbE access environments, the EX4300 can be interconnected 
+with the QFX3500, QFX3600 and QFX5100 high-performance 
+data center access switches. EX4300 Virtual Chassis 
+configurations can be created to support a variety of port and 
+density options for data center, campus and branch deployments. 
+Virtual Chassis connections can be formed using any of the 
+40GbE ports or 10GbE ports using standard DAC cables and 
+optics. The EX4300 does not support Virtual Chassis technology 
+on the GbE copper or fiber ports.
+
+Virtual Chassis Deployments in Campus Wiring Closets
+
+In campus wiring closets, flexible topologies can be created using 
+standard QSFP+ optics on the 40GbE ports to extend the Virtual 
+Chassis configuration across long distances spanning multiple 
+wiring closets, floors, or even buildings while using 10GbE or 
+40GbE for uplink connectivity. EX4300 fiber-based switches can 
+also be used for campus aggregation or small core deployments.
+
+Closet 1
+
+EX4300
+
+10/40GbE
+40GbE Virtual 
+Chassis Port
+
+EX4300-32F
+
+10GbE/40GbE
+
+uplinks
+
+Closet 1
+
+EX4300
+
+10/40GbE
+40GbE Virtual 
+Chassis Port
+
+EX4300-32F
+
+10GbE/40GbE
+
+uplinks
+
+Closet 2
+
+Closet 2
+
+EX4300
+
+Access
+
+EX4300-32F
+
+Aggregation/
+
+Core
+
+EX4300
+
+Access
+
+EX4300-32F
+
+Aggregation/
+
+Core
+
+Figure 1: Using Virtual Chassis technology, up to 10 EX4300 switches can be interconnected to 
+
+create a single logical device spanning multiple wiring closets.
+
+2
+
+Data SheetEX4300 Ethernet SwitchVirtual Chassis Deployments in the Data Center
+
+When deployed in a Virtual Chassis configuration in the data 
+center, all EX4300 switches are monitored and managed as a 
+single device, enabling enterprises to separate physical topology 
+from logical groupings of endpoints and allowing more efficient 
+resource utilization. Highly resilient topologies can also be 
+created using the 40GbE DAC cables.
+
+Closet 1
+
+EX4300
+
+10/40GbE
+40GbE Virtual 
+Chassis Port
+
+EX4300-32F
+
+10GbE/40GbE
+
+uplinks
+
+Closet 2
+
+Access
+
+Collapsed Core/Aggregation 
+
+Full Mesh
+
+Virtual Chassis
+
+10/40GbE
+
+40GbE Virtual 
+Chassis Port
+
+Figure 4: EX4300 switches in a full mesh Virtual Chassis configura-
+
+tion for the data center.
+
+Virtual Chassis Fabric Switching Architecture 
+
+Existing Virtual Chassis technology is further scaled and 
+enhanced to support a spine-and-leaf topology that is ideal for 
+high-performance and low-latency data center deployments. 
+In its first instance, this topology, called Virtual Chassis Fabric, 
+enables up to 20 switches to be deployed in a spine-and-leaf 
+configuration, with two to four QFX5100 switches in the spine 
+and up to 18 QFX5100, QFX3500, QFX3600 or EX4300 switches 
+as leaf nodes. This architecture provides any rack-to-any rack 
+deterministic throughput and low latency, while significantly 
+simplifying network operations through a single point of 
+management. A Virtual Chassis Fabric configuration supports 
+mixed 1GbE, 10GbE and 40GbE servers.
+
+SRX Series
+
+EX9200
+
+EX9200
+
+SRX Series
+
+Active
+
+RE Eligible
+
+Hot-Standby
+
+RE Eligible
+
+QFX5100
+
+QFX5100
+
+QFX5100
+
+QFX5100
+
+EX4300
+
+EX4300-32F
+
+Aggregation
+
+Access
+
+Figure 2: Using Virtual Chassis technology, up to 10 EX4300 
+
+switches can be interconnected to create a single logical device 
+
+spanning an entire building.
+
+Mesh Virtual Chassis Configurations for the Data Center 
+
+In data center top-of-rack deployments, a full mesh five-switch 
+Virtual Chassis configuration can be created where every 
+switch member is just one hop away from every other member, 
+delivering the lowest possible latency. A mesh spanning distances 
+of up to 150 meters can be created using standard QSFP+ optics 
+on the 40GbE ports (DAC cables up to 3m in length available for 
+shorter distances), while 10GbE ports can be used as uplinks to 
+connect to upstream aggregation or core devices.
+
+Collaped Core/
+
+Aggregation Layer
+
+1GbE
+
+10/40GbE
+
+40GbE Virtual 
+Chassis Port
+
+EX4300 Virtual Chassis
+
+Access/Layer
+
+Node #1
+
+(QFX5100)
+
+Node #2
+
+(QFX3500)
+
+Node #3
+
+(QFX3600)
+
+Node #4
+(EX4300)
+
+Node #16
+(QFX5100)
+
+Figure 5: EX4300, QFX3500, QFX3600 and QFX5100 at the ac-
+
+cess layer of Virtual Chassis Fabric configuration.
+
+Server
+
+Figure 3: The EX4300 Ethernet switch with Virtual Chassis tech-
+nology delivers a high-performance, scalable, and highly reliable 
+
+solution for the data center.
+
+3
+
+Data SheetEX4300 Ethernet SwitchJunos Fusion Enterprise
+
+Junos Fusion Enterprise technology enables a large number 
+of devices deployed throughout a building to be managed as 
+a single, logical device.  A future software release will enable 
+EX4300 fixed configuration Ethernet switches to support Junos 
+Fusion Enterprise technology, functioning as Satellite devices 
+(see Figure 6).
+
+Floor n Closet
+
+Closet
+
+Floor 0 Closet
+
+Closet
+
+EX4300
+
+Satellite Devices
+
+IDF
+
+EX9200
+
+Junos
+Fusion
+Enterprise
+
+Aggregation Devices
+
+Figure 6: EX4300 switches as Satellite devices in a Junos Fusion 
+
+Enterprise architecture.
+
+Features and Benefits
+Chassis-Class Availability
+
+The EX4300 line of Ethernet switches delivers high availability 
+through redundant power supplies and fans, GRES, and non-
+stop bridging and routing when deployed in a Virtual Chassis 
+configuration.
+
+In a Virtual Chassis configuration, each EX4300 switch is 
+capable of functioning as a Routing Engine. When two or more 
+EX4300 switches are interconnected, a single control plane is 
+shared among all Virtual Chassis member switches. When two 
+EX4300 switches are interconnected, Junos OS automatically 
+initiates an election process to assign a master (active) and 
+backup (hot-standby) Routing Engine. An integrated Layer 2 
+and Layer 3 GRES feature maintains uninterrupted access to 
+applications, services, and IP communications in the unlikely 
+event of a primary RE failure. 
+
+When more than two switches are interconnected in a Virtual 
+Chassis configuration, the remaining switch elements act as 
+line cards and are available to assume the backup RE position 
+should the designated master fail. Master, backup, and line card 
+
+priority status can be assigned to dictate the order of ascension; 
+this N+1 RE redundancy, coupled with the GRES, nonstop routing 
+(NSR) and nonstop bridging (NSB) capabilities of the Junos OS, 
+assures a smooth transfer of control plane functions following 
+unexpected failures.
+
+The EX4300 implements the same slot/module/port numbering 
+schema as other Juniper Networks chassis-based products 
+when numbering Virtual Chassis ports, providing true chassis-
+like operations. By utilizing a consistent operating system and 
+a single configuration file, all switches in a Virtual Chassis 
+configuration are treated as a single device, simplifying overall 
+system maintenance and management. 
+
+Individually, the EX4300 offers a number of HA features that are 
+typically associated with modular chassis-based switches. When 
+combined with the field-proven Junos OS and L2/L3 failover 
+capabilities, these features provide the EX4300 with true carrier-
+class reliability.
+
+•  Redundant power supplies: The EX4300 line of Ethernet 
+
+switches supports internal redundant, load-sharing, hot-
+swappable, and field-replaceable AC and DC power supplies 
+to maintain uninterrupted operations. Thanks to its compact 
+footprint, the EX4300 requires significantly less power than 
+chassis-based switches delivering equivalent port densities.
+
+•  Hot-swappable fans: The EX4300 includes hot-swappable 
+fans, providing sufficient cooling even if one of the fans were 
+to fail.
+
+•  Non-Stop Bridging (NSB) and Non-Stop Routing (NSR): 
+
+NSB and NSR on the EX4300 ensure control plane protocols, 
+states and tables are synchronized between Master and 
+Standby REs to prevent protocol flaps or convergence issues 
+following a Routing Engine failover.
+
+•  Redundant trunk group (RTG): To avoid the complexities 
+
+of Spanning Tree Protocol (STP) without sacrificing network 
+resiliency, the EX4300 employs redundant trunk groups to 
+provide the necessary port redundancy and simplify switch 
+configuration.
+
+•  Cross-member link aggregation: Cross-member link 
+
+aggregation allows redundant link aggregation connections 
+between devices in a single Virtual Chassis configuration, 
+providing an additional level of reliability and availability.
+
+•  Carrier-class hardware: The EX4300 leverages a purpose-
+
+built packet forwarding engine ASIC, the EX-PFE, which 
+integrates much of the same intellectual property used 
+in Juniper Networks carrier-class routers. As a result, the 
+EX4300 delivers the same predictable, scalable functionality 
+found in the world’s largest networks.
+
+• 
+
+IPv4 and IPv6 routing support: IPv4 and IPv6 Layer 3 routing 
+(OSPF and BGP) is available with an Enhanced license, 
+enabling highly resilient networks.
+
+4
+
+Data SheetEX4300 Ethernet SwitchCarrier-Class Operating System
+
+The EX4300 runs on Junos OS, the same operating system 
+software used by other Juniper Networks switches, routers, and 
+security devices.
+
+By utilizing a common operating system, Juniper delivers a 
+consistent implementation and operation of control plane 
+features across all products. To maintain that consistency, Junos 
+OS adheres to a highly disciplined development process that 
+utilizes a single source code, follows a single quarterly release 
+train, and employs a highly available modular architecture that 
+prevents isolated failures from bringing an entire system down.
+
+These attributes are fundamental to the core value of the 
+software, enabling all products powered by Junos OS to be 
+updated simultaneously with the same software release. All 
+features are fully regression tested, making each new release a 
+true superset of the previous version. Customers can deploy the 
+software with complete confidence that all existing capabilities 
+will be maintained and operate in the same way.
+
+Converged Networks
+
+The EX4300 line of Ethernet switches provides the highest levels 
+of availability for the most demanding converged data, voice, 
+and video environments, delivering the most reliable platform for 
+unifying enterprise communications.
+
+The EX4300 supports rich quality of service (QoS) functionality 
+for prioritizing data, voice, and video traffic. The switches 
+support 12 QoS queues on every port, enabling them to maintain 
+multilevel, end-to-end traffic prioritizations. The EX4300 also 
+supports a wide range of policy options, including priority and 
+weighted deficit round-robin (WDRR) queuing.
+
+By providing 15.4 watts of Class 3 802.3af PoE on all ports to 
+power voice over IP (VoIP) telephones, closed-circuit security 
+cameras, wireless access points, and other IP-enabled devices, the 
+EX4300 delivers a future-proofed solution for converging disparate 
+networks onto a single IP infrastructure. The EX4300 switches also 
+support standards-based 802.3at PoE+, which delivers up to 30 
+watts per port for powering networked devices like multiple radio 
+IEEE 802.11n wireless access points and video phones that may 
+require more power than available with IEEE 802.3af. 
+
+Link Layer Discovery Protocol–Media Endpoint Discovery (LLDP-
+MED)-based granular PoE/PoE+ management allows the 
+EX4300 to negotiate PoE/PoE+ usage down to a fraction of a 
+watt on powered devices, enabling more efficient PoE utilization 
+across the switch.
+
+To ease deployment, the EX4300 supports the industry-
+standard LLDP and LLDP-MED, which enable the switches to 
+automatically discover Ethernet-enabled devices, determine their 
+power requirements, and assign virtual LAN (VLAN) parameters.
+
+The EX4300 supports the IEEE 802.3az standard for Energy 
+Efficient Ethernet (EEE) functionality, reducing power 
+consumption of copper physical layers (PHY) during periods of 
+low link utilization.
+
+Security
+
+The EX4300 line of Ethernet switches fully integrates with 
+Juniper Networks Unified Access Control (UAC), which 
+consolidates all aspects of a user’s identity, device, and location, 
+enabling administrators to enforce access control and security 
+down to the individual port or user levels.
+
+Building 1
+
+EX4300
+
+Virtual Chassis
+
+Floor 2
+
+Building 1
+
+EX4300
+
+Virtual Chassis
+
+Floor 3
+
+Closet 2.1
+
+10GbE MACsec
+
+Connections
+
+Closet 3.1
+
+10GbE MACsec Connections
+
+Building 1
+
+Floor 1
+
+Building 2
+
+Floor 1
+
+EX4550 Virtual Chassis
+
+or EX4550/EX4200 Mixed Virtual Chassis
+
+Closet 1.1
+
+10GbE MACsec Connections
+
+Figure 7: MACsec deployment with EX4300 and EX4550 switches.
+
+5
+
+Data SheetEX4300 Ethernet SwitchSimplified Management and Operations
+
+When employing Virtual Chassis technology, the EX4300 
+dramatically simplifies network management. Up to 10 
+interconnected EX4300 switches can be managed as a single 
+device. Each Virtual Chassis group utilizes a single Junos OS 
+image file and a single configuration file, reducing the overall 
+number of units to monitor and manage. When Junos OS is 
+upgraded on the master switch in a Virtual Chassis configuration, 
+the software is automatically upgraded on all other member 
+switches at the same time. 
+
+The EX4300 also includes port profiles that allow network 
+administrators to automatically configure ports with security, 
+QoS, and other parameters based on the type of device 
+connected to the port. Six preconfigured profiles are available, 
+including default, desktop, desktop plus IP phone, wireless access 
+point, routed uplink, and Layer 2 uplink. Users can select from 
+the existing profiles or create their own and apply them through 
+the command line interface (CLI), Junos Web interface, or 
+management system. 
+
+The EX4300 switches can be managed through Junos Space 
+Network Director*, a next-generation network management 
+solution that allows users to visualize, analyze and control the 
+entire enterprise network—data center and campus, physical and 
+virtual, and wired and wireless—through a single pane of glass. 
+It incorporates sophisticated analytics for real-time intelligence, 
+trended monitoring, and automation to increase agility as well as 
+faster rollout and activation of services.
+
+For cloud deployments, Network Director provides a set of 
+REST APIs that enable on-demand and dynamic network 
+services by simplifying the consumption of services for multi-
+tenant environments. With third-party cloud orchestration tool 
+integration, the Network Director API enables automation and 
+provisioning of Layer 2, Layer 3 and security services in the data 
+center without the need for manual operator intervention.
+
+Finally, the EX4300 switch system, performance, and fault data 
+can be exported to leading third-party management systems such 
+as HP OpenView, IBM Tivoli, and Computer Associates Unicenter 
+software to provide a complete, consolidated view of network 
+operations. 
+
+Warranty
+
+For warranty information, please visit www.juniper.net/support/
+warranty/.
+
+The UAC solution is composed of three main components: 
+Juniper Networks Junos Pulse as the endpoint client (also 
+available in an agent-less mode); the Junos Pulse Access Control 
+Service running on a blade in a MAG Series Junos Pulse Gateway 
+chassis or on a dedicated MAG Series appliance; and UAC 
+enforcement points. Working as an enforcement point with the 
+UAC solution, the EX4300 provides both standards-based 802.1X 
+port-level access control as well as L2-L4 policy enforcement 
+based on user identity, location, and/or device. A user’s identity, 
+device type, machine posture check, and location can be used 
+to determine whether access should be granted and for how 
+long. If access is granted, the switch assigns the user to a specific 
+VLAN based on authorization levels. The switch can also apply 
+QoS policies or mirror user traffic to a central location for logging, 
+monitoring, or threat detection by intrusion prevention systems. 
+
+Additionally, a captive portal redirection feature redirects URLs 
+from the EX4300 to the MAG Series gateway running Pulse Access 
+Control Service for user authentication and authorization, making 
+the UAC solution a “single source of truth” for user and device 
+authentication and for enforcing role-based security policies. 
+
+The EX4300 also provides a full complement of port security 
+features, including Dynamic Host Configuration Protocol (DHCP) 
+snooping, dynamic ARP inspection (DAI), IP Source Guard, and 
+media access control (MAC) limiting (per port and per VLAN) 
+to defend against internal and external spoofing, man-in-the-
+middle and denial-of-service (DoS) attacks.
+
+MACsec
+
+EX4300 switches support IEEE 802.1ae MACsec, providing 
+support for link-layer data confidentiality, data integrity, and data 
+origin authentication. The MACsec feature enables the EX4300 
+to support 88 Gbps of near line-rate hardware-based traffic 
+encryption on all GbE and 10GbE ports, including the base unit 
+and optional uplink modules. 
+
+Defined by IEEE 802.1AE, MACsec provides secure, encrypted 
+communication at the link layer that is capable of identifying and 
+preventing threats from denial of service (DoS) and intrusion 
+attacks, as well as man-in-the-middle, masquerading, passive 
+wiretapping and playback attacks launched from behind the 
+firewall. When MACsec is deployed on switch ports, all traffic 
+is encrypted on the wire but traffic inside the switch is not. This 
+allows the switch to apply all network policies such as QoS, 
+deep packet inspection and sFlow to each packet without 
+compromising the security of packets on the wire.
+
+Hop-by-hop encryption enables MACsec to secure 
+communications while maintaining network intelligence. In 
+addition, Ethernet-based WAN networks can use MACsec to 
+provide link security over longhaul connections. MACsec is 
+transparent to Layer 3 and higher-layer protocols and is not 
+limited to IP traffic; it works with any type of wired or wireless 
+traffic carried over Ethernet links.
+
+*Roadmap
+
+6
+
+Data SheetEX4300 Ethernet SwitchProduct Options
+Seven EX4300 switch models are available (see Table 1 below).
+
+Table 1: EX4300 Line of Ethernet Switches
+
+Model/Product 
+SKU
+
+Access Port Configuration
+
+PoE /
+PoE+ 
+Ports
+
+PoE 
+Budget
+
+10GbE 
+Ports 
+(max. 
+with 
+module)
+
+40GbE 
+Ports 
+(max. 
+with 
+module)
+
+Power 
+Supply 
+Rating
+
+Airflow
+
+EX4300-24T
+
+24-port 10/100/1000BASE-T
+
+0
+
+0 W
+
+EX4300-24P
+
+24-port 10/100/1000BASE-T
+
+24 
+
+550 W
+
+EX4300-48T
+
+48-port 10/100/1000BASE-T
+
+0
+
+0 W
+
+EX4300-48P
+
+48-port 10/100/1000BASE-T
+
+48 
+
+900 W
+
+EX4300-48T-AFI
+
+48-port 10/100/1000BASE-T
+
+EX4300-48T-DC
+
+48-port 10/100/1000BASE-T
+
+EX4300-48T-DC-AFI 48-port 10/100/1000BASE-T
+
+EX4300-32F
+
+32-port 100/1000BASE-X
+
+EX4300-32F-DC
+
+32-port 100/1000BASE-X
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0 W
+
+0 W
+
+0 W
+
+0 W
+
+0 W
+
+0 (4)
+
+0 (4)
+
+0 (4)
+
+0 (4)
+
+0 (4)
+
+0 (4)
+
+0 (4)
+
+4 (12)
+
+4 (12)
+
+4
+
+4
+
+4
+
+4
+
+4
+
+4
+
+4
+
+350 W AC
+
+AFO (Front-to-back airflow)
+
+715 W AC
+
+AFO (Front-to-back airflow)
+
+350 W AC
+
+AFO (Front-to-back airflow)
+
+1100 W AC AFO (Front-to-back airflow)
+
+350 W AC
+
+AFI (Back-to-front airflow)
+
+550 W DC AFO (Front-to-back airflow)
+
+550 W DC AFI (Back-to-front airflow)
+
+2 (4)
+
+2 (4)
+
+350 W AC
+
+AFO (Front-to-back airflow)
+
+550 W DC AFO (Front-to-back airflow)
+
+The EX4300 also offers spare chassis options without power supplies or fans, providing customers with the flexibility to create 
+custom SKUs. The supportability matrix for the EX4300 spare chassis SKUs is shown in Table 2. See Ordering Information section for 
+registration information.
+
+Table 2: Supportability matrix for EX4300 spare chassis SKUs
+
+Spare Chassis 
+SKU
+
+Description
+
+PSU-350-
+AC-AFO +
+EX4300-
+
+FAN
+
+JPSU-715-
+
+AC-
+
+AFO +
+
+EX4300-
+
+FAN
+
+JPSU-1100-
+AC-AFO +
+EX4300-
+
+FAN
+
+JPSU-550-
+DC-AFO +
+EX4300-
+
+FAN
+
+JPSU-350-
+
+AC-AFI+
+EX4300-
+FAN-AFI
+
+JPSU-550-
+DC-AFI +
+EX4300-
+FAN-AFI
+
+EX4300-48T-S Spare chassis, 48-port 
+
+10/100/1000BASE-T 
+
+EX4300-48P-S Spare chassis, 48-port 
+
+10/100/1000BASE-T PoE+ 
+
+EX4300-24T-S
+
+Spare chassis, 24-port 
+10/100/1000BASE-T 
+
+EX4300-24P-S
+
+Spare chassis, 24-port 
+10/100/1000BASE-T PoE+ 
+
+EX4300-32F-S
+
+Spare chassis, 32-port  
+100/1000BASE-X SFP, 
+4x10GBASE-X SFP+, 
+2x40GBASE-X QSFP+ 
+
+P
+
+EX4300-48T
+
+Y
+
+P
+
+EX4300-24T
+
+Y
+
+P
+
+EX4300-32F
+
+X
+
+Y
+
+X
+
+P
+
+EX4300-24P
+
+X
+
+Y
+
+P
+
+EX4300-48P
+
+Y
+
+Y
+
+Y
+
+P
+
+EX4300-
+48T-DC
+
+P
+
+EX4300-
+48T-AFI
+
+P
+
+EX4300-
+
+48T-DC-AFI
+
+Y
+
+Y
+
+Y
+
+P
+
+EX4300-32F-
+
+DC
+
+Y
+
+Y
+
+Y
+
+Y
+
+Y
+
+Y
+
+Y
+
+Y
+
+P: supported as a SKU; Y: supported combination; X: unsupported combination
+
+7
+
+Data SheetEX4300 Ethernet SwitchEX4300-48P
+
+EX4300-48T
+
+EX4300-24P
+
+EX4300-24T
+
+EX4300-32F
+
+EX4300 Specifications
+Physical Specifications
+Backplane
+
+•  320 Gbps Virtual Chassis interconnect to combine up to 10 
+
+units as a single logical device 
+
+Uplink Module Options
+
+•  EX4300-32F/EX4300-32F-DC: 8-port dual-mode 
+
+10GbE/1GbE module with pluggable SFP+/SFP optics
+
+•  EX4300-32F/EX4300-32F-DC: 2-port dual-mode 40GbE 
+
+module with pluggable QSFP+ optics
+
+•  Others: 4-port dual-mode 10GbE/1GbE module with 
+
+pluggable SFP+/SFP optics
+
+Power Options
+
+•  Power supplies: Autosensing; 100-120 V/200-240 V; AC 350 
+
+W AFO, 350 W AFI, 715 W AFO, and 1,100 W AFO dual load-
+sharing hot-swappable internal redundant power supplies
+
+•  Maximum current inrush: 50 amps
+
+•  DC power supply: 550 W DC AFO and 550 W DC AFI; input 
+
+voltage range 43.5-60 V max (+/- 0.5 V); dual input feed, 
+dual load-sharing hot-swappable internal redundant power 
+supplies
+
+•  Minimum number of PSUs required for fully loaded chassis:  
+
+1 per switch
+
+Dimensions (W x H x D)
+
+•  17.41 x 1.72 x 16.43 in (44.21 x 4.32 x 41.73 cm)
+
+•  Desktop installation width noted above, rack-mount width is  
+
+17.5 in (44.5 cm) 
+
+•  Height: 1 rack unit (1 U)
+
+System Weight
+
+•  1100 W AC power supply: 2.4 lb (1.1 kg)
+
+•  550 W DC power supply: 2.4 lb (1.1 kg)
+
+•  SFP+ uplink module: 0.44 lb (0.2 kg)
+
+•  Fan module: 0.33 lb (0.15 kg)
+
+Environmental Ranges
+
+•  Operating temperature: 32° to 113° F (0° to 45° C)
+
+•  Storage temperature: -40° to 158° F (-40° to 70° C)
+
+•  Operating altitude: up to 10,000 ft (3,049 m) 
+
+•  Non-operating altitude: up to 16,000 ft (4,877 m)
+
+•  Relative humidity operating: 10% to 85% (noncondensing) 
+
+•  Relative humidity non-operating: 0% to 95% 
+
+(noncondensing)
+
+Cooling
+
+•  Field-replaceable fans: 2
+
+•  Airflow: PSU-7.5 CFM, fan-22 CFM
+
+•  Total maximum airflow throughput with two power supplies:  
+
+59 CFM
+
+Hardware Specifications
+Switching Engine Model
+
+•  Store and forward
+
+Memory
+
+•  DRAM: 4 GB with Error Correcting Code (ECC) on EX4300-
+
+32F and EX4300-32F-DC; 2 GB with ECC on all other 
+EX4300 switches
+
+•  Flash: 4 GB on EX4300-32F and EX4300-32F-DC; 2 GB on 
+
+all other EX4300 switches
+
+•  EX4300 switch (no power supply or fan module): 13 lb (5.9 
+
+CPU 
+
+kg)
+
+•  EX4300 switch (with single power supply and two fan 
+
+modules): 16.1 lb (7.3 kg)
+
+•  350 W AC power supply: 2.4 lb (1.1 kg)
+
+•  715 W AC power supply: 2.4 lb (1.1 kg)
+
+•  1.5 GHz Dual-Core PowerPC CPU
+
+GbE Port Density per System
+
+•  24P/24T: 32 (24 host ports + four 40GbE ports + optional 
+
+four-port 1/10GbE uplink module)
+
+8
+
+Data SheetEX4300 Ethernet Switch•  32F: 46 (32 host ports + four 10GbE ports + two 40GbE ports 
+
+Layer 2 Switching
+
++ optional eight-port 1/10GbE uplink module or two-port 
+40GbE uplink module)
+
+•  48P/48T: 56 (48 host ports + four 40GbE ports + optional 
+
+four-port 1/10GbE uplink module)
+
+•  10GbE port density per system:
+
+ - 32F: 4 (fixed) + 8 (uplink module) 
+
+ - All others: 4 (uplink module)
+
+•  40GbE port density per system:
+
+ - 32F: 2 (fixed) + 2 (uplink module)
+
+ - All others: 4 (fixed)
+
+Supported Optics
+
+•  GbE SFP optic/connector type: LC SFP fiber supporting SX 
+
+(multimode), LX (single-mode) 
+
+•  10GbE SFP+ optic/connector type: 10GbE SFP+ LC 
+
+connector, SR (multimode), USR (multimode), LR (single-
+mode), ER (single-mode), LRM (multimode), and DAC 
+(direct-attach copper)
+
+•  40 GbE QSFP+ optic/connector type: 40GbE QSFP+ LC 
+
+connector type, SR (multimode), DAC (direct-attach copper)
+
+Physical Layer
+
+•  Time Domain Reflectometry (TDR) for detecting cable 
+
+breaks and shorts: 24P/24T and 48P/48T only
+
+•  Auto medium-dependent interface/medium-dependent 
+
+interface crossover (MDI/MDIX) support: 24P/24T and 
+48P/48T only  
+(all ports)
+
+•  Port speed downshift/setting maximum advertised speed on 
+
+10/100/1000BASE-T ports: 24P/24T and 48P/48T only, on 
+all ports
+
+•  Digital optical monitoring for optical ports
+
+Packet Switching Capacities (Maximum with 64 Byte Packets)
+
+•  24P/24T: 448 Gbps
+
+•  48P/48T: 496 Gbps
+
+•  32F: 464 Gbps
+
+Software Specifications
+Security
+
+ITU-T G.8032 Ethernet Ring Protection Switching
+IEEE 802.1AB: Link Layer Discovery Protocol (LLDP)
+
+•  Maximum MAC addresses per system: 64,000
+•  Jumbo frames: 9,216 Bytes
+•  Number of VLANs supported: 4,093
+•  Range of possible VLAN IDs: 1-4,094
+•  Virtual Spanning Tree (VST) instances: 510
+•  Port-based VLAN
+•  Voice VLAN
+•  Physical port redundancy: Redundant trunk group (RTG)
+•  Compatible with Per-VLAN Spanning Tree Plus (PVST+) 
+•  Routed VLAN Interface (RVI)
+•  Uplink Failure Detection (UFD)
+• 
+• 
+•  LLDP-MED with VoIP integration
+•  Default VLAN and multiple VLAN range support
+•  MAC learning disable
+•  Persistent MAC learning (sticky MAC)
+•  MAC notification
+•  Private VLANs (PVLANs)
+•  Explicit congestion notification (ECN)
+•  Layer 2 protocol tunneling (L2PT)
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+
+IEEE 802.1ak Multiple VLAN Registration Protocol (MVRP)
+IEEE 802.1p: CoS prioritization
+IEEE 802.1Q: VLAN tagging
+IEEE 802.1X: Port Access Control
+IEEE 802.1ak: Multiple Registration Protocol
+ IEEE 802.3: 10BASE-T
+ IEEE 802.3u: 100BASE-T
+ IEEE 802.3ab: 1000BASE-T
+ IEEE 802.3z: 1000BASE-X 
+ IEEE 802.3ae: 10-Gigabit Ethernet
+ IEEE 802.3ba: 40-Gigabit Ethernet
+ IEEE 802.3af: Power over Ethernet
+ IEEE 802.3at: Power over Ethernet Plus 
+ IEEE 802.3x: Pause Frames/Flow Control
+
+•  MAC limiting (per port and per VLAN)
+
+• 
+
+IEEE 802.3ah: Ethernet in the First Mile
+
+•  Allowed MAC addresses configurable per port
+
+Spanning Tree
+
+•  Dynamic ARP inspection (DAI)
+
+• 
+
+IP source guard
+
+•  Local proxy ARP
+
+•  Static ARP support
+
+•  DHCP snooping
+
+•  Captive portal
+
+•  Persistent MAC address configurations
+
+•  Distributed denial of service (DDoS) protection (CPU control 
+
+path flooding protection)
+
+Layer 2/Layer 3 Throughput (Mpps) (Maximum with  
+64 Byte Packets)
+
+•  24P/24T: 333 Mpps (wire speed)
+
+•  48P/48T: 369 Mpps (wire speed)
+
+•  32F: 345 Mpps (wire speed)
+
+• 
+
+• 
+
+• 
+
+• 
+
+ IEEE 802.1D: Spanning Tree Protocol
+
+ IEEE 802.1s: Multiple instances of Spanning Tree Protocol 
+(MSTP)
+
+ Number of MST instances supported: 64
+
+ Number of VLAN Spanning Tree Protocol (VSTP) instances 
+supported: 510
+
+• 
+
+ IEEE 802.1w: Rapid reconfiguration of Spanning Tree Protocol
+
+Link Aggregation
+
+IEEE 802.3ad: Link Aggregation Control Protocol
+
+• 
+•  802.3ad (LACP) support:
+
+ -    Number of LAGs supported: 128
+ -    Maximum number of ports per LAG: 16
+
+•  LAG load-sharing algorithm bridged or routed (unicast or 
+
+multicast) traffic:
+ -    IP: S/D IP
+ -    TCP/UDP: S/D IP, S/D Port
+
+9
+
+Data SheetEX4300 Ethernet Switch -    Non-IP: S/D MAC
+
+•  Tagged ports support in LAG
+
+Layer 3 Features: IPv4
+
+•  Maximum number of ARP entries: 64,000
+
+• 
+
+• 
+
+• 
+
+• 
+
+IPv6 neighbor discovery
+
+IPv6 source guard
+
+IPv6 RA Guard
+
+IPv6 Neighbor Discovery Inspection
+
+•  Maximum number of IPv4 unicast routes in hardware: 16,000 
+
+•  Media Access Control security (MACsec)
+
+prefixes; 32,000 host routes 
+
+•  Maximum number of IPv4 multicast routes in hardware: 
+
+8,000 multicast groups; 16,000 multicast routes
+
+•  Routing protocols: RIPv1/v2, OSPF, BGP, IS-IS
+
+•  Static routing
+
+•  Routing policy
+
+•  Bidirectional Forwarding Detection (BFD)
+
+•  Layer 3 redundancy: Virtual Router Redundancy Protocol 
+
+(VRRP)
+
+Layer 3 Features: IPv6
+
+•  Maximum number of Neighbor Discovery (ND) entries: 
+
+32,000
+
+•  Maximum number of IPv6 unicast routes in hardware: 4,000 
+
+prefixes; 15,000 host routes
+
+•  Maximum number of IPv6 multicast routes in hardware: 
+
+8,000 multicast groups; 16,000 multicast routes
+
+•  Routing protocols: RIPng, OSPFv3, IPv6, ISIS
+
+•  Static routing
+
+Access Control Lists (ACLs) (Junos OS Firewall Filters)
+
+•  Port-based ACL (PACL): Ingress and egress
+
+•  VLAN-based ACL (VACL): Ingress and egress
+
+•  Router-based ACL (RACL): Ingress and egress
+
+•  ACL entries (ACE) in hardware per system: 
+
+ -   Port-based ACL (PACL) ingress: 3,072
+
+ -   VLAN-based ACL (VACL) ingress: 3,500
+
+ -   Router-based ACL (RACL) ingress: 7,000
+
+ -   Egress shared across PACL and VACL: 512
+
+ - Egress across RACL: 1,024
+
+• 
+
+ ACL counter for denied packets
+
+•  ACL counter for permitted packets
+
+•  Ability to add/remove/change ACL entries in middle of list 
+
+(ACL editing)
+
+•  L2-L4 ACL 
+
+Access Security
+
+•  802.1X port-based
+
+•  802.1X multiple supplicants
+
+•  802.1X with VLAN assignment
+
+•  802.1X with authentication bypass access (based on host 
+
+MAC address)
+
+•  802.1X with VoIP VLAN support
+
+•  802.1X dynamic ACL based on RADIUS attributes
+
+•  802.1X Supported Extensible Authentication Protocol 
+
+(EAP types): Message Digest 5 (MD5), Transport Layer 
+Security (TLS), Tunneled TLS (TTLS), Protected Extensible 
+Authenticated Protocol (PEAP)
+
+•  MAC authentication (RADIUS)
+
+•  Control plane DoS protection
+
+•  Radius functionality over IPv6 for AAA
+
+•  DHCPv6 snooping
+
+High Availability
+
+•  Redundant, hot-swappable power supplies
+
+•  Redundant, field-replaceable, hot-swappable fans
+
+•  Graceful Routing Engine switchover (GRES) for Layer 2 
+hitless forwarding and Layer 3 protocols on RE failover
+
+•  Graceful protocol restart (OSPF, BGP)
+
+•  Layer 2 hitless forwarding on RE failover
+
+•  Non-Stop Bridging - LACP, xSTP
+
+•  Non-Stop Routing - PIM, OSPF v2 and v3, RIP v2, RIPnG, BGP, 
+
+BGPv6, ISIS, IGMP v1, v2, v3
+
+•  Online insertion and removal (OIR) uplink module
+
+Quality of Service 
+•  Layer 2 QoS
+
+•  Layer 3 QoS 
+
+• 
+
+Ingress policing: 1 rate 2 color
+
+•  Hardware queues per port: 12
+
+•  Scheduling methods (egress): Strict priority (SP), weighted 
+
+deficit round robin (WDRR)
+
+•  802.1p, DiffCode (DSCP)/IP Precedence trust and marking
+
+•  L2-L4 classification criteria: Interface, MAC address, 
+
+Ethertype, 802.1p, VLAN, IP address, DSCP/IP Precedence, 
+TCP/UDP port numbers, and more
+
+•  Congestion avoidance capabilities: Tail drop, weighted 
+
+random early detection (WRED)
+
+Multicast
+
+• 
+
+• 
+
+IGMP: v1, v2, v3
+
+IGMP snooping
+
+•  PIM-SM, PIM-SSM, PIM-DM
+
+Services and Manageability
+
+•  Junos OS CLI 
+•  Web interface
+•  Out-of-band management: Serial; 10/100/1000BASE-T 
+
+Ethernet
+
+•  ASCII configuration
+•  Rescue configuration
+•  Configuration rollback
+• 
+•  LCD management
+•  Element management tools: Juniper Networks Network and 
+
+Image rollback
+
+Security Manager (NSM)
+
+•  Remote performance monitoring
+•  Proactive services support via Advanced Insight Solutions 
+
+(AIS)
+
+•  SNMP: v1, v2c, v3
+•  RMON (RFC 2819) Groups 1, 2, 3, 9
+•  Network Time Protocol (NTP)
+•  DHCP server
+•  DHCP client and DHCP proxy 
+•  DHCP relay and helper
+
+10
+
+Data SheetEX4300 Ethernet Switch•  DHCP local server support
+•  RADIUS
+•  Junos Space Service Now for automated fault detection, 
+
+simplified trouble ticket management, and streamlined 
+operations
+•  TACACS+
+•  SSHv2
+•  Secure copy
+•  HTTP/HTTPs
+•  Domain Name System (DNS) resolver
+•  System logging
+•  Temperature sensor
+•  Configuration backup via FTP/secure copy
+
+MPLS
+
+•  VRF-Lite
+
+Supported RFCs
+
+•  RFC 768 UDP
+
+•  RFC 783 TFTP 
+
+•  RFC 791 IP
+
+•  RFC 792 ICMP
+
+•  RFC 793 TCP
+
+•  RFC 826 ARP
+
+•  RFC 854 Telnet client and server
+
+•  RFC 894 IP over Ethernet
+
+•  RFC 903 RARP
+
+•  RFC 906 TFTP Bootstrap
+
+•  RFC 951, 1542 BootP
+
+•  RFC 1027 Proxy ARP
+
+•  RFC 1058 RIP v1
+
+•  RFC 1112 IGMP v1
+
+•  RFC 1122 Host Requirements
+
+•  RFC 2453 RIP v2
+
+•  RFC 2460 Internet Protocol, Version 6 (IPv6) Specification  
+
+•  RFC 2461 Neighbor Discovery for IP Version 6 (IPv6)  
+
+•  RFC 2463 Internet Control Message Protocol (ICMPv6) for 
+
+the Internet Protocol Version 6 (IPv6) Specification 
+
+•  RFC 2464 Transmission of IPv6 Packets over Ethernet 
+
+Networks
+
+•  RFC 2474 DiffServ Precedence, including 12 queues/port
+
+•  RFC 2475 DiffServ Core and Edge Router Functions
+
+•  RFC 2526 Reserved IPv6 Subnet Anycast Addresses 
+
+•  RFC 2597 DiffServ Assured Forwarding (AF)
+
+•  RFC 2598 DiffServ Expedited Forwarding (EF)
+
+•  RFC 2740 OSPF for IPv6
+
+•  RFC 2925 MIB for Remote Ping, Trace
+
+•  RFC 3176 sFlow
+
+•  RFC 3376 IGMP v3
+
+•  RFC 3484 Default Address Selection for Internet Protocol 
+
+Version 6 (IPv6) 
+
+•  RFC 3513 Internet Protocol Version 6 (IPv6) Addressing 
+
+Architecture
+
+•  RFC 3569 draft-ietf-ssm-arch-06.txt PIM-SSM PIM Source 
+
+Specific Multicast
+
+•  RFC 3579 RADIUS EAP support for 802.1x
+
+•  RFC 3618 Multicast Source Discovery Protocol (MSDP)
+
+•  RFC 3623 OSPF Graceful Restart
+
+•  RFC 4213 Basic Transition Mechanisms for IPv6 Hosts and 
+
+Routers
+
+•  RFC 4291 IPv6 Addressing Architecture
+
+•  RFC 4443 ICMPv6 for the IPv6 Specification
+
+•  RFC 4541 IBMP and MLD snooping services
+
+•  RFC 4552 OSPFv3 Authentication
+
+•  RFC 1195 Use of OSI IS-IS for Routing in TCP/IP and Dual 
+
+•  RFC 4861 Neighbor Discovery for IPv6
+
+Environments (TCP/IP transport only)
+
+•  RFC 1256 IPv4 ICMP Router Discovery (IRDP)
+
+•  RFC 1492 TACACS+
+
+•  RFC 1519 CIDR
+
+•  RFC 1587 OSPF NSSA Option
+
+•  RFC 1591 DNS 
+
+•  RFC 1812 Requirements for IP Version 4 Routers
+
+•  RFC 1981 Path MTU Discovery for IPv6
+
+•  RFC 2030 SNTP, Simple Network Time Protocol 
+
+•  RFC 2068 HTTP server
+
+•  RFC 2080 RIPng for IPv6 
+
+•  RFC 4862 IPv6 Stateless Address Autoconfiguration  
+
+•  RFC 4915 MT-OSPF
+
+•  RFC 5095 Deprecation of Type 0 Routing Headers
+
+•  RFC 5176 Dynamic Authorization Extensions to RADIUS
+
+•  RFC 5798 VRRPv3 for IPv6
+
+•  Draft-ietf-bfd-base-05.txt Bidirectional Forwarding Detection 
+
+•  Draft-ietf-idr-restart-10.txt Graceful Restart Mechanism
+
+•  Draft-ietf-isis-restart-02 Restart Signaling for IS-IS
+
+•  Draft-ietf-isis-wg-multi-topology-11 Multi Topology (MT) 
+
+Routing in IS-IS for BGP
+
+• 
+
+Internet draft-ietf-isis-ipv6-06.txt, Routing IPv6 with IS-IS
+
+•  RFC 2131 BOOTP/DHCP relay agent and DHCP server
+
+•  LLDP Media Endpoint Discovery (LLDP-MED), ANSI/TIA-
+
+•  RFC 2138 RADIUS Authentication
+
+•  RFC 2139 RADIUS Accounting
+
+•  RFC 2154 OSPF w/Digital Signatures (Password, MD-5)
+
+1057, draft 08
+
+•  PIM-DM Draft IETF PIM Dense Mode draft-ietf-idmr-pim-
+
+dm-05.txt, draft-ietf-pim-dm-new-v2-04.txt
+
+•  RFC 2236 IGMP v2
+
+•  RFC 2267 Network Ingress Filtering
+
+•  RFC 2328 OSPF v2 (Edge-mode)
+
+•  RFC 2338 VRRP
+
+•  RFC 2362 PIM-SM (Edge-mode)
+
+•  RFC 2370 OSPF Opaque LSA Option
+
+Supported MIBs
+
+•  RFC 1155 SMI
+
+•  RFC 1157 SNMPv1
+
+•  RFC 1212, RFC 1213, RFC 1215 MIB-II, Ethernet-Like MIB and 
+
+TRAPs
+
+•  RFC 1493 Bridge MIB
+•  RFC 1643 Ethernet MIB
+
+11
+
+Data SheetEX4300 Ethernet Switch•  RFC 1657 BGP-4 MIB
+•  RFC 1724 RIPv2 MIB
+•  RFC 1850 OSPFv2 MIB 
+•  RFC 1905 RFC 1907 SNMP v2c, SMIv2 and Revised MIB-II
+•  RFC 2011 SNMPv2 for Internet Protocol using SMIv2
+•  RFC 2012 SNMPv2 for transmission control protocol using 
+
+SMIv2
+
+•  RFC 2013 SNMPv2 for user datagram protocol suing SMIv2
+•  RFC 2096 IPv4 Forwarding Table MIB
+•  RFC 2287 System Application Packages MIB
+•  RFC 2570 – 2575 SNMPv3, user based security, encryption, 
+
+and authentication
+
+•  RFC 2576 Coexistence between SNMP Version 1, Version 2, 
+
+and Version 3
+
+•  RFC 2578 SNMP Structure of Management Information MIB
+•  RFC 2579 SNMP Textual Conventions for SMIv2 
+•  RFC 2665 Ethernet-like interface MIB
+•  RFC 2787 VRRP MIB
+•  RFC 2819 RMON MIB
+•  RFC 2863 Interface Group MIB
+•  RFC 2863 Interface MIB 
+•  RFC 2922 LLDP MIB
+•  RFC 2925 Ping/Traceroute MIB
+•  RFC 2932 IPv4 Multicast MIB
+•  RFC 3413 SNMP Application MIB
+•  RFC 3414 User-based Security model for SNMPv3
+•  RFC 3415 View-based Access Control Model for SNMP
+•  RFC 3621 PoE-MIB (PoE switches only) 
+•  RFC 4188 STP and Extensions MIB
+•  RFC 4363 Definitions of Managed Objects for Bridges with 
+
+Traffic Classes, Multicast Filtering, and VLAN extensions
+
+•  RFC 5643 OSPF v3 MIB support
+•  Draft – blumenthal – aes – usm - 08
+•  Draft – reeder - snmpv3 – usm - 3desede -00
+•  Draft-ietf-bfd-mib-02.txt
+•  Draft-ietf-idmr-igmp-mib-13
+•  Draft-ietf-idmr-pim-mib-09
+•  Draft-ietf-idr-bgp4-mibv2-02.txt – Enhanced BGP-4 MIB
+•  Draft-ietf-isis-wg-mib-07
+
+Troubleshooting
+
+•  Debugging: CLI via console, Telnet, or SSH
+•  Diagnostics: Show and debug cmd, statistics
+•  Traffic mirroring (port)
+•  Traffic mirroring (VLAN)
+• 
+
+IP tools: Extended ping and trace
+
+•  Juniper Networks commit and rollback
+
+Traffic Monitoring
+
+•  ACL-based mirroring
+•  Mirroring destination ports per system: 4
+• 
+• 
+•  Maximum number of mirroring sessions: 4
+
+ LAG port monitoring
+ Multiple destination ports monitored to 1 mirror (N:1)
+
+•  Mirroring to remote destination (over L2): 1 destination VLAN
+
+Safety and Compliance
+Safety Certifications
+
+•  UL-UL60950-1 (First Edition)
+
+•  C-UL to CAN/CSA 22.2 No. 60950-1 (First Edition)
+
+•  TUV/GS to EN 60950-1, Amendment A1-A4, A11
+
+•  EN 60950-1 (2006 +A1:2009+A12:2010) Information 
+
+Technology Equipment—Safety
+
+• 
+
+IEC 60950-1 (2005 +A1:2009) Information Technology 
+Equipment—Safety
+
+Electromagnetic Compatibility Certifications
+
+•  FCC 47CFR Part 15 Class A
+
+•  EN 55022 Class A 
+
+• 
+
+ICES-003 Class A
+
+•  VCCI Class A
+
+•  AS/NZS CISPR 22 Class A
+
+•  CISPR 22 Class A
+
+•  EN 55024
+
+•  EN 300386
+
+•  CE
+
+NEBS
+
+•  GR-1089-Core: EMC and Electrical Safety for Network 
+
+Telecommunications Equipment
+
+Environmental
+
+•  Reduction of Hazardous Substances (ROHS) 6/6
+
+Telco
+
+•  CLEI code
+
+Noise Specifications
+
+•  Noise measurements based on operational tests taken 
+
+from bystander position (front) and performed at 23° C in 
+compliance with ISO 7779.
+
+Table 3. EX4300 Power Supply Ratings and Acoustic Noise in dBA
+
+Product
+
+EX4300-24T
+
+EX4300-48T
+
+Power Supply 
+Rating
+
+350 W AC AFO
+
+350 W AC AFO
+
+EX4300-48T-AFI
+
+350 W AC AFI
+
+EX4300-24P
+
+EX4300-48P
+
+715 W AC AFO
+
+1100 W AC AFO
+
+EX4300-48T-DC
+
+550 W DC AFO
+
+EX4300-48T-DC-AFI 
+
+550 W DC AFI
+
+EX4300-32F
+
+350 W AC AFO
+
+EX4300-32F-DC
+
+550 W DC AFO
+
+Acoustic Noise 
+
+38.5
+
+37.8
+
+38.9
+
+39.7
+
+51.0
+
+39.7
+
+39.7
+
+39
+
+41.2
+
+Juniper Networks Service and Support
+Juniper Networks is the leader in performance-enabling services 
+that are designed to accelerate, extend, and optimize your 
+high-performance network. Our services allow you to maximize 
+operational efficiency while reducing costs and minimizing 
+risk, achieving a faster time to value for your network. Juniper 
+Networks ensures operational excellence by optimizing the 
+network to maintain required levels of performance, reliability, 
+and availability. For more details, please visit www.juniper.net/us/
+en/products-services.
+
+12
+
+Data SheetEX4300 Ethernet SwitchOrdering Information 
+
+Product Number Description
+Switches1
+EX4300-24T
+
+24-port 10/100/1000BASE-T + 350 W AC 
+PS (QSFP+ DAC for Virtual Chassis ordered 
+separately)
+
+EX4300-48T
+
+EX4300-48T-AFI
+
+EX4300-24P
+
+EX4300-48P
+
+EX4300-48T-DC
+
+EX4300-48T-
+DC-AFI 
+
+EX4300-32F
+
+EX4300-32F-DC
+
+EX4300-24T-TAA
+
+48-port 10/100/1000BASE-T + 350 W AC 
+PS (QSFP+ DAC for Virtual Chassis ordered 
+separately)
+
+48-port 10/100/1000BASE-T + 350 W AC PS 
+(Back-to-front airflow) (QSFP+ DAC for Virtual 
+Chassis ordered separately)
+
+24-port 10/100/1000BASE-T PoE-plus + 715 W 
+AC PS (provides 565 W PoE+ power) (QSFP+ 
+DAC for Virtual Chassis ordered separately)
+
+48-port 10/100/1000BASE-T PoE-plus + 
+1,100 W AC PS (provides 950 W PoE+ power) 
+(QSFP+ DAC for Virtual Chassis ordered 
+separately)
+
+48-port 10/100/1000BASE-T + 550 W DC 
+PS (QSFP+ DAC for Virtual Chassis ordered 
+separately)
+
+48-port 10/100/1000BASE-T + 550 W DC PS 
+(Back-to-front airflow) (QSFP+ DAC for Virtual 
+Chassis ordered separately)
+
+32-port 100/1000BASE-X SFP, 4x10GBASE-X 
+SFP+, 2x40GBASE-X QSFP+, and 350W AC PS 
+(optics sold separately)
+
+32-port 100/1000BASE-X SFP, 4x10GBASE-X 
+SFP+, 2x40GBASE-X QSFP+, and 550W DC PS 
+(optics sold separately)
+
+Trade Agreement Act-compliant EX4300, 
+24-port 10/100/1000BASE-T + 350 W AC PS 
+(QSFP+ DAC for Virtual Chassis and optics 
+ordered separately)
+
+EX4300-48T-TAA Trade Agreement Act-compliant EX4300, 
+
+EX4300-48T-AFI-
+TAA
+
+EX4300-48T-DC-
+TAA
+
+EX4300-48T-DCI-
+TAA
+
+EX4300-24P-TAA
+
+48-port 10/100/1000BASE-T + 350 W AC PS 
+(QSFP+ DAC for Virtual Chassis and optics 
+ordered separately)
+
+Trade Agreement Act-compliant EX4300, 
+48-port 10/100/1000BASE-T + 350 W AC PS 
+(back-to-front airflow) (QSFP+ DAC for Virtual 
+Chassis and optics ordered separately)
+
+Trade Agreement Act-compliant EX4300, 
+48-port 10/100/1000BASE-T + 550 W DC PS 
+(QSFP+ DAC for Virtual Chassis and optics 
+ordered separately)
+
+Trade Agreement Act-compliant EX4300, 
+48-port 10/100/1000BASE-T + 550 W DC PS 
+(back-to-front airflow) (QSFP+ DAC for Virtual 
+Chassis and optics ordered separately)
+
+Trade Agreement Act-compliant EX4300,  
+24-port 10/100/1000BASE-T PoE-plus + 715 W 
+AC PS (provides 565 W PoE+ power) (QSFP+ 
+DAC for Virtual Chassis and optics ordered 
+separately)
+
+EX4300-48P-TAA Trade Agreement Act-compliant EX4300, 48-
+port 10/100/1000BASE-T PoE-plus + 1,100 W 
+AC PS (provides 950 W PoE+ power)(QSFP+ 
+DAC for Virtual Chassis and optics ordered 
+separately)
+
+Mounting Options
+EX-4PST-RMK
+
+Adjustable 4-post rack-mount kit for EX4200, 
+EX4300, and EX3200
+
+EX-WMK
+
+EX-RMK
+
+EX4200, EX4300, and EX3200 wall-mount kit 
+
+Rack Mount Kit for EX2200, EX3200, EX4200, 
+EX4300 and EX4550
+
+Product Number Description
+Feature Licenses2
+EX4300-24-EFL
+
+Enhanced Feature License (EFL) for EX4300-
+24T and EX4300-24P
+
+EX4300-48-EFL
+
+Enhanced Feature License (EFL) for EX4300-
+48T, EX4300-48T-AFI, EX4300-48T-DC, 
+EX4300-48T-AFI-DC, and EX4300-48P
+
+EX4300-32F-EFL
+
+Enhanced Feature License (EFL) for EX4300-
+32F and EX4300-32F-DC
+
+EX4300-24-AFL
+
+Advanced Feature License (AFL) for EX4300-
+24T and EX4300-24P
+
+EX4300-48-AFL
+
+Advanced Feature License (AFL) for EX4300-
+48T, EX4300-48T-AFI, EX4300-48T-DC, 
+EX4300-48T-AFI-DC, and EX4300-48P
+
+EX4300-32F-AFL
+
+Advanced Feature License (AFL) for EX4300-
+32F and EX4300-32F-DC
+
+EX-QFX-MACSEC-
+ACC3 
+Uplink Modules
+EX-UM-4X4SFP
+
+MACsec Software License for EX4300 and 
+EX4200 Access Switches
+
+EX4300 4-port 1GbE/10GbE SFP+ Uplink 
+Module for EX4300-24T, EX4300-48T, 
+EX4300-48T-AFI, EX4300-48T-DC, EX4300-
+48T-DC-AFI, EX4300-24P and EX4300-48P
+
+EX-UM-8X8SFP
+
+EX4300 8-port 1GbE/10GbE SFP+ Uplink 
+Module for EX4300-32F and EX4300-32F-DC
+
+EX-UM-2QSFP
+
+EX4300 2-port 40GbE QSFP+ Uplink Module 
+for EX4300-32F and EX4300-32F-DC
+
+1  Each switch ships standard with one power supply (including a power cord for the 
+
+country to which it is being shipped), RJ-45 cable, RJ-45-to-DB-9 serial port adapter, 
+and a 19” rack-mount kit. A second power supply is optional to provide resiliency. 
+The appropriate power cord accompanying that power supply needs to be ordered 
+separately. Virtual Chassis cables must be ordered separately and can be for any of the 
+optics supported (40GbE DAC recommended for Virtual Chassis connections).
+
+2 EFL includes license for OSPFv4/v6, PIM-SM/SSM/DM, IGMP v1/v2/v3 and VRF-Lite. AFL 
+
+includes license for IS-IS and BGP (EFL needs to be purchased and installed separately 
+before installing AFL).
+
+3 Not available in Russia and CIS countries.
+Power Supplies
+JPSU-350-AC-
+AFO 
+
+EX 4300 350 W AC power supply (power cord 
+needs to be ordered separately) (Front-to-back 
+airflow)
+
+JPSU-350-AC-AFI
+
+EX 4300 350 W AC power supply with airflow 
+in (power cord needs to be ordered separately) 
+(Back-to-front airflow)
+
+JPSU-715-AC-AFO  EX 4300 715 W AC power supply (power cord 
+
+JPSU-1100-AC-
+AFO 
+
+JPSU-550-DC-
+AFO 
+
+needs to be ordered separately) (Front-to-back 
+airflow)
+
+EX 4300 1100 W AC power supply (power cord 
+needs to be ordered separately) (Front-to-back 
+airflow)
+
+EX 4300 550 W DC power supply (power cord 
+needs to be ordered separately) (Front-to-back 
+airflow)
+
+JPSU-550-DC-AFI  EX 4300 550 W DC power supply with air flow 
+in (power cord needs to be ordered separately) 
+(Back-to-front airflow)
+
+Fans
+EX4300-FAN
+
+Spare fan with front-to-back airflow
+
+EX4300-FAN-AFI
+
+Spare fan with back-to-front airflow
+
+Spare Chassis
+EX4300-24P-S
+
+Spare chassis, 24-port 10/100/1000BASE-T 
+PoE-plus (optics, power supplies and fans sold 
+separately)
+
+13
+
+Data SheetEX4300 Ethernet SwitchProduct Number Description
+
+Product Number Description
+
+EX-SFP-10GE-
+DAC-xM
+
+SFP+ 10GbE Direct Attach Copper (twinax 
+copper cable), where “x” denotes 1, 3, 5, or 7 
+meter lengths
+
+EX-SFP-10GE-ER
+
+SFP+ 10GBASE-ER 10GbE Optics, 1,550 nm for 
+40 km transmission on single-mode fiber
+
+EX-SFP-10GE-
+USR
+
+SFP+ 10GbE Ultra Short Reach Optics, 850 nm 
+for 10 m on OM1, 20 m on OM2, 100 m on OM3 
+multimode fiber 
+
+EX-SFP-
+GE10KT13R14
+
+EX-SFP-
+GE10KT14R13
+
+EX-SFP-
+GE10KT13R15
+
+EX-SFP-
+GE10KT15R13
+
+SFP 1000BASE-BX; Tx 1310nm/Rx 1490nm for 
+10km transmission on single-strand, single-
+mode fiber
+
+SFP 1000BASE-BX; Tx 1490nm/Rx 1310nm for 
+10km transmission on single-strand, single-
+mode fiber
+
+SFP 1000BASE-BX; Tx 1310nm/Rx 1550nm for 
+10km transmission on single-strand, single-
+mode fiber
+
+SFP 1000BASE-BX; Tx 1550nm/Rx 1310nm for 
+10km transmission on single-strand, single-
+mode fiber
+
+About Juniper Networks
+Juniper Networks challenges the status quo with products, 
+solutions and services that transform the economics of 
+networking. Our team co-innovates with customers and partners 
+to deliver automated, scalable and secure networks with agility, 
+performance and value. Additional information can be found at 
+Juniper Networks or connect with Juniper on Twitter and Facebook.
+
+EX4300-24T-S
+
+EX4300-32F-S
+
+EX4300-48P-S
+
+EX4300-48T-S
+
+Spare chassis, 24-port 10/100/1000BASE-T 
+(optics, power supplies and fans sold 
+separately)
+
+Spare chassis, 32-port 1000BASE-X SFP, 
+4x10GBASE-X SFP+, 2x40GBASE-X QSFP+ 
+(optics, power supplies and fans sold 
+separately)
+
+Spare chassis, 48-port 10/100/1000BASE-T 
+PoE-plus (optics, power supplies and fans sold 
+separately)
+
+Spare chassis, 48-port 10/100/1000BASE-T 
+(optics, power supplies and fans sold 
+separately)
+
+Pluggable Optics
+EX-QSFP-40GE-
+DAC-50CM
+
+QSFP+ to QSFP+ 40GbE Direct Attach Copper 
+(twinax copper cable) 50 cm passive
+
+QFX-QSFP-40G-
+SR4
+
+QSFP+ 40GBASE-SR4 40GbE Optics, 850 nm 
+for up to 150 m transmission on multimode 
+fiber-optic (MMF)
+
+QFX-QSFP-DAC-
+1M
+
+QSFP+ to QSFP+ 40GbE Direct Attach Copper 
+(twinax copper cable) 1 m passive
+
+QFX-QSFP-DAC-
+3M
+
+QSFP+ to QSFP+ 40GbE Direct Attach Copper 
+(twinax copper cable) 3 m passive
+
+JNP-QSFP-DAC-
+5M
+
+QSFP+ to QSFP+ 40GbE Direct Attach Copper 
+(twinax copper cable) 5 m passive
+
+EX-SFP-1FE-FX
+
+EX-SFP-1GE-SX
+
+EX-SFP-1GE-LX
+
+EX-SFP-1GE-T
+
+SFP 100BASE-FX; LC connector; 1310nm; 
+2km reach on multimode fiber (supported on 
+EX4300-32F and EX4300-32F-DC 100BASE-X 
+fixed ports only)
+
+SFP 1000BASE-SX; LC connector; 850 nm; 550 
+m reach on multimode fiber
+
+SFP 1000BASE-LX; LC connector; 1,310 nm; 10 
+km reach on single-mode fiber
+
+SFP 10/100/1000BASE-T copper; RJ-45
+connector; 100m reach on UTP (supported 
+on EX4300-32F and EX4300-32F-DC 
+1000BASE-X fixed ports only)
+
+EX-SFP-10GE-SR
+
+SFP+ 10GBASE-SR; LC connector; 850 nm; 300 
+m reach on 50 microns multimode fiber; 33 m 
+on 62.5 microns multimode fiber
+
+EX-SFP-10GE-
+LRM
+
+SFP+ 10GBASE-LRM; LC connector; 1,310 nm; 
+220 m reach on multimode fiber
+
+EX-SFP-10GE-LR
+
+SFP+ 10GBASE-LR; LC connector; 1,310 nm; 10 
+km reach on single-mode fiber
+
+EXPLORE JUNIPER
+Get the App.
+
+Corporate and Sales HeadquartersJuniper Networks, Inc. 1133 Innovation WaySunnyvale, CA 94089 USAPhone: 888.JUNIPER (888.586.4737)or +1.408.745.2000Fax: +1.408.745.2100www.juniper.net Copyright 2017 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, and Junos are registered trademarks of Juniper Networks, Inc. in the United States and other countries. All other trademarks, service marks, registered marks, or registered service marks are the property of their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice.APAC and EMEA HeadquartersJuniper Networks International B.V.Boeing Avenue 2401119 PZ Schiphol-RijkAmsterdam, The NetherlandsPhone: +31.0.207.125.700Fax: +31.0.207.125.701Data SheetEX4300 Ethernet Switch1000467-018-EN  Apr 2017

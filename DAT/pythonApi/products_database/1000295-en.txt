@@ -1,0 +1,964 @@
+SBR Carrier
+
+Product Overview
+
+Product Overview. In order 
+to succeed in today’s 
+hypercompetitive markets, service 
+providers must offer a wide range 
+of wired and wireless services and 
+efficiently unify their service layer 
+into a single infrastructure that 
+addresses the high volume and 
+complexity of AAA requirements 
+across all access services.
+
+Juniper Networks SBR Carrier1 
+is a comprehensive, reliable, 
+scalable, and extensible AAA 
+server that delivers the access 
+control, fine-grained service 
+authorization, service delivery, and 
+accounting functions needed by 
+wired, wireless, and unified service 
+providers offering integrated 
+access services.
+
+1Formerly known as Steel-Belted Radius Carrier
+
+Your ideas. Connected.™
+
+Product Description
+Juniper Networks® SBR Carrier is a high-performance authentication, authorization, and 
+accounting (AAA) server that enables access-independent differentiated services and 
+efficient network resource management. SBR Carrier also enhances network security by 
+centralizing subscriber authentication, controlling the level of subscriber access, authorizing 
+service delivery, and ensuring compliance with security policies as well as delivering 
+accounting data to billing systems. 
+
+SBR Carrier integrates with current subscriber management infrastructures and existing 
+subscriber management systems such as Lightweight Directory Access Protocol (LDAP), 
+SQL, Home Location Register (HLR), Home Subscriber Server (HSS), and public key 
+infrastructure (PKI) databases, making it easy to deploy in new and existing networks. This 
+integration ensures the delivery of all accounting data to billing systems, business support 
+systems (BSS), and operations support systems (OSS) elements, guaranteeing proper 
+authentication and billing for all subscribers.  
+
+SBR Carrier meets stringent uptime demands with state-of-the-art reliability features that 
+include load balancing and redundancy across authentication and accounting systems. 
+With an optional Session State Registrar (SSR) component, SBR Carrier can be deployed 
+as an AAA cluster that enables true carrier-grade high availability (HA) and scales to 
+handle thousands of RADIUS and DIAMETER requests per second.
+
+SBR Carrier provides flexible interfaces that enable global deployment by allowing for 
+easy customization of regional, specific BSS and OSS rules and regulations, regardless of 
+network access technology, regulatory requirements, or changes in business intelligence.
+
+SBR Carrier also offers innovative service creation through support of schema adaptation 
+and both centralized and distributed subscriber data management. In addition, SBR Carrier 
+speeds time to market for new network access technologies by deploying all new services 
+from the same AAA server platform while leveraging prior integration with custom back-
+end OSS and BSS systems.
+
+SBR Carrier’s extensibility enables the convergence of multiple AAA server technologies 
+onto a single AAA platform. SBR Carrier can be placed in front of existing AAA servers 
+that are in either local or remote central offices. SBR Carrier can merge both existing and 
+acquired AAA servers and their associated back-end infrastructure into a common, state-
+of-the-art, and redundant back-end infrastructure system.
+
+SBR Carrier has been successfully deployed in more than 200 wired and wireless service 
+provider networks in more than 60 countries. These include a public Wi-Fi deployment in 
+the underground of one of Europe’s largest cities; an in-flight Wi-Fi system for a large U.S. 
+carrier; a connected car service for a major European brand; and a connected truck fleet 
+service in North America. 
+
+1
+
+Data SheetLDAP
+
+HLR
+HSS
+
+SQL
+
+PKI Custom
+
+Network
+
+Supported Access Networks
+
+xDSL
+
+Femtocell
+
+Satellite
+
+GPRS
+
+UMTS
+
+FTTx
+
+EVDO
+
+VPN
+
+UMA
+
+LTE
+
+DialupWLAN
+
+xDSL
+
+HSxPA
+
+Juniper Networks SBR Carrier
+
+Figure 1: SBR Carrier supports a broad range of network access technologies and subscriber management data stores2
+
+Architecture and Key Components
+SBR Carrier is a standards-based AAA server that implements 
+Internet Engineering Task Force (IETF) and Third-Generation 
+Partnership Project (3GPP) standards.
+
+SBR Carrier supports the broadest range of wireline (including 
+xDSL [via Point-to-Point Protocol over Ethernet, or PPPoE, 
+enhanced integration and lawful intercept], fiber to the home 
+[FTTH] and VPN) and wireless (including 3GPP, UMA/femtocell, 
+WLAN [802.1X], and LTE access types).
+
+SBR Carrier provides a feature-rich AAA server platform that 
+scales to meet the rigorous requirements of the largest network 
+service providers, including: 
+
+•  Broadband Providers: SBR Carrier enables authentication 
+and service delivery at per-user and per-device levels (e.g., 
+network enhanced residential gateway, or NERG). 
+
+•  Carriers/Wholesale Service Providers: With its market-
+
+leading transaction rate, SBR Carrier can handle even the 
+busiest networks. Its robust RADIUS proxy support enables 
+wholesale services to any customer regardless of network 
+infrastructure. SBR Carrier also supports LTE 3GPP use cases 
+such as voice over IP (VoIP) via a DIAMETER module.
+
+•  Wholesale Service Customers/Mobile Virtual Network 
+
+Operators (MVNOs): Capacity can be sourced from user-
+selected carriers; accounting mechanisms support usage-
+based services.
+
+•  Converged Carriers: Support for wired and wireless networks 
+
+enables AAA infrastructure consolidation onto a single AAA 
+server platform that can be distributed or centralized at a few 
+key sites.
+
+•  Mobile Operators: SBR Carrier verifies subscriber credentials 
+
+for mobile services/Internet access, assigns IP addresses, 
+manages service delivery, and integrates with billing and 
+provisioning systems.
+
+Managed Services/Outsource Service Providers: Supports 
+centralized management of all customer data and service 
+delivery requirements or leverages RADIUS proxy authentication 
+requests to a RADIUS or DIAMETER server at customer 
+sites, enabling providers to maintain control of their own 
+authentication databases at the lowest cost. Authenticated end 
+users may be consumers, employees, fleet vehicles, connected 
+cars or connected objects. 
+
+2  Note: WiMAX, CDMA, and UMA/Femtocell support requires mobility modules.
+
+2
+
+Data SheetSBR CarrierFeature
+
+Benefit
+
+Single, comprehensive AAA server 
+platform
+
+• 
+
+Improves operational efficiency by simplifying AAA server and subscriber management database 
+infrastructure deployment and management.
+
+•  Reduces OpEx and CapEx by using a common AAA server platform across wired and wireless networks, 
+
+eliminating single function/silo AAA infrastructure, duplicate or low-performance platforms.
+
+•  Resolves subscriber authentication issues associated with the unification of disparate networks with 
+
+disparate subscriber management systems. 
+
+•  Provides the flexibility to leave existing subscriber management systems in place even as the 
+
+authentication service layer is consolidated. 
+
+•  Permits user migration from one authentication method to another, allowing concurrent support for 
+
+outdated databases while new systems are introduced. 
+
+•  Extends new services to subscribers without significant impact to current infrastructure. Some new 
+
+service offerings might require considering new or additional user credentials or session service-level 
+information as an element of the initial authentication or authorization of the user onto the network. 
+With SBR Carrier, the authentication sequence can be adapted to locate information in new fields 
+in existing records or new fields that are located in a completely new database, allowing maximum 
+flexibility in managing network access.
+
+•  Authenticates against one or more SQL or LDAP databases concurrently, even when they are from 
+
+different vendors and regardless of back-end authentication requirements, which provides investment 
+protection when maintaining legacy subscriber management systems during AAA migration.
+
+•  Enables on-the-fly user profile changes (change of authorization), lawful intercept, or disconnect 
+messages by sending dynamic authorization requests to the home NAS, either directly or through 
+reverse proxy.
+
+•  Easily virtualized on Linux or Solaris platforms and fully aligned with major virtualization initiatives such 
+
+as virtual EPC (vEPC). 
+
+•  Scales to handle thousands of RADIUS requests per second.
+•  “Pay-as-you-grow” licensing model permits cost-effective AAA scale from 50,000 to millions of 
+
+• 
+
+subscribers by increasing subscriber session licenses. 
+Improves reliability by forwarding or load-balancing RADIUS proxy requests made to multiple backup 
+target servers in the service-layer infrastructure.
+
+•  Optional SSR module can be used to build an AAA cluster that enables true carrier-grade high 
+
+availability with N+1 redundancy and stateful resiliency.
+
+•  Can be flexibly deployed in place of—or in front of—existing AAA servers. 
+•  Widest range of back-end LDAP and SQL authentication database support (and optionally HLRs and 
+HSSs) ensures compatibility with existing infrastructure and meets new authentication requirements 
+such as LTE.
+
+•  Compatibility with commonly used subscriber management and billing systems allows SBR Carrier 
+to authenticate users against one or more existing user credential data stores, which is particularly 
+useful when integrating acquired subscribers or transitioning between legacy and new subscriber 
+management database systems.
+
+•  Captures and centralizes subscriber state from multiple AAA servers, which enables new revenue 
+
+streams based on service personalization, enhanced video delivery, and targeted advertising. 
+
+•  Eliminates fraud in access networks via network-wide user concurrency checking and by eliminating the 
+
+• 
+
+possibility of having out-of-sync user information on different RADIUS servers.
+Increases fault tolerance and redundancy in the AAA infrastructure with the ability to store volatile 
+subscriber session data in a back-end server cluster, which provides true stateful redundancy and 
+mirroring.
+
+•  Centralizing IP address pools in a single network location simplifies administration by eliminating the 
+
+need to separate IP pools into multiple groupings per RADIUS server, Dynamic Host Configuration 
+Protocol (DHCP) server, or NAS.
+
+•  Extends the SDN domain to subscriber management by mapping subscriber sessions to service chains. 
+
+For example, a service chain may offer a parental control network function; based on the subscriber 
+profile, SBR can instruct elements to send specific subscriber traffic to the parental services chain.
+
+Carrier-grade scale and high 
+availability
+
+Interoperability
+
+Optional SSR module
+
+SDN-ready
+
+Comprehensive logging and 
+accounting
+
+•  Fully supports RADIUS accounting, seamlessly integrates with accounting and billing systems, and 
+
+offers complete flexibility for session data management. 
+
+•  Logs all authentication transactions, so that the entire history of authentication requests and responses 
+
+can be viewed; when used with access devices supporting RADIUS accounting, shows exactly who’s 
+connected anywhere, at any time, and how long each user was connected.
+
+•  Authentication, accounting, proxy request, and other statistics can be viewed dynamically.
+•  Generates fully searchable reports on Current Sessions, Successful/Failed Authentication Requests, 
+
+Unknown Client Requests, and Invalid Shared Secret Requests. 
+
+•  RADIUS accounting log files can be easily exported to spreadsheets, databases, and custom billing 
+
+software. Accounting data can also be logged directly to a single SQL database or specify multiple SQL 
+target servers.
+
+•  Can spool accounting data from distributed RADIUS servers to a central billing system, which 
+
+guarantees delivery in the event of a system failure, eliminates lost accounting records and duplicate 
+entries, removes the need for local data backup and batch processing, and facilitates real-time usage 
+tracking for services such as prepaid Internet access cards.
+
+•  Allows subscriber data and billing information to be separated between multiple organizations—
+
+especially useful for wholesale service providers who must ensure that accurate accounting and billing 
+information is captured and shared in real time with wholesale and/or MVNO customers/partners. 
+
+3
+
+Data SheetSBR CarrierFeature
+
+Benefit
+
+Broad and flexible authentication
+
+•  SBR Carrier runs any LDAP filter or SQL query for the greatest flexibility in retrieving information, 
+enabling simple subscriber data management even when information is spread across multiple 
+subscriber databases. The authentication sequence is also extended to include new information fields 
+required for creating service offerings stored in new or existing databases.
+
+•  Retrieves stored RADIUS attributes and profiles from back-end databases that can be returned to the 
+
+network access equipment, often combining data from several locations to build a comprehensive 
+authorization profile before sending it back to the network.
+
+•  Flexibly adapts to existing BSS environments through various accounting methods. SBR Carrier can 
+
+authenticate roaming users via RADIUS proxy requests to RADIUS servers at other sites that have the 
+necessary user credential database against which to authenticate.
+
+Optional Java scripting module
+
+•  Easily modified to support custom business logic even when heavily customized data schemas and 
+
+formats are already in place, or to inject customized business intelligence into the network.
+
+Advanced RADIUS proxy 
+capabilities
+
+ Enables redundancy and supports roaming, wholesale services, and managed services.
+
+• 
+•  Enables wholesale service providers to open up their network and provide managed authentication 
+services, or map their AAA server infrastructure to their customers’ own sparse-dense mode (SDM) 
+infrastructure, which is beneficial to MVNOs that want to manage and control their subscribers’ identity 
+and authentication credentials within their own SDM systems. 
+
+•  Allows service providers delivering managed services to send service authentication requests to RADIUS 
+
+servers at customer sites, letting end customers manage their own SDM system.
+
+•  Flexibly supports multiple ways to set up RADIUS proxy users:
+
+ −   User name decorations can be specified to indicate a proxy target—for example, a user would 
+
+connect using george@myisp rather than simply george.
+
+ −   Allows proxies to be configured based on any attribute or combination of attributes, or based on 
+
+scripted logic.
+
+ −   Provides proxy packet filtering and setup rules that govern how SBR Carrier handles packets that 
+are forwarded to or received from target servers. For example, packet filters can add information 
+to the packet, possibly from a database, to provide the downstream network with additional 
+information. Or, they can remove attributes from the packets to hide information about the 
+network’s characteristics from the downstream partner. Additionally, when a reply comes back from 
+the downstream partner, attributes can be added or removed in a similar way, making sure that the 
+response is appropriate for the network or the service level offered. These RADIUS proxy capabilities 
+are essential for service providers that offer roaming services; are part of an ISP consortium; or have 
+smaller, special-purpose RADIUS servers in place.
+
+ −   Detects the health of downstream proxies—aka farm proxies—and can adapt forwarding based on 
+
+proxy health, which ensures customer satisfaction.
+
+• 
+
+ Translates 3GPP RADIUS requests to DIAMETER 3GPP AAA requests, enabling legacy clients to take 
+advantage of newer LTE infrastructure.
+
+Simple to configure and maintain
+
+•  Web GUI enables server administration from any machine, not just the one on which SBR Carrier is 
+
+installed. 
+
+•  Significantly reduces the time required to bring new devices and users online: simply cut and paste 
+
+existing configuration settings for users, RADIUS clients, profiles, and RADIUS proxy targets; only update 
+specific information required for new settings.
+
+•  Centralized configuration management (CCM) feature allows a master copy of SBR Carrier to be 
+
+replicated to all valid registered SBR Carrier replicas, saving time and eliminating human error. 
+Configuration data on replicas can only be modified by pushing changes from the master server, 
+preventing unanticipated configuration issues at a local level.
+ Allows customers to monitor their SBR Carrier server infrastructure through their existing network 
+management solutions via SNMP. SBR Carrier reports activity and all critical system functions to 
+centralized SNMP management agents in accordance with the IETF and proprietary MIBs.
+
+• 
+
+Enhanced security
+
+•  Offers password access protocol support:
+
+ −   Password Authentication Protocol (PAP), Challenge Handshake Authentication Protocol (CHAP), 
+
+MS-CHAP v2, Extensible Authentication Protocol (EAP), EAP Subscriber Identity Module (SIM), EAP 
+Authentication and Key Agreement (AKA), EAP Tunneled Transport Layer Security, (TTLS), EAP 
+Transport Layer Security (TLS)
+
+Product Options
+Juniper offers a number of optional SBR Carrier modules under 
+separate license that enable additional functions: 
+
+•  SCM
+
+•  SIM
+
+•  HLR Gateway
+
+•  Session State Registrar (SSR)
+
+•  Diameter
+
+•  Scripting 
+
+•  Concurrency
+
+Session State Registrar Module 
+
+The Session State Registrar (SSR) module removes session 
+information from individual front-end AAA servers and 
+consolidates it into a single, common session data store 
+cluster that leverages cluster technology. Separating the SBR 
+Carrier front-end processes from back-end data functions that 
+take place on two or four SSR data servers, the SSR module 
+implements a reliable and highly available AAA platform.
+
+This innovative AAA network architecture provides true stateful 
+redundancy through server cluster mirroring; provides greater 
+scale and throughput on the front end through the addition 
+of AAA servers where they are needed, and on the back end 
+
+4
+
+Data SheetSBR Carrierby adding cluster nodes; and allows the mapping of business 
+logic associated with network and application services with the 
+subscriber profiles of the active subscribers on the network. 
+
+The SBR Carrier SSR module implements a scalable, reliable, 
+high availability AAA platform. Multiple servers of different types 
+(data, management, and SBR Carrier) perform certain aspects 
+of SBR Carrier operation. The servers collaborate to share a 
+common session database and a common IP address pool, 
+and to provide a high level of redundancy. The common shared 
+resources can be accessed simultaneously by up to 20 SBR 
+Carrier servers.
+
+Data
+
+Management
+
+Billing
+
+Services
+
+SQL/LDAP/CLI/HTTPS
+
+Session State
+
+Registrar
+
+SBR Carrier
+
+SBR Carrier
+
+High Availability
+Session State
+
+Data Base
+
+SBR Carrier
+
+SBR Carrier
+
+RADIUS/RADIUS CoA
+
+Network
+
+Figure 2: SBR Carrier with its SSR module deployed in a cluster 
+
+configuration
+
+SBR Carrier front-end servers and SSR back-end servers 
+collaborate to create a virtual AAA server that provides:
+
+•  High availability (HA)
+
+•  State preservation during failover between front-end SBR 
+
+Carrier nodes
+
+•  Application session awareness
+
+•  Centralized IP address management
+
+DIAMETER Module
+
+The DIAMETER module supports 3GPP AAA LTE interoperability 
+through the SWa, SWd, SWm, SWx, and S6b interfaces. Use 
+cases include voice over IP (VoIP), voice over LTE (VoLTE), and 
+voice over Wi-Fi (VoWiFi).
+
+SIM Module
+
+The SBR Carrier optional SIM authentication module enables 
+Global System for Mobile Communications (GSM) and universal 
+mobile telecommunications system (UMTS) service providers 
+to provide wireless data access to subscribers, based on the 
+authentication of their SIM credentials against the existing HLR 
+infrastructure and a leveraging of their existing customer care, 
+roaming, and billing infrastructures.
+
+The SBR Carrier SIM module allows service providers to deploy 
+IP-based service access while leveraging their SS7-based 
+authentication systems. It leverages existing HLR, billing interface 
+support, and the SS7 or SIGTRAN networks already in place 
+through the optional SIGTRAN software module. The SIM 
+authentication module retrieves security information from an 
+HLR to authenticate users or devices that use a provider’s SIM 
+(GSM) or USIM (UMTS) cards. It enables all applications that use 
+the authentication protocols EAP-SIM or EAP-AKA. Among those 
+applications are:
+
+•  Femtocell
+
+•  Unlicensed Mobile Access (UMA)/Generic Access Network 
+
+(GAN)
+
+•  WLAN
+
+•  Secured public hotspot
+
+JavaScript Module
+
+The scripting module enables SBR Carrier “fine-tuning” and can 
+implement custom request processing logic. Scripts can be used 
+to configure SBR Carrier to evaluate complex decision logic and 
+manipulate RADIUS requests in ways that cannot be expressed 
+through settings in the standard SBR Carrier initialization files.
+
+SBR Carrier scripts are written in JavaScript, an easy-to-use, 
+industry standard scripting language with a powerful, object-
+based syntax. Scripts can supplement or override specific 
+functional modules within the SBR Carrier by implementing 
+custom processing logic written in JavaScript. JavaScript APIs 
+allow scripts to perform tasks such as the following:
+
+•  Manipulate RADIUS request and response attributes as they 
+
+come into the server, passing through the server (including 
+proxy), and/or leaving the server 
+
+•  Centralized concurrency management (if optional 
+
+Concurrency and Wholesale Module is installed on all SBR 
+Carrier servers)
+
+•  Select the processing realm for a request
+
+•  Query external SQL and LDAP servers
+
+•  Print information and debug messages to the server log
+
+5
+
+Data SheetSBR CarrierSession Control Module
+
+The Session Control module lets customers make changes to 
+active subscriber sessions without requiring the network access 
+server (NAS) to initiate the change. For example, a service 
+provider might want to terminate an active user’s session by 
+issuing a Disconnect Message (DM) request to the NAS, or modify 
+the authorization level of an active user’s session by issuing a 
+Change of Authorization (CoA) request to the NAS. Under a 
+different scenario, a service provider may be compelled to provide 
+legal organizations with voice and data intercept capabilities 
+as mandated by law; these might include access to private 
+communications between organizations or individuals such 
+as phone calls, e-mail, VoIP, or instant messaging. These legal 
+intercept capabilities can be performed by issuing a CoA request. 
+
+Using the Session Control module, service providers can customize 
+the CoA/DM requests they want to support in their network. They 
+can define actions that can be invoked on active sessions such as 
+disconnecting an active session, increasing the bandwidth of an 
+active session, or any other action they want to define. 
+
+Concurrency Module
+
+The optional Concurrency and Wholesale module works in the 
+Session State Register environment, providing tools that can limit 
+the number of active connections on a per-user, per-cluster basis. 
+SBR Carrier also supports concurrency enforcement on attributes 
+other than user name.
+
+Specifications
+SBR Carrier supports Linux (RHEL 6.1 or better) and Oracle 
+Solaris SPARC hardware (Solaris 10 or 11). Virtualization is also 
+supported (KVM and VMware on Linux, Logical Domains on 
+Solaris). Juniper does not recommend overprovisioning.
+
+Hardware Requirements: Linux
+Standalone
+
+•  Minimum: Xeon 4-core or 2x2-core at 2.0 GHz, 2 GB local 
+
+HDD
+
+•  Recommended: Xeon 2x6-core at 3.6 GHz or higher, 2 GB 
+
+local HDD, 8 GB RAM
+
+Cluster
+
+•  Front-end and/or management nodes:
+
+ -   Minimum: Xeon 4-core or 2x2-core, 2 GB local HDD, 8 
+GB RAM (2 for management node only), 2 100 Base-T 
+physical interfaces, multipath configuration
+
+ -   Recommended: Xeon 2x4-core at 3.6 GHz or higher, 2 
+GB HDD, 4 GB RAM, 2 100 Base-T physical interfaces, 
+multipath configuration
+
+•  Data nodes:
+
+ -   Minimum: Xeon 4-core or 2x2-core at 2.4 GHz, 10 GB RAM, 
+2 100 Base-T physical interfaces, multipath configuration 
+(see below for HDD requirements)
+
+ -   Recommended: Xeon 2x4-core at 3.6 GHz, more than 
+
+10 GB RAM, 2 100 Base-T physical interfaces, multipath 
+configuration (see below for HDD requirements)
+
+Existing Subscriber Databases
+
+LDAP
+
+SQL
+
+HLR
+
+Databases
+SQL
+
+LDAP
+
+Databases
+SQL
+
+LDAP
+
+New Subscriber
+
+Redundant Subscriber
+
+Proxy AAA Destinations
+
+PKI
+
+HSS
+
+PKI
+
+HSS
+
+Legacy
+
+AAA
+
+SBR Carrier
+
+xDSL
+
+Femtocell
+
+Satellite
+
+GPRS
+
+UMTS
+
+FTTx
+
+EVDO
+
+VPN
+
+UMA
+
+LTE
+
+DialupWLAN
+
+xDSL
+
+HSxPA
+
+Figure 3: SBR Carrier readily supports integration into back-end infrastructure
+
+6
+
+Data SheetSBR CarrierHardware Requirements: Solaris SPARC
+Standalone
+
+Model Number
+
+Description
+
+SBR Carrier Session State Registrar
+
+•  Minimum: Two-CPU UltraSPARC IIIi processors or better, 
+
+SBR-SSR-EXP
+
+running at 1.5 GHz, 1 GB local HDD, 8 GB RAM
+
+•  Recommended: UltraSPARC T1 or better, SPARC64 VII or 
+
+better, SPARC T3 or better, 1 GB local HDD, 8 GB RAM
+
+SBR-SSR-MNGMT
+
+SBR Carrier Session State Registrar—Cluster 
+expansion kit; consists of 2 cluster notes 
+(license key only) 
+
+SBR Carrier Session State Registrar—
+Additional Management Node (license key 
+only)
+
+SBR Carrier Session State Registrar—Cluster 
+starter kit; consists of 2 cluster nodes and 2 
+management nodes (license key only)
+
+SBR Carrier Session State Registrar—Cluster 
+limited kit; consists of 2 cluster nodes and 
+2 management nodes, limited to 100,000 
+subscriber sessions (license key only)
+
+SBR-SSR-START
+
+SBR-SSR-LIMITED
+
+Cluster
+
+•  Front-end and/or management nodes:
+
+ -   Minimum: UltraSPARC T1 or better, SPARC64 VII or better, 
+SPARC T3 or better, 1 GB local HDD, 2 100 Base-T physical 
+interfaces, multipath configuration
+
+ -   Recommended: UltraSPARC T1 or better, SPARC64 or 
+
+better, SPARC T3 or better, 4 GB RAM or more, 2 100 
+Base-T physical interfaces, multipath configuration
+
+•  Data nodes:
+
+ -   Minimum: SPARC64 VII or better, 10 GB RAM, 2 100 Base-T 
+
+physical interfaces, multipath configuration (see HDD 
+requirements below)
+
+ -   Recommended: SPARC64 VII at 2.53 GHz or better, 
+
+more than 10 GB RAM, 2 100 Base-T physical interfaces, 
+multipath configuration (see HDD requirements below)
+
+ -   HDD requirements: for both Linux and Solaris, calculate 
+
+the local disk space requirement based on the amount of 
+RAM in the system; to calculate the minimum requirement 
+for RAM, use the formula: (RAM - 4 G) * 12
+
+Juniper Networks Services and Support
+
+Juniper Networks is the leader in performance-enabling services 
+that are designed to accelerate, extend, and optimize your 
+high-performance network. Our services allow you to maximize 
+operational efficiency while reducing cost and minimizing 
+risk, achieving a faster time to value for your network. Juniper 
+Networks ensures operational excellence by optimizing the 
+network to maintain required levels of performance, reliability, 
+and availability. For more details, please visit www.juniper.net/us/
+en/products-services/services/technical-services/operate/#tab-
+advanced-services. 
+
+Model Number
+
+Description
+
+SBR Carrier
+
+SBR-CAR-AAA-LX
+
+SBR-CAR-AAA
+
+SBR Carrier Core AAA server license for 
+Linux; includes 50,000 concurrent sessions 
+(license key only)
+
+SBR Carrier Core AAA server license for 
+Solaris; includes 50,000 concurrent 
+sessions (license key only)
+
+SBR Carrier Optional Modules
+
+SBR-CAR-SIM
+
+SBR-CAR-JSC
+
+SBR-CAR-CWM
+
+SBR-CAR-SCM
+
+SBR-CAR-DIA
+
+SBR Carrier AAA optional SIM 
+Authentication module (license key only)
+
+SBR Carrier AAA optional JavaScripting 
+module (license key only)
+
+SBR Carrier AAA optional Concurrency and 
+Wholesale module (license key only)
+
+SBR Carrier AAA optional Session Control 
+module (license key only)
+
+SBR Carrier AAA optional DIAMETER 
+module
+
+SBR Carrier HLR Access Options
+
+SBR-HLR-SIG-LX
+
+SBR-HLR-SIG
+
+SBR-HLR-SIGADD-LX
+
+SBR-HLR-SIGADD
+
+SBR-HLR-SIG-
+ADDASC-LX
+
+SBR Carrier HLR Gateway—SIGTRAN stack 
+for Linux (license key only)
+
+SBR Carrier HLR Gateway—SIGTRAN stack 
+for Solaris (license key only)
+
+SBR Carrier HLR Gateway—Add SIGTRAN 
+stack to existing SS7 install (includes 2 
+SIGTRAN associations) for Linux
+
+SBR Carrier HLR Gateway—Add SIGTRAN 
+stack to existing SS7 install (includes 2 
+SIGTRAN associations for Solaris)
+
+SBR Carrier HLR Gateway—Upgrade 
+SIGTRAN stack with 2 additional SIGTRAN 
+associations for Linux
+
+SBR-HLR-SIGADDASC SBR Carrier HLR Gateway—Upgrade 
+
+SIGTRAN stack with 2 additional SIGTRAN 
+associations for Solaris
+
+SBR Carrier Current Session Licenses
+
+SBR-CAR-ADD-50K 
+
+SBR-CAR-ADD-100K
+
+SBR-CAR-ADD-250K
+
+SBR-CAR-ADD-500K
+
+SBR-CAR-ADD-1M
+
+SBR-CAR-ADD-2M
+
+SBR Carrier—Add 50,000 concurrent 
+sessions (license key only)
+
+SBR Carrier—Add 100,000 concurrent 
+sessions (license key only)
+
+SBR Carrier—Add 250,000 concurrent 
+sessions (license key only)
+
+SBR Carrier—Add 500,000 concurrent 
+sessions (license key only)
+
+SBR Carrier—Add 1,000,000 concurrent 
+sessions (license key only)
+
+SBR Carrier—Add 2,000,000 concurrent 
+sessions (license key only)
+
+SBR Carrier Current Session Licenses
+
+SBR-CAR-TPS-500
+
+SBR-CAR-TPS-1000
+
+SBR-CAR-TPS-2000
+
+SBR-CAR-TPS-5000
+
+SBR Carrier—Support for up to 500 
+transactions/second/server (license only)
+
+SBR Carrier—Support for up to 1,000 
+transactions/second/server (license only)
+
+SBR Carrier—Support for up to 2,000 
+transactions/second/server (license only)
+
+SBR Carrier—Support for up to 5,000 
+transactions/second/server (license only)
+
+SBR-CAR-TPS-10000 SBR Carrier—Support for up to 10,000 
+
+transactions/second/server (license only)
+
+SBR-CAR-TPS-UNLIM SBR Carrier—Support for unlimited proxy 
+
+transactions per server (license only)
+
+7
+
+Data SheetSBR CarrierAbout Juniper Networks
+Juniper Networks is in the business of network innovation. From 
+devices to data centers, from consumers to cloud providers, 
+Juniper Networks delivers the software, silicon and systems that 
+transform the experience and economics of networking. The 
+company serves customers and partners worldwide. Additional 
+information can be found at www.juniper.net.
+
+Corporate and Sales HeadquartersJuniper Networks, Inc. 1133 Innovation WaySunnyvale, CA 94089 USAPhone: 888.JUNIPER (888.586.4737)or +1.408.745.2000Fax: +1.408.745.2100www.juniper.net Copyright 2016 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, Junos and QFabric are registered trademarks of Juniper Networks, Inc. in the United States and other countries. All other trademarks, service marks, registered marks, or registered service marks are the property of their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice.APAC and EMEA HeadquartersJuniper Networks International B.V.Boeing Avenue 2401119 PZ Schiphol-RijkAmsterdam, The NetherlandsPhone: +31.0.207.125.700Fax: +31.0.207.125.701Data SheetSBR Carrier1000295-005-EN  Mar 2016

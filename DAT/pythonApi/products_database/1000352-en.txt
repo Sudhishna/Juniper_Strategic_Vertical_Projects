@@ -1,0 +1,491 @@
+XRE200 External  
+Routing Engine 
+
+Product Overview
+
+The XRE200 External Routing 
+Engine provides complete 
+separation of the control and 
+data planes in an EX8200 Virtual 
+Chassis configuration, enabling a 
+highly resilient network that can 
+scale to support more than 3,000 
+GbE or 640 10GbE connections. 
+
+Product Description 
+The Juniper Networks® XRE200 External Routing Engine is a purpose-built, server-class 
+appliance that works with internal Routing Engines (REs) on the Juniper Networks EX8200 
+line of Ethernet switches to create a highly resilient architecture for supporting Virtual 
+Chassis configurations based on the EX8200 line of modular switches.
+
+By externalizing control plane functionality and separating it from the data plane running 
+on the actual switch fabric, the XRE200 implements a highly reliable design that includes 
+no single point of failure. The result is a scalable solution that  provides the additional 
+processing power required to manage an EX8200-based Virtual Chassis configuration.
+
+Juniper’s Virtual Chassis technology enables multiple interconnected switches to operate 
+as a single, logical device. In the EX8200 line of Ethernet switches, Virtual Chassis 
+technology greatly simplifies data center and campus core network configurations, 
+management, and troubleshooting. Virtual Chassis technology in the EX8200 switches 
+also minimizes or eliminates the need for Spanning Tree Protocol (STP) while increasing 
+network performance by enabling full utilization of all network uplinks.
+
+Product Description
+The XRE200 is a 2RU device that includes two slots for supporting 1GbE Virtual Chassis 
+Control Interface (VCCI) modules. Two VCCI module options are available:
+
+•  4-port 10/100/1000BASE-T RJ-45 module (included with the base XRE200 system)
+
+•  4-port 1000BASE-X GbE SFP module (optional for extending the Virtual Chassis 
+
+configuration up to 40 km)
+
+On the front panel, the XRE200 includes an LCD screen for reporting device status at a 
+glance or performing device configuration via a menu-driven screen; a 10/100/1000BASE-T 
+RJ-45 port for XRE-to-XRE or XRE-to-Virtual Chassis connections;  
+a console port for out-of-band management; and a USB drive for file storage.
+
+Additional front panel slots are also available for supporting redundant 160 GB hard drives 
+for providing extra processing power. On the back panel, the XRE200 includes redundant, 
+hot-swappable 250 W AC power supplies and redundant, hot-swappable fans.
+
+• 
+
+Internally, the XRE200 includes a 2.1 GHz Intel Core 2 Duo processor with 2 MB L2 
+cache, 4 GB DRAM, and 4 GB of flash memory. 
+
+Your ideas. Connected.™
+
+1
+
+Data SheetArchitecture and Key Components
+An EX8200-based Virtual Chassis configuration is composed 
+of up to four EX8200 member switches—any combination 
+of eight-slot EX8208s or 16-slot EX8216s—and two XRE200 
+devices acting as active/standby devices for control plane and 
+management plane redundancy.
+
+XRE200 Features and Benefits
+In addition to control plane scalability, the XRE200 ensures that 
+if one or more switches in the Virtual Chassis configuration lose 
+connectivity to the adjacent chassis, access switches connected 
+to the EX8200 Virtual Chassis do not lose connectivity with the 
+network. 
+
+Ports on the VCCI modules connect to the EX8200 internal REs, 
+either the EX8208-SRE320 or EX8216-RE320. One internal RE 
+from each EX8200 chassis is connected to the active XRE200, 
+while the second internal RE is connected to the standby 
+XRE200. The two XRE200 devices can also be connected to 
+each other directly via GbE interfaces.
+
+An optional 1000BASE-X fiber VCCI module can be used to 
+connect the active and standby XRE200 devices in environments 
+where the distance between them exceeds the maximum span 
+of unshielded twisted pair cable—for example, when the EX8200 
+Virtual Chassis configuration is spread across two buildings.
+
+Juniper Networks Junos® operating system high availability (HA) 
+features such as GRES, NSR, and nonstop bridging (NSB) are 
+enabled on the XRE200 devices in a Virtual Chassis configuration. 
+In the event of an active XRE200 failure, the standby XRE200 
+assumes the active role without impacting network state or 
+forwarding behavior. Junos OS HA features ensure that the 
+state of the Virtual Chassis, L2/L3 protocols, and forwarding 
+information are not lost.
+
+In addition, all Junos OS control plane protocols running on an 
+EX8200 Virtual Chassis configuration—including 802.3ad, OSPF, 
+Internet Group Management Protocol (IGMP), Physical Interface 
+Module (PIM), and BGP—also run on the XRE200, providing 
+control plane scalability for large core deployments. The 
+EX8200 and XRE200 use the Virtual Chassis Control Protocol to 
+exchange Virtual Chassis state information.
+
+The XRE200 also ensures that traffic flowing from one access 
+switch to any other access switch or to any core/WAN router 
+connected to the same EX8200 Virtual Chassis configuration are 
+not affected if the intra-Virtual Chassis connection fails.
+
+Junos Operating System
+The XRE200 runs the same Junos OS used by the Juniper 
+Networks EX Series Ethernet Switches, as well as all Juniper 
+Networks routers and Juniper Networks SRX Series Services 
+Gateways. By utilizing a common operating system, Juniper 
+Networks delivers a consistent implementation and operation 
+of control plane features across all products. To maintain 
+that consistency, Junos OS adheres to a highly disciplined 
+development process that uses a single source code, follows 
+a single quarterly release train, and employs a highly available 
+modular architecture that prevents isolated failures from bringing 
+down an entire system.
+
+These attributes are fundamental to the core value of the 
+software, enabling all Junos OS-powered products to be updated 
+simultaneously with the same software release. All features are 
+fully regression tested, making each new release a true superset 
+of the previous version. Customers can deploy the software with 
+complete confidence that all existing capabilities are maintained 
+and operate in the same way.
+
+Active XRE200
+
+EX8200
+
+Virtual Chassis
+Member Switch
+
+EX8200
+
+Virtual Chassis
+Member Switch
+
+Backup
+XRE200
+
+10GbE LAG
+
+10GbE LAG
+
+10GbE
+LAG
+
+10GbE
+LAG
+
+10GbE LAG
+
+10GbE LAG
+
+EX8200
+Virtual Chassis
+Member Switch
+
+EX8200
+Virtual Chassis
+Member Switch
+
+4x10GbE LAG
+
+Tra‚c ﬂow from  Access Switch A to Access Switch B
+
+4x10GbE LAG
+
+Access Switch A
+
+Inter XRE200 ﬁber connection
+Active XRE200 to Internal RE connection (1GbE copper)
+Standby XRE200 to Internal RE connection (1GbE copper)
+
+Access Switch B
+
+10GbE line rate intra-Virtual Chassis connection
+10GbE tra‚c ﬂow in fabric mode
+
+Figure 1:  Example of a four-member EX8200 Virtual Chassis configuration
+
+2
+
+Data SheetXRE200 External Routing Engine XRE200
+
+XRE200 External Routing Engine  
+Specifications 
+Hardware
+Interface Options 
+
+•  4 10/100/1000BASE-T RJ-45 copper Virtual Chassis ports  
+
+(base model)
+
+•  4 1000BASE-X GbE SFP fiber Virtual Chassis ports 
+
+(optional)
+
+•  10/100/1000BASE-T RJ-45 copper port for XRE-to-XRE or 
+
+XRE-to-Virtual Chassis connections
+
+•  Console port for management 
+
+Dimensions (W x H x D)
+
+•  17.25 x 3.5 (2U) x 17.72 in (43.8 x 8.9 x 45 cm)
+
+Rack Installation Kit 
+
+•  Versatile two-post and four-post mounting options for 19-
+
+in. server rack or datacom rack 
+
+LEDs 
+
+•  System LEDs that indicate power, HDD activity, and 
+
+hardware alert status
+
+•  HD activity and fail LED on drive tray
+
+Power 
+
+•  100 to 240 V, 50-60 Hz 250 W hot-swappable dual 
+
+redundant AC power supplies
+
+•  -38 to -72 V 560 W hot-swappable dual redundant DC 
+
+power supplies
+
+•  Maximum power consumption: 156 W with two power 
+
+supplies and two I/O cards installed
+
+Software
+Security 
+
+•  RADIUS 
+•  TACACS+ 
+•  Access control lists: Allow and deny 
+•  SSH v1, v2 
+•  Secure interface login and password 
+•  Local proxy Address Resolution Protocol (ARP)
+•  Static ARP support
+
+Layer 2 Features
+
+•  Jumbo frames (9216 bytes)
+•  4096 VLANs
+•  802.3ad—Link Aggregation Control Protocol (LACP)
+•  802.1D—Spanning Tree Protocol (STP)
+•  802.1w—Rapid Spanning Tree Protocol (RSTP)
+•  802.1s—Multiple Spanning Tree Protocol (MSTP)
+•  VLAN Spanning Tree Protocol (VSTP)
+•  Redundant Trunk Group (RTG)
+
+L3 Features
+
+•  Static routing
+•  RIP v1/v2
+•  OSPF v1/v2
+•  Filter-based forwarding
+•  Virtual Router Redundancy Protocol (VRRP)
+•  BGP (Advanced Feature license)
+IS-IS (Advanced Feature license)
+• 
+• 
+IPv6 (Advanced Feature license)
+•  Bidirectional Forwarding Detection (BFD)
+•  Virtual routers
+
+Link Aggregation
+
+•  802.3ad support
+
+ - Number of link aggregation groups (LAGs) supported: 
+
+255
+
+ - Maximum number of ports per LAG: 12
+
+•  LAG load-sharing algorithm—bridged or routed (unicast or 
+
+multicast) traffic:
+ - IP: S/D IP
+ - TCP/UDP: S/D IP, S/D Port
+ - Non-IP: S/D MAC
+ - Tagged ports support in LAG
+
+Quality of Service (QoS)
+
+•  Layer 2 QoS
+•  Layer 3 QoS 
+• 
+•  Eight hardware queues per port
+•  Scheduling methods (egress): Strict priority (SP), shaped 
+
+Ingress policing: 1 rate 2 color
+
+deficit weighted round-robin (SDWRR)
+
+•  802.1p, DiffServ code point (DSCP)/IP precedence trust and 
+
+marking
+
+•  Layers 2-4 classification criteria: Interface, MAC address, 
+
+Ethertype, 802.1p, VLAN, IP address, DSCP/IP precedence,  
+TCP/UDP port numbers, etc.
+
+•  Congestion avoidance capabilities: Tail drop eight queues
+
+Multicast
+
+Internet Group Management Protocol (IGMP): v1, v2, v3
+IGMP snooping
+
+• 
+• 
+•  PIM-SM, PIM-DM, PIM-SSM
+•  Multicast Source Discovery Protocol (MSDP)
+
+Troubleshooting
+
+•  Debugging: CLI via console, Telnet, or SSH
+•  Diagnostics: Show and debug command, statistics
+•  Traffic monitoring/mirroring (port, VLAN)
+• 
+•  Junos OS commit and rollback
+
+IP tools: Extended ping and trace
+
+Traffic Mirroring
+
+•  Port-based 
+•  VLAN-based 
+•  ACL-based mirroring
+•  Mirroring destination ports per system: 1
+•  LAG port monitoring
+•  Multiple destination ports monitored to 1 mirror (N:1)
+•  Maximum number of mirroring sessions: 1
+•  Mirroring to remote destination (over L2): 1 destination VLAN
+
+3
+
+Data SheetXRE200 External Routing Engine Safety and Compliance
+Safety Certifications
+
+•  CSA 60950-1 (2003) Safety of Information Technology 
+
+Equipment 
+
+•  UL 60950-1 (2003) Safety of Information Technology 
+
+Equipment 
+
+•  EN 60950-1 (2001) Safety of Information Technology 
+
+• 
+
+Equipment 
+IEC 60950-1 (2001) Safety of Information Technology 
+Equipment (with country deviations) 
+
+•  EN 60825-1 +A1+A2 (1994) Safety of Laser Products—Part 
+
+1: Equipment Classification 
+
+•  EN 60825-2 (2000) Safety of Laser Products—Part 2: 
+
+Safety of Optical Fibre Communication Systems
+
+Electromagnetic Compatibility Certifications
+
+•  FCC 47CFR Part 15 Class A
+•  EN 55022 Class A 
+• 
+ICES-003 Class A
+•  VCCI Class A
+•  AS/NZS CISPR 22 Class A
+•  CISPR 22 Class A
+•  EN 55024
+•  EN 300386
+•  CE
+
+Environmental
+
+•  Reduction of Hazardous Substances (ROHS) 5
+
+Telco
+
+•  CLEI code
+
+Environmental Ranges
+
+•  Operating temperature: 41° to 104°F (5° to 40°C)
+•  Storage temperature: -40° to 158°F (-40° to 70°C)
+•  Operating altitude: up to 10,000 ft (3,048 m) 
+•  Non-operating altitude: up to 40,000 ft (12,192 m)
+•  Relative humidity operating: 8 to 90% (noncondensing) 
+•  Relative humidity non-operating: 5 to 95% 
+
+(noncondensing)
+
+•  Acoustic noise: 50dBA (front), 52dBA (rear), based on 
+
+operational tests taken from bystander position and 
+performed at 22° C
+
+Juniper Networks Services and Support
+Juniper Networks is the leader in performance-enabling services 
+that are designed to accelerate, extend, and optimize your 
+high-performance network. Our services allow you to maximize 
+operational efficiency while reducing costs and minimizing 
+risk, achieving a faster time to value for your network. Juniper 
+Networks ensures operational excellence by optimizing the 
+network to maintain required levels of performance, reliability, 
+and availability. For more details, please visit www.juniper.net/us/
+en/products-services. 
+
+Ordering Information
+Model Number
+Base Unit
+EX-XRE200-AC
+
+Description
+
+EX8200 Virtual Chassis External 
+Routing Engine 200 with dual AC 
+power supplies, dual fans, two 
+160 GB hard disks and one 4-port 
+10/100/1000BASE-T RJ-45 I/O card
+
+EX-XRE200-DC
+
+Accessories and Spares
+EX-XRE200-1GE-4F
+
+EX-XRE200-1GE-4T
+
+EX8200 Virtual Chassis External 
+Routing Engine 200 with dual DC 
+power supplies, dual fans, two 
+160 GB hard disks and one 4-port 
+10/100/1000BASE-T RJ-45 I/O card
+
+XRE200 4-port SFP I/O card
+
+XRE200 4-port 10/100/1000BASE-T 
+RJ-45 I/O card
+
+EX-XRE200-HDD160G
+
+160 GB hard disk
+
+EX-XRE200-FANTRAY
+
+Fan for XRE200
+
+EX-XRE200-RMK-4POST
+
+Four-post rack mount kit
+
+EX-XRE200-PWR-250-AC
+
+AC power supply (250 W)
+
+EX-XRE200-PWR-560-DC
+
+DC power supply (560 W)
+
+EX-XRE200-AFL
+
+Advanced Feature License 
+
+About Juniper Networks
+Juniper Networks is in the business of network innovation. From 
+devices to data centers, from consumers to cloud providers, 
+Juniper Networks delivers the software, silicon and systems that 
+transform the experience and economics of networking. The 
+company serves customers and partners worldwide. Additional 
+information can be found at www.juniper.net.
+
+Corporate and Sales HeadquartersJuniper Networks, Inc. 1133 Innovation WaySunnyvale, CA 94089 USAPhone: 888.JUNIPER (888.586.4737)or +1.408.745.2000Fax: +1.408.745.2100www.juniper.net Copyright 2015 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, Junos and QFabric are registered trademarks of Juniper Networks, Inc. in the United States and other countries. All other trademarks, service marks, registered marks, or registered service marks are the property of their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice.APAC and EMEA HeadquartersJuniper Networks International B.V.Boeing Avenue 2401119 PZ Schiphol-RijkAmsterdam, The NetherlandsPhone: +31.0.207.125.700Fax: +31.0.207.125.701Data SheetXRE200 External Routing Engine 1000352-007-EN   Apr 2015

@@ -1,0 +1,343 @@
+Product Overview
+
+The ADSL2/2+ Mini-Physical Interface 
+Modules (Mini-PIMs) are for use with 
+the Juniper Networks SRX200 line, 
+which consists of Juniper Networks 
+SRX210 Services Gateway, SRX220 
+Services Gateway, and SRX240 
+Services Gateway secure router 
+products. The ADSL2/2+ Mini-PIMs, 
+one supporting Annex A over plain 
+old telephone service (POTS) and the 
+other Annex B over ISDN, each include 
+one physical asymmetric digital 
+subscriber line (ADSL) port.
+
+DATASHEET
+
+SINGLE-PORT ADSL2/2+ 
+MINI-PHySICAL 
+INTERFACE MODULES 
+(MINI-PIM)
+
+Product Description 
+Juniper Networks® single-port ADSL2/2+ Mini-PIMs for the SRX200 line can be used to 
+provide ADSL WAN connectivity. The ADSL2/2+ Annex A (over POTS) and ADSL2/2+ 
+Annex B (over ISDN) support ADSL, ADSL2, and ADSL2+ standards. 
+
+The ADSL2/2+ Mini-PIM has interoperability with the digital subscriber line access 
+multiplexer (DSLAM) vendor products. 
+
+ADSL DSLAM
+Alcatel 7300 DSAM ATM DSLAM [Annex A]
+
+Adtran Total Access 1000 ATM DSLAM [Annex A]
+
+Paradyne BITSTORM 2600 IP DSLAM [Annex A and Annex B]
+
+ZyXEL IES-1000 IP DSLAM [Annex A and Annex B]
+
+ZyXEL IES-5005 IP DSLAM [Annex A and Annex B]
+
+Chipset
+ALCB
+
+Infinion
+
+Broadcom
+
+TSTC [TI chipset]
+
+Broadcom
+
+Features and Benefits
+•  Automatic detection of DSL line with DSLAM
+•  One RJ-11 (Annex A) or RJ-45 (Annex B) ADSL interface
+•  Supports ADSL, ADSL2, and ADSL2+ standards on the same interface card
+•  Dying Gasp support
+•  Single link fragmentation and interleaving (LFI) Multilink Point-to-Point Protocol (MLPPP)
+•  Supports ATM Adaption Layer 5 (AAL5) with constant bit rate (CBR), variable bit rate 
+
+nonreal time (VBR-NRT), and unspecified bit rate (UBR) traffic types
+
+•  Support of latency modes fast and interleave 
+•  Support for 10 permanent virtual circuits (PVCS)
+
+1
+
+Environmental
+•  Operating temperature:  32° to 104° F (0° to 40° C)
+•  Storage temperature:  -40° to 158° F (-40° to 70° C)
+•  Relative humidity:  5% to 90% noncondensing
+Diagnostics 
+•  Operation, Administration, and Maintenance (OAM) F4 far 
+
+loopback test
+
+•  OAM F4 near loopback test
+•  OAM F5 far loopback test
+•  OAM F5 near loopback test
+LEDs 
+Mini-PIM LEDs indicate port status with the following LED states:
+
+•  SyNC – Green on indicates that the ADSL interface is trained; 
+blinking means that training is in progress; off means that the 
+interface is idle
+
+•  TX/RX – Green blinking indicates that traffic is passing through; off 
+
+means that no traffic is passing through
+
+Management Capabilities
+•  Telnet/Console/Web:  Remote and local configuration, monitoring, 
+
+and troubleshooting
+
+Standards and Compliance
+Safety
+•  CAN/CSA-C22.2 No. 60950-1 Information Technology Equipment
+•  UL 60950-1 Information Technology Equipment
+•  EN 60950-1 Information Technology Equipment 
+IEC 60950-1 Information Technology Equipment
+• 
+
+EMC (Emissions)
+•  AS/NZS CISPR22 Class A
+•  EN-61000-3-2 Harmonic current emissions
+•  EN-61000-3-3 Voltage fluctuations
+•  FCC Part 15 Class A (USA)
+•  EN 55022 Class A (Europe)
+•  VCCI Class A (Japan)
+•  BSMI Class A (Taiwan)
+
+Immunity
+•  EN 55024
+•  EN-61000-4-2 ESD
+•  EN-61000-4-3 Radiated Immunity
+•  EN-61000-4-4 EFT
+•  EN-61000-4-5 Surge
+•  EN-61000-4-6 Low Frequency Common Immunity
+•  EN-61000-4-11 Voltage Dips and Sags
+
+European Telecommunications Standardization Institute 
+(ETSI)
+•  ETSI EN-300386-2:  Telecommunication Network Equipment 
+
+Electromagnetic Compatibility Requirements
+
+Telecom
+•  FCC Part 68/TIA-968
+• 
+
+IC CS-03
+
+Table 1:  ADSL/ADSL2/ADSL2+ Features and Benefits
+
+Feature
+
+ADSL/ADSL2/ADSL2+ 
+support for Annex A, 
+Annex B, and Annex M
+
+Automatic 
+configuration
+
+Dying Gasp support
+
+Benefit
+
+Provides investment 
+protection when 
+upgrading WAN 
+connectivity.
+
+Minimizes 
+configuration and 
+support overhead.
+
+Notifies the network 
+whenever unplanned 
+power outages occur.
+
+Feature 
+Description
+Same module can 
+be used in ADSL, 
+ADSL2, and ADSL2+ 
+environments.
+
+Automatically 
+configures the ADSL 
+line after negotiating 
+with the DSL access 
+multiplexer (DSLAM).
+
+Notifies the DSLAM, 
+in the event of power 
+loss, that Juniper 
+Networks SRX Series 
+Services Gateways 
+are about to go 
+offline.
+
+Specifications
+Supported Operating Modes 
+•  ANNEX A 
+
+ - Auto 
+ - ANSI-DMT (ANSI T1.413) 
+ - ITU-DMT (G.992.1) 
+ - ITU-DMT-BIS (G.992.3) 
+ - ADSL2+ (G.992.5)
+
+•  ANNEX B 
+
+ - Auto 
+ - ITU-DMT (G.992.1) 
+ - ITU-DMT-BIS (G.992.3) 
+ - ADSL2+ (G.992.5) 
+ - ITU-ANNEXB-UR2 
+
+•  ANNEX M
+
+ - ITU-DMT-BIS (G.992.3) 
+ - ADSL2+ (G.992.5) 
+
+Supported Maximum Speed 
+•  For ANSI discrete multitone (DMT) modulation, 8 Mbps 
+
+downstream and 896 Kbps upstream 
+
+•  For G.992.1, 8 Mbps downstream and 1.2 Mbps upstream 
+•  For G.992.3, 12 Mbps (Annex A) or 10 Mbps (Annex B) downstream 
+
+and 1.2 Mbps upstream 
+
+•  For G.992.5, 24 Mbps downstream and 1.2 Mbps upstream 
+ATM
+•  ATM Adaptation Layer 5 (AAL5)
+•  Quality of service (QoS) (CBR, VBR-NRT, and UBR)
+Supported Maximum Transmission Unit (MTU) 
+•  15121 bytes
+Supported Encapsulation  
+•  ATM-PVC 
+•  Ethernet-over-ATM
+Dimensions (W x H X D) and Weight  
+•  3.75 x 0.8 x 5.9 in (9.5 x 2.0 x 14.5 cm)
+•  0.17 lb
+
+1Supported MTU is 1496 for Junos OS 9.5 release and 1512 for Junos OS releases 10.0 or higher.
+
+2
+
+Standards
+•  ANSI T1.413 II compliant (vendor version 1)
+•  G992.1 (G.DMT; ADSL)
+
+ - Annex A (POTS overlay)
+ - Annex B (ISDN overlay)
+ - Appendix 1 (ATM Interface – Utopia)
+
+•  G992.3 (G.DMTbis; ADSL2) + Amendment 1,2
+
+ - Annex A (POTS overlay)
+ - Annex B (ISDN overlay) 
+ - Annex M 
+ - Appendix 1 (ATM Interface – Utopia)
+
+•  G992.5 (ADSL2+) + Corrigendum 1 + Amendment 2
+
+ - Annex A (POTS overlay)
+ - Annex B (ISDN overlay)
+ - Annex M
+ - Appendix 1 (ATM Interface – Utopia)
+
+ADSL Performance
+•  ADSL performance varies according to a variety of factors, 
+
+including DSLAM line card type, DSLAM software version, training 
+rate, line noise, and loop length.
+
+Juniper Networks Services and Support
+Juniper Networks is the leader in performance-enabling services 
+that are designed to accelerate, extend, and optimize your 
+high-performance network. Our services allow you to maximize 
+operational efficiency while reducing costs and minimizing 
+risk, achieving a faster time to value for your network. Juniper 
+Networks ensures operational excellence by optimizing the 
+network to maintain required levels of performance, reliability, and 
+availability. For more details, please visit www.juniper.net/us/en/
+products-services. 
+
+Ordering Information 
+Description
+Model Number
+1-port ADSL2+ Mini-PIM supporting ADSL/
+SRX-MP-1ADSL2-A
+ADSL2/ADSL2+ Annex A, Annex M
+
+SRX-MP-1ADSL2-B
+
+1-port ADSL2+ Mini-PIM supporting ADSL/
+ADSL2/ADSL2+ Annex B
+
+Juniper Networks Junos Operating  
+System Release 
+ADSL2/2+ Annex A and Annex B functionality is supported on 
+the Juniper Networks SRX200 line of services gateways in Juniper 
+Networks Junos® operating system 9.5 and higher releases.
+
+About Juniper Networks
+Juniper Networks is in the business of network innovation. From 
+devices to data centers, from consumers to cloud providers, 
+Juniper Networks delivers the software, silicon and systems that 
+transform the experience and economics of networking. The 
+company serves customers and partners worldwide. Additional 
+information can be found at www.juniper.net.
+
+3
+
+Corporate and Sales Headquarters
+Juniper Networks, Inc.  
+1194 North Mathilda Avenue 
+Sunnyvale, CA 94089 USA 
+Phone: 888.JUNIPER (888.586.4737) 
+or 408.745.2000 
+Fax: 408.745.2100 
+www.juniper.net
+
+APAC Headquarters
+Juniper Networks (Hong Kong) 
+26/F, Cityplaza One 
+1111 King’s Road 
+Taikoo Shing, Hong Kong 
+Phone: 852.2332.3636 
+Fax: 852.2574.7803
+
+EMEA Headquarters
+Juniper Networks Ireland 
+Airside Business Park  
+Swords, County Dublin, Ireland 
+Phone: 35.31.8903.600 
+EMEA Sales: 00800.4586.4737 
+Fax: 35.31.8903.601
+
+Copyright 2011 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, Junos, 
+NetScreen, and ScreenOS are registered trademarks of Juniper Networks, Inc. in the United States and other 
+countries. All other trademarks, service marks, registered marks, or registered service marks are the property of 
+their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper 
+Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice.
+
+1000311-003-EN    Dec 2011
+
+ Printed on recycled paper
+
+4
+
+To purchase Juniper Networks solutions, 
+please contact your Juniper Networks 
+representative at 1-866-298-6428 or  
+authorized reseller.
+
+

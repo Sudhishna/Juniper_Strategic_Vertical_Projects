@@ -1,0 +1,140 @@
+Juniper Identity Management Service
+
+Product Overview
+
+Juniper® Identity Management 
+Service is a Windows-based 
+application that links IP 
+addresses to specific user 
+identities, providing visibility 
+into and control over network 
+activity on a per-user basis. JIMS 
+integrates directly with Active 
+Directory servers to verify user-
+to-IP address relationships and 
+determine specific role and 
+group assignments. This enables 
+SRX Series Services Gateways 
+to manage security policy 
+decisions that directly associate 
+application activity to user 
+roles. Based on this information, 
+the SRX Series firewall either 
+permits or denies users access to 
+applications and data based on 
+detailed security policies.
+
+ 
+
+Product Description 
+User identity is a core requirement of next-generation firewalls, enabling administrators to 
+create security policies that address business rather than networking needs. This creates 
+a powerful mechanism for defining, managing, and refining security policies by creating 
+firewall rules that are defined by user identity rather than IP address. 
+
+On Juniper Networks® SRX Series Services Gateways, this capability is referred to as “user 
+firewall,” where the SRX Series device will associate network traffic with specific user 
+identities as defined by Active Directory. The SRX Series firewall typically performs a local 
+lookup of the user-id associated with a specific IP address. 
+
+The Juniper® Identity Management Service for Windows maintains a large database of 
+active users and their associated IP addresses, enabling an SRX Series firewall to rapidly 
+identify thousands of users in a large distributed enterprise. The SRX Series device simply 
+queries the JIMS server, obtains the proper user-id relationship, and then enforces the 
+appropriate security policy. Once applications, users, and groups are identified, JIMS 
+provides full visibility into and control over the security infrastructure. 
+
+SRX Series
+
+Active Directory
+
+JIMS
+
+Internet
+
+Client PC
+
+Figure 1: JIMS resides on a Windows server, where it communicates with Active Directory 
+
+servers and SRX Series Services Gateways.
+
+Features and Benefits
+The Juniper Identity Management Service has the following features:
+
+User Identification 
+
+JIMS connects to an Active Directory server to provide IP address-to-user name mappings and 
+to collect user and device status for SRX Series firewalls. For user login events, JIMS collects 
+domain and user names; for device login events, it collects domain and machine names. 
+
+1
+
+Data SheetPC Probing
+
+JIMS initiates PC probes on devices to obtain the user name and 
+domain of active users and to determine the device’s status after 
+its logged-in state has expired. 
+
+SRX Series Query Support
+
+JIMS responds to individual HTTPS GET queries for IP addresses 
+from SRX Series devices with the corresponding user names.
+
+IP Address and User Group Filtering
+
+JIMS provides the ability to include or exclude specified IP 
+address ranges or Active Directory groups in the authentication 
+tables of the SRX Series devices.
+
+Status Monitoring and System Logging
+
+JIMS provides detailed information related to Active Directory and 
+SRX Series firewall connectivity state, sessions, records captured, 
+and PC Probe counts. For troubleshooting purposes, JIMS 
+produces system logs to record various events and activities.
+
+Specifications
+Platforms supported
+
+vSRX, SRX300 line, SRX1500, 
+SRX4100, SRX4200, SRX5000 line 
+(15.1 release)
+SRX650, SRX240H2, SRX3000 line, 
+and SRX5000 line (12.3 release)
+
+Supported software release
+
+15.1X49 D100 and above
+12.3X48 D45 and above
+
+Maximum SRX Series device 
+support 
+
+Maximum Active Directory 
+support 
+
+Maximum domains 
+
+100
+
+100
+
+25
+
+Maximum user entries
+
+250,000
+
+Ordering Information
+Juniper Identity Management Service is provided free of charge to 
+customers with an active Juniper service contract. 
+
+About Juniper Networks
+Juniper Networks challenges the status quo with products, 
+solutions and services that transform the economics of 
+networking. Our team co-innovates with customers and partners 
+to deliver automated, scalable and secure networks with agility, 
+performance and value. Additional information can be found at 
+Juniper Networks or connect with Juniper on Twitter and Facebook.
+
+Corporate and Sales HeadquartersJuniper Networks, Inc. 1133 Innovation WaySunnyvale, CA 94089 USAPhone: 888.JUNIPER (888.586.4737)or +1.408.745.2000Fax: +1.408.745.2100www.juniper.net Copyright 2017 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, Juniper, and Junos are registered trademarks of Juniper Networks, Inc. in the United States and other countries. All other trademarks, service marks, registered marks, or registered service marks are the property of their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice. APAC and EMEA HeadquartersJuniper Networks International B.V.Boeing Avenue 2401119 PZ Schiphol-RijkAmsterdam, The NetherlandsPhone: +31.0.207.125.700Fax: +31.0.207.125.701Data SheetJuniper Identity Management Service1000618-001-EN  May 2017EXPLORE JUNIPERGet the App.

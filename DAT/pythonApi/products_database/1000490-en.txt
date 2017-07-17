@@ -1,0 +1,327 @@
+Junos Space Virtual Director
+
+Product Overview
+
+Innovative virtualization and 
+cloud computing technologies 
+can have a profoundly positive 
+impact on the way organizations 
+of all sizes deliver IT services. 
+Cloud-based services are 
+dynamic and cater to fluctuating 
+consumption. Provisioning 
+and decommissioning services 
+frequently demand an automated 
+approach to management. Junos 
+Space Virtual Director optimizes 
+operational efficiency and 
+reliability by providing a lifecycle 
+management application that 
+enables organizations to automate 
+provisioning and resource 
+allocation of virtual machines 
+associated with Juniper’s virtual 
+security services via a simplified 
+and intuitive user interface.
+
+Product Description 
+Increasingly, organizations are looking at leveraging virtual and cloud computing 
+technologies to enhance competitive differentiation. But as computing shifts to the cloud, 
+the network, compute, storage, and application layers are abstracted from the physical 
+servers creating workloads that are dynamically transitioning within a shared pool of 
+resources. Aiming to reduce time to market and the overall cost associated with introducing 
+new services, organizations are seeking solutions that will automate the creation and 
+management of virtualized services and the virtual machines (VMs) associated with them, 
+providing the speed and agility they need. 
+
+Security for virtualized assets should be as agile as the assets it protects. Juniper virtual 
+security solutions enable organizations to fully benefit from the cloud by providing secure 
+connectivity with multilevel policies that protect agile workloads and dynamic changes 
+in traffic and content. Juniper Networks® Junos® Space Virtual Director automates the 
+instantiation of VMs for Juniper’s virtual security services, expediting service rollouts and 
+reducing errors. Virtual Director offers VM lifecycle management, real-time information 
+on the virtual network, a GUI that is intuitive and easy to navigate, and task-oriented 
+workflows. An open set of REST APIs provide a single interface to all third-party 
+orchestration tools for end-to-end configuration and management.
+
+Architecture and Key Components
+Junos Space Virtual Director is a key component of the Juniper Networks Firefly security 
+suite. Junos Space Virtual Director provides an elegant, comprehensive, and automated 
+VM management solution that enables administrators to automate the provisioning and 
+resource allocation of Juniper Networks Firefly Perimeter virtual firewall. Key elements of 
+Junos Space Virtual Director include:
+
+•  Automated lifecycle management of Firefly Perimeter VMs from provisioning to 
+
+decommissioning
+
+•  Automated identification and categorization of VM groups
+
+•  Open REST APIs for integration with third-party management platforms
+
+• 
+
+Intuitive, easy-to-navigate user interface with task-oriented workflows and pre-tested 
+configurations
+
+Features and Benefits
+
+•  Lower operational and capital expenditures with VM lifecycle management functions 
+
+from provisioning to decommissioning that are integrated into a single application
+
+•  Scaling elastically based on demand, with automatic identification and categorization 
+
+to appropriate monitoring groups
+
+•  Security from the get-go with default bootstrap settings for the management IP 
+
+Your ideas. Connected.™
+
+address and root password assigned to the VMs when they are created 
+
+1
+
+Data Sheet•  Faster service rollouts with zero touch and bulk provisioning 
+
+of VMs, leveraging predefined templates, automated tasks, 
+and pre-validated configurations 
+
+•  Reduced human error with a task-oriented workflow and 
+
+web-based intuitive GUI
+
+•  Comprehensive view with automated discovery, display, 
+
+and management of all Juniper VMs through integration with 
+Junos Space and VMware vCenter
+
+•  Access and integration with dynamic hybrid cloud 
+environments with a rich set of APIs for third-party 
+applications and management platforms
+
+•  Consistent security policy management across the entire IT 
+environment, with automatic registration of Firefly Perimeter 
+instances with the Juniper Networks Junos Space Platform 
+and Junos Space Security Director, the same tools used to 
+manage physical firewalls
+
+Full Lifecycle Management
+
+Junos Space Virtual Director is an application running on top of 
+Juniper’s well-established Junos Space network management 
+platform. 
+
+The Junos Space Virtual Director dashboard displays the system 
+health of your network and provides a snapshot of the current 
+status of objects managed and operations performed. As shown 
+in Figure 1, the simple and intuitive user interface supports design, 
+deployment, monitoring, grouping, and reporting of firewall 
+VM instances. It can also be used to allocate resources and 
+decommission VMs. VMware vCenter serves as a virtualization 
+provider for Virtual Director.
+
+Reports
+
+Design
+
+Group
+
+Deploy
+
+Monitor
+
+Figure 1: Junos Space Virtual Director, a full lifecycle  
+
+management application for virtual machines
+
+Each stage of the lifecycle is managed from Virtual Director as 
+shown in Figure 2 and discussed in detail in the sections below.
+
+ Figure 2:  Junos Space Virtual Director management dashboard
+
+Design 
+
+Junos Space Virtual Director provides a single pane of glass 
+to manage virtualized networks across multiple locations and 
+multiple VMware vCenters. VMs can be created by selecting the 
+desired image from the image library. Associating an image to a 
+VM can be easily accomplished and the mapping can be applied 
+to a single VM or a collection of VMs.  Templates are provided 
+to automate the configurations of VMs and reduce any human 
+errors. Each template defines all the parameters a VM requires 
+to execute an instance of Juniper’s virtual security service. Such 
+parameters can be the number of CPUs, memory size, disk space, 
+number of network interface cards (NICs), network address, etc. 
+Figure 3 depicts choices of virtualization provider types. 
+
+Figure 3: Virtualization provider view  
+
+Deploy
+
+Built for the dynamic nature of cloud deployments, Junos Space 
+Virtual Director provides organizations the ability to provision 
+VMs in a matter of minutes. VMs can be deployed from a central 
+location based on predefined configurations in the templates. 
+These configurations can be fine-tuned to modify the password 
+or IP address for customizing deployments. Junos Space Virtual 
+Director is aware of the network and server configurations, 
+offering an easy-to-use wizard with drop-down menus that guide 
+the deployment and provide real-time information. 
+
+Virtual Director injects the settings into the newly instantiated VM so 
+that it can be managed and automatically registered into the Junos 
+Space Platform. Figure 4 shows the basic deployment options.
+
+2
+
+Data SheetJunos Space Virtual DirectorFigure 4: Deployment view
+
+Figure 6: Task-oriented workflow, VM groups.
+
+Monitor 
+
+Once the virtual security instance is deployed within the virtual 
+machine host provider, Virtual Director monitors and displays the 
+characteristics of each instance such as VM deployment status, 
+resource allocation, connection status, CPU and memory usage. 
+This information is maintained in a database that can be sorted 
+and filtered. The autodiscovery capabilities provide insight into 
+Juniper’s security service VM inventory, regardless of whether or 
+not VMs were provisioned via Junos Space Virtual Director. Figure 
+5 shows the status of VMs.
+
+Report
+
+Junos Space Virtual Director stores the historic deployment 
+information in a database. Administrators can access this report 
+to gain insight and use the status mode to receive e-mail alerts 
+on deployment failures.
+
+Managing Firefly Perimeter Security Policy via 
+Security Director 
+
+Junos Space Security Director enables consistency in the 
+creation, distribution, and management of security policies 
+across the entire IT environment, both virtual and physical 
+networks. This reach improves security policy consistency as 
+networks scale. Administrators can use Junos Space Security 
+Director for managing the security policy horizontally across 
+multiple Juniper virtual and physical firewalls (Firefly Perimeter as 
+well as Juniper Networks SRX Series Services Gateways). 
+
+As both applications run on the open Junos Space Network 
+Management Platform, Junos Space Virtual Director with Junos 
+Space Security Director provides security management building 
+blocks with extensive security scale, policy control, and reach 
+across the network.
+
+Figure 5: Monitor view 
+
+Junos Space 
+
+Group
+
+Monitoring groups of VMs rather than individual VMs significantly 
+reduces administration overhead. Virtual Director supports 
+two group types: static groups and smart groups. VMs can be 
+assigned manually to static groups. Smart groups allow for 
+dynamic association of VMs to groups by defining a set of rules 
+based on content, network and custom attributes as shown in 
+Figure 6. A VM that matches these rules automatically becomes 
+a member of the smart group.
+
+Junos Space is Juniper’s comprehensive network management 
+solution that simplifies and automates management of 
+Juniper’s switching, routing, and security devices. The Junos 
+Space Network Management Platform provides deep element 
+management for extensive fault configuration, accounting, 
+performance, and security management (FCAPS) capability, 
+same day support for new devices and Junos releases, a task-
+specific user interface, and northbound APIs to easily integrate 
+into existing network management system (NMS) or operations 
+and business support system (OSS/BSS) deployments. 
+
+Extending the breadth of the Junos Space Platform are multiple 
+Junos Space management applications that optimize network 
+management for various domains. With easy-to-use interfaces, 
+these applications enable you to provision new services across 
+thousands of devices, and they optimize work flow tasks for 
+specific domains such as core, edge, data center, campus, 
+security, mobile, and more.  
+
+3
+
+Data SheetJunos Space Virtual DirectorJuniper Networks Services and Support
+Juniper Networks is the leader in performance-enabling services 
+that are designed to accelerate, extend, and optimize your 
+high-performance network. Our services allow you to maximize 
+operational efficiency while reducing costs and minimizing 
+risk, achieving a faster time to value for your network. Juniper 
+Networks ensures operational excellence by optimizing the 
+network to maintain required levels of performance, reliability, 
+and availability. For more details, please visit www.juniper.net/us/
+en/products-services. 
+
+About Juniper Networks
+Juniper Networks is in the business of network innovation. From 
+devices to data centers, from consumers to cloud providers, 
+Juniper Networks delivers the software, silicon and systems that 
+transform the experience and economics of networking. The 
+company serves customers and partners worldwide. Additional 
+information can be found at www.juniper.net.
+
+Supported Virtualized Security Services
+
+Juniper Networks Firefly Perimeter is a comprehensive virtual 
+security product  based on Juniper’s industry-proven Junos OS-
+based SRX Series Services Gateways code. It is delivered in a VM 
+form factor and can be deployed on virtual servers and across 
+software-defined networks (SDNs).
+
+Firefly Perimeter offers virtual firewall with Junos OS Network 
+Address Translation (NAT), routing, and VPN connectivity 
+features—all in a flexible VM format, making it the perfect choice 
+for protecting both the network and virtual assets.
+
+By leveraging fast, highly available security and routing 
+capabilities in a single virtual instance, enterprises and service 
+providers alike can economically connect, secure, and manage 
+workloads while delivering new value-added services, safe 
+connectivity, and a satisfying end-user experience.  
+
+Integration APIs
+
+Virtual Director REST APIs allow interoperability with a variety 
+of systems and custom applications (billing systems, end-user 
+portals, custom scripts, etc.).  This flexibility allows the solution 
+to be fully integrated into existing automation processes, which 
+saves money and time.
+
+Specifications 
+Client Browser Support
+
+•  Supports Internet Explorer version 8.0 or later; Mozilla Firefox 
+
+version 20 or later; Google Chrome version 26 or later
+
+VMware Version
+
+•  Junos Space works with VMware vSphere 4.0 and above. 
+
+•  Virtual Director supports VMware vSphere 5.0 and 5.1.
+
+  Note: Juniper Networks Contrail can be used to provision and deploy Firefly 
+
+Perimeter for KVM. Junos Space Virtual Director is currently intended for 
+VMware environments only.
+
+Juniper Platforms
+
+•  Virtual Director supports Firefly Perimeter running 
+
+12.1X46-D10 and above.
+
+•  Virtual Director runs on Space server 13.1P1.14. 
+
+Corporate and Sales HeadquartersJuniper Networks, Inc. 1133 Innovation WaySunnyvale, CA 94089 USAPhone: 888.JUNIPER (888.586.4737)or +1.408.745.2000Fax: +1.408.745.2100www.juniper.net Copyright 2014 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, Junos and QFabric are registered trademarks of Juniper Networks, Inc. in the United States and other countries. All other trademarks, service marks, registered marks, or registered service marks are the property of their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice.APAC and EMEA HeadquartersJuniper Networks International B.V.Boeing Avenue 2401119 PZ Schiphol-RijkAmsterdam, The NetherlandsPhone: +31.0.207.125.700Fax: +31.0.207.125.701Data SheetJunos Space Virtual Director1000490-001-EN  Oct 2014
