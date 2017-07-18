@@ -1,0 +1,554 @@
+Subscriber Management for MX 
+Series 3D Universal Edge Routers
+
+Product Overview
+
+Service providers require ever 
+increasing performance, scale, 
+reliability, and operational 
+efficiency at the broadband 
+network edge, where a complex 
+mix of routers and appliances are 
+often implemented.  
+
+Juniper Networks’ advanced 
+subscriber management solution 
+for MX Series 3D Universal Edge 
+Routers is operationally proven 
+in many of the world’s largest 
+networks, and it provides the 
+high performance, service agility, 
+and reliability at scale needed 
+to confidently consolidate and 
+deploy next-generation residential 
+and business broadband services. 
+
+Product Description
+Over the past several years, fixed broadband network operators have faced significant 
+challenges to fully monetize their network investments and grow average revenue per user 
+(ARPU). Competition abounds, with residential and business customers having access 
+to multiple service providers in many markets. Additionally, the availability of 4G mobile 
+services in some markets is also impacting customer acquisition and retention. Worse yet, 
+with significant investment going toward mobile infrastructure upgrades and build-outs, 
+fixed broadband network operators are being asked to do more with less.
+
+While service providers traditionally maintain separate edge networks for their business 
+and residential fixed broadband customers, the distinction between these markets has 
+greatly diminished over the past few years. Both business and residential broadband edge 
+networks must provide massive bandwidth, consistent high performance and quality 
+of service (QoS), and high availability under all conditions and at all times. Given the 
+economic pressure network operators are experiencing, the ability to consolidate these 
+networks into a single cost-effective broadband service edge could provide a distinct 
+competitive advantage. 
+
+Juniper Networks® MX Series 3D Universal Edge Routers are software-defined networking 
+(SDN)-ready, and they provide routing, switching, services, advanced subscriber 
+management, and virtualized functions that efficiently consolidate business and 
+residential broadband networks. The MX Series combines high performance, reliability, 
+and investment protecting scale to accommodate broadband edge requirements now 
+and well into the future. Built on our powerful Juniper Networks Junos® operating system, 
+these routers deliver an advanced subscriber management solution that simplifies network 
+operations and increases network and service resiliency. Equally important, the subscriber 
+management features include comprehensive support for IPv4, IPv6, and IPv4/IPv6 “dual 
+stack” to ensure operations continuity on the migration path to IPv6.
+
+The MX Series with subscriber management is deployed by hundreds of service providers 
+globally, including some of world’s largest and most demanding networks.
+
+Your ideas. Connected.™
+
+1
+
+Data SheetJunos Space Management
+
+Mobile
+
+Small CElls
+
+ACX Series
+
+Access
+
+MX 3D Series
+
+Cell
+
+ACX Series
+
+Data Center
+
+MX 3D Series
+
+DSLAM
+
+DSLAM
+
+DSLAM
+
+DSLAM
+
+Switch
+
+Switch
+
+Residential
+
+SOHO
+
+Branch O ces
+
+Corporate HQ
+
+ACX Series
+
+Access
+
+Pre
+
+Aggregation
+
+Metro
+
+Aggregation
+
+Edge
+
+Core
+
+ACX Series
+
+MX 3D Series
+
+MX 3D Series
+
+MX 3D Series
+
+TX Series/
+PTX Series
+
+ACX Series
+
+Access
+
+MX 3D Series
+
+IP/Internet
+
+Universal Access
+
+Universal Edge and Aggregation
+
+Core
+
+Figure 1. Logical architecture for a unified business, residential, and mobile edge
+
+Architecture and Key Components
+Juniper Networks’ subscriber management solution incorporates 
+features that ensure the quality delivery of broadband video 
+services, including Dynamic Host Configuration Protocol (DHCP) 
+Local Server and Relay for DHCPv4 and DHCPv6 clients; flow- 
+and port-based traffic shaping for rate assured, line speed 
+independent service delivery; and the restriction of subscribers to 
+a configurable number of multicast groups to avoid downstream 
+bandwidth oversubscription.
+
+The solution is fully integrated with policy servers and RADIUS 
+to provide dynamic address assignment; service activation, 
+modification, and deactivation; per-service and per-subscriber 
+accounting; and functions for IPv4 and IPv6 addressed Point-to-
+Point Protocol over Ethernet (PPPoE) and DHCP clients
+
+Junos OS: A Robust Edge Starts with a Solid  
+OS Foundation
+
+Junos OS has a highly modular and reliable architecture that 
+runs each processing function in its own protected memory 
+space, with a single management process overseeing all kernel 
+processes. Additionally, Junos OS supports nonstop forwarding 
+(NSF), nonstop active routing (NSR), and unified in-service 
+software upgrade (unified ISSU) to ensure continuous network 
+operation and maximum uptime under adverse network 
+conditions and during network upgrades. 
+
+MX Series 3D Universal Edge Routers for Residential, 
+Business, and Mobile Applications
+
+The MX Series has all the powerful routing, switching, security, 
+service, and subscriber management features that are needed 
+for true next-generation broadband edge networks. MX Series 
+platforms range from 20 Gbps to an industry-leading 34.4 Tbps of 
+capacity in a single chassis, and all use the programmable Junos 
+Trio Chipset to drive performance, service agility, and subscriber 
+scale for long-term investment protection in ever evolving edge 
+markets.  
+
+Management and Policy-Driven Automation for 
+Next-Generation Services
+
+Junos OS broadband subscriber management is fully integrated 
+with Juniper Networks Junos Space Platform and the SRC 
+Series Session and Resource Control portfolio. These platforms 
+automate and simplify the entire spectrum of broadband 
+network operations, administration, management, and 
+provisioning tasks (OAM&P). Furthermore, the SRC Series 
+supports differentiated service creation based on subscriber self-
+serve, and time- and volume-based billing models. 
+
+2
+
+Data SheetSubscriber Management for MX Series 3D Universal Edge RoutersFeatures and Benefits
+Feature
+Network and service 
+consolidation
+
+Advantages
+MX Series platforms provide advanced routing, switching, 
+subscriber management, and virtualized network services with 
+the performance, scale, and reliability needed for business, 
+residential, and mobile network and service convergence.
+
+Benefit
+•  Reduces CapEx and OpEx
+•  Simplifies network and service design
+•  Lowers staff training requirements
+
+Service automation
+
+Zero-touch subscriber provisioning includes auto-protocol 
+detection, interface range configuration, protocol stack creation, 
+bulk circuit pre-provisioning, and VLAN ID auto-detect and 
+configuration.
+
+•  Reduces OpEx
+• 
+Increases service velocity
+•  Frees workflow processes
+
+Comprehensive management 
+
+Policy integration 
+
+High service and network 
+availability
+
+Junos Space Platform offers a single interface for multilayer 
+management (physical and virtual, security, routing, and 
+forwarding), extensive automation features, GUI-based point-
+and-click provisioning, and Junos SDK for creating customized 
+Space applications.
+
+The SRC Series is an advanced policy engine that uses an 
+industry-standard Common Open Policy Service (COPS) 
+interface to enable dynamic network resource allocation driven 
+by operations support systems (OSS), applications,  
+or subscribers. 
+
+Resiliency features such as unified ISSU, nonstop forwarding 
+and routing, hardware redundancy to the port level, graceful 
+restart, Virtual Router Redundancy Protocol (VRRP), 
+Bidirectional Forwarding Detection (BFD), MPLS fast reroute, 
+and Virtual Chassis technology ensure network and service 
+uptime.
+
+Design and implementation 
+guidance
+
+Juniper prequalification of business and residential broadband 
+solutions includes multidimensional solution pre-testing and 
+published configuration documentation.
+
+Extensive IPv6 support
+
+IPv4/IPv6 dual-stack support with per-session autosensing, 
+IPv6 fast path forwarding and routing, IPv6 packet classification, 
+hierarchical QoS, tunneling, denial-of-service (DoS) prevention, 
+and multicast (with MLDv1 and MLDv2) for IPTV servers.  
+
+•  Reduces OpEx
+•  Lowers risks of human errors
+•  Reduces time for problem resolution
+
+•  Reduces OpEx
+• 
+•  Creates competitive differentiation 
+
+Increases service velocity
+
+•  Flexibly ensures service uptime and 
+
+adherence to business-class service-level 
+agreements (SLAs)
+
+•  Reduces maintenance windows
+•  Decreases risk and automates recovery
+
+•  Streamlines evaluation and testing efforts
+•  Reduces personnel burdens
+•  Enables insights from best practices
+
+•  Provides long-term investment protection 
+•  Allows nondisruptive network evolution
+•  Creates opportunities for new service 
+
+revenue 
+
+Product Options
+
+•  Virtual Chassis technology: Extends a common control 
+
+plane across two or more MX Series routers while monitoring 
+and managing them as a single logical device. Virtual Chassis 
+technology increases resiliency, simplifies management by 
+up to 88% compared with other redundancy schemes, and 
+improves operational efficiency.
+
+•  Virtual customer premises equipment (vCPE): Moves 
+branch routing functions from elements on the customer 
+premise to the network edge, enabling virtual cloud-based 
+services such as managed L3 VPNs with integrated firewall 
+capabilities. vCPE removes cost and complexity from the 
+customer premise and improves service reliability and agility. 
+
+Specifications
+IP routing
+
+BGP, IS-IS, OSPF, RIP, MPLS, virtual routers; IPv4 and IPv6, IPv4/
+IPv6 dual stack.
+
+Subscriber management
+
+RADIUS authentication, authorization, and accounting (AAA) 
+and extensive RADIUS vendor-specific attribute (VSA) support 
+for dynamic address assignment, service activation, time- and 
+volume-based accounting, RADIUS change of authorization, 
+Diameter, Point-to-Point Protocol (PPP) termination, clientless 
+access, transparent bridging, IPv4 and IPv6 support (see below), 
+per-service and per-subscriber accounting.
+
+•  Virtualized network services: The MX Series hosts services 
+
+Dual-stack and IPv6 support
+
+that avoid IPv4 address exhaustion and ensure IPv4/IPv6 
+coexistence. They improve network security and increase 
+network visibility. Virtualized network services can lower TCO 
+by 42% over five years, as compared to traditional service 
+approaches. 
+
+IPv4/IPv6 dual-stack support with per-session autosensing, 
+DHCPv4 and DHCPv6, IPv6 fast path forwarding and routing, 
+IPv6 packet classification, IPv6 hierarchical QoS, IPv6 tunneling, 
+IPv6 denial-of-service (DoS) prevention, IPv6 multicast (with 
+MLDv1 and MLDv2) for IPTV server entities .
+
+Encapsulation methods
+
+IP/PPP, IP/Frame Relay, IP/ATM, IP/PPP/SONET/SDH (POS), IP/
+VLAN/ETH, IP/PPPoE/ATM, PPPoE/ETH, IP/PPPoE/VLAN/ETH/
+PPP, PPP over ATM (PPPoA), Frame Relay, ATM, Ethernet, IEEE 
+802.1q VLAN, VLAN stacking, and High-Level Data Link Control 
+(HDLC).
+
+3
+
+Data SheetSubscriber Management for MX Series 3D Universal Edge RoutersL2 protocols
+
+PPP, PPPoE, PPPoA, Frame Relay, ATM, Ethernet, VLAN 802.1q, 
+HDLC, SONET/SDH, virtual private LAN service (VPLS).
+
+ATM support
+
+ATM Adaption Layer (AAL1/2/5), virtual circuit queuing, traffic 
+class support, OAM, permanent virtual connection (PVC), 
+switched virtual connection (SVC), Integrated Local Management 
+Interface (ILMI), and virtual path/virtual connection shaping.
+
+VPN support
+
+MPLS 2547, Frame Relay/MPLS Martini, Ethernet/MPLS Martini, 
+ATM/MPLS Martini, IPsec, virtual routers, Network Address 
+Translation (NAT), multicast VPN (M-VPN), pseudowire head 
+end termination.
+
+QoS support
+
+Hierarchical round-robin (HRR) queuing, strict priority queuing, 
+subscriber class-based queuing, Differentiated Services 
+(DiffServ), EXP, and 802.1p.
+
+Juniper Networks Services and Support
+Juniper Networks is the leader in performance-enabling services 
+that are designed to accelerate, extend, and optimize your 
+high-performance network. Our services allow you to maximize 
+operational efficiency while reducing costs and minimizing 
+risk, achieving a faster time to value for your network. Juniper 
+Networks ensures operational excellence by optimizing the 
+network to maintain required levels of performance, reliability, 
+and availability. For more details, please visit www.juniper.net/us/
+en/products-services. 
+
+Ordering Information 
+
+Model Number Name
+
+S-SA-FP
+
+S-SM-FP
+
+S-SA-4K
+
+S-SA-8K 
+
+S-SA-16K
+
+S-SA-32K
+
+S-SA-64K
+
+S-SA-96K 
+
+S-SA-UP-8K
+
+S-SA-UP-16K
+
+S-SA-UP-32K 
+
+S-SA-UP-64K
+
+S-SA-UP-96K
+
+S-SA-UP-128K
+
+S-SA-UP2-128K
+
+S-SA-UP-256K
+
+Subscriber Access license includes per-subscriber 
+authentication, per-subscriber time- and 
+volume-based accounting, RADIUS/SRC 
+Series-based address pool assignment and 
+dynamic configuration, static and dynamic IP, 
+and autosensed VLANs on the MX2020, MX2010, 
+MX960, MX480, and MX240.  
+
+Service Management license includes RADIUS/
+SRC Series-based service activation, deactivation, 
+and per-service accounting on the MX2020, 
+MX2010, MX960, MX480, and MX240.
+
+Scale license supports 4,000 sessions on the 
+MX2020, MX2010, MX960, MX480, and MX240.  
+
+Scale license supports 8,000 sessions on the 
+MX2020, MX2010, MX960, MX480, and MX240. 
+
+Scale license supports 16,000 sessions on the 
+MX2020, MX2010, MX960, MX480, and MX240.  
+
+Scale license supports 32,000 sessions on the 
+MX2020, MX2010, MX960, MX480, and MX240. 
+
+Scale license supports 64,000 sessions on the 
+MX2020, MX2010, MX960, MX480, and MX240. 
+
+Scale license supports 96,000 sessions on the 
+MX2020, MX2010, MX960, MX480, and MX240. 
+
+License upgrade from 4,000 to 8,000 sessions 
+on the MX2020, MX2010, MX960, MX480, and 
+MX240. 
+
+License upgrade from 8,000 to 16,000 sessions 
+on the MX2020, MX2010, MX960, MX480, and 
+MX240.
+
+License upgrade from 16,000 to 32,000 sessions 
+on the MX2020, MX2010, MX960, MX480, and 
+MX240.
+
+License upgrade from 32,000 to 64,000 sessions 
+on the MX2020, MX2010, MX960, MX480, and 
+MX240.
+
+License upgrade from 64,000 to 96,000 sessions 
+on the MX2020, MX2010, MX960, MX480, and 
+MX240.
+
+License upgrade from 64,000 to 128,000 sessions 
+on the MX2020, MX2010, MX960, MX480, and 
+MX240.
+
+License upgrade from 96,000 to 128,000 
+sessions on the MX2020, MX2010, MX960, 
+MX480, and MX240.
+
+License upgrade from 128,000 to 256,000 
+sessions on the MX2020, MX2010, MX960, 
+MX480, and MX240.
+
+S-MX80-SA-FP   Subscriber Management Feature Pack license for 
+
+the MX104, MX80, MX40, MX10, and MX5.
+
+S-MX80-SSM-
+FP 
+
+Subscriber Service Management Feature Pack 
+license for the MX104, MX80, MX40, MX10, and 
+MX5.
+
+S-LNS-IN
+
+S-NAT-IN
+
+Inline Layer 2 Tunneling Protocol (L2TP) license.
+
+Inline NAT Software license for the MX104, MX80, 
+MX40, MX10 and MX5, and any Modular Port 
+Concentrator (MPC).
+
+4
+
+Data SheetSubscriber Management for MX Series 3D Universal Edge RoutersAbout Juniper Networks
+Juniper Networks is in the business of network innovation. From 
+devices to data centers, from consumers to cloud providers, 
+Juniper Networks delivers the software, silicon and systems that 
+transform the experience and economics of networking. The 
+company serves customers and partners worldwide. Additional 
+information can be found at www.juniper.net.
+
+Model Number Name
+
+S-VCR
+
+S-JAA-NAT
+
+S-JAA-FLOW
+
+S-VPN-ES
+
+S-JNS-SFW
+
+Software License for one member of an MX Series 
+Virtual Chassis.
+
+Software license for Junos Address Aware 
+(CGNAT); also requires the MS-MIC-16G or MS-
+MPC.
+
+Software license for Junos Traffic Vision (flow 
+monitor); also requires the MS-MIC-16G or MS-
+MPC.
+
+Software license for Junos VPN Site Secure 
+(IPsec); also requires the MS-MIC-16G or MS-
+MPC.
+
+Software license for Junos Network Secure 
+(firewall); also requires the MS-MIC-16G or MS-
+MPC. 
+
+Note: For further details, please contact a Juniper Networks  
+sales representative.
+
+Corporate and Sales HeadquartersJuniper Networks, Inc. 1133 Innovation WaySunnyvale, CA 94089 USAPhone: 888.JUNIPER (888.586.4737)or +1.408.745.2000Fax: +1.408.745.2100www.juniper.net Copyright 2015 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, Junos and QFabric are registered trademarks of Juniper Networks, Inc. in the United States and other countries. All other trademarks, service marks, registered marks, or registered service marks are the property of their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice.APAC and EMEA HeadquartersJuniper Networks International B.V.Boeing Avenue 2401119 PZ Schiphol-RijkAmsterdam, The NetherlandsPhone: +31.0.207.125.700Fax: +31.0.207.125.701Data SheetSubscriber Management for MX Series 3D Universal Edge Routers1000255-003-EN   Mar 2015

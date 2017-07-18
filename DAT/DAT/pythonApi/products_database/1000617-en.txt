@@ -1,0 +1,613 @@
+PTX10000 Packet  
+Transport Router
+
+Product Overview
+
+Core networks must be able to 
+handle exponential data growth 
+and changing traffic patterns 
+as applications move to clouds 
+and data centers. Internet 
+exchange providers, collocation 
+facilities, and service providers 
+of all types need platforms 
+that can evolve quickly to 
+meet changing demands while 
+lowering operational costs. The 
+PTX10000 is a family of next-
+generation, data center-optimized 
+modular routers that redefines 
+per-slot economics, enabling 
+customers to do more with less 
+while simplifying network design 
+and reducing OpEx. The chassis 
+family shares a common set of 
+components, while various line 
+cards are available to satisfy 
+specific core, edge routing, and 
+switching applications.
+
+ 
+
+Product Description 
+Network traffic today is predominately cloud access, mobile, and video applications. Data 
+center and network operators must provide connectivity services that are low latency, low 
+delay, and with video, provide consistent packet delay variation. The pace of application 
+change, and the speed at which devices can process data, mean operators must be able 
+to upgrade quickly as needs arise. Operators must have the flexibility to offer new services, 
+adjust performance, or explore new opportunities quickly, with confidence that the new 
+services will have sufficient capacity to sustain exponential growth. 
+
+Competing with the ability to rapidly expand capacity is the need to reduce operational 
+costs. Providers are under enormous pressure to lower margins and compete with 
+new entrants and disruptors that do not have legacy networks to maintain. Among the 
+challenges they face:
+
+•  Scale: Providers may offer backbone connectivity that requires a large number of 
+
+label-switched paths (LSPs). If they are using RSVP to take advantage of the traffic 
+engineering (RSVP-TE) functionality, the control plane signaling path must be able 
+to scale in step with the growth of LSPs. This ability to scale is needed for both the 
+primary and backup paths to support redundancy mechanisms like fast re-route 
+(FRR). Today, the total number needed for backbone connectivity is a few million. 
+This type of scaling challenge will be felt by operators who are trying to diversify their 
+portfolios by adding a broader scope of connectivity options; for example, a data 
+center operator who wants to provide cloud connectivity or VPN services to enterprise 
+customers, or an operator of private line service who wants to add a collocation 
+service to its offering. 
+
+•  Operational Flexibility: Virtualized services and the explosion of cloud-based 
+
+applications are creating increasingly erratic traffic patterns. To handle this 
+unpredictability, service providers need architectures that are flexible and dynamic 
+across all layers. A rigid architecture prevents programmable, predictable, and traffic-
+optimized networks from supporting any service, anywhere.
+
+•  Power Consumption: Power consumption is a variable cost. Hyper-scale data center 
+
+operations have done much to improve the power efficiency of their applications 
+and server operations. Multitenant data centers, collocation facilities, and service 
+providers do not necessarily have the same ability to control all aspects of IT 
+infrastructure and application design to dictate power utilization. Providers need 
+systems designed to take advantage of advances in power usage improvements 
+made in data center computing. Power efficiency is a key factor in reducing TCO. 
+
+•  Space Limitations: Service providers can’t grow their physical plants forever. They 
+
+need innovations like a low-touch deployment model optimized around space 
+availability, facility power requirements, and floor weight thresholds. Efficiently scaling 
+capacity in a small footprint is critical.
+
+1
+
+Data SheetLocal Internet
+
+Providers
+
+NorthStar Controller
+
+Data Centers
+
+Service Provider
+
+PTX10000
+
+Figure 1:  PTX10000 router deployment
+
+Internet
+Exchange
+
+Cloud Service
+
+Providers
+
+Storage/Hosting
+
+Provider
+
+In order to address these challenges, service providers need a 
+core router that delivers scale, operational efficiency, and SDN 
+programmability. Juniper Networks® PTX Series Packet Transport 
+Routers offer the industry’s only core router that exceeds these 
+requirements while easily fitting into the service provider network, 
+providing support for full peering, MPLS, and IP core routing (see 
+Figure 1).
+
+PTX10000 Packet Transport Routers
+The Juniper Networks PTX10000 line of Packet Transport Routers 
+brings physical and virtual innovations to the service provider core 
+network. These next-generation routers directly address concerns 
+about operational expenditures while scaling efficiently to keep 
+pace with growing traffic demands. 
+
+Innovations in the core silicon enable the PTX10000 routers to 
+lower operational expenses. The PTX10000 line is powered by 
+the highly scalable Juniper ExpressPlus custom silicon, providing 
+consistently low latency and wire-rate packet performance 
+for both IP traffic and MPLS transport without sacrificing the 
+optimized system power profile. 
+
+These concepts, along with full IP routing functionality, are 
+at the center of the PTX10000 design, preserving the spirit 
+of the original Junos Express chipset. ExpressPlus is the first 
+purpose-built telecommunications silicon to build a 3D memory 
+architecture into the base design, performing more than 1.6 
+billion filter operations per second and dynamic table memory 
+allocation for massive IP routing scale, while at the same time 
+providing tremendous power efficiency gains. The ability to 
+address a provider’s core networking requirements—scale, 
+operational flexibility, and SDN control—begins with the silicon. 
+With the PTX10000 line, operators can now deploy a core 
+architecture with SDN control. Combining Juniper Networks 
+NorthStar Controller, with a robust full-featured Internet 
+backbone router, and a regional IP/MPLS core router with 
+
+integrated 100GbE coherent transport for superior performance, 
+operators can tune their network infrastructure through proactive 
+monitoring and what-if planning capabilities. The NorthStar 
+Controller dynamically creates explicit routing paths using a 
+global view based on user-defined constraints. 
+
+Scale is one of the guiding design principles for the PTX10000 
+routers, empowering service providers with the ability to handle 
+increased traffic demands smoothly. The PTX10000 line 
+simplifies network engineering challenges with predictable 
+system latency, improving the overall service experience by 
+delivering best-in-class resiliency to ensure service providers 
+meet strict customer service-level agreements (SLAs).
+
+Operational efficiency is another design attribute for the 
+PTX10000 line, focusing on power, space, and weight—
+fundamental concerns that affect service providers’ operational 
+budgets. Juniper has designed the PTX10000 to fit the 
+requirements of today’s data center facilities.
+
+SDN programmability brings virtual innovations to the service 
+provider core, while the NorthStar Controller offers an open, 
+standards-based solution that optimizes both the IP layer and 
+the transport layer with precise SDN control, allowing service 
+providers to automate and scale their operations. 
+
+PTX10008 Packet Transport Router
+
+Juniper Networks PTX10008 Packet Transport Router, the 
+first member of the PTX10000 line, is the perfect core router 
+for today’s space-constrained operations and data center 
+facilities. It offers unprecedented capacity in a 13 U platform that 
+supports 24 Tbps per chassis or 72 Tbps per standard 19-inch 
+telecommunications rack—all at wire speed. Powered by Juniper’s 
+custom ExpressPlus silicon, the PTX10008 delivers predictable 
+IP/MPLS packet performance and functionality, eliminating the 
+complex packet profiles found in elaborate, over engineered 
+network processing units (NPUs) deployed in other core routers.
+
+2
+
+Data SheetPTX10000 Packet Transport RouterThe PTX10008 has eight slots, each supporting 3 Tbps. A fully 
+equipped PTX10008 can support 240x100GbE interfaces in 
+a single chassis. This enables service providers to build a core 
+architecture that optimizes label-switching router (LSR), Internet 
+backbone, peering, and optical convergence applications for 
+small regional deployments. As a result, service providers can—
+for the first time—match traffic demand with optimized core 
+router performance and flexible deployments. With its ultra-
+optimized and compact form factor, the PTX10008 is ideal for 
+peering, collocation, and central office locations where space 
+and power are at a premium. 
+
+Architecture and Key Components
+The PTX10000 line of routers features a number of architectural 
+elements. The Routing Engines (REs) not only run Juniper 
+Networks Junos® operating system, which processes all Layer 2 
+and Layer 3 protocols, they also manage the chassis and provide 
+switching functionality for data traffic coming from line cards. 
+
+The PTX10000 line cards currently support 100/40/10GbE 
+interfaces, and the system is designed to support 400GbE 
+interfaces in the future. The horizontal line cards in the front of 
+the chassis connect directly to the vertical switch fabric cards 
+in the rear of the chassis via orthogonal interconnects without 
+requiring a midplane. This provides unparalleled investment 
+protection by ensuring a smooth upgrade path to higher speed 
+switch fabric cards as they become available. The midplane-less 
+design also improves airflow with a front-to-back design. 
+
+To maintain uninterrupted operation, the PTX10000 fan trays 
+cool the line cards and REs with redundant, variable-speed fans. 
+In addition, the PTX10000 power supplies convert building power 
+to the internal voltage required by the system. All PTX10000 
+components are hot-swappable, and all central functions are 
+available in redundant configurations, providing high operational 
+availability by allowing continuous system operation during 
+maintenance or repairs. The chassis also uses a universal design, 
+allowing it to be used independently for core, edge, or switching 
+configurations.
+
+PTX10000 Hardware Components
+The key hardware components of PTX10000 line of Packet 
+Transport Routers are the line cards and REs. 
+
+Line Cards
+
+The line cards for the PTX10000 platforms are based on the 
+highly scalable custom Juniper ExpressPlus silicon, making it 
+the industry’s leading core router for MPLS, Internet backbone, 
+peering, and transport integration applications. Each slot on the 
+PTX10000 routers supports 3 Tbps, while the line cards support 
+multirate 100GbE, 40GbE, and 10GbE. 
+
+The modular design of the PTX10000 devices provides 
+investment protection by allowing future upgrades. The Packet 
+Forwarding Engines (PFEs) offer 500 Gbps of WAN and fabric 
+
+bandwidth. To achieve 3 Tbps forwarding performance, a total 
+of six PFEs are implemented on each interface card. The PFEs 
+provide ingress queuing with loopback stream optimization to 
+avoid reading and writing packet tails when packets are sent to 
+and received back from a loopback stream. The line cards also 
+provide Operation, Administration, and Maintenance (OAM) 
+support with per-port Ethernet OAM counters, as well as packet 
+memory, which uses Hybrid Memory Cube DRAM technology to 
+reduce power usage, increase speed, and improve system density.
+
+Routing Engine/Control Board Complex 
+
+The Routing Engine and Control Board are combined on a 
+single card. The RE is based on the Intel X86 architecture. Up to 
+two REs can be installed in a PTX10000 chassis to provide 1+1 
+redundancy. The RE features a quad-core 2.5 GHz Intel processor 
+with 32 GB memory and 2x50 GB solid-state drive (SSD) storage.
+
+Power
+
+The PTX10000 routers contain six power supply slots to provide 
+complete flexibility for provisioning and redundancy. Each power 
+supply has its own internal fan for cooling. The PTX10000 line 
+supports both AC and DC power supplies; however, AC and DC 
+supplies cannot be mixed in the same chassis.
+
+The AC supplies on the PTX10000 routers accept 200 to 240 
+volts alternating current (VAC) input, and they deliver 2700 watts 
+of power to the chassis. The DC power supplies accept -40 to -72 
+volts direct current (VDC) input and deliver 2500 watts of power 
+to the chassis. Each AC and DC power supply has two inputs for 
+feed redundancy.
+
+Cooling
+
+The PTX10000 line modular chassis supports front-to-back 
+cooling with air drawn in through the perforations on the REs and 
+the line cards in the front of the platform. The fan trays are in 
+front of the fabric cards and are accessible from the rear of the 
+chassis. Hot air exhausts through the rear of the chassis. 
+
+Chassis Management
+
+The PTX10000 line delivers powerful Junos OS chassis 
+management that allows environmental monitoring and field-
+replaceable unit (FRU) control. Chassis management provides 
+a faster primary switchover, enhanced power budgeting with a 
+modular power management, reduced power consumption for 
+partially populated systems, granular control over FRU power-
+on, multizone cooling with better fan speed control for reduced 
+noise, and CPU leveling during monitoring intervals.
+
+Simplified Management
+
+The PTX10000 line of routers simplifies management based 
+on the elegance and simplicity of the Junos OS. Management 
+applications can receive streaming telemetry data to provide 
+robust protocol analytics for an SDN environment. Junos OS also 
+supports OpenConfig, which today is a YANG-based data model 
+that supports a variety of operator use cases.
+
+3
+
+Data SheetPTX10000 Packet Transport RouterFeatures and Benefits
+Table 1 summarizes the features available on the PTX10008 Packet Transport Router.
+Table 1: PTX10008 Features and Benefits
+
+Feature
+
+System capacity
+
+Packet performance
+
+Feature Description
+
+Benefits
+
+The PTX10008 scales to 24 Tbps in a single 
+chassis, breaking out into 1152 10GbE, 288 40GbE, 
+and 240 100GbE interfaces. 
+
+PTX10008 gives service providers the 
+performance and scalability needed to outpace 
+increased traffic demands.
+
+The groundbreaking Juniper ExpressPlus silicon 
+innovation empowers the PTX Series routers 
+with unparalleled packet processing for both full 
+IP and MPLS functionality, thereby leveraging 
+revolutionary 3D memory architecture.
+
+Exceptional packet processing capabilities help 
+alleviate the challenge of scaling the network 
+as traffic continues to increase, while optimizing 
+IP/MPLS transit functionality around superior 
+performance and elegant deployability.
+
+Full-scale IP and MPLS routing
+
+The PTX10000 line features a rich set of IP/MPLS 
+services, consistent low latency, and wire-rate 
+forwarding at scale, while providing the reliability 
+needed to meet strict SLAs.
+
+Source Packet Routing in Networking 
+(SPRING) 
+
+Junos OS supports SPRING, which provides the 
+ability for a trusted source node to specify a 
+forwarding path, other than the normal shortest 
+path, that a particular packet will traverse.
+
+High availability hardware
+
+High availability software
+
+The PTX10008 is engineered with full hardware 
+redundancy for cooling, power supply, Routing 
+Engines, and switch fabric.
+
+PTX10008 routers feature a resilient operating 
+system that supports HA features such as graceful 
+RE switchover (GRES), nonstop active routing 
+(NSR), and unified in-service software upgrade 
+(unified ISSU) for high availability.
+PTX Series routers support game-changing 50 ms 
+redundancy switchover under load.
+
+This delivers the distributed peering scale of 2.9 
+million forwarding information base (FIB) and 30 
+million routing information base (RIB) (also known 
+as forwarding and routing tables, respectively), 
+3000 OSPF adjacencies, and 4000 BGP sessions 
+required to match expanding traffic demands.
+
+This provides additional flexibility per packet 
+source. It also adds features such as network path 
+and node protection to support FRR mechanisms, 
+enhanced network programmability, OAM 
+functionality, simplified network signaling, load 
+balancing, and traffic engineering functions.
+
+High availability (HA) is a critical requirement 
+for service providers to maintain an always-on 
+infrastructure base to meet stringent SLAs across 
+the core.
+
+Junos OS supports HA features that allow 
+software upgrades and changes without 
+disrupting network traffic.
+
+Specifications
+Table 2: PTX10008 Specifications
+
+PTX10008
+
+Physical dimensions
+(W x H x D)
+
+Maximum weight
+
+Mounting
+
+Power system rating* 
+
+17.4 x 22.55 x 32 in.
+(44.2 x 57.76 x 81.28 cm)
+39.37 in. (100 cm) depth with 
+EMI door
+
+493 lb (223.62 kg)
+
+Front or center
+Rack mount
+
+200-240 VAC / 50-60 GHz
+-48 VDC @ 60 A
+
+Typical power consumption
+
+9.8 kW, fully loaded
+
+Operating temperature
+
+32° to 115° F  (0° to 46° C)  
+at sea level
+
+*These numbers are power supply ratings. Actual power usage is much lower.
+
+Juniper Networks Services and Support
+Juniper Networks is the leader in performance-enabling services 
+that are designed to accelerate, extend, and optimize your 
+high-performance network. Our services allow you to maximize 
+operational efficiency while reducing costs and minimizing 
+risk, achieving a faster time to value for your network. Juniper 
+Networks ensures operational excellence by optimizing the 
+network to maintain required levels of performance, reliability, 
+and availability. For more details, please visit www.juniper.net/us/
+en/products-services. 
+
+PTX10008 Packet Transport Router
+
+4
+
+Data SheetPTX10000 Packet Transport RouterPTX10000 Ordering Information
+For more information, please contact your Juniper Networks representative.
+
+Product Number
+
+Description
+
+Product Number
+
+Description
+
+PTX10008 Base Unit
+
+PTX10008-BASE
+
+PTX10008-PREMIUM
+
+PTX10008 8-slot chassis [JNP10008]. 
+Includes 1 RE, 3 power supplies, 2 fan 
+trays, 2 fan tray controllers, and 5 
+Switch Fabric cards.
+
+PTX10008 redundant 8-slot chassis 
+[JNP10008]. Includes 2 REs, 6 
+power supplies, 2 fan trays, 2 fan tray 
+controllers, and 6 Switch Fabric cards.
+
+PTX10000 Power Modules 
+
+JNP10K-PWR-AC-BB
+
+JNP10K-PWR-AC-R
+
+PTX10000 2700 W AC power supply, 
+base bundle
+
+PTX10000 2700 W AC power supply, 
+redundant
+
+JNP10K-PWR-AC
+
+PTX10000 2700 W AC power supply
+
+JNP10K-PWR-DC-BB
+
+PTX10000 2500 W DC power supply, 
+base bundle
+
+PTX10000 2500 W DC power supply, 
+redundant
+
+JNP10K-PWR-DC
+
+PTX10000 2500 W DC power supply
+
+PTX10000 Front Panels 
+
+JNP10008-FRPNL-BB
+
+PTX10008 front panel, base bundle
+
+JNP10008-FRNT-PNL
+
+PTX10008 front panel
+
+JNP10008-FRPNL1-BB
+
+PTX10008 front panel with filter, base 
+bundle
+
+JNP10008-FRPNL1
+
+PTX10008 front panel with filter
+
+About Juniper Networks
+Juniper Networks challenges the status quo with products, 
+solutions and services that transform the economics of 
+networking. Our team co-innovates with customers and partners 
+to deliver automated, scalable and secure networks with agility, 
+performance and value. Additional information can be found at 
+Juniper Networks or connect with Juniper on Twitter and Facebook.
+
+PTX10000 Routing Engines and Control Boards
+
+JNP10K-PWR-DC-R
+
+JNP10K-RE0-BB
+
+JNP10K-RE0-R
+
+JNP10K-RE0
+
+PTX10000 RE X4, base bundle
+
+PTX10000 RE X4, redundant
+
+PTX10000 RE X4
+
+PTX10008 Switch Fabric
+
+JNP10008-SF-BB
+
+JNP10008-SF-R
+
+PTX10008 Switch Fabric card, base 
+bundle
+
+PTX10008 Switch Fabric card, 
+redundant
+
+JNP10008-SF
+
+PTX10008 Switch Fabric card
+
+PTX10000 Line Cards 
+
+PTX10K-LC1101
+
+PTX10K-LC1101-IR
+
+PTX10K-LC1101-R
+
+PTX10K-LC1102
+
+PTX10K-LC1102-IR
+
+PTX10K-LC1102-R
+
+30x100GbE/30x40GbE line card 
+[JNP10K-LC1101]
+
+30x100GbE/30x40GbE line card 
+[JNP10K-LC1101], IR mode
+
+30x100GbE/30x40GbE line card 
+[JNP10K-LC1101], R mode
+
+36X40GbE/12X100GbE line card 
+[JNP10K-LC1102]
+
+36X40GbE/12X100GbE line card 
+[JNP10K-LC1102], IR mode
+
+36X40GbE/12X100GbE line card 
+[JNP10K-LC1102], R mode
+
+PTX10000 Fan Tray and Controller
+
+JNP10008-FAN-BB
+
+PTX10008 fan, base bundle
+
+JNP10008-FAN
+
+JNP10008FAN 
+CTRL-BB
+
+PTX10008 fan
+
+PTX10008 fan tray controller,  
+base bundle
+
+JNP10008-FAN-CTRL
+
+PTX10008 fan tray controller
+
+Corporate and Sales HeadquartersJuniper Networks, Inc. 1133 Innovation WaySunnyvale, CA 94089 USAPhone: 888.JUNIPER (888.586.4737)or +1.408.745.2000Fax: +1.408.745.2100www.juniper.net Copyright 2017 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, Juniper, and Junos are registered trademarks of Juniper Networks, Inc. in the United States and other countries. All other trademarks, service marks, registered marks, or registered service marks are the property of their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice. APAC and EMEA HeadquartersJuniper Networks International B.V.Boeing Avenue 2401119 PZ Schiphol-RijkAmsterdam, The NetherlandsPhone: +31.0.207.125.700Fax: +31.0.207.125.701Data SheetPTX10000 Packet Transport Router1000617-001-EN  May 2017EXPLORE JUNIPERGet the App.

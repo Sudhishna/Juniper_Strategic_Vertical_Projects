@@ -1,0 +1,397 @@
+QFX3100 QFabRIC
+DIRECToR
+
+Product Overview
+
+The Juniper Networks QFabric System 
+is composed of three separate 
+but integrated components—the 
+QFX3500/QFX3600 QFabric Nodes, 
+the QFX3600-I/QFX3008-I QFabric 
+Interconnect, and the QFX3100 
+QFabric Director. These components 
+work together to create a single, high-
+performance QFabric architecture 
+for the next-generation cloud-ready 
+data center. The Juniper Networks 
+QFX3100 Director provides central 
+control and management services 
+for the QFX3000 QFabric System, 
+allowing the disparate devices 
+to operate and be managed as a 
+single, logical switch. This creates a 
+simplified, single-tier network for the 
+data center.  
+
+Product Description 
+Juniper Networks® QFX3100 QFabric Director serves as the central Routing Engine for the 
+Juniper Networks QFX3000-M and QFX3000-G QFabric™ Systems, providing a single 
+control and management services interface for the QFabric architecture.
+
+Communicating directly with all QFabric Node and QFabric Interconnect devices, the 
+QFX3100 Director builds a global view of the entire QFabric architecture, which can scale 
+to support thousands of server-facing ports. Deployed in clusters, the QFX3100 provides 
+network operators with a single point of visibility, control, provisioning, and management, 
+presenting the entire data center network—built with QFabric Node and QFabric 
+Interconnect devices—as a single switch. This dramatically reduces the operational costs 
+typically associated with managing the complexities of today’s data center networks.
+
+QFabric Interconnect
+
+QFabric Director
+
+QFabric
+Node #1
+
+QFabric
+Node #2
+
+QFabric
+Node #3
+
+QFabric
+
+Node #128
+
+Figure 1: A QFabric System with QFabric Director cluster, QFabric Interconnect systems,  
+
+and QFabric Nodes
+
+1
+
+DATASHEETQFabric Architecture
+by delivering a single-tier solution for the data center, the QFabric 
+architecture combines the performance and simplicity of a single 
+switch with the scale and resiliency of a network to enable any-
+to-any connectivity while lowering capital, management, and 
+operational expenses.
+
+QFabric technology helps organizations realize the full benefit of 
+their investments in server consolidation, virtualization, service-
+oriented architecture (Soa), distributed application architectures, 
+and other technologies. The high-performance, non-blocking, 
+and lossless QFabric architecture delivers much lower latency 
+than traditional network architectures—crucial for the high-speed 
+communications that define the modern data center. 
+
+Features and Benefits
+a QFX3100 Director cluster enables a QFabric architecture to scale 
+to thousands of customer-facing or business ports. In addition 
+to imposing control plane scalability, the QFX3100 also ensures 
+reliability and high availability at multiple levels when deployed 
+in clusters for redundancy. In a QFabric Director cluster, QFX3100 
+devices are connected directly to each other as well as to the larger 
+fabric composed of QFabric Interconnects and QFabric Nodes via 
+a control plane Ethernet network consisting of two independent 
+Juniper Networks EX4200 Ethernet Switches deployed in a Virtual 
+Chassis configuration. Should one of the QFX3100s fail, the other 
+ensures continuity of fabric operations. 
+
+The Director includes a front panel LCD screen for reporting device 
+status at a glance or for performing device configuration via a 
+menu-driven screen. a console port for out-of-band management 
+and a USb drive for file storage are also available.
+
+additional front panel slots support redundant 2 Tb hard drives 
+for providing extra processing power. The two disk drives mirror 
+data using RaID technology, providing for data redundancy on 
+the Director. The QFX3100s synchronize the data stored, ensuring 
+further availability in the event of a failure. 
+
+The Director also includes two front panel slots that support 
+4x1GbE interfaces for connecting to the QFabric solution’s 
+Ethernet control plane. on the back panel, the QFX3100 includes 
+redundant, hot-swappable 560 watt aC power supplies and 
+redundant, hot-swappable fans. Internally, the QFX3100 includes 
+a 2.1 GHz dual Intel Quad-Core processor with 36 Gb DRaM. 
+
+QFabric solution management via a QFX3100 Director cluster 
+integrates with existing data center management systems through 
+powerful Juniper Networks Junos® SDK as well as the Junoscript 
+and automation framework, which bring significant efficiencies to 
+data center operations.
+
+Junos Operating System
+The QFabric family of products run the same reliable and high-
+performance Juniper Networks Junos operating system that is 
+used by Juniper Networks EX Series Ethernet Switches, Juniper 
+Networks routers, and Juniper Networks SRX Series Services 
+Gateways. by utilizing a common operating system, Juniper 
+delivers a consistent implementation and operation of control 
+plane features across products. To maintain that consistency, 
+Junos oS adheres to a highly disciplined development process, 
+follows a single release track, and employs a highly available 
+modular architecture that prevents isolated failures from bringing 
+down an entire system. These attributes are fundamental to 
+the core value of the software, enabling Junos oS-powered 
+products to be updated simultaneously with the same software 
+release. Features are fully regression tested, making each new 
+releases a superset of the previous version; customers can deploy 
+the software with confidence that existing capabilities will be 
+maintained and operate in the same way.
+
+QFX3100 QFabric Director
+
+QFX3100 QFabric Director Specifications
+Hardware
+Dimensions (W x H x D)
+•	 17.5 x 3.5 x 23.75 in (44.45 x 8.89 x 60.33 cm)
+
+Weight
+•	 41.2 lb (18.69 kg)
+
+Power
+•	 Power feed (voltage): 100-240 V aC (single phase)
+•	 Power feed (aMP rating): 8 a
+•	 Power consumption (maximum): 476 watts
+•	 Power consumption (nominal): 220 watts
+
+Heat Dissipation
+•	 Maximum: 1,624 bTU
+•	 Nominal: 751 bTU
+
+Air Flow
+•	 Front to back
+
+Rack Mount Options
+•	 4-pole rack mount
+•	 2-pole mid-mount
+
+2
+
+Ambient Temperature Range
+•	 41° through 104° F (5° through 40° C)
+
+Operating Altitude Range
+•	 10,000 ft (3,048 m)
+
+Operational Mean Time Between Failures
+•	 96,125 hours
+
+Interfaces 
+•	 Dual Ethernet management ports
+•	 USb port
+•	 Console port
+•	 Two I/o slots, each with 4x1GbE ports (RJ-45 or SFP) for 
+
+connectivity to QFabric control plane Ethernet network
+
+Display and Ports 
+•	 LCD panel for system monitoring
+
+Management and Operations
+•	 Role based command-line interface (CLI) management and 
+
+access
+
+•	 CLI via console or SSH
+•	 QFabric show and debug commands, statistics
+•	 XML/NETCoNF support
+•	 Extended Fabric ping and Fabric traceroute
+•	 Junos oS configuration rescue and rollback
+•	 Junos oS image rollback 
+•	 Support for SNMP v1/v2/v3*
+•	 Junoscript automation
+•	 Junos SDK
+Approvals
+Safety Certifications
+•	 CaN/CSa-C22.2 No. 60950-1 (2007) Information Technology 
+
+Equipment - Safety
+
+•	 UL 60950-1 (Second Ed.) Information Technology Equipment - 
+
+Safety
+
+•	 EN 60950-1 (2005) Information Technology Equipment - Safety
+IEC 60950-1 (2005) Information Technology Equipment - Safety 
+•	
+(all country deviations): Cb Scheme report
+
+•	 EN 60825-1 +a1+a2 (1994) Safety of Laser Products - Part 1: 
+
+Equipment Classification
+
+Electromagnetic Compatibility Certifications
+•	 EN 300 386 V1.4.1 (2008) Telecom Network Equipment - EMC 
+
+requirements
+
+•	 EN 55024 +a1+a2 (1998) Information Technology Equipment 
+
+Immunity Characteristics
+
+EMI
+•	 FCC 47CFR , Part 15 Class a (2009) USa Radiated Emissions
+•	 EN 55022 Class a (2006)+ a1 2007 European Radiated Emissions
+•	 VCCI Class a (2007) Japanese Radiated Emissions
+•	 bSMI CNS 13438 and NCC C6357 Taiwan Radiated Emissions
+•	 aS/NZS CISPR22:2009
+
+IPC 1752 form filled and complete for all ordered aVL parts 
+
+Environmental
+•	
+•	 (RoHS) Restriction on Hazardous Substances 5
+•	 (WEEE) Design for Easy Disassembly and Recycling 
+•	 (REaCH) Registration, Evaluation, authorization of Chemicals
+•	 Joint Industry Guide Japanese Material Composition Declaration 
+•	 Requirements for Concentration Limits for Certain Hazardous 
+Substances in Electronic Information Products (China RoHS) 
+
+•	 Under Directive ErP /125/EC, the regulations below:
+•	 Reg. 1275/2008/EC applies for products classified as Class b 
+
+per EN55022. Note: Standby mode not appropriate for Juniper’s 
+network products which must remain active 24/7.
+
+•	 Reg. 278/2009/EC applies for external power adapter on products 
+
+classified as Class b per EN55022
+
+Telco
+•	 Common Language Equipment Identifier (CLEI) code
+
+Environmental Ranges
+•	 operating temperature: 41° through 104° F (5° through 40° C)
+•	 Storage temperature: -40° through 158° F (-40° through 70° C)
+•	 operating altitude: up to 10,000 ft (3,048 m)
+•	 Non-operating altitude: up to 40,000 ft (12,192 m)
+•	 Relative humidity operating: 8 to 90% (noncondensing)
+•	 Relative humidity non-operating: 5 to 95% (noncondensing)
+Juniper Networks Services and Support
+Juniper Networks leads the market in performance-enabling 
+services designed to accelerate, extend, and optimize your 
+high-performance QFabric System. our services enable you to 
+maximize operational efficiency, reduce costs and minimize risk 
+while achieving a faster time-to-value for your network.
+
+by leveraging best practices from across the industry, you get the 
+maximum levels of QFabric performance, designed and delivered 
+by the world’s leading professional QFabric Service experts. 
+
+For more information, please visit www.juniper.net/us/en/
+products-services.
+
+* Roadmap
+
+3
+
+About Juniper Networks
+Juniper Networks is in the business of network innovation. From 
+devices to data centers, from consumers to cloud providers, 
+Juniper Networks delivers the software, silicon and systems that 
+transform the experience and economics of networking. The 
+company serves customers and partners worldwide. additional 
+information can be found at www.juniper.net.
+
+Ordering Information
+Model Number
+Base Hardware 
+QFX3100-GbE-aCR
+
+DESCRIPTION
+
+QFX3100 base system with redundant 
+aC power supply, dual disk, and network 
+interface cards
+
+QFX3100-GbE-SFP-aCR QFX3100 base system with redundant aC 
+power supply, dual disks, and SFP network 
+interface cards 
+
+Spares
+QFX3100-NM-4GE
+
+Network interface card with 
+4x10/100/1000baSE-TX for QFX3100 
+(spare)
+
+QFX3100-NM-4GE-SFP
+
+Network interface card with 4x1GbE SFP for 
+QFX3100 (spare)
+
+QFX3100-PWRaC-560a 560 W power supply a for QFX3100 (spare)
+
+QFX3100-HDD-2Tb
+
+2 Tb hard drive for QFX3100 (spare)
+
+QFX3100-FaNa
+Software License
+QFX3000-JSL-EDGE-
+Fab
+
+QFX3000M-JSL-DRCTR-
+Fab
+
+QFX-JSL-DRCTR-aDV1
+
+QFX3008-JSL-DRCTR-
+Fab
+
+QFX-JSL-DRCTR-FC
+
+Fan module for QFX3100 (spare)
+
+QFX3000 Switch QFabric Node feature 
+license 
+
+QFX3000-M  System base fabric software
+
+QFabric advanced feature license for IS-IS, 
+bGP, and IPv6 routing
+
+QFX3008 base fabric software
+
+QFabric feature license for FCoE-to-FC 
+Gateway
+
+QFX-JSL-DRCTR-FC-C16 QFabric feature license for FCoE-to-FC 
+
+Gateway—capacity 16
+
+Corporate and Sales Headquarters
+Juniper Networks, Inc.  
+1194 North Mathilda avenue 
+Sunnyvale, Ca 94089 USa 
+Phone: 888.JUNIPER (888.586.4737) 
+or 408.745.2000 
+Fax: 408.745.2100 
+www.juniper.net
+
+APAC Headquarters
+Juniper Networks (Hong Kong) 
+26/F, Cityplaza one 
+1111 King’s Road 
+Taikoo Shing, Hong Kong 
+Phone: 852.2332.3636 
+Fax: 852.2574.7803
+
+EMEA Headquarters
+Juniper Networks Ireland 
+airside business Park  
+Swords, County Dublin, Ireland 
+Phone: 35.31.8903.600 
+EMEa Sales: 00800.4586.4737 
+Fax: 35.31.8903.601
+
+Copyright 2012 Juniper Networks, Inc. all rights reserved. Juniper Networks, the Juniper Networks logo, Junos, 
+NetScreen, and ScreenoS are registered trademarks of Juniper Networks, Inc. in the United States and other 
+countries. all other trademarks, service marks, registered marks, or registered service marks are the property of 
+their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper 
+Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice.
+
+1000391-003-EN    June 2012
+
+ Printed on recycled paper
+
+4
+
+To purchase Juniper Networks solutions, 
+please contact your Juniper Networks 
+representative at 1-866-298-6428 or  
+authorized reseller.
+
+
