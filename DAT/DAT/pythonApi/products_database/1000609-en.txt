@@ -1,0 +1,277 @@
+Sky ATP JumpStart
+
+Service Overview 
+
+Sky Advanced Threat Prevention 
+keeps the network free of 
+sophisticated cyberattacks with 
+superior cloud-based protection 
+that includes monitoring ingress 
+and egress traffic for malware 
+and indicators of compromise.
+
+The Sky ATP JumpStart service is 
+part of an overall set of services 
+designed to enable the rapid 
+adoption and use of Juniper’s 
+core software products. Upon 
+completion of the service, you will 
+have implemented a ready-to-use 
+Sky Advanced Threat Prevention 
+solution with expert knowledge 
+transfer, enabling your operations 
+teams to optimize its core value in 
+your given environment. 
+
+Service Description
+Deploying new, cutting-edge technologies and products can be challenging, given the 
+varying degrees of complexity inherent in a continuously evolving environment.
+
+In addition, operations and engineering teams are under tremendous pressure to quickly 
+deliver results and secure the enterprise. They are expected to gain the necessary 
+expertise and perform initial deployments and validation within a very short timescale, 
+and the learning curve is typically very steep. 
+
+The Juniper Networks® Sky ATP JumpStart service is ideally positioned to relieve the 
+initial implementation and configuration burden on operations and engineering teams, 
+while determining whether any additional steps are required to deploy the solution in a 
+production environment.
+
+The service is performed by a highly skilled Juniper Networks Professional Services 
+consultant as part of a combined remote and onsite delivery. Depending on your 
+organization’s needs and level of expertise, the JumpStart service should be sufficient; 
+for more complex implementations, additional services can be purchased based on your 
+specific needs and operational environment.
+
+The JumpStart service is based on a Juniper Networks Sky Advanced Threat Prevention 
+standard implementation delivered by a Professional Services consultant following the 
+Best Practices Playbook approach for consistency. The best practices are based on 
+extensive deployment experience and expertise derived across customer deployments of 
+all shapes and sizes.
+
+The core of the service is an Implementation phase based on an initial prequalification 
+activity to determine the necessary installation and configuration parameters required for 
+deployment. This information is captured in an Implementation Plan and approved by key 
+stakeholders prior to deployment and verification in your production environment.
+
+Knowledge Transfer and Post-Installation Support are included to ensure that there are no 
+outstanding issues and the transfer to your organization goes smoothly.
+
+Juniper’s Professional Services consultants have vast experience in customer and best-
+practice implementation services that can save your operation and engineering teams 
+time and effort, allowing them to focus on their key responsibilities.
+
+The JumpStart service consists of three main phases: Implementation, Knowledge 
+Transfer, and Post-Installation Support. Typical durations for each phase in the Sky ATP 
+JumpStart service are shown in Figure 1.
+
+1
+
+Data SheetImplementation
+
+Knowledge
+
+Transfer
+
+*Post-Installation
+
+Support
+
+*Prequaliﬁcation
+
+Deployment and
+
+Veriﬁcation
+
+*Implementation Plan
+
+1 Week
+
+*Created or delivered remotely
+
+Up to 2 days
+
+(over a period of 15 days)
+
+Table 1: Description of JumpStart Service Phases
+
+Figure 1. JumpStart delivery process
+
+Phase
+
+Implementation
+
+Description
+
+The Implementation phase consists of the following key activities:
+•  Prequalification: Prequalification is a remote task designed to gain key deployment and configuration 
+
+• 
+
+parameters as well as details specific to the customer’s environment necessary for the implementation.
+Implementation Plan: The Implementation Plan is executed remotely based on input from the 
+prequalification activity and is used in deployment and verification execution.
+
+•  Deployment and Verification: Deployment provides an onsite installation of Sky ATP based on the 
+
+Implementation Plan. Installation is performed by a Juniper Professional Services consultant, followed 
+by onsite verification that everything is working properly.
+
+Knowledge Transfer
+
+•  Knowledge Transfer takes place throughout the onsite engagement with the appropriate end-
+
+user personnel, delivering maximum value where there is continuous participation by the end user 
+(operations and engineering). This phase covers exactly how the solution has been installed and 
+configured in the customer environment, and how it can be extended further.
+
+Post-Installation Support
+
+•  This phase provides up to two days of Post-Installation Support by the Juniper PS consultant over a 
+
+period of 15 days, giving customers a safety net as they accept the solution into operational use.
+
+Features and Benefits
+1.  Juniper Networks Professional Services expertise in Sky 
+
+Scope and Available Services
+Table 2: JumpStart Services and Scope
+
+ATP: The Sky ATP JumpStart service includes Best Practice 
+Implementation, Knowledge Transfer, and Post-Installation 
+Support, all based on multiple customer deployments and 
+reference architectures that help you understand Sky ATP faster.
+
+2. Fast route to empower stakeholder knowledge acquisition 
+
+and adoption: Sky ATP Knowledge Transfer and Post- 
+Installation Support empower key stakeholders such as 
+architects, product managers, IT, operations, and network 
+design teams to quickly understand Sky ATP and streamline 
+operational adoption.
+
+3. Fast route to enable integration and expansion: The rapid 
+
+deployment of Sky ATP provides a solution platform that can 
+be further integrated, configured, or expanded to extend the 
+network. This work can be performed either by the customer or 
+through additional services from Juniper Networks.
+
+The Sky ATP JumpStart service helps customers realize the 
+following benefits:
+
+•  Speed time to value
+
+•  Minimize risk
+
+•  Streamline operations
+
+Services
+
+Scope
+
+Post-Installation 
+Support
+
+This service is based on the latest relevant 
+release of the Juniper Networks SRX Series 
+Services Gateways and Junos® operating system. 
+It provides for integration of a single logical 
+appliance with Sky ATP cloud service to provide 
+advanced malware protection. 
+
+The JumpStart service enables the rapid deployment and 
+adoption of an initial Sky ATP implementation. For more complex 
+environments, an Assessment service is offered that will help 
+customers determine up front the best deployment path for their 
+specific needs, which in turn may lead to JumpStart services. In 
+cases where there is a need for additional customization with 
+broader implementation and integration requirements for the 
+target environment, the Assessment service may lead to more 
+specialized Implementation services.
+
+Juniper Networks Service and Support
+Juniper Networks is the leader in performance-enabling services 
+that are designed to accelerate, extend, and optimize your high-
+performance network. Our services allow customers to maximize 
+operational efficiency while reducing costs and minimizing 
+risk, achieving a faster time to value for your network. Juniper 
+Networks ensures operational excellence by optimizing the 
+network to maintain required levels of performance, reliability, 
+and availability. For more details, please visit www.juniper.net/us/
+en/products-services.
+
+2
+
+Data SheetSky ATP JumpStarte
+c
+
+i
+
+v
+r
+e
+S
+
+Quicker time to value
+You can get the solution implemented quickly and begin 
+reaping the beneﬁts without exhausting your budget or 
+personnel resources.
+
+Beneﬁts of Using
+
+Juniper
+
+Professional Services for
+
+Sky Advanced
+
+Threat Prevention
+
+Streamline operations
+
+Because Juniper Professional Services does the heavy li(cid:129)ing 
+to implement the solution, you increase operational e(cid:143)ciency 
+and reduce overall OpEx, freeing your sta  to focus on core IT 
+and network functions that provide business value.
+
+Minimize risk
+
+Managing the deployment requires solid planning and the application of 
+industry best practices to ensure that the project progresses smoothly. 
+Based on years of experience, the Juniper Project Management Methodology 
+(JPMM) provides a foundation for managing and controlling of projects as 
+well as a process for identifying and mitigating risk.
+
+Figure 2. JumpStart service benefits
+
+Ordering Information
+Juniper Networks Professional Services are available worldwide as 
+part of a broad range of engagements. In addition to customized 
+engagements, examples of predefined engagements and their 
+descriptions can be found at www.juniper.net/us/en/products-
+services/services/technical-services/professional-services/. 
+
+Please contact your Juniper Networks account manager for 
+additional information or to find out how Juniper Networks can 
+help you address your business and technology challenges.
+
+Product Number
+
+Description
+
+PRO-ATP-JS 
+
+Sky ATP JumpStart service based on 
+standard Sky ATP Professional Services 
+reference architecture
+
+About Juniper Networks
+Juniper Networks challenges the status quo with products, 
+solutions and services that transform the economics of 
+networking. Our team co-innovates with customers and partners 
+to deliver automated, scalable and secure networks with agility, 
+performance and value. Additional information can be found at 
+Juniper Networks or connect with Juniper on Twitter and Facebook.
+
+Corporate and Sales HeadquartersJuniper Networks, Inc. 1133 Innovation WaySunnyvale, CA 94089 USAPhone: 888.JUNIPER (888.586.4737)or +1.408.745.2000Fax: +1.408.745.2100www.juniper.net Copyright 2017 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, and Junos are registered trademarks of Juniper Networks, Inc. in the United States and other countries. All other trademarks, service marks, registered marks, or registered service marks are the property of their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice.APAC and EMEA HeadquartersJuniper Networks International B.V.Boeing Avenue 2401119 PZ Schiphol-RijkAmsterdam, The NetherlandsPhone: +31.0.207.125.700Fax: +31.0.207.125.701Data SheetSky ATP JumpStart1000609-002-EN   Mar 2017EXPLORE JUNIPERGet the App.

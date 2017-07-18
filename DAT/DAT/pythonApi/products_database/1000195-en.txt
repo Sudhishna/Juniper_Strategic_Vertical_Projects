@@ -1,0 +1,630 @@
+SRC Series Session and  
+Resource Control Software
+
+Product Overview
+
+In order to offer differentiated 
+broadband subscriber plans and 
+ensure high-quality delivery of 
+IPTV, video on demand (VOD), 
+gaming, and multimedia services, 
+service providers must allocate 
+and control network resources 
+in real time.  Juniper Networks 
+Session and Resource Control 
+(SRC) software elegantly 
+addresses these requirements with 
+high performance and reliability at 
+carrier scale. Building on Juniper’s 
+long-standing technology and 
+market leadership, the advanced 
+SRC Series software offers a 
+comprehensive, customizable, and 
+automated policy management, 
+subscriber management, 
+bandwidth management, and 
+resource control solution.
+
+ 
+
+Product Description 
+Service providers are placing significant emphasis on and making significant investments in 
+policy and control as the deployment of high-value multiplay services accelerates and the 
+evolution to Third-Generation Partnership Project IP Multimedia Subsystem (3GPP IMS) 
+and the European Telecommunications Standardization Institute’s Telecoms and Internet 
+Converged Services and Protocols for Advanced Networks (ETSI TISPAN) architectures 
+continues. Key policy and control functions include policy management; subscriber 
+management and authentication, authorization, and accounting (AAA); bandwidth 
+management; and network resource control. The Juniper Networks Session and Resource 
+Control portfolio provides these critical functions, harmonizing subscribers and applications 
+with the network layer and integrating with operations support systems and business 
+support systems (OSS/BSS). 
+
+The Juniper Networks Session and Resource Control (SRC) portfolio consists of 
+sophisticated software that extends Juniper’s network layer expertise to the policy and 
+control layer.  The SRC Series of advanced software modules—the SRC Policy Engine, 
+the SRC Diameter Gateway, the SRC SOAP Gateway, and the SRC Volume Tracking 
+Application—run on Commonly Off The Shelf (COTS) hardware and use widely adopted 
+standards-based open interfaces to maximize interoperability with the broadest range of 
+elements, applications, and platforms. 
+
+At the network layer, SRC Series software modules are fully integrated with Juniper 
+Networks routing platforms and security solutions, extending support to third-party 
+network elements via RADIUS CoA (change of authorization) and scripting services.
+
+SRC Series software modules integrate easily with external repositories and related 
+systems that support billing, customer care, order entry, provisioning, billing, and security. 
+
+SRC Series gateway modules use standards-based interfaces to integrate with a broad set 
+of service layer applications, enabling application-driven control of network resources. 
+
+The SRC Series software modules offer a carrier-grade policy and control solution 
+that, together with Juniper routing and security products and third-party applications, 
+support the delivery of high-value, differentiated services across multivendor network 
+infrastructures.  This enables a smooth migration to next-generation network architectures 
+such as Fixed Mobile Convergence (FMC) based on 3GPP Gx, giving Juniper customers 
+a broad set of open, agile, and customizable policy and control options to address their 
+diverse and unique business and technical requirements.
+
+1
+
+Data SheetArchitecture and Key Components
+SRC Series Software
+
+The SRC Series advanced software consists of:
+
+•  The SRC Policy Engine (SRC PE), which maintains a 
+
+directory of customer, network, and service configuration 
+information that it uses to enable automated, policy-
+based service and subscriber provisioning. The SRC PE also 
+allocates network resources in response to subscriber and 
+application requests, to ensure quality of service (QoS) and 
+quality of experience (QoE) and to protect the quality of 
+previously accepted sessions.
+
+ 
+
+It collects usage information on a per-subscriber or per-
+service basis in order to implement usage-based billing, 
+fair usage, or reporting. The SRC-PE integrates with a 
+variety of Juniper products, including MX Series and E 
+Series platforms, as well as third party network elements, 
+leveraging protocols such as Diameter, COPS-PR, RADIUS/
+CoA, XML, and scripting.
+
+•  The SRC Diameter Gateway (SRC DG), which provides 
+a Diameter interface that enables the SRC PE to perform 
+Access Resource and Admission Control Functions (A-RACF), 
+and to provision policies for Session Initiation Protocol (SIP) 
+services, across the IP/MPLS network infrastructure. 
+
+•  3GPP-Gateway: SRC Series software can interface with 
+third-party PCRFs leveraging 3GPP Gx reference point. In 
+this architecture, the SRC Series can mediate between 
+PCRF and non-3GPP compliant devices.
+
+• 
+
+IMS-Gateway: SRC Series software can perform Access 
+Resource and Admission Control Functions (A-RACF), 
+integrating with SPDF over Rq reference interface. The 
+SRC Series provides network resource management and 
+dynamic policies for multimedia services.
+
+•  The SRC SOAP Gateway (SRC SG), which uses the 
+
+SOAP Protocol to provide a simple, straightforward, and 
+standards-based interface that allows non-SRC Series 
+applications to integrate with, and make use of, SRC Series 
+software.
+
+•  The SRC Volume Tracking Application (SRC VTA), which 
+
+tracks subscribers, sessions, and applications based on 
+granular, customer configurable thresholds for volumes 
+and durations, enabling fair resource usage. The SRC VTA 
+supports tiered service offerings and can invoke policy-
+driven actions based on predefined thresholds, including 
+rate limiting of traffic, activation of additional resources, 
+and removal of abusive users.
+
+Features and Benefits
+Features
+
+Prepackaged solution
+
+Intelligent call admission control
+
+Service-level accounting
+
+Flexible service activation 
+
+Open interfaces 
+
+Advantages
+
+Benefits
+
+Easy to dimension, test, install, configure, 
+upgrade, troubleshoot, and spare
+
+Considers multiple criteria (subscriber 
+privileges, service profile, application 
+requirements, network availability) to make 
+per-session admission control decisions
+
+Simplifies the operating environment
+
+Ensures high service quality for requested and 
+preexisting sessions, and provides subscriber 
+QoE
+
+Tracks and accounts for dynamically initiated 
+services for OSS/BSS handoff
+
+Supports unique service models
+
+Provides identity-based, application-based, 
+and subscriber self-service selection 
+
+Integrates with third-party network elements 
+and applications to enable end-to-end, 
+application-driven network resource control 
+
+Provides mass service customization, 
+stronger customer relationships, and 
+competitive differentiation without increasing 
+operating complexity or costs 
+
+Enables application-driven resource control 
+over multivendor networks 
+
+Subscriber self-provisioning and service 
+creation tools 
+
+Provides policy-driven subscriber and service 
+automation at carrier scale 
+
+Enables decreased time to market and 
+reduced costs to roll out new services 
+
+Virtualized software (vSRC)
+
+Takes advantage of commonly available off-
+the-shelf hardware.
+
+Provides flexibility to customize and expand 
+based on need and current conditions.
+
+2
+
+Data SheetSRC Series Session and Resource Control SoftwareUse Cases 
+The SRC Series Session and Resource Control Software supports a suite of applications that enable the creation of myriad services limited 
+only by the creativity of service providers, system integrators, and the enterprise. Several examples are described here.
+
+B
+
+SRC SOAP Gateway
+
+C
+
+SRC Policy Engine
+
+MX960
+
+MX960
+
+MX960
+
+Access Node
+
+A
+
+Residential
+Gateway
+
+A
+
+B
+
+MX960
+
+SRC SOAP Gateway
+
+SRC Diameter
+
+ Gateway
+
+SRC Policy Engine
+
+C
+
+MX960
+
+Voice
+
+MX960
+
+Access Node
+
+Multiplay Services: Assured Video 
+
+When a subscriber requests a video service (A), 
+the video server notifies the SRC Policy Engine 
+via the SRC SOAP Gateway (B). The SRC Policy 
+Engine monitors the network (C) to determine 
+whether adequate resources are available 
+to support the request. If the resources exist, 
+the SRC Policy Engine reserves them (C) and 
+notifies the video server to initiate the service 
+(B); if sufficient resources are not available, the 
+SRC Policy Engine can resize existing LSPs or 
+create new ones to handle the additional traffic, 
+or gracefully reject the request and notify the 
+subscriber, depending on the service provider’s 
+defined policy. The SRC Policy Engine also 
+dynamically rate-limits other services that the 
+subscriber may concurrently consume to assure 
+high video QoE.
+
+Multiplay Services: Assured Voice 
+
+In this example, the service provider has 
+implemented a multiplay network that supports 
+both IMS and non-IMS services over a converged 
+infrastructure. The policy and control solution 
+consists of the SRC Policy Engine, the SRC SOAP 
+Gateway, and the SRC Diameter Gateway, in 
+addition to OSCP partner products. Video and 
+data applications communicate with the SRC 
+Policy Engine via the SRC SOAP Gateway (A), and 
+voice over IP (VoIP) service requests are conveyed 
+to the SRC Policy Engine by a Session Border 
+Controller via the SRC Diameter Gateway (B). The 
+SRC Policy Engine provides traffic engineering for 
+VoIP and video sessions based on real-time LSP 
+awareness and can allocate, resize, and create 
+network resources in response to application 
+requirements (C). The sessions are gracefully 
+rejected if sufficient resources are unavailable.
+
+3
+
+Data SheetSRC Series Session and Resource Control SoftwareOSS
+
+OSS
+
+Partner Product
+
+C
+
+D
+
+SRC Volume
+
+Tracking Application
+
+SRC SOAP Gateway
+
+SRC Policy Engine
+
+B
+
+Self Select
+
+Service Options
+Basic Internet
+Internet PLUS
+Tubo-charge
+Time Usage
+Volume Usage
+
+Service Portal
+
+Internet
+
+MX960
+
+MX960
+
+MX960
+
+Access Node
+
+Tiered Access Services and 
+Subscriber Self-Provisioning 
+
+In this example, the service provider uses 
+the SRC Policy Engine with the built-in, self-
+service portal, the SRC SOAP Gateway, and 
+the SRC Volume Tracking Application to offer 
+tiered subscriber selectable service packages 
+based on traffic volume, connection speed, 
+and duration. Subscribers use the self-
+service portal (A) to make a service selection 
+that the SRC Policy Engine configures on 
+the network (B). A partner application 
+monitoring the xDSL train rate is integrated 
+into the solution via the SRC SOAP Gateway 
+(C). Changes in the train rate trigger the 
+SRC Policy Engine to make changes to the 
+subscriber’s service profile. The SRC Volume 
+Tracking Application monitors and accounts 
+for subscriber use, and this accounting 
+information is also provided to OSS/BSS 
+accounting, billing, and customer care 
+systems (D).
+
+Specifications
+
+CPU Requirements:
+
+•  You must allocate at least one CPU core for virtualized  
+
+SRC Series software. For comparison purposes, here are  
+the equivalent CPU characteristics of previously available  
+C Series hardware:
+
+ -   C2000: 4
+
+ -   C3000: 8
+
+ -   C5000: 24
+
+Storage: 
+
+•  The qcow2 image and vmdk image (of subtype 
+
+monolithicSparse) grow in size up to 250 GB when used on 
+a virtual machine, so there must be more than 250 GB of 
+disk space available in the host operating system to use the 
+qcow2 or vmdk image. If using an SRC Series iso image, it 
+is recommended that 250 GB of disk space be allocated to 
+the virtualized SRC Series software to ensure enough space 
+is available for system and component logs. 
+
+Network
+
+•  1GbE or 10GbE interface card (one or more)
+
+Hypervisors
+
+•  VMware, Centos 6.5 KVM
+
+Image Formats:
+
+•  qcow2
+
+• 
+
+iso
+
+•  vmdk
+
+• 
+
+img (for installation on legacy C Series C3000 and C5000 
+hardware)
+
+Heap Memory Requirements:
+
+SRC 
+Component
+
+Default Heap 
+Size for vSRC
+
+Heap Size 
+Adjustable
+
+Stack Size
+
+ACP
+
+64 MB
+
+SNMP agent
+
+160 MB
+
+Web 
+application 
+server
+
+CLI
+
+Diameter 
+server
+
+External 
+subscriber 
+monitor
+
+616 MB
+
+200 MB
+
+600 MB
+
+160 MB
+
+3GPP gateway
+
+200 MB
+
+IMS services 
+gateway
+
+200 MB
+
+JPS
+
+License server
+
+NIC
+
+SAE
+
+C-Web 
+interface
+
+400 MB
+
+1 GB or less 
+than ¼ of 
+physical 
+memory
+
+128 MB
+
+70% of free 
+memory
+
+200 MB
+
+Yes
+
+No
+
+No
+
+No
+
+No
+
+Yes
+
+No
+
+No
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+No
+
+1024 KB
+
+1024 KB
+
+1024 KB
+
+1024 KB
+
+1024 KB
+
+1024 KB
+
+1024 KB
+
+1024 KB
+
+1024 KB
+
+1024 KB
+
+1024 KB
+
+228 KB
+
+1024 KB
+
+4
+
+Data SheetSRC Series Session and Resource Control SoftwareAbout Juniper Networks
+Juniper Networks challenges the status quo with products, 
+solutions and services that transform the economics of 
+networking. Our team co-innovates with customers and partners 
+to deliver automated, scalable and secure networks with agility, 
+performance and value. Additional information can be found at 
+Juniper Networks or connect with Juniper on Twitter and Facebook.
+
+Juniper Networks Services and Support
+Juniper Networks is the leader in performance-enabling services 
+that are designed to accelerate, extend, and optimize your 
+high-performance network. Our services allow you to maximize 
+operational efficiency while reducing costs and minimizing 
+risk, achieving a faster time to value for your network. Juniper 
+Networks ensures operational excellence by optimizing the 
+network to maintain required levels of performance, reliability, 
+and availability. For more details, please visit www.juniper.net/us/
+en/products-services. 
+
+Ordering Information
+Product Number
+
+Description
+
+SRC-PE-SW-VSRC
+
+Virtualized SRC Policy Engine Software
+
+SRC-COA-LIC
+
+SRC-PE-ACP-LIC
+
+COA engine licenses for third-party support;  
+one license required per server
+
+Feature license for admission control plug-In 
+on virtualized SRC; one required per SRC 
+Policy Engine
+
+SRC-PE-GY
+
+Gy interface
+
+SRC-PE1000K-LIC
+
+1,000,000 service session license for SRC 
+Policy Engine
+
+SRC-PE500K-LIC 
+
+SRC-PE200K-LIC 
+
+SRC-PE100K-LIC 
+
+SRC-PE50K-LIC
+
+SRC-PEACP-LIC
+
+SRC-CXKDG-LIC
+
+SRC-CXKSG-LIC
+
+500,000 service session license for SRC  
+Policy Engine
+
+200,000 service session license for SRC  
+Policy Engine
+
+100,000 service session license for SRC  
+Policy Engine
+
+50,000 service session license for SRC  
+Policy Engine
+
+Feature license for admission control plug-in; 
+one required per SRC Policy Engine
+
+SRC Diameter (A-RACF Rq Interface) gateway 
+software license for use with SRC software 
+(required for Gx interface)
+
+SRC SOAP Gateway software license for use 
+SRC software; one per instance running SOAP 
+GWrunning SRC SOAP Gateway software
+
+SRC-VTA-APP
+
+SRC Volume Tracking application software 
+lifetime license, for Solaris platforms
+
+Corporate and Sales HeadquartersJuniper Networks, Inc. 1133 Innovation WaySunnyvale, CA 94089 USAPhone: 888.JUNIPER (888.586.4737)or +1.408.745.2000Fax: +1.408.745.2100www.juniper.net Copyright 2016 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, and Junos are registered trademarks of Juniper Networks, Inc. in the United States and other countries. All other trademarks, service marks, registered marks, or registered service marks are the property of their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice.APAC and EMEA HeadquartersJuniper Networks International B.V.Boeing Avenue 2401119 PZ Schiphol-RijkAmsterdam, The NetherlandsPhone: +31.0.207.125.700Fax: +31.0.207.125.701Data SheetSRC Series Session and Resource Control Software1000195-003-EN   Sept 2016

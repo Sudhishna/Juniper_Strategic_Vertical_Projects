@@ -1,0 +1,362 @@
+Junos Space Security Director with 
+NSM Import QuickStart Service
+
+Service Overview
+
+Juniper Networks Junos Space 
+is a comprehensive network 
+management solution that 
+simplifies and automates 
+the management of Juniper’s 
+switching, routing, and security 
+devices. It provides a centralized 
+management plane for a single 
+point-of-contact into the network 
+and a common management 
+platform for managing and 
+creating applications that meet 
+specific needs.
+
+This QuickStart service enables 
+you to reduce the time to value 
+from your Juniper product 
+investment by providing the 
+expert assistance of an onsite 
+Professional Services engineer 
+who will help plan and install 
+the application, as well as add 
+devices to Junos Space Security 
+Director and import  
+the configuration. 
+
+Service Description 
+The Juniper Networks® Junos® Space Security Director with NSM Import QuickStart Service 
+provides the expert assistance of an onsite Professional Services engineer to help you 
+rapidly get the most value from your Juniper investment. During the onsite knowledge 
+transfer process, your Professional Services consultant will provide expert guidance and 
+learning resources to prepare your staff to install, configure, and deploy your Junos Space 
+solution in day-to-day operational scenarios going forward.
+
+Built into Juniper Networks QuickStart services is a time-tested, industry-standard 
+approach (plan, build, and operate) that has been proven and refined with clients 
+throughout the world’s most competitive industries. The Space Security Director with NSM 
+Import QuickStart Service provides rapid value through a logical, three-phase process: Plan 
+(design and requirements review); Build (configure Space and import Juniper Networks 
+SRX Series Service Gateways from NSM .xdif file); and Operate (knowledge transfer with 
+integrated workflow review).
+
+Phase 1: Plan
+
+During this phase, Juniper Networks Professional Services experts collect information from 
+your organization and plan the installation with the following deliverables: 
+
+•  Conduct a project kick-off conference call with your technical team to define your 
+
+product, application, and user requirements, as well as your topology
+
+•  Based on the findings, make recommendations about deployment method:
+
+ - High availability option
+
+ - Juniper Networks product family
+
+ - Normal workflow and any special setup needed based on applications or resources
+
+Phase 2: Build
+
+In this phase, the Professional Services Consultant works onsite to configure the Junos 
+Space instance(s) (either physical appliance(s) or virtual instance) for use in the 
+production environment, and also helps your technical staff become familiar with its setup 
+and operation.
+
+Customary tasks performed in this phase include:
+
+•  Configure the system 
+
+ -  Apply initial management configuration and license 
+
+ -  Update code as required 
+
+ -  Install additional applications (Note: Only the Space application fabric and 
+
+Security Director configuration are included in this project.)
+
+1
+
+Data Sheet•  Create discovery rule or directly import device into Junos 
+
+•  Demonstrate basic discovery techniques and inventory tools 
+
+Space inventory
+
+•  Demonstrate adding and importing device configuration 
+
+•  Add devices to Security Director and import configuration 
+
+into Security Director
+
+from a single NSM domain
+
+Phase 3: Operate
+
+During this phase, the Juniper Networks Professional Services 
+Consultant will:
+
+•  Provide a review of the configuration and perform a 
+
+knowledge transfer session of the Space solution for staff
+
+•  Demonstrate and explain basic element manipulation and 
+
+policy tools 
+
+ Knowledge transfer is intended as a review of the customer’s 
+localized implementation and configuration options. It is not 
+meant to be a substitute for formalized training.
+
+Junos Space Security Director with NSM Import QuickStart Service Features and Benefits
+Feature
+
+Feature Description
+
+Benefit
+
+Prequalification and recommendations
+
+Information is collected about your 
+requirements to develop a customized Junos 
+Space installation plan.
+
+•  Minimizes time and effort to develop 
+
+installation plan and receive quality security 
+information
+
+Onsite Juniper Professional Services 
+engineer
+
+Onsite engineer deploys and configures the 
+Space solution at your operations center.
+
+Onsite knowledge transfer 
+
+Professional Services engineer covers topics 
+such as basic configuration and troubleshooting, 
+additional feature configuration, or other 
+appropriate topics as requested by your staff.
+
+•  Accelerates, and optimizes the time to value of 
+
+your Junos Space solution
+
+•  Reduces or eliminates the cost of log 
+
+extensions and tuning deployment
+
+•  Accelerates the availability of new Space 
+
+solution
+
+•  Accelerates readiness of employees
+•  Creates fully informed IT staff for improved 
+
+operational efficiencies
+
+Service Specifications
+Juniper Responsibilities
+
+Customer Responsibilities
+
+Provide a Juniper Professional Services Consultant who will:
+•  Configure and deploy Junos Space solution at the 
+
+•  Complete the Space deployment questionnaire 
+•  Provide a designated project manager or point of contact to interface 
+
+organization’s operations center 
+
+•  Provide onsite knowledge transfer 
+
+with Juniper
+
+•  Network on day-to-day issues and coordination of resources 
+•  Provide external access to the Internet, internal access to your intranet, 
+and access to the network equipment that the consultant will support
+•  Provide access to applications, databases, and appropriate technical 
+
+resources for consultant to perform duties successfully
+
+•  Place and secure the equipment to be installed in the appropriate rack
+•  Provide all power and interface cabling to the equipment
+• 
+• 
+
+ Perform .xdif export of NSM database
+ Transfer .xdif export to Space system
+
+Exclusions
+This QuickStart service is for the initial deployment of Junos 
+Space only and subject to the following limitations:
+
+•  Service is limited to a 2-node Junos Space Network 
+
+Management Platform implementation with HA [optional].
+
+•  Unless provided prior to start of project, workflow includes 
+
+SRX Series inventory process, Security Director import of 
+SRX configuration, , basic device management, security 
+policy, and element change/add/delete. All other workflow 
+elements are excluded. 
+
+•  The service is limited to two discovery rules or 25 direct 
+
+device additions to Space inventory, and up to 25 devices 
+added to Security Director. 
+
+•  All devices imported from NSM .xdif file must be from a 
+
+single domain.
+
+•  Only NSM device import is supported; removal of device(s) 
+
+from NSM or any other device import method is not 
+included in this service.
+
+•  Up to 25 total devices can be added to Security Director.
+
+Customized engagements are available to extend or expand a 
+deployment. Please see your Juniper Networks representative for 
+a quote.
+
+2
+
+Data SheetJunos Space Security Director with NSM Import QuickStart ServiceJuniper Consulting
+
+As leaders in networks and security, Juniper Networks Professional 
+Services consultants and engineers are uniquely qualified to 
+assist service providers in designing, implementing, and optimizing 
+security solutions. Our team appreciates the complexities and 
+the subtleties inherent in large-scale internetwork design and can 
+assist service providers and enterprises, or provide customized and 
+integrated “turn-key” solutions. 
+
+Juniper Networks Professional Services helps accelerate your 
+network’s time to value, bringing revenue generating capabilities 
+online faster for bigger productivity gains, faster rollouts of new 
+business models and ventures, greater market reach, and higher 
+levels of customer satisfaction. Your onsite staff will work closely 
+with Juniper specialists, building operational capabilities and 
+reducing your exposure to IT risks. As a result of our previous 
+experience involving hundreds of customers around the world, 
+Juniper Networks Professional Services is uniquely qualified 
+to help you design, implement, and optimize your network 
+for confident operation and rapid returns on infrastructure 
+investments. These professionals understand today’s network 
+and security demands and those that are just around the 
+corner—for bandwidth efficiency, best-in-class security, solid 
+reliability, and cost-effective scaling.
+
+The use of Juniper’s consultants also avoids the requirement 
+for you to provide the necessary technical, security audit and 
+evaluation skills internally. The evaluation can be completed 
+faster, as you are not forced to wait until internal resources 
+become available, nor do you have to address the issue of 
+conflicting project priorities.
+
+Additional Services to Optimize  
+Your Network 
+A broad range of consulting and packaged services is available 
+to help you enhance your network design and optimize your 
+production environment along with the Junos Space Security 
+Director with NSM Import QuickStart Service.
+
+Services to consider in the early stages of your network review are:
+
+•  Strategic Network Consulting: In the planning stage of 
+
+your project, this service will assist you in determining 
+a strategy for your network architecture and a plan to 
+translate that strategy into an optimal solution. It is aimed 
+at understanding your business requirements, determining 
+the impact of proposed changes on your existing network 
+infrastructure, and providing architectural guidance and 
+recommendations to ensure that your network will be 
+enhanced in a controlled manner.
+
+•  High-Level Design: Implementing a new network 
+or security project starts with an evaluation of the 
+requirements and a detailed rendering of the architecture 
+
+to be used. The High-Level Design service defines the 
+topology, protocols, and equipment required, mapping the 
+design to your needs.
+
+•  Low-Level Design: Once the high-level design of a network 
+is determined, the specifics need to be identified. The Low-
+Level Design service identifies the optimal configuration 
+and equipment needed to make your network a reality.
+
+•  Testing Service: Prior to implementation of a new network, 
+
+Juniper Networks Testing Service provides you with an 
+opportunity to combine your knowledge of your network’s 
+specific performance requirements with Juniper’s sound 
+foundation in network design methodology and products 
+to create a customized test environment that simulates 
+your unique end-to-end deployment scenario. This lets 
+you avoid the cost of creating and operating your own 
+test labs, reduces your project risk, ensures a seamless 
+implementation of new technology into your production 
+environment, and accelerates your time to deployment.
+
+•  Firewall Conversion Service: This service provides 
+
+your organization with time tested firewall conversion 
+methodologies and automated processes that minimize 
+data entry errors. Our firewall conversion consultant 
+delivers infrastructure and business analysis, as well as 
+design, test, and deployment guidance.
+
+•  Junos Space Security Director QuickStart Service: 
+
+This service provides the expert assistance of an onsite 
+engineer to help rapidly get the most value from your Junos 
+Space product investment. During the onsite knowledge 
+transfer process, your Professional Services Consultant will 
+provide expert guidance and learning resources to prepare 
+your staff to install, configure, and operate your Junos 
+Space solution in day-to-day scenarios.
+
+Juniper Networks Services and Support
+Juniper Networks is the leader in performance-enabling services 
+that are designed to accelerate, extend, and optimize your 
+high-performance network. Our services allow you to maximize 
+operational efficiency while reducing costs and minimizing 
+risk, achieving a faster time to value for your network. Juniper 
+Networks ensures operational excellence by optimizing the 
+network to maintain required levels of performance, reliability, 
+and availability. For more details, please visit www.juniper.net/us/
+en/products-services. 
+
+Ordering Information 
+To order the Juniper Networks Junos Space Security Director with 
+NSM Import QuickStart Service, or for additional information, 
+please contact your Juniper account manager. Before the service 
+begins, a statement of work (SOW) will be created outlining the 
+scope of effort to be performed. 
+
+3
+
+Data SheetJunos Space Security Director with NSM Import QuickStart ServiceAbout Juniper Networks
+Juniper Networks challenges the status quo with products, 
+solutions and services that transform the economics of 
+networking. Our team co-innovates with customers and partners 
+to deliver automated, scalable and secure networks with agility, 
+performance and value. Additional information can be found at 
+Juniper Networks or connect with Juniper on Twitter and Facebook.
+
+EXPLORE JUNIPER
+Get the App.
+
+Corporate and Sales HeadquartersJuniper Networks, Inc. 1133 Innovation WaySunnyvale, CA 94089 USAPhone: 888.JUNIPER (888.586.4737)or +1.408.745.2000Fax: +1.408.745.2100www.juniper.net Copyright 2016 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, and Junos are registered trademarks of Juniper Networks, Inc. in the United States and other countries. All other trademarks, service marks, registered marks, or registered service marks are the property of their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice.APAC and EMEA HeadquartersJuniper Networks International B.V.Boeing Avenue 2401119 PZ Schiphol-RijkAmsterdam, The NetherlandsPhone: +31.0.207.125.700Fax: +31.0.207.125.701Data SheetJunos Space Security Director with NSM Import QuickStart Service1000448-003-EN   Nov 2016

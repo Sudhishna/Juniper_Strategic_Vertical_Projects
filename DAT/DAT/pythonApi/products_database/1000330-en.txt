@@ -1,0 +1,225 @@
+Junos Space SDK
+
+Product Overview
+
+Application development has 
+generally meant long, expensive 
+development cycles, limited 
+cross-application development 
+leverage, and a network 
+engineering-centric approach. 
+This has forced developers to 
+focus on costs, cycle times, and 
+foundational code rather than 
+innovative applications.
+
+Juniper Networks Junos Space 
+SDK is an open, network-centric 
+application development toolkit 
+explicitly designed to enable 
+developers to use the information 
+embedded in the network to 
+create unique, differentiated 
+applications quickly, easily, 
+and economically, providing 
+endless possibilities for network 
+intelligence, such as:
+
+Product Description 
+Juniper Networks® Junos® Space SDK is the industry’s most complete developer toolkit 
+specifically designed for easy creation of network-aware applications. Junos Space SDK 
+enables developers to fully leverage network intelligence and services from the Junos Space 
+Network Management Platform to develop differentiated applications. Building sophisticated 
+workflow engines, core business logic, streamlined interfaces for operational tools or a new 
+fully integrated Junos Space application is all possible with the Junos Space SDK.
+
+Junos Space SDK is a developer toolkit that is part of Junos Space, a comprehensive 
+network management solution that simplifies management of Juniper’s switching, routing, 
+and security devices.  With Junos Space, you can simplify and automate the network, 
+improve network agility, and deliver new services quickly all from a single console.  Junos 
+Space is composed of the following three software elements:
+
+1.  Junos Space Network Management Platform—Provides comprehensive FCAPS and 
+
+element management of Juniper devices which improves operator efficiencies, providing 
+a programmable interface and exposable APIs that enable the development and 
+integration of 3rd party applications.
+
+2.  Junos Space Management Applications—Plug-n-play, domain-specific applications 
+
+to help you provision new services and optimize workflow tasks across thousands of 
+Juniper devices 
+
+•  Real-time policy management
+
+3.  Junos Space SDK (software development kit)—A programmable network solution 
+
+•  Energy usage and tracking 
+
+•  Custom workflows 
+
+•  Network insight for business 
+
+intelligence 
+
+•  Correlation of user subscribed 
+
+services
+
+•  Policy and QoS management
+
+that enables you to leverage the connections and intelligence embedded in the network 
+to create customized management solutions for your specific needs 
+
+Architecture and Key Components 
+Junos Space SDK leverages well-known technologies and constructs to create an 
+extremely flexible software development environment.
+
+Applications— Language independent web services are used to create or enhance 
+applications with insight from Junos Space.
+
+Web Services APIs—This abstraction layer presents harmonized access to the underlying 
+capabilities of Junos Space through HTTP interfaces. 
+
+Your ideas. Connected.™
+
+1
+
+Data SheetBuilding an Application
+The Junos Space SDK offers developers flexible options for 
+creating applications. These include:
+
+Data Applications – Build applications that use and combine 
+data, insight or functionality from the Junos Space Network 
+Management Platform, its Management Applications or external 
+sources to create new services. It’s a fast and easy way to 
+integrate open APIs and data sources to produce enriched results 
+that were not necessarily the original reason for producing the 
+raw source data.
+
+Workflows–Create new application logic to add capabilities to 
+Junos Space Network Management Platform, while at the same 
+time expressing through APIs for use in other Space-hosted or 
+external applications. It’s a great way to collect insight, process 
+and make it available to others.
+
+Rich Applications–Design and implement fully native Junos 
+Space Management applications that add capabilities to the 
+platform, create new APIs for use by others and integrate open 
+APIs and data sources to further enrich their capabilities and 
+experience. It’s a robust way to own the experience, gather insight 
+and take action.
+
+Integration–Access insight and take actions from external 
+applications and services—Junos Space web services allow 
+you to access the capabilities of the platform through HTTP to 
+further enrich the capabilities and experience of your stand-alone 
+or externally hosted applications. It’s a language independent 
+method to access Junos Space Network Management Platform 
+and to make your applications and services network aware. 
+
+Info Service—A dedicated service for use in discovering available 
+APIs provided by the platform and hosted applications. 
+
+Infrastructure Services—Access the platform’s fundamental 
+capabilities for use in creating applications that leverage 
+network services.
+
+Network and Device Services—These services provide a model 
+for interacting with devices that abstracts away the specifics of 
+the device connection and communication protocols.
+
+Database Access—Applications have abstracted access to the 
+underlying Junos Space database.
+
+Junos Space
+Management Applications
+
+UI App
+
+Business
+Logic App
+
+Native App
+
+HTTP Interface
+
+Web Service APIs
+
+Abstraction + Harmonization
+
+Junos Space Network Management Platform provided services
+
+SQL Server
+
+Network
+Elements
+
+Features and Benefits
+Features
+
+Benefits
+
+Junos Space plug-in for  
+wizard-based Eclipse IDE
+
+Ext designer,  
+Custom UI designer
+
+RESTful Web services
+
+Simplified application development of Junos Space Management Applications
+•  Rapid creation of the primary Junos Space Management Application types
+• 
+
+Increased efficiency with custom features including REST Explorer, REST wizard, grouping views, auto 
+completion and syntax check
+
+Rapid user interface prototyping
+•  Easy, fast collaboration with development team members
+•  Quick, easy integration of data stores into your interface from any data source (JSON, XML, or custom)
+•  Building rich Internet applications with industry standard JavaScript library
+•  Ease of design and configuration with drag-and-drop designer components 
+
+•  Reusable across popular platforms
+•  Easily consumable services using basic XML rather than SOAP 
+•  Support for all typical CRUD (create, update, and delete) operations through HTTP methods
+
+Simulators, virtual machine 
+included with the developer 
+environment
+
+Fast, easy application performance and scale optimization by simulating Juniper runtime environment
+•  Reduced test/staging costs with a fully functional instance of the Junos Space Network Management 
+
+Platform for test/deployment of Junos Space SDK-based applications
+
+•  Ability to test applications against virtual Junos OS with the device and element simulators
+
+2
+
+Data SheetJunos Space SDKJuniper Networks Services and Support
+Juniper Networks is the leader in performance-enabling services 
+that are designed to accelerate, extend, and optimize your 
+high-performance network. Our services allow you to maximize 
+operational efficiency while reducing costs and minimizing 
+risk, achieving a faster time to value for your network. Juniper 
+Networks ensures operational excellence by optimizing the 
+network to maintain required levels of performance, reliability, 
+and availability. For more details, please visit www.juniper.net/us/
+en/products-services. 
+
+Program Information
+For more information on the Junos Space SDK offering, please 
+visit www.juniper.net/us/en/products-services/software/junos-
+platform/junos-space/.
+
+About Juniper Networks
+Juniper Networks is in the business of network innovation. From 
+devices to data centers, from consumers to cloud providers, 
+Juniper Networks delivers the software, silicon and systems that 
+transform the experience and economics of networking. The 
+company serves customers and partners worldwide. Additional 
+information can be found at www.juniper.net.
+
+Corporate and Sales HeadquartersJuniper Networks, Inc. 1133 Innovation WaySunnyvale, CA 94089 USAPhone: 888.JUNIPER (888.586.4737)or +1.408.745.2000Fax: +1.408.745.2100www.juniper.net Copyright 2014 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, Junos and QFabric are registered trademarks of Juniper Networks, Inc. in the United States and other countries. All other trademarks, service marks, registered marks, or registered service marks are the property of their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice.APAC and EMEA HeadquartersJuniper Networks International B.V.Boeing Avenue 2401119 PZ Schiphol-RijkAmsterdam, The NetherlandsPhone: +31.0.207.125.700Fax: +31.0.207.125.701Data SheetJunos Space SDK1000330-003-EN  Oct 2014

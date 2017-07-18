@@ -1,0 +1,1420 @@
+PTX5000 and PTX3000 
+Packet Transport Routers
+
+Product Overview
+
+Increased interactions between 
+people and machines are 
+creating a deluge of traffic, 
+with increasingly unpredictable 
+patterns. These dynamics have 
+intensified the challenge to meet 
+growth with traditional network 
+products and architectures. A new 
+approach, based on both physical 
+and virtual innovations, is required 
+to help service providers stay 
+ahead of growing traffic demands 
+while remaining profitable. Juniper 
+Networks PTX Series Packet 
+Transport Routers with custom 
+ExpressPlus Silicon, built from 
+the ground up with SDN in mind, 
+provide service providers with a 
+Converged Supercore architecture 
+that reduces TCO with highly 
+flexible, high-performance, and 
+deployability innovations.
+
+Product Description 
+New traffic dynamics like mobility, video, and cloud-based services are transforming 
+traditional network patterns and topologies. Stratified, statically designed and manually 
+operated networks must evolve to meet demands quickly and economically. Many 
+operators have seen profitability stagnate and total cost of ownership (TCO) grow under 
+the burden that growing traffic demands are imposing. Service providers need to become 
+more agile in order to optimize their existing network resources, shorten planning cycles, 
+and remove rigid network layers. 
+
+•  Static scale: The service provider backbone handles the entire weight of the network’s 
+
+traffic. Therefore, it is paramount that the core network grows organically, along with 
+the traffic. The silicon, system, and SDN innovations for the core empower service 
+providers to scale faster than the traffic demands themselves in an elegant, elastic, 
+redundant package—without requiring forklift upgrades.
+
+•  Static architecture: Virtualized services and the explosion of cloud-based applications 
+
+are creating traffic patterns that are increasingly unpredictable. To handle this 
+unpredictability, service providers need their architectures to be flexible and dynamic 
+across all layers. A rigid architecture hinders rather than enables programmable, 
+predictable, and traffic-optimized networks supporting any service, anywhere.
+
+•  Power challenges: For service providers, the operational cost to transmit a bit through 
+the core is far exceeded by the power requirements to move that bit. Service providers 
+have determined that the total power draw over a few years exceeds the total cost of 
+deploying the network infrastructure. Efficient core router power utilization requires a 
+holistic ground-up engineering approach. 
+
+•  Facility challenges: Service providers cannot continue growing their facilities 
+
+exponentially. They need innovations that provide a low-touch deployment model 
+optimized around space availability, facility power requirements, and floor weight 
+thresholds. Transport-oriented central office locations have the added requirement of 
+European Telecommunications Standardization Institute (ETSI) standard depth, and 
+any packet transport innovation must fit these constraints. 
+
+In order to address these challenges, service providers need an innovative core router that 
+delivers three defining principles: performance, deployability, and SDN programmability. 
+With Juniper Networks® PTX Series Packet Transport Routers, Juniper is introducing the 
+industry’s only core router that exceeds these requirements and easily fits into the service 
+provider network, expanding the Juniper Networks Converged Supercore® architecture 
+beyond lean LSR deployment, as shown in Figure 1. 
+
+1
+
+Data SheetJunos Space
+
+Northstar
+Controller
+
+Converged
+Supercore
+
+IP/MPLS Transit
+Optimized
+
+ExpressPlus
+
+Subscriber scale
+Services scale
+
+Trio
+
+PTX5000
+
+PTX5000
+
+MX2000 line
+Business
+
+Edge
+
+PTX3000
+
+PTX5000
+
+PTX5000
+
+LSR
+
+Transport
+
+PTX3000
+
+PTX3000
+
+MX960
+Business
+
+Edge
+
+Figure 1: PTX Series Routers deliver performance, flexibility, and SDN programmability for service providers.
+
+PTX Series
+The PTX Series Packet Transport Routers bring physical and 
+virtual innovations to the service provider core network that 
+directly address concerns about operational expenditures while 
+scaling organically to keep pace with growing traffic demands. 
+In order for PTX Series routers to lower operational expenses, 
+physical innovations at the core silicon are needed. PTX Series 
+routers are powered by Juniper Networks ExpressPlus™ Silicon, 
+building upon the Juniper Networks Junos Express silicon concepts 
+of low consistent latency and wire-rate packet performance 
+for both IP traffic and MPLS transport without sacrificing the 
+optimized system power profile. All of these concepts are 
+incorporated into the design along with full IP functionality, 
+preserving the spirit of the original Junos Express chipset. The 
+ExpressPlus Silicon is the first purpose-built telecommunication 
+silicon to engineer a 3D memory architecture into the base design 
+for over 1.6 billion filter operations per second, dynamic table 
+memory allocation for mammoth IP routing scale, and enormous 
+power efficiency gains. The ability to address service provider 
+core networking requirements of performance, deployability, and 
+SDN control begins with the silicon. The integration of optical 
+transport with 100GbE coherent technology further improves the 
+economics of both metro and core networks. With PTX Series 
+routers powered by the Juniper ExpressPlus Silicon, service 
+providers can now deploy a Converged Supercore architecture 
+with the efficiency of a lean core deployment with Juniper 
+Networks NorthStar Controller SDN control, a robust full-featured 
+Internet backbone router, and a converged regional IP/MPLS core 
+router with integrated 100GbE coherent transport for superior 
+performance, elegant deployment, and SDN programmability.
+
+Performance is one of the guiding design principles for the PTX 
+Series routers. This focus empowers service providers with superior 
+scale to match increased traffic demands and simplified network 
+engineering challenges with predictable system latency to improve 
+
+the overall service experience and best in-class resiliency to ensure 
+that service providers meet strict customer SLAs.
+
+Deployability is the other guiding design principle for the PTX 
+Series routers that focuses on power, space, and weight—
+fundamental concerns that impact the service providers’ 
+operational budget with respect to growing traffic demands.
+
+SDN programmability brings virtual innovations to the service 
+provider core, while the Juniper Networks NorthStar Controller 
+is an open, standards-based solution that optimizes both the IP 
+layer and the transport layer with precise SDN control, allowing 
+service providers to automate and scale operations. 
+
+PTX5000
+The Juniper Networks PTX5000 Packet Transport Router 
+transforms the core network with physical and virtual innovations 
+for unprecedented scale and cost. Service providers now have 
+the freedom to create new virtualized services anywhere in the 
+network and elastically create a Converged Supercore architecture 
+with precise traffic control without sacrificing the service 
+experience. The PTX5000, for the first time, lets service providers 
+seamlessly scale IP/MPLS traffic without sacrificing performance 
+and deployability, the contributors to eroding TCO analysis for 
+service providers. The PTX5000 focus is on the Converged 
+Supercore architecture for service providers, which is optimized 
+for LSR, Internet backbone, peering, and dense 100 Gbps optical-
+coherent DWDM applications for large, high-speed, massive-
+scale networks. As such, for the first time, service providers can 
+match traffic demand with optimized core router performance 
+and deployability. The PTX5000, the only core router that can 
+be deployed in a standard 19-inch telecommunications rack, 
+stands 36U high with eight line-card slots, two redundant route 
+engine slots, and nine switch fabric slots. At 3 Tbps per line-card 
+slot, the PTX5000 supports 24 Tbps of total system capacity. 
+Powered by the Juniper ExpressPlus Silicon, the PTX5000 offers 
+
+2
+
+Data SheetPTX5000 and PTX3000 Packet Transport Routerspredictable IP/MPLS packet performance and functionality, 
+eliminating the complex sawtooth packet profile found in 
+elaborate overengineered NPUs deployed in other core routers. 
+The PTX5000 supports 240 x 100GbE interfaces (in QSFP28 optic 
+form factors) in a single chassis, delivering the scale required to 
+match expanding traffic demand.
+
+The PTX5000 also supports the industry’s densest 100GbE-
+coherent DWDM linecard with 1 Tbps capacity, blending best-
+of-class IP/MPLS performance with optical transport to flatten 
+network layers.
+
+PTX3000
+In many countries, as well as smaller central offices and lower 
+bandwidth applications, the Juniper Networks PTX3000 
+Packet Transport Router is the perfect Converged Supercore 
+router. The PTX3000 brings unprecedented capacity in a 22U 
+package that supports 8 Tbps per chassis or 16 Tbps per one 
+standard 19-inch telecommunications rack, all at wire-rate 
+performance. Powered by custom Juniper ExpressPlus Silicon, 
+the PTX3000, like the PTX5000, delivers predictable IP/MPLS 
+packet performance and functionality, eliminating the complex 
+sawtooth packet profile found in elaborate over-engineered 
+NPUs deployed in other core routers.
+
+The PTX3000 is the only Converged Supercore platform that 
+complies with 300 mm ETSI standards for both transport and 
+space-constrained central office environments, making it the 
+most globally deployable core router on the market. It supports 
+up to 8 FPCs, each of which supports one PIC. The PTX3000 can 
+support 80 x 100GbE interfaces in a single chassis, with support 
+for gray and coherent optic technology. The PTX3000 enables 
+service providers to build a Converged Supercore architecture 
+that optimizes LSR, Internet backbone, peering, and optical 
+convergence applications for smaller regional deployments. 
+As such, for the first time, service providers can match traffic 
+demand with optimized core router performance and flexible 
+deployments. With its ultra-optimized form factor, the PTX3000 
+is ideally positioned for space-constrained colocation facilities 
+such as optical transport environments, central office locations 
+in emerging markets where space and power are at a premium, 
+smaller service providers wanting Converged Supercore 
+advantages, and next-generation metro regional networks. 
+
+Architecture and Key Components
+New and emerging traffic dynamics like mobility, video, and 
+cloud-based services are transforming traditional network 
+patterns and topologies. Networks that are stratified, statically 
+designed and manually operated must adapt to meet demands 
+quickly and more economically. Many operators have seen 
+profitability stagnate and TCO grow under the weight of growing 
+traffic demands. 
+
+In anticipation of increasingly unpredictable traffic patterns and 
+volumes, many service providers overprovision their infrastructure 
+months in advance. This requires considerable capital outlay 
+for equipment that largely sits idle. This financial imbalance is 
+
+unsustainable. Instead, operators need to become more agile to 
+optimize existing network resources, shorten planning cycles, and 
+remove rigid network layers. Once this is done, service providers can 
+leverage a highly intelligent Converged Supercore infrastructure to 
+increase revenues by creating new customizable services.
+
+Juniper Networks Converged Supercore architecture, shown in 
+Figure 1, is composed of Converged Supercore LSR, Converged 
+Supercore IP Backbone, Transport Integration, Juniper Networks 
+Junos Space Network Management Platform, and NorthStar 
+Controller for SDN Programmability. 
+
+•  The Converged Supercore LSR enables service providers 
+to leverage the heart of the core MPLS backbone with a 
+scalable, cost-optimized network.
+
+•  The Converged Supercore IP Backbone expands the 
+
+architecture to address additional applications such as 
+Internet backbone, Internet peering, infrastructure edge, 
+back-end data center interconnect and metro-regional 
+cores, fully collapsing IP with optical transport. A wide 
+breadth of applications are available to service providers with 
+Converged Supercore architectures, helping them achieve 
+industry-low TCO and scaling each application organically as 
+demand dictates.
+
+•  Junos Space Network Management Platform provides 
+
+comprehensive management across the Converged 
+Supercore architecture with broad fault, configuration, 
+accounting, performance, and security management 
+(FCAPS) capabilities; same-day support for new Junos OS 
+releases; a task-specific user interface; and northbound APIs 
+for integrating with existing network management systems 
+(NMS) or operations/business support systems (OSS/BSS). 
+
+•  NorthStar Controller, the industry-first traffic optimization 
+SDN controller which lets service providers automate and 
+engineer traffic across their SDN, increases utilization while 
+reducing redundancy. Combining the power of Junos OS, 
+WANDL optimization algorithms, and transport abstraction, 
+NorthStar Controller enables Converged Supercore design 
+across all networking layers, runtime traffic optimization, 
+and “what-if” analysis. The result—new levels of control and 
+visibility that help you avoid costly overprovisioning. 
+
+PTX Series Hardware Components
+The key hardware components of PTX Series Packet Transport 
+Routers are the FPC, PIC, Routing Engine (RE), and Switch 
+Interface Board (SIB).  
+
+FPC and PIC
+
+The first-generation and second-generation FPC line cards 
+for the PTX5000 are based on the Junos Express chipset, 
+making the PTX5000 the industry’s leading core router for 
+LSR applications. Introducing the third-generation FPC line 
+card for the PTX5000, based on custom Juniper ExpressPlus 
+Silicon, expands the PTX5000’s application scope, making it 
+the leading core router for LSR, Internet backbone, peering, and 
+transport integration. The modular FPC design for the PTX5000 
+
+3
+
+Data SheetPTX5000 and PTX3000 Packet Transport Routersprovides investment protection by allowing interchangeable PICs 
+between generations of FPCs and deploying different PIC types 
+simultaneously in a single FPC.
+
+and the other acting as the standby ready to take over in case 
+of failure. The RE communicates with the CB via a pair of 10GbE 
+links and a Peripheral Component Interconnect (PCI) bus. 
+
+The first generation small form-factor FPC line card for the 
+PTX3000 is based upon the Junos Express chipset, making the 
+PTX3000 the industry’s leading space-constrained core router 
+for LSR applications. Introducing the third-generation FPC line 
+card for the PTX3000, based on custom Juniper ExpressPlus 
+Silicon, expands the PTX3000’s application scope, making it 
+the industry’s leading space-constrained core router for LSR, 
+internet backbone, peering, and optical transport integration. 
+The PTX3000 FPC architecture matches a single FPC slot with 
+a single PIC slot for a 1:1 mapping schema. The PTX3000 and 
+PTX5000 also share PIC types for interchangeable sparing.
+
+Routing Engine/Control Board Complex
+
+The Control Board (CB), which runs Juniper Networks Junos 
+operating system, works with the RE to provide control plane 
+and chassis management functionality while maintaining RoHS 
+compliance. Software processes running on the RE manage the 
+routing tables, while the protocols running on the switch control 
+all of the interfaces, manage chassis functions, and provide the 
+interface for system management and user access. The system 
+can house two RE/CB complexes, with one acting as the primary 
+
+SIB
+
+Both the PTX5000 and PTX3000 switch fabric are engineered 
+with a 9-slot all-active SIB architecture. In the case of a SIB 
+failure, the remaining eight active SIBs maintain enough switch 
+fabric capacity to support full line packet performance per slot—
+24Tbps of total system capacity for the PTX5000 and 8Tbps of 
+total system capacity for the PTX3000.
+
+Chassis Management
+
+The PTX Series routers deliver powerful Junos OS chassis 
+management that allows environmental monitoring and field-
+replaceable unit (FRU) control. Chassis management delivers 
+a faster primary switchover, enhanced power budgeting with a 
+modular power management, reduced power consumption for 
+partly populated systems, granular control over FRU power-on, 
+multi-zone cooling with better fan speed control for reduced 
+noise, and CPU leveling during monitoring intervals.
+
+Simplified Management
+
+The PTX Series simplifies the management function based on 
+the elegance and simplicity of the Junos operating system.
+
+Features and Benefits
+The following is a summary of the features that are available on the PTX Series products.
+
+Table 1: PTX Series Features and Benefits
+
+Feature
+
+System capacity
+
+High availability hardware
+
+High availability software
+
+Feature Description
+
+Benefits
+
+The PTX5000 scales to 24 Tbps in a single chassis, 
+breaking out into 1536 10GbE, 384 40GbE, and 240 
+100GbE interfaces. The PTX3000 scales to 8 Tbps in a 
+single chassis, breaking out into 768 10GbE, 192 40GbE, 
+and 80 100GbE interfaces.
+
+The PTX Series routers are engineered with full 
+hardware redundancy for cooling, power supply, Routing 
+Engines, control board, and SIB.
+
+PTX Series routers feature a resilient operating system 
+that supports HA features such as graceful Routing 
+Engine switchover (GRES), nonstop active routing 
+(NSR), and unified in-service software upgrade (unified 
+ISSU) for high availability.
+PTX Series routers support game-changing 50 ms 
+redundancy switchover under load.
+
+PTX Series routers give service providers the 
+performance and scalability needed to outpace 
+increased traffic demands.
+
+High availability (HA) is a critical requirement for service 
+providers to maintain an always-on infrastructure base 
+to meet stringent service-level agreements across the 
+core.
+
+Junos OS supports HA features that allow software 
+upgrades and changes without disrupting network 
+traffic.
+
+Packet performance
+
+The groundbreaking Juniper ExpressPlus Silicon 
+innovation empowers the PTX Series routers with 
+unparalleled packet processing for both full IP 
+functionality and MPLS transport, thereby leveraging 
+revolutionary 3D memory architecture.
+
+Exceptional packet processing capabilities help 
+alleviate the challenge of scaling the network as traffic 
+continues to increase, while optimizing IP/MPLS transit 
+functionality around superior performance and elegant 
+deployability.
+
+Ultra-compact form factor 
+that meets ETSI 300 mm 
+standards
+
+With cutting-edge innovation in power and cooling 
+technology, the PTX3000 is the most compact core 
+router, providing 8 Tbps of capacity at half the size of 
+the competition.
+
+Space efficiency and ETSI standards are critical 
+requirements for colocations, central offices, and 
+regional networks, especially in emerging markets and 
+transport-focused environments.
+
+Optical integration
+
+Fully collapsing the optical layer into the IP/MPLS 
+layer gives the PTX3000 the unique ability to scale 
+and optimize traffic with visibility across all networking 
+layers.
+
+Service providers no longer have to source and deploy 
+optical equipment and IP/MPLS routers separately, 
+reducing the number of management touch points 
+by up to 4x and reducing operational complexities by 
+deploying optical and IP/MPLS together.
+
+4
+
+Data SheetPTX5000 and PTX3000 Packet Transport Routersefficiency, reducing downtime, and increasing your network’s ROI 
+running Juniper Networks Junos operating system. Automated 
+Support and Prevention brings operational efficiency by 
+automating several time-consuming tasks such as incident 
+management, inventory management, proactive bug notification 
+and on-demand EOL/EOS/EOE reports. The Junos Space Service 
+Now and Service Insight service automation tools are standard 
+entitlements of all Juniper Care contracts.
+
+PTX5000 Ordering Information
+For more information, please contact your Juniper Networks 
+representative.
+
+Model Number
+
+Description
+
+PTX5000 Base Unit 
+
+PTX5000BASE2
+
+Base chassis (Sheet metal, 2 x RE, 2 x CB, 2 
+x CCG, 2 x horizontal Fan Tray + 1 x Vertical 
+Fan Tray, Craft panel, 2 x PDU2s, 6 x PSM2s, 
+9 x SIB2s)
+
+PTX5000 Software and Software License
+
+S-FPC3-PTX-UPG-2-R
+
+Software license for FPC3-PTX-U1-L  1 
+Tbps for LSR application
+
+S-FPC3-PTX-UPG-2-L
+
+Software license for FPC3-PTX-U1-L  1 
+Tbps for IP application
+
+S-JFLOW-CH-PTX5K
+
+Software license for inline jflow for PTX5K
+
+PTX3000
+
+PTX5000
+
+Specifications
+Table 2: PTX Series Specifications
+
+PTX3000
+
+PTX5000
+
+PTX5000 Routing Engines and Control Boards
+
+Physical dimensions
+(W x H x D)
+
+17.6 x 38.5 x 10.6 in
+(44.7 x 97.8 x 26.9 
+cm)
+
+17.5 x 62.5 x 33.1 in
+(44.5 x 158.8 x 84.1 
+cm)
+
+Maximum weight
+
+310 lbs (140.61kg)
+
+1,294 lbs (587.0 kg)
+
+Mounting
+
+Front or center
+Rack mount
+
+Front or center
+Rack mount
+
+Power system rating*  50 A @ -48 VDC  
+
+per input
+
+92.5A @ -48 VDC  
+per input
+
+Typical power 
+consumption
+
+Operating 
+temperature
+
+6.3 kW, fully loaded
+
+10.5 kW, fully loaded
+
+32° to 104° F 
+(0° to 40° C)
+
+32° to 104° F 
+(0° to 40° C)
+
+*These numbers are power supply ratings. Actual power usage is much lower.
+
+Juniper Networks Services and Support
+Juniper Networks is the leader in performance-enabling services 
+that are designed to accelerate, extend, and optimize your 
+high-performance network. Our services allow you to maximize 
+operational efficiency while reducing costs and minimizing 
+risk, achieving a faster time to value for your network. Juniper 
+Networks ensures operational excellence by optimizing the 
+network to maintain required levels of performance, reliability, 
+and availability. For more details, please visit www.juniper.net/us/
+en/products-services. 
+
+Automated Support and Prevention
+Juniper’s Automated Support and Prevention consists of an 
+ecosystem of tools, applications, and systems targeted towards 
+simplifying and streamlining operations, delivering operational 
+
+RE-DUO-C2600-16G-R Routing Engine – redundant
+
+RE-DUO-C2600-16G-S Routing Engine – spare
+
+RE-PTX-X8-64G-R
+
+PTX RE, 8-Core:2.3Ghz,64 – redundant
+
+RE-PTX-X8-64G-S
+
+PTX RE, 8-Core:2.3Ghz,64 – spare
+
+RE-PTX-X8-64G-BB
+
+PTX RE, 8-Core:2.3Ghz,64 - base bundle
+
+CB2-PTX-BB
+
+PTX, Control Board-2, - base bundle
+
+CB2-PTX-R
+
+CB-PTX-BB
+
+CB-PTX-R
+
+CB-PTX-S
+
+PTX, Control Board-2 – redundant
+
+Control Board - base bundle
+
+Control Board – redundant
+
+Control Board – spare
+
+CCG-BLANK-PTX
+
+CCG Blank – spare
+
+PTX5000 Switch Fabric
+
+SIB3-PTX5K-S
+
+SIB3-PTX5K-BB
+
+PTX5000 Switch Interface Board, third 
+generation, spare
+
+PTX5000 Switch Interface Board, third 
+generation, Base Bundle
+
+SIB2-I-PTX5K-BB
+
+PTX5000 Switch Interface Board, second 
+generation, base bundle
+
+SIB2-I-PTX5K-S
+
+PTX5000 Switch Interface Board, second 
+generation, spare
+
+SIB-I-PTX5008
+
+PTX5000 SIBs first generation
+
+SIB-I-PTX5008-S
+
+PTX5000 Switching Fabric first-generation 
+spare
+
+5
+
+Data SheetPTX5000 and PTX3000 Packet Transport RoutersModel Number
+
+Description
+
+PTX5000 FPC and PICs 
+
+Model Number
+
+Description
+
+PTX5000 Fan Trays and Spares
+
+FPC3-PTX-U1-L
+
+FPC3-PTX-U1-R
+
+FPC3-PTX-U2-L
+
+FPC3-PTX-U2-R
+
+FPC3-PTX-U3-L
+
+FPC3-PTX-U3-R
+
+PTX-FPC3-U1-R-BNDL
+
+PTX5000 3rd generation 1 Tbps FPC3 for 
+LSR application
+
+PTX5000 3rd generation 1 Tbps FPC3 for  
+IP application
+
+PTX5000 3rd generation 2 Tbps FPC3 for 
+LSR application
+
+PTX5000 3rd generation 2 Tbps FPC3 for 
+IP application
+
+PTX5000 3rd generation 3 Tbps FPC3 for 
+LSR application
+
+PTX5000 3rd generation 3 Tbps FPC3 for 
+IP application
+
+PTX5000 3rd generation 1 Tbps Bundle 
+with FPC and PIC for full IP application 
+(choose either one 3rd Gen PIC or two 2nd 
+gen PICs)
+
+PTX-FPC3-U2-R-BNDL
+
+PTX5000 3rd generation 2 Tbps Bundle 
+with FPC and PIC for full IP application
+
+PTX-FPC3-U3-R-BNDL
+
+PTX5000 3rd generation 3 Tbps Bundle 
+with FPC and PIC for full IP application
+
+PTX5K-FPC3-UPG-KIT
+
+PTX5000 3rd generation   Upgrade Kit to 
+support FPC3 line cards, includse 9 SIB3 
+and 2 FAN-H Only
+
+FPC2-PTX-P1A
+
+PTX 2nd generation FPC
+
+P2-100GE-CFP2
+
+P2-100GE-OTN
+
+P2-10G-40G-QSFPP
+
+PTX, 4 x 100GbE PIC for second-generation 
+FPC, CFP2 pluggable optics
+
+PTX 4 x 100GbE Ethernet/OTN PIC for 
+second generation FPC, CFP2 pluggable 
+optics
+
+PTX Flexible 48 x 10GbE/12 x 40GbE/OTN 
+PIC for second generation FPC, QSFP+ 
+pluggable optics
+
+FPC-PTX-P1-A
+
+First-generation FPC
+
+P1-PTX-2-100GE-CFP
+
+2 x 100GbE PIC, first generation
+
+P1-PTX-2-40GE-CFP
+
+2 x 40GbE PIC, first generation
+
+P1-PTX-24-10GE-SFPP
+
+24 x 10GbE (LAN) PIC, first generation
+
+P1-PTX-2-100G-C-
+WDM-C
+
+2-port 100G DWDM PIC, first generation
+
+P1-PTX-24-10G-W-
+SFPP
+
+24 x 10GbE (LAN/WAN) PHY PIC, 
+first generation
+
+P3-24-U-QSFP28
+
+PTX  24x40GbE, 96x10GbE QSFPP, 
+universal PIC for 3rd Generation FPC
+
+P3-10-U-QSFP28
+
+P3-15-U-QSFP28
+
+PTX 10x100GbE QSFP28 or 10x40GbE, 
+40x10GbE QSFPP, universal PIC for 3rd 
+Generation FPC
+
+PTX 15x100GbE QSFP28 or 15x40GbE, 
+50x10GbE QSFPP, universal PIC for 3rd 
+Generation FPC
+
+PIC-BLANK-PTX
+
+PIC Blank, Spare
+
+FPC-BLANK-PTX
+
+FPC Blank, Spare
+
+CRAFT-PTX5000-S
+
+PTX5000 Craft Interface, spare
+
+FAN3-PTX-H-S
+
+FAN3-PTX-H-BB
+
+PTX Base Bundle Horizontal Fan Tray, for 
+3rd gen FPC and SIB, Spare
+
+PTX Base Bundle Horizontal Fan Tray, for 
+3rd gen FPC and SIB, Base Bundle
+
+FAN-PTX-H-BB
+
+Base bundle horizontal fan tray
+
+FAN-PTX-H-S
+
+Horizontal fan, spare
+
+FAN-PTX-V-BB
+
+Base bundle vertical fan tray
+
+FAN-PTX-V-S
+
+Vertical fan, spare
+
+CCG-PTX-BB
+
+Centralized clock generator, base bundle
+
+CCG-PTX-R
+
+CCG-PTX-S
+
+Centralized clock generator, redundant
+
+Centralized clock generator, spare
+
+PTX5000 Air Filter
+
+FLTR-PTX-KIT-S
+
+PTX5000 replacement air filter kit includes 
+all filters (Horizontal, Vertical, and PSMs)
+
+PTX5000 Power Modules
+
+PDU2-PTX-AC-D-BB
+
+PTX High Capacity AC Delta PDU, base 
+bundle
+
+PDU2-PTX-AC-D-R
+
+PTX High Capacity AC Delta PDU, 
+redundant
+
+PDU2-PTX-AC-D-S
+
+PTX High Capacity AC Delta PDU, spare
+
+PDU2-PTX-AC-W-BB
+
+PTX High Capacity AC Wye PDU, base 
+bundle
+
+PDU2-PTX-AC-W-R
+
+PTX high-capacity AC Wye PDU, redundant
+
+PDU2-PTX-AC-W-S
+
+PTX high-capacity AC Wye PDU, spare
+
+PSM2-PTX-AC-BB
+
+PTX high-capacity AC PSM, base bundle
+
+PSM2-PTX-AC-R
+
+PTX high-capacity AC PSM, redundant
+
+PSM2-PTX-AC-S
+
+PTX high-capacity AC PSM, spare
+
+PDU2-PTX-DC-BB
+
+PTX high-capacity 60A DC PDU, base 
+bundle
+
+PDU2-PTX-DC-R
+
+PTX high-capacity 60A DC PDU, redundant
+
+PDU2-PTX-DC-S
+
+PTX high-capacity 60A DC PDU, spare
+
+PSM2-PTX-DC-BB
+
+PTX high-capacity 60A DC PSM, base 
+bundle
+
+PSM2-PTX-DC-R
+
+PTX high-capacity 60A DC PSM, redundant
+
+PSM2-PTX-DC-S
+
+PTX high-capacity 60A DC PSM, spare
+
+PSM2-BLANK-PTX
+
+PTX PSM blank for high-capacity PSM slot
+
+CBL2-PTX-AC-D-S
+
+PTX power cord for high-capacity AC Delta 
+PDU, spare
+
+CBL2-PTX-AC-W-S
+
+PTX power cord for high-capacity AC Wye 
+PDU, spare
+
+PTX5K-PSM2TRAY-BB Metal sleeves and overlay kit for chassis for 
+
+PSM upgrade to PSM2s, base bundle
+
+PTX5K-PSM2TRAY-S
+
+Metal sleeves and overlay kit for chassis for 
+PSM upgrade to PSM2s, spare
+
+6
+
+Data SheetPTX5000 and PTX3000 Packet Transport RoutersModel Number
+
+Description
+
+Model Number
+
+Description
+
+PTX5K-PS-UPG-KIT
+
+Product bundle: Contains (2) DC or AC 
+PDU2s, (8) DC or AC PSM2s, (1) PTX5K-
+PSM2TRAY
+
+PDU-PTX-AC-D-BB
+
+PTX AC Delta PDU, base bundle
+
+PDU-PTX-AC-D-R
+
+PTX AC Delta PDU, redundant option
+
+PDU-PTX-AC-D-S
+
+PTX AC Delta PDU, spare
+
+PDU-PTX-AC-W-BB
+
+PTX AC Wye PDU, base bundle
+
+PDU-PTX-AC-W-R
+
+PTX AC Wye PDU, redundant option
+
+PDU-PTX-AC-W-S
+
+PTX AC Wye PDU, spare
+
+PDU-PTX-DC-120-BB
+
+PTX 120A DC power distribution unit, base 
+bundle
+
+PDU-PTX-DC-120-R
+
+PTX 120A DC power distribution unit, 
+redundant option
+
+PDU-PTX-DC-120-S
+
+PTX DC PDU, spare
+
+PDU-PTX-DC-60-BB
+
+PTX 60A DC power distribution unit, base 
+bundle
+
+PDU-PTX-DC-60-R
+
+PTX 60A DC power distribution unit, 
+redundant Option
+
+PDU-PTX-DC-60-S
+
+PTX DC PDU, spare
+
+PSM-BLANK-PTX
+
+PTX PSM blank, spare
+
+PSM-PTX-AC-BB
+
+PTX AC PSM, base bundle
+
+PSM-PTX-AC-R
+
+PSM-PTX-AC-S
+
+PSM-PTX-DC-120-BB
+
+PTX AC PSM, redundant option
+
+PTX AC PSM, spare
+
+PTX 120A DC power supply module, base 
+bundle
+
+PSM-PTX-DC-120-R
+
+PTX 120A DC power supply module, 
+redundant option
+
+PSM-PTX-DC-120-S
+
+PTX DC PSM, spare
+
+PSM-PTX-DC-60-BB
+
+PTX 60A DC power supply module, base 
+bundle
+
+PSM-PTX-DC-60-R
+
+PTX 60A DC power supply module, 
+redundant option
+
+PSM-PTX-DC-60-S
+
+PTX DC PSM, spare
+
+PTX5000 Supported FPC and PIC Compatibility
+PICs
+
+FPC1
+
+FPC2
+
+FPC3-2T
+
+FPC3-3T
+
+First-Generation PIC 24 x 10GbE LAN-PHY
+
+First-Generation PIC 24 x 10GbE Ethernet/OTN
+
+First-Generation PIC 2 x 100GbE
+
+First-Generation PIC 2 x 40GbE
+
+First-Generation PIC 2 x 100GbE OTN DWDM
+
+Second-Generation PIC 4 x 100GbE CFP2
+
+Second-Generation PIC 48 x 10GbE / 12 x 40GbE 
+Ethernet/OTN QSFPP
+
+Second-Generation PIC 4 x 100GbE Ethernet/OTN CFP2
+
+Second-Generation PIC 4 x 100GbE CXP (SR10)
+
+Third-Generation PIC 96 x 10GbE/24 x 40GbE QSFP28 
+Universal
+
+Third-Generation PIC 60 x 10GbE/15 x 40GbE/15 x 
+100GbE QSFP28 Universal 
+
+Third-Generation PIC 5x100GbE OTN DWDM CFP2-ACO
+
+PTX3000 Ordering Information 
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+No
+
+No
+
+No
+
+No
+
+No
+
+No
+
+No
+
+Yes
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+No
+
+No
+
+No
+
+No
+
+Yes
+
+No
+
+No
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+No
+
+Yes
+
+No
+
+No
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Model Number
+
+Description
+
+Model Number
+
+Description
+
+PTX3000 Base Unit 
+
+PTX3000BASE
+
+Base chassis (sheet metal, 
+1 x RE, 1 x CB, 2 x horizontal 
+fan tray, craft panel, 3 x 
+PSMs, 9 x SIBs)
+
+PTX3000 Routing Engines and Craft Interface
+
+RE-DUO-C2600-16G-R
+
+Routing Engine - 
+redundant
+
+RE-DUO-C2600-16G-S
+
+Routing Engine – spare
+
+FPD-SFF-PTX-S
+
+Craft Panel – spare
+
+PTX3000 Switch Fabric
+
+SIB3-SFF-PTX
+
+SIB-SFF-PTX-240-R
+
+PTX second generation 
+Small Form Factor Fabric 
+Module
+
+Switching Board – 
+redundant
+
+SIB-SFF-PTX-240-S
+
+Switching Board – spare
+
+PTX3000 Supported FPCs
+
+FPC-SFF-PTX-P1-A
+
+Flexible PIC Concentrator 
+(FPC)
+
+7
+
+Data SheetPTX5000 and PTX3000 Packet Transport RoutersModel Number
+
+Description
+
+PTX3000 Supported PICs
+
+P1-PTX-2-100G-C-WDM-C
+
+2-port 100G DWDM PIC
+
+P1-PTX-2-100GE-CFP
+
+P1-PTX-2-40GE-CFP
+
+2 x 100GbE PIC
+
+2 x 40GbE PIC
+
+P1-PTX-24-10GE-SFPP
+
+24 x 10GbE (LAN) PIC
+
+P1-PTX-24-10G-W-SFPP
+
+24 x 10GbE (LAN/WAN) 
+PHY PIC
+
+SFF-SLOT-BLNK FPC
+
+SFF-PSM-BLNK PSM
+
+PIC-BLANK-PTX PIC
+
+PTX3000 Fan Trays and Spares
+
+FAN-SFF-PTX-S
+
+CB-SFF-PTX-R
+
+Slot filler/blank
+
+Slot filler/blank
+
+Slot filler/blank
+
+Fan tray – spare
+
+Control Board – for 
+redundancy
+
+CB-SFF-PTX-S
+
+Control Board – for sparing
+
+PTX3000 Air Filter
+
+FLTR-SFF-PTX-S
+
+Air filter – spare
+
+PTX3000 Power Modules
+
+PSM-SFF-PTX-AC-R
+
+PSM-SFF-PTX-AC-S
+
+PSM-SFF-PTX-DC-R
+
+AC Power Supply (single 
+phase) – redundant
+
+AC Power Supply (single 
+phase) – spare
+
+DC Power Supply – 
+redundant
+
+PSM-SFF-PTX-DC-S
+
+DC Power Supply – spare
+
+Model Number
+PTX3000 Supported FPC and PIC Compatibility
+PICs
+First Generation PIC 24x10GbE LAN-PHY
+
+Description
+
+FPC1
+Yes
+
+FPC3
+
+No
+
+First Generation PIC 24x10GbE Ethernet/
+OTN
+
+First Generation PIC 2x100GbE
+
+First Generation PIC 2x40GbE
+
+First Generation PIC 2x100GbE OTN 
+DWDM
+
+Second Generation PIC 4x100GbE CFP2
+
+Second Generation PIC
+48x10GbE / 12x40GbE Ethernet/OTN 
+QSFPP
+
+Second Generation PIC
+4x100GbE Ethernet/OTN CFP2
+
+Second Generation PIC 4x100GbE CXP 
+(SR10)
+
+Third Generation PIC 
+96x10GbE/24x40GbE Universal
+
+Third Generation PIC
+40x10GbE/10x40GbE/10x100GbE 
+QSFP28 Universal 
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+No
+
+No
+
+No
+
+No
+
+No
+
+No
+
+Yes
+
+No
+
+No
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+About Juniper Networks
+Juniper Networks is in the business of network innovation. From 
+devices to data centers, from consumers to cloud providers, 
+Juniper Networks delivers the software, silicon and systems that 
+transform the experience and economics of networking. The 
+company serves customers and partners worldwide. Additional 
+information can be found at www.juniper.net.
+
+EXPLORE JUNIPER
+Get the App.
+
+Corporate and Sales HeadquartersJuniper Networks, Inc. 1133 Innovation WaySunnyvale, CA 94089 USAPhone: 888.JUNIPER (888.586.4737)or +1.408.745.2000Fax: +1.408.745.2100www.juniper.net Copyright 2017y Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, Junos and QFabric are registered trademarks of Juniper Networks, Inc. in the United States and other countries. All other trademarks, service marks, registered marks, or registered service marks are the property of their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice.APAC and EMEA HeadquartersJuniper Networks International B.V.Boeing Avenue 2401119 PZ Schiphol-RijkAmsterdam, The NetherlandsPhone: +31.0.207.125.700Fax: +31.0.207.125.701Data SheetPTX5000 and PTX3000 Packet Transport Routers1000364-015-EN  May 2017

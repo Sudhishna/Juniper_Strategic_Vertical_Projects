@@ -1,0 +1,255 @@
+DATASHEET
+
+SINGLE-PORT DOCSIS 
+3.0 CABLE MODEM MINI-
+PHYSICAL INTERFACE 
+MODULE (MINI-PIM) 
+
+Product Overview
+
+The Juniper Networks single-port 
+DOCSIS 3.0 cable modem Mini-Physical 
+Interface Module (Mini-PIM) for the 
+Juniper Networks SRX200 line provides 
+DOCSIS 3.0 WAN connectivity for high-
+speed data transfer over cable television 
+networks with download speeds over 
+150 Mbps. 
+
+Product Description 
+The DOCSIS 3.0 cable modem Mini-PIM is for use with the SRX200 line consisting of the 
+Juniper Networks® SRX210 Services Gateway, SRX220 Services Gateway, and SRX240 
+Services Gateway products. The Mini-PIM connects to a CMTS network via the single 
+DOCSIS 3.0 interface. It is backwards compatible to DOCSIS 2.0, 1.1, and 1.0 protocols 
+for flexibility to support multiple cable services with a single line. The DOCSIS 3.0 cable 
+modem Mini-PIM has interoperability with leading vendor products. Please refer to Juniper 
+Networks technical publications or your local Juniper Sales Representative or Reseller for 
+the latest information on interoperability and supported cable operators.
+
+Features and Benefits
+•  One F-Type standard coaxial interface 
+
+•  Supports DOCSIS 3.0; backwards compatible with DOCSIS 2.0, 1.1, and 1.0 protocols on 
+
+the same interface card
+
+•  Single wideband tuner design 
+
+•  Provides higher data transfer rates of over 150 Mbps downstream
+
+•  Supports four downstream and four upstream channel bonding
+
+•  Supports quality of service (QoS) 
+
+•  Provides interoperability with DOCSIS-compliant CMTS equipment
+
+•  Supports Advanced Encryption Standard (AES)
+
+•  Supports baseline privacy encryption (BPI+)
+
+• 
+
+IPv6 and IPv4 support for the modem management interface
+
+1
+
+Specifications
+
+DOCSIS Mini-PIM Network Interface Properties
+
+SPeciFicatiOnS
+
+Modulation
+
+Bandwidth
+
+Symbol rate
+
+DOwnStream
+
+UPStream
+
+64 or 256 quadrature amplitude 
+modulation (QAM)
+
+Quadrature Phase Shift Keying (QPSK) and 8, 16, 32, 64, 128 QAM
+
+6 MHz (US)
+
+200 KHz, 400 KHz, 800 KHz, 1.6 MHz, 3.2 MHz, 6.4 MHz
+
+64 QAM 5.057 Msym/s, 256 
+QAM 5.361 Msym/s
+
+160, 320, 640, 1280, 2560, and 5120 ksym/s
+
+Operating level range
+
+-15 to +15 dBmV
+
+A-TDMA +8 to +54 dBmV (32 QAM, 64 QAM); +8 to +55 dBmV (8 QAM, 16 QAM); 
++8 to +58 dBmV (QPSK); S-CDMA +8 to +53 dBmV (all modulations)
+
+Input Impedance
+
+Frequency range
+
+Channel bonding
+
+75Ω (nominal)
+
+75Ω (nominal)
+
+108 to 1002 MHz (edge to edge)
+
+5 to 42 MHz (U.S.)
+
+Up to 4 channels
+
+Up to 4 channels
+
+Dimensions (w x H X D) and weight 
+•  3.75 x 0.8 x 5.9 in (9.5 x 2.0 x 14.5 cm)
+•  0.275 lb
+
+environmental 
+•  Operating temperature:  0° to 40° C
+•  Storage temperature:  -40° to 70° C
+•  Relative humidity:  5% to 90% noncondensing 
+
+LeDs 
+Mini-PIM LEDs indicate port status with the following LED states:
+
+•  Power—Green solid has been powered on and completed the 
+
+power-on self-test (POST); red solid has failed the POST.
+
+•  DT (Downstream)—Green blinking scans for a valid downstream 
+
+DOCSIS channel to lock onto a downstream channel; green 
+solid has locked onto the DOCSIS downstream channel.
+
+•  UT (Upstream)—Green blinking scans for a valid upstream 
+
+DOCSIS channel to lock onto an upstream channel; green solid 
+has locked onto the DOCSIS upstream channel.
+
+•  Link (to CMTS)—Green blinking has an active link with the CPE 
+device, but data communication is not taking place. Green solid 
+has an active link with the CPE device, and data communication 
+is taking place. (Note:  The Link LED does not blink for data 
+traffic that originates or terminates at the cable modem.)
+
+•  Online—Green blinking has established a connection to the SRX 
+
+Series device; green solid is synchronized with the SRX Series 
+device.
+
+management capabilities
+•  Telnet/Console/Web/Juniper Networks Network and Security 
+
+Manager:  Remote and local configuration, monitoring, and 
+troubleshooting
+
+Standards and compliance
+
+emc (emissions)
+•  FCC Class A
+
+immunity
+•  EN 55024
+•  EN-61000-4-2 ESD
+•  EN-61000-4-3 Radiated Immunity
+•  EN-61000-4-4 EFT
+•  EN-61000-4-5 Surge
+•  EN-61000-4-6 Low Frequency Common Immunity
+•  EN-61000-4-11 Voltage Dips and Sags
+
+telecom
+• 
+•  CableLabs DOCSIS 3.0 Certification
+
+IC CS-03
+
+Standards
+•  DOCSIS 3.0 (CMD31T) 
+
+Juniper networks Services and Support
+Juniper Networks is the leader in performance-enabling services 
+and support, which are designed to accelerate, extend, and 
+optimize your high-performance network. Our services allow 
+you to bring revenue-generating capabilities online faster so 
+you can realize bigger productivity gains and faster rollouts of 
+new business models and ventures. At the same time, Juniper 
+Networks ensures operational excellence by optimizing your 
+network to maintain required levels of performance, reliability, and 
+availability. For more details, please visit www.juniper.net/us/en/
+products-services/. 
+
+Ordering information
+
+Part nUmBer
+
+DeScriPtiOn
+
+SRX-MP-1DOCSIS3
+
+1-port DOCSIS 3.0 Cable Modem Mini-PIM for branch 
+SRX Series; backwards compatible with DOCSIS 2.0, 
+1.1, and 1.0 
+
+2
+
+about Juniper networks
+Juniper Networks, Inc. is the leader in high-performance 
+networking. Juniper offers a high-performance network 
+infrastructure that creates a responsive and trusted environment 
+for accelerating the deployment of services and applications 
+over a single network. This fuels high-performance businesses. 
+Additional information can be found at www.juniper.net.
+
+3
+
+corporate and Sales Headquarters
+Juniper Networks, Inc.  
+1194 North Mathilda Avenue 
+Sunnyvale, CA 94089 USA 
+Phone: 888.JUNIPER (888.586.4737) 
+or 408.745.2000 
+Fax: 408.745.2100 
+www.juniper.net
+
+aPac Headquarters
+Juniper Networks (Hong Kong) 
+26/F, Cityplaza One 
+1111 King’s Road 
+Taikoo Shing, Hong Kong 
+Phone: 852.2332.3636 
+Fax: 852.2574.7803
+
+emea Headquarters
+Juniper Networks Ireland 
+Airside Business Park  
+Swords, County Dublin, Ireland 
+Phone: 35.31.8903.600 
+EMEA Sales: 00800.4586.4737 
+Fax: 35.31.8903.601
+
+Copyright 2010 Juniper Networks, Inc. All rights reserved. Juniper Networks, the Juniper Networks logo, Junos, 
+NetScreen, and ScreenOS are registered trademarks of Juniper Networks, Inc. in the United States and other 
+countries. All other trademarks, service marks, registered marks, or registered service marks are the property of 
+their respective owners. Juniper Networks assumes no responsibility for any inaccuracies in this document. Juniper 
+Networks reserves the right to change, modify, transfer, or otherwise revise this publication without notice.
+
+1000308-004-EN     Aug 2010
+
+ Printed on recycled paper
+
+4
+
+To purchase Juniper Networks solutions, 
+please contact your Juniper Networks 
+representative at 1-866-298-6428 or  
+authorized reseller.
+
+
