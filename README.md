@@ -1,9 +1,10 @@
-Rotation 1
-Strategic Vertical
+Rotation 1: Strategic Vertical
+------------------------------
 
 Reporting to: Erwin Nazareno
 
 Projects:
+--------
 1. DAT (Data Analysis Tool)
 
 2. Tesla Data Center Automation Infrastructure Demo
