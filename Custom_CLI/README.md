@@ -35,15 +35,21 @@ I’ve written a python Op Script to add the description to the STATIC Routes.
 The customer can now add descriptions to the Routes using annotate and view them using Python Op Script.
  
 Static Routes:
+
 root# show routing-options
+
 static {
+
     /* The New Description */
+
     route 0.0.0.0/0 next-hop 192.168.122.1;
+
     route 138.0.0.0/8 next-hop 192.168.122.1;
+
     route 140.0.0.0/8 next-hop 192.168.122.1;
+
 }
 
- 
 Add Description to the route:
 [edit routing-options static]
 root# annotate route 138.0.0.0/8 "Test Desciption 1"
