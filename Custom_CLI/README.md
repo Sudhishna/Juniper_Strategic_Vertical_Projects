@@ -2,7 +2,12 @@ Loading Yang and Python Script for the new CLI:
 ----------------------------------------------
  
 YANG module, action script, and required extension modules to the device (to /var/tmp)
-4 files need to be copied to /var/tmp/ -> YANG Module- static-route-desc.yang, ACTION SCRIPT -> static-route-desc.py,  Junos Modules -> junos-extension.yang and junos-extension-odl.yang
+4 files need to be copied to /var/tmp/ 
+1. YANG Module- static-route-desc.yang
+2. ACTION SCRIPT -> static-route-desc.py
+3. Junos Modules -> junos-extension.yang
+4. junos-extension-odl.yang
+
 To get the junos modules you can use the below command.
 show system schema module junos-extension format yang output-directory /var/tmp/
 show system schema module junos-extension-odl format yang output-directory /var/tmp/
