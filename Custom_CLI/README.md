@@ -42,6 +42,7 @@ static {
     route 138.0.0.0/8 next-hop 192.168.122.1;
     route 140.0.0.0/8 next-hop 192.168.122.1;
 }
+
  
 Add Description to the route:
 [edit routing-options static]
