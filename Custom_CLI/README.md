@@ -35,6 +35,7 @@ I’ve written a python Op Script to add the description to the STATIC Routes.
 The customer can now add descriptions to the Routes using annotate and view them using Python Op Script.
  
 Static Routes:
+-------------
 --------------
 root# show routing-options
 
