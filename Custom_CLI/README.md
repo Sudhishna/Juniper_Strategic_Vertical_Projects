@@ -24,7 +24,7 @@ CONFIG> commit and-quit
 
 
 CLI > show stat-route des   
-
+{
  inet.0: 7 destinations, 7 routes (7 active, 0 holddown, 0 hidden)
 
 + = Active Route, - = Last Active, * = Both
@@ -40,7 +40,7 @@ CLI > show stat-route des
 140.0.0.0/8        *[Static/5] 00:01:52 /* Test Description 3 */
 
                      > to 192.168.122.1 via fxp0.0
-
+}
 
 I’ve written a python Op Script to add the description to the STATIC Routes.
 ---------------------------------------------------------------------------
