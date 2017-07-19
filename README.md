@@ -1,6 +1,5 @@
 Rotation 1: Strategic Vertical
 -----------------------------
-
 Reporting to: Erwin Nazareno
 
 Projects:
