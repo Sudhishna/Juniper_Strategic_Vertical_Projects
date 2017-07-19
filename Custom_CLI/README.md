@@ -37,6 +37,7 @@ The customer can now add descriptions to the Routes using annotate and view them
 Static Routes:
 --------------
 root# show routing-options
+
 static {
 
     /* The New Description */
