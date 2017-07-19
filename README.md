@@ -6,7 +6,7 @@ Reporting to: Erwin Nazareno
 Projects:
 1. DAT (Data Analysis Tool)
 
-2. Tesla SaltStack Demo
+2. Tesla Data Center Automation Infrastructure Demo
 
 3. High CPU Usage Issue (Datrium)
 
