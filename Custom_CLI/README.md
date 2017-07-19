@@ -9,18 +9,17 @@ YANG module, action script, and required extension modules to the device (to /va
 4. junos-extension-odl.yang
 
 To get the junos modules you can use the below command.
-1. show system schema module junos-extension format yang output-directory /var/tmp/
-2. show system schema module junos-extension-odl format yang output-directory /var/tmp/
+cli>show system schema module junos-extension format yang output-directory /var/tmp/
+cli>show system schema module junos-extension-odl format yang output-directory /var/tmp/
 
 
 CLI> request system yang validate module /var/tmp/static-route-desc.yang action-script /var/tmp/static-route-desc.py
 CLI> request system yang add package intf-rpc module [/var/tmp/ static-route-desc.yang /var/tmp/junos-extension.yang /var/tmp/junos-extension-odl.yang] action-script /var/tmp/ static-route-desc.py
 
-        Restart cli? Yes <enter>
+Restart cli? Yes <enter>
 
 
 CONFIG> set system scripts language python
-
 CONFIG> commit and-quit
 
 
