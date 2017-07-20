@@ -11,16 +11,11 @@ Copy required files to the device:
 ----------------
 YANG module, action script, and required extension modules to the device (to /var/tmp)
 
-4 files need to be copied to /var/tmp/ 
+2 other files need to be copied to /var/tmp/ 
 
 a. YANG Module- static-route-desc.yang
 
 b. ACTION SCRIPT -> static-route-desc.py
-
-c. Junos Modules -> junos-extension.yang
-
-d. junos-extension-odl.yang
-
 
 Load them modules and scripts into the device:
 ---------------------
