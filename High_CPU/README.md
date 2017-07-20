@@ -54,9 +54,7 @@ One proxy minion per Juniper Device. No limit to the number of proxy-minions one
 >sudo cat /srv/pillar/top.sls
 
 base:
-
   'EX2200-D1_192_168_20_1':
-
     - EX2200-D1_192_168_20_1
  
 >sudo cat /srv/pillar/EX2200-D1_192_168_20_1.sls
