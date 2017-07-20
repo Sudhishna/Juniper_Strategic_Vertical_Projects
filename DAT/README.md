@@ -1,5 +1,5 @@
 # DATA ANALYSIS TOOL
-#### This Application can be used by SEs to search for a detail about any Juniper Product instantly. Technolgy used for the search process is Natutal Language programming (NLP).
+### This Application can be used by SEs to search for a detail about any Juniper Product instantly. Technolgy used for the search process is Natutal Language programming (NLP).
 
 ### Get the apache web server to run python scripts:
 ```
