@@ -7,10 +7,8 @@ show system schema module junos-extension format yang output-directory /var/tmp/
 
 show system schema module junos-extension-odl format yang output-directory /var/tmp/
 
-Copy YANG module and action script to the device (to /var/tmp)
+Copy YANG module and action script from GIT to the device (to /var/tmp)
 ----------------------
-
-2 other files need to be copied to /var/tmp/ 
 
 a. YANG Module- static-route-desc.yang
 
