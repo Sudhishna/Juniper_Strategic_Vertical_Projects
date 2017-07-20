@@ -2,6 +2,7 @@ Event-Policy Configuration:
 ----------------
 Event:
 -------
+```
 set snmp rmon alarm 1 interval 10
 
 set snmp rmon alarm 1 variable jnxOperatingCPU.9.1.0.0
@@ -15,6 +16,7 @@ set snmp rmon alarm 1 rising-threshold 80
 set snmp rmon alarm 1 rising-event-index 1
 
 set snmp rmon event 1 type log
+```
  
 Policy:
 -------
