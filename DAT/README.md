@@ -37,7 +37,7 @@ sudo python setup.py install
 ```
 
 ### Download the files from the git and unzip them into /var/www/
-###set the scrawl script to run like a cron job once in every 24 hours. (OPTIONAL: required when you need refreshed new data)
+### set the scrawl script to run like a cron job once in every 24 hours. (OPTIONAL: required when you need refreshed new data)
 ### restart the apache
 ### load the webpage from http://localhost/dat.html
 ### start using the App. The app is responsive and can be used in phones, iPads and desktops.
