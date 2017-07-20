@@ -4,11 +4,8 @@ Event:
 -------
 ```
 set snmp rmon alarm 1 interval 10
-
 set snmp rmon alarm 1 variable jnxOperatingCPU.9.1.0.0
-
 (in the above config, if you have to find which variable you should be monitoring in your corresponding device, use the command “show snmp mib walk jnxOperatingDescr | match Routing”)
-
 set snmp rmon alarm 1 sample-type absolute-value
 
 set snmp rmon alarm 1 rising-threshold 80
