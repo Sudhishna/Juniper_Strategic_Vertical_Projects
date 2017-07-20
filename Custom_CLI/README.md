@@ -1,6 +1,6 @@
 # Custom CLI:
  
-###Copy junos modules to the device (to /var/tmp) using:
+### Copy junos modules to the device (to /var/tmp) using:
 ```
 show system schema module junos-extension format yang output-directory /var/tmp/
 show system schema module junos-extension-odl format yang output-directory /var/tmp/
