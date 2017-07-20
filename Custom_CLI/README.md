@@ -1,15 +1,14 @@
 Loading Yang and Python Script for the new CLI:
 --------------------------------
  
-To get the junos modules you can use the below command.
+Load junos modules to the device (to /var/tmp) using:
 --------------------
 show system schema module junos-extension format yang output-directory /var/tmp/
 
 show system schema module junos-extension-odl format yang output-directory /var/tmp/
 
-Copy required files to the device:
-----------------
-YANG module, action script, and required extension modules to the device (to /var/tmp)
+load YANG module and action script to the device (to /var/tmp)
+----------------------
 
 2 other files need to be copied to /var/tmp/ 
 
