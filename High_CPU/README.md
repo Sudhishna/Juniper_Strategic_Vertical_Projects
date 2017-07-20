@@ -1,7 +1,5 @@
-Event-Policy Configuration:
-----------------
-Event:
--------
+#Event-Policy Configuration:
+###Event:
 ```
 set snmp rmon alarm 1 interval 10
 set snmp rmon alarm 1 variable jnxOperatingCPU.9.1.0.0
@@ -12,8 +10,7 @@ set snmp rmon alarm 1 rising-event-index 1
 set snmp rmon event 1 type log
 ```
  
-Policy:
--------
+###Policy:
 ```
 set event-options policy test events snmpd_rmon_eventlog
 set event-options policy test then execute-commands commands "show system uptime |no-more"
@@ -27,17 +24,14 @@ commit above changes
 To check the events raised from within the device you can use “show snmp rmon logs” (whenever the cpu goes beyond 80%, event is generated)
 ```
  
-SNMP RMON
---------
+###SNMP RMON
 https://www.juniper.net/techpubs/en_US/junos/topics/reference/configuration-statement/alarm-edit-snmp.html
 
-Event Policy
-----------
+###Event Policy
 https://www.juniper.net/documentation/en_US/junos12.3/topics/topic-map/junos-script-automation-event-policy-change-configuration.html
  
  
-Proxy Minion:
---------
+###Proxy Minion:
 One proxy minion per Juniper Device. No limit to the number of proxy-minions one can have.
  
 ```
@@ -56,8 +50,7 @@ proxy:
   passwd: salt123
 ```
  
-Event Monitoring:
----------------
+###Event Monitoring:
 You have to setup Beacons in SaltStack to monitor the events coming from the juniper device. (/etc/salt/minion)
 ```
 beacons:
@@ -66,8 +59,7 @@ beacons:
         - create
 ```
  
-Reactor System
---------------
+###Reactor System
 ```
 >sudo cat /etc/salt/master.d/reactor.conf
 runner_dirs: [/srv/runners]
@@ -85,8 +77,7 @@ cpuhigh:
  
 The final python script that gets invoked is the /srv/runners/cpuhigh.py. (In Attachments).
  
-More info about the Proxy Minions, Beacons  and Reactors:
----------------------
+###More info about the Proxy Minions, Beacons  and Reactors:
 Proxy Minion:
 https://docs.saltstack.com/en/latest/topics/proxyminion/index.html#configuration-parameters
 
