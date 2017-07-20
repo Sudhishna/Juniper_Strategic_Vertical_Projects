@@ -89,7 +89,9 @@ More info about the Proxy Minions, Beacons  and Reactors:
 ---------------------
 Proxy Minion:
 https://docs.saltstack.com/en/latest/topics/proxyminion/index.html#configuration-parameters
+
 Beacons:
 https://docs.saltstack.com/en/latest/topics/beacons/index.html
+
 Reactors:
 https://docs.saltstack.com/en/latest/topics/reactor/
