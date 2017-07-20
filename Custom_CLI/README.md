@@ -1,23 +1,43 @@
 Loading Yang and Python Script for the new CLI:
 --------------------------------
  
-1. YANG module, action script, and required extension modules to the device (to /var/tmp)
+To get the junos modules you can use the below command.
+--------------------
+show system schema module junos-extension format yang output-directory /var/tmp/
 
-4 files need to be copied to /var/tmp/ -> YANG Module- static-route-desc.yang, ACTION SCRIPT -> static-route-desc.py,  Junos Modules -> junos-extension.yang and junos-extension-odl.yang
+show system schema module junos-extension-odl format yang output-directory /var/tmp/
 
-2.
+Copy required files to the device:
+----------------
+YANG module, action script, and required extension modules to the device (to /var/tmp)
+
+4 files need to be copied to /var/tmp/ 
+
+a. YANG Module- static-route-desc.yang
+
+b. ACTION SCRIPT -> static-route-desc.py
+
+c. Junos Modules -> junos-extension.yang
+
+d. junos-extension-odl.yang
+
+
+Load them modules and scripts into the device:
+---------------------
 CLI> request system yang validate module /var/tmp/static-route-desc.yang action-script /var/tmp/static-route-desc.py
 
 CLI> request system yang add package intf-rpc module [/var/tmp/ static-route-desc.yang /var/tmp/junos-extension.yang /var/tmp/junos-extension-odl.yang] action-script /var/tmp/ static-route-desc.py
 
 Restart cli? Yes <enter>
 
-3. 
+Enable Python Scripts:
+----------------
 CONFIG> set system scripts language python
 
 CONFIG> commit and-quit
 
-4. 
+Check Output:
+---------
 CLI > show stat-route des   
 
  inet.0: 7 destinations, 7 routes (7 active, 0 holddown, 0 hidden)
